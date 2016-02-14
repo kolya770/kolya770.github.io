@@ -1,3 +1,47 @@
 body{font-size:16px}
-#first-screen{position:absolute;height:100vh}
-#first-screen img{width:100%}
+.navbar-default .navbar-nav>li>a,.navbar-washdrop .size-navbar .my-navbar .my-navbar-right .btn-navbar{font-family:UBUNTU-MEDIUM;font-size:.938em;font-weight:500;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+@font-face{font-family:UBUNTU-MEDIUM;src:url(../fonts/UBUNTU-MEDIUM.TTF);font-weight:400;font-style:normal}
+@font-face{font-family:SummerFont;src:url(../fonts/SUMMER-FONT-LIGHT.OTF);font-weight:400;font-style:normal}
+@font-face{font-family:UBUNTU-REGULAR;src:url(../fonts/UBUNTU-REGULAR.TTF);font-weight:400;font-style:normal}
+.navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;top:60px;height:120px}
+.navbar-washdrop .size-navbar{width:80%}
+.navbar-washdrop .size-navbar .my-navbar{padding:0}
+.navbar-washdrop .size-navbar .my-navbar .logo{position:absolute;margin-left:-87px;left:50%;width:174px}
+.navbar-washdrop .size-navbar .my-navbar .logo img{margin-top:-50px;width:100%}
+.navbar-washdrop .size-navbar .my-navbar .my-navbar-right{margin-right:0;padding-right:15px}
+.navbar-washdrop .size-navbar .my-navbar .my-navbar-right .btn-navbar{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:185px;height:52px;color:#fff;text-align:center}
+.navbar-default .navbar-nav>li>a{color:#fefefe;text-align:left}
+.main-screen{background:url(../img/main-photo.png) 50% 50%,rgba(176,52,61,.65);background-size:cover;height:70vh}
+.main-screen .size-main-page{width:80%}
+.main-screen .size-main-page .header{margin-top:20vh;font-family:SummerFont;color:#fefefe;font-size:7.5em;font-weight:300;line-height:60px;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25);height:100px}
+.main-screen .size-main-page .get-it-btn,.main-screen .size-main-page .order{font-family:UBUNTU-REGULAR;font-weight:400;line-height:24px;text-align:center;margin-top:7vh;color:#fff}
+.main-screen .size-main-page .get-it-btn{border-radius:6px;background-color:#f39c12;width:316px;height:65px;border:none;font-size:1.313em;text-shadow:0 1px 1px rgba(0,0,0,.15)}
+.main-screen .size-main-page .order{font-size:1.125em;text-shadow:0 1px 1px rgba(0,0,0,.15)}
+.main-screen .size-main-page .order a{color:#fff;margin-left:15px}
+.second-screen{background:url(../img/main-photo2.png) 50% 50%,rgba(176,52,61,.65);background-size:cover;height:160px}
+.second-screen .size-main-page{width:75%}
+.second-screen .size-main-page .second-text{width:55%}
+.second-screen .size-main-page .second-text h2{font-family:SummerFont;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:left;width:95%;float:left;margin-top:50px}
+.second-screen .size-main-page .phone{background:url(../img/phone.png) no-repeat;height:145px;width:300px;display:inline-block;margin-left:-100px;float:left;margin-top:15px}
+.second-screen .size-main-page .btn-second .for-ios{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:75px;margin-left:5px}
+.second-screen .size-main-page .btn-second .for-ios .shirt{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:11px 13px 0 16px;float:left}
+.second-screen .size-main-page .btn-second .for-ios .cta-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM;font-size:1.125em;font-weight:500;line-height:50px;text-align:left;float:left}
+.second-screen .size-main-page .btn-second .for-android{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:75px;margin-left:10px}
+.second-screen .size-main-page .btn-second .for-android .shirt{background:url(../img/logo-google.png) no-repeat;width:117px;height:27px;margin:0 20px}
+.third-screen .size-main-page{width:75%}
+.third-screen .size-main-page .how-it-work{background:url(../img/how-it-works.png) no-repeat;width:336px;height:160px;position:relative;left:50%;margin-left:-168px;margin-top:60px}
+.third-screen .size-main-page .no-padding{padding:0}
+.third-screen .size-main-page .first-block{border-radius:50%;border:2px solid #3caad2;box-sizing:border-box;background-color:rgba(60,170,210,0);width:180px;height:180px;float:left}
+.third-screen .size-main-page .first-block img{margin:55px 67px}
+.third-screen .size-main-page .first-block .my-hr{background-color:#3caad2;width:121px;height:2px;float:left}
+.forth-screen{background:url(../img/123.png) 50% 50%;background-size:cover;height:70vh}
+.fifth-screen .size-main-page{width:75%}
+.fifth-screen .size-main-page .subscribe{background:url(../img/fifth-slide.png) no-repeat;position:relative;left:50%;margin-top:60px;width:726px;height:177px;margin-left:-362.6px}
+.fifth-screen .size-main-page .email{margin-bottom:60px;margin-top:60px;text-align:center}
+.fifth-screen .size-main-page .email .input-email{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;width:570px;height:50px}
+.fifth-screen .size-main-page .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:49px;margin-left:-200px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
+.fifth-screen .size-main-page .fifth-hr{width:80%;background-color:#cbcbcb;height:1px}
+.fifth-screen .size-main-page .prise{position:relative;left:50%;width:241px;height:79px;margin-top:60px;margin-bottom:60px;margin-left:-120px}
+.six-screen{background:url(../img/main-photo2.png) 50% 50%;height:673px}
+.six-screen .size-main-page{width:75%}
+.six-screen .size-main-page .reviews{background:url(../img/six-slide.png) no-repeat;width:451px;height:112px;position:relative;left:50%;margin-left:-225.5px;margin-top:60px}

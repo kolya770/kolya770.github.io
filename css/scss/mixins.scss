@@ -1,0 +1,13 @@
+@mixin logo-centered($width) {
+  position: absolute;
+  margin-left: - ($width / 2);
+  left: 50%;
+  width: $width;
+}
+
+$bootstrap-xs: "(max-width:767px)";
+$bootstrap-sm: "(min-width:768px)";
+$bootstrap-md: "(min-width:992px)";
+$bootstrap-lg: "(min-width:1200px)";
+$bootstrap-xl: "(min-width:1400px)";
+$bootstrap-xxl: "(min-width: 1700px)";
