@@ -26,22 +26,32 @@ body{font-size:16px}
 .second-screen .size-main-page .btn-second .for-ios{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:75px;margin-left:5px}
 .second-screen .size-main-page .btn-second .for-ios .shirt{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:11px 13px 0 16px;float:left}
 .second-screen .size-main-page .btn-second .for-ios .cta-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM;font-size:1.125em;font-weight:500;line-height:50px;text-align:left;float:left}
+.fifth-screen .size-main-page .subscribe h2,.fifth-screen .size-main-page .subscribe h3,.forth-screen .size-main-page .middle-text h2,.forth-screen .size-main-page .middle-text h3,.third-screen .size-main-page .how-it-work h2,.third-screen .size-main-page .how-it-work h3{font-family:SummerFont;font-weight:300;line-height:100px}
 .second-screen .size-main-page .btn-second .for-android{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:75px;margin-left:10px}
 .second-screen .size-main-page .btn-second .for-android .shirt{background:url(../img/logo-google.png) no-repeat;width:117px;height:27px;margin:0 20px}
-.third-screen .size-main-page{width:75%}
-.third-screen .size-main-page .how-it-work{background:url(../img/how-it-works.png) no-repeat;width:336px;height:160px;position:relative;left:50%;margin-left:-168px;margin-top:60px}
+.third-screen .size-main-page{width:75%;text-align:center}
+.third-screen .size-main-page .how-it-work h2{color:#4a4b4c;font-size:6.25em;text-align:center;text-transform:uppercase;margin-top:60px}
+.third-screen .size-main-page .how-it-work h3{color:#3caad2;font-size:3.125em;text-align:center;text-transform:uppercase}
+.third-screen .size-main-page .how-it-work img{margin-top:25px}
 .third-screen .size-main-page .no-padding{padding:0}
 .third-screen .size-main-page .first-block{border-radius:50%;border:2px solid #3caad2;box-sizing:border-box;background-color:rgba(60,170,210,0);width:180px;height:180px;float:left}
 .third-screen .size-main-page .first-block img{margin:55px 67px}
 .third-screen .size-main-page .first-block .my-hr{background-color:#3caad2;width:121px;height:2px;float:left}
-.forth-screen{background:url(../img/123.png) 50% 50%;background-size:cover;height:70vh}
-.fifth-screen .size-main-page{width:75%}
-.fifth-screen .size-main-page .subscribe{background:url(../img/fifth-slide.png) no-repeat;position:relative;left:50%;margin-top:60px;width:726px;height:177px;margin-left:-362.6px}
+.forth-screen{background:url(../img/forth-block.png) 50% 50% rgba(210,214,220,.2);background-size:cover;height:75vh;opacity:.8;text-align:center}
+.forth-screen .size-main-page{width:75%;height:75vh}
+.forth-screen .size-main-page .middle-text{height:272px;position:relative;top:50%;margin-top:-136px}
+.forth-screen .size-main-page .middle-text h3{color:#fff;font-size:6.25em;text-align:center}
+.forth-screen .size-main-page .middle-text h2{color:#fff;font-size:7.5em;text-align:center;text-transform:uppercase}
+.fifth-screen .size-main-page{width:75%;text-align:center}
+.fifth-screen .size-main-page .subscribe h2{color:#4a4b4c;font-size:6.25em;text-align:center;text-transform:uppercase;margin-top:60px}
+.fifth-screen .size-main-page .subscribe h3{color:#3caad2;font-size:3.125em;text-align:center;text-transform:uppercase}
+.fifth-screen .size-main-page .subscribe img{margin-top:25px}
 .fifth-screen .size-main-page .email{margin-bottom:60px;margin-top:60px;text-align:center}
 .fifth-screen .size-main-page .email .input-email{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;width:570px;height:50px}
 .fifth-screen .size-main-page .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:49px;margin-left:-200px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
+.fifth-screen .size-main-page .price h2,.six-screen .size-main-page .reviews h2{font-family:SummerFont;color:#4a4b4c;font-weight:300;line-height:100px;text-align:center}
 .fifth-screen .size-main-page .fifth-hr{width:80%;background-color:#cbcbcb;height:1px}
-.fifth-screen .size-main-page .prise{position:relative;left:50%;width:241px;height:79px;margin-top:60px;margin-bottom:60px;margin-left:-120px}
+.fifth-screen .size-main-page .price h2{font-size:6.25em}
 .six-screen{background:url(../img/main-photo2.png) 50% 50%;height:673px}
-.six-screen .size-main-page{width:75%}
-.six-screen .size-main-page .reviews{background:url(../img/six-slide.png) no-repeat;width:451px;height:112px;position:relative;left:50%;margin-left:-225.5px;margin-top:60px}
+.six-screen .size-main-page{width:75%;text-align:center}
+.six-screen .size-main-page .reviews h2{font-size:5em;text-transform:uppercase}

@@ -212,15 +212,39 @@ body {
 .third-screen {
   .size-main-page {
     width: 75%;
+    text-align: center;
 
     .how-it-work {
-      background: url(../img/how-it-works.png) no-repeat;
-      width: 336px;
-      height: 160px;
-      position: relative;
-      left:50%;
-      margin-left: -168px;
-      margin-top: 60px;
+      //background: url(../img/how-it-works.png) no-repeat;
+      //width: 336px;
+      //height: 160px;
+      //position: relative;
+      //left:50%;
+      //margin-left: -168px;
+      //margin-top: 60px;
+      h2 {
+        font-family: SummerFont;
+        color:  #4a4b4c;
+        font-size: 6.25em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 60px;
+      }
+      h3 {
+        font-family: SummerFont;
+        color:  rgb(60, 170, 210);
+        font-size: 3.125em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      img {
+        margin-top: 25px;
+      }
+
     }
     .no-padding {
       padding: 0;
@@ -247,22 +271,76 @@ body {
 }
 
 .forth-screen {
-  background: url(../img/123.png) 50% 50%;
+  background: rgba(210, 214, 220, 0.2) url(../img/forth-block.png) 50% 50%;
   background-size: cover;
-  height: 70vh;
+  height: 75vh;
+  opacity: 0.8;
+  text-align: center;
+  .size-main-page {
+    width: 75%;
+    height: 75vh;
+    .middle-text {
+      height: 272px;
+      position: relative;
+      top: 50%;
+      margin-top: -136px;
+
+      h3 {
+        font-family: SummerFont;
+        color:  #ffffff;
+        font-size: 6.250em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+      }
+      h2 {
+        font-family: SummerFont;
+        color:  #ffffff;
+        font-size: 7.500em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+
 }
 
 .fifth-screen {
   .size-main-page {
     width: 75%;
+    text-align: center;
     .subscribe {
-      background: url(../img/fifth-slide.png) no-repeat;
-      position: relative;
-      left: 50%;
-      margin-top: 60px;
-      width: 726px;
-      height: 177px;
-      margin-left: -362.6px;
+      //background: url(../img/fifth-slide.png) no-repeat;
+      //position: relative;
+      //left: 50%;
+      //margin-top: 60px;
+      //width: 726px;
+      //height: 177px;
+      //margin-left: -362.6px;
+      h2 {
+        font-family: SummerFont;
+        color:  #4a4b4c;
+        font-size: 6.250em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 60px;
+      }
+      h3 {
+        font-family: SummerFont;
+        color:  #3caad2;
+        font-size: 3.125em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      img {
+        margin-top: 25px;
+      }
     }
     .email {
       margin-bottom: 60px;
@@ -297,14 +375,15 @@ body {
       background-color:  #cbcbcb;
       height: 1px;
     }
-    .prise {
-      position: relative;
-      left: 50%;
-      width: 241px;
-      height: 79px;
-      margin-top: 60px;
-      margin-bottom: 60px;
-      margin-left: -120px;
+    .price {
+      h2 {
+        font-family: SummerFont;
+        color:  #4a4b4c;
+        font-size: 6.25em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+      }
     }
   }
 }
@@ -314,14 +393,17 @@ body {
   height: 673px;
   .size-main-page {
     width: 75%;
+    text-align: center;
     .reviews {
-      background: url(../img/six-slide.png) no-repeat;
-      width: 451px;
-      height: 112px;
-      position: relative;
-      left: 50%;
-      margin-left: -225.5px;
-      margin-top: 60px;
+      h2 {
+        font-family: SummerFont;
+        color:  #4a4b4c;
+        font-size: 5em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+      }
     }
   }
 }
