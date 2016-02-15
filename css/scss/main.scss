@@ -21,6 +21,12 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "UBUNTU-LIGHT";
+  src: url("../fonts/UBUNTU-LIGHT.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
 
 //#first-screen {
 //  position: absolute;
@@ -83,7 +89,7 @@ body {
 .main-screen {
   background: url(../img/main-photo.png) 50% 50%, rgba(176,52,61,0.65);
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
   .size-main-page {
     width: 80%;
     .header {
@@ -174,7 +180,6 @@ body {
           width: 22px;
           height: 27px;
           margin: 11px 13px 0 16px;
-
           float: left;
         }
         .cta-btn {
@@ -215,13 +220,6 @@ body {
     text-align: center;
 
     .how-it-work {
-      //background: url(../img/how-it-works.png) no-repeat;
-      //width: 336px;
-      //height: 160px;
-      //position: relative;
-      //left:50%;
-      //margin-left: -168px;
-      //margin-top: 60px;
       h2 {
         font-family: SummerFont;
         color:  #4a4b4c;
@@ -246,25 +244,29 @@ body {
       }
 
     }
+
+    .my-size {
+      width: 85%;
+      margin-bottom: 60px;
+    }
     .no-padding {
       padding: 0;
-    }
-    .first-block {
-      border-radius: 50%;
-      border: 2px solid #3caad2;
-      box-sizing: border-box;
-      background-color:  rgba(60, 170, 210, 0);
-      width: 180px;
-      height: 180px;
-      float: left;
-      img {
-        margin:55px 67px;
+      h2 {
+        font-family: UBUNTU-LIGHT;
+        color:  #4a4b4c;
+        font-size: 1.188em;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
       }
-      .my-hr {
-        background-color:  #3caad2;
-        width: 121px;
-        height: 2px;
-        float: left;
+      p {
+        font-family: UBUNTU-LIGHT;
+        color:  #3caad2;
+        font-size: 0.938em;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+
       }
     }
   }
@@ -311,14 +313,22 @@ body {
   .size-main-page {
     width: 75%;
     text-align: center;
+    .btn-price {
+      border-radius: 6px;
+      background-color:  #3caad2;
+      width: 136px;
+      height: 50px;
+      font-family: UBUNTU-LIGHT;
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-bottom: 60px;
+    }
     .subscribe {
-      //background: url(../img/fifth-slide.png) no-repeat;
-      //position: relative;
-      //left: 50%;
-      //margin-top: 60px;
-      //width: 726px;
-      //height: 177px;
-      //margin-left: -362.6px;
+
       h2 {
         font-family: SummerFont;
         color:  #4a4b4c;
@@ -376,6 +386,7 @@ body {
       height: 1px;
     }
     .price {
+      margin-bottom: 60px;
       h2 {
         font-family: SummerFont;
         color:  #4a4b4c;
@@ -383,6 +394,31 @@ body {
         font-weight: 300;
         line-height: 100px;
         text-align: center;
+      }
+    }
+    .price-carousel {
+      margin-bottom: 60px;
+      h2 {
+        font-family: UBUNTU-LIGHT;
+        color:  #4a4b4c;
+        font-size: 1.188em;
+        font-weight: 300;
+        line-height: 34px;
+        text-align: center;
+      }
+      p {
+        font-family: UBUNTU-LIGHT;
+        color:  #3caad2;
+        font-size: 1.313em;
+        font-weight: 300;
+        line-height: 34px;
+        text-align: center;
+      }
+      .linen {
+        margin-top: 20px;
+      }
+      .linen-text {
+        margin-top: 27px;
       }
     }
   }
@@ -403,6 +439,148 @@ body {
         line-height: 100px;
         text-align: center;
         text-transform: uppercase;
+      }
+    }
+    .bg-reviews {
+      background: url(../img/bg-reviews.png) no-repeat;
+      height: 180px;
+    }
+  }
+}
+
+.seven-screen {
+  .size-main-page {
+    width: 75%;
+    text-align: center;
+    .discount {
+      h2 {
+        font-family: SummerFont;
+        color: #3caad2;
+        font-size: 5.625em;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 60px;
+      }
+      p {
+        font-family: UBUNTU-LIGHT;
+        color: #1e1f20;
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 39px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .btn-order {
+        border-radius: 6px;
+        background-color:  #f39c12;
+        width: 260px;
+        height: 50px;
+        font-family: UBUNTU-REGULAR;
+        color: #ffffff;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        margin-top: 20px;
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #3e4041;
+  height: 179px;
+  .size-main-page {
+    width: 75%;
+    .btn-apple {
+      border-radius: 6px;
+      background-color:  #2a96bd;
+      width: 170px;
+      height: 50px;
+      border: none;
+      .shirt {
+        background: url(../img/apple-logo.png) no-repeat;
+        width: 22px;
+        height: 27px;
+        margin: 11px 13px 0 16px;
+        float: left;
+      }
+      .cta-btn {
+        color: #ffffff;
+        vertical-align: middle;
+        height: 100%;
+        display: inline-block;
+        font-family: UBUNTU-MEDIUM;
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: left;
+        float: left;
+      }
+    }
+    .btn-android {
+      border-radius: 6px;
+      background-color: #2a96bd;
+      width: 170px;
+      height: 50px;
+      border: none;
+      margin-top: 30px;
+      margin-left: 10px;
+      .shirt {
+        background: url(../img/logo-google.png) no-repeat;
+        width: 117px;
+        height: 27px;
+        margin: 0 20px;
+      }
+    }
+    p {
+      font-family: UBUNTU-LIGHT;
+      color:  #ffffff;
+      font-size: 0.938em;
+      font-weight: 300;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 20px;
+    }
+    .city {
+      color: #2a96bd;
+      margin-top: 15px;
+    }
+    .logo-footer {
+      width: 112px;
+    }
+    .footer-hr {
+      background-color:  rgba(255, 255, 255, 0.05);
+      width: 85%;
+      height: 1px;
+    }
+    .left-block {
+      display: inline-block;
+      p {
+        font-family: Ubuntu;
+        color: #ffffff;
+        font-size: 0.938em;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        display: inline-block;
+        margin-right: 20px;
+      }
+    }
+    .right-block {
+      float: right;
+      p {
+        font-family: Ubuntu;
+        color: #ffffff;
+        font-size: 0.938em;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        display: inline-block;
+        margin-right: 20px;
       }
     }
   }

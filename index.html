@@ -14,8 +14,7 @@
 <body>
 
 <nav class="navbar navbar-default navbar-washdrop">
-    <div class="container size-navbar">
-        <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
         <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="#">КАК ЭТО РАБОТАЕТ?</a></li>
@@ -32,9 +31,10 @@
                     <button type="submit" class="btn btn-default btn-navbar">СДЕЛАТЬ ЗАКАЗ</button>
                 </li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+    </div>
 </nav>
+
 <div id="full-page">
 
     <div class="main-screen section">
@@ -71,22 +71,24 @@
                 <h2>Как это работает</h2>
                 <img src="img/dot-blue.png">
                 <h3>4 простых шага</h3>
+                <img src="img/steps.png">
             </div>
-            <div class="row">
+            <div class="row my-size center-block">
                 <div class="col-sm-3 no-padding">
-                    <div class="first-block">
-                        <img src="img/first-photo.png">
-                        <hr class="my-hr">
-                    </div>
+                    <h2>Вы размещаете заказ</h2>
+                    <p>используя наш сайт или мобильное приложение</p>
                 </div>
                 <div class="col-sm-3 no-padding">
-                    <img src="img/photo2.png">
+                    <h2>Мы забираем вещи</h2>
+                    <p>от вашего порога и в удобное для Вас время</p>
                 </div>
-                <div class="col-sm-3 no-padding" style="margin-left: -12px">
-                    <img src="img/photo3.png">
+                <div class="col-sm-3 no-padding" >
+                    <h2>Мы чистим и стираем</h2>
+                    <p>с использованием самого современного оборудования</p>
                 </div>
                 <div class="col-sm-3 no-padding">
-                    <img src="img/photo4.png">
+                    <h2>Мы возвращаем вещи</h2>
+                    <p>уже на следующий день</p>
                 </div>
             </div>
         </div>
@@ -118,9 +120,24 @@
                 <h2>Наши цены</h2>
                 <img src="img/dot-blue.png">
             </div>
-            <div>
-
+            <div class="row price-carousel">
+                <div class="col-sm-4">
+                    <img src="img/shirt.png">
+                    <h2>Рубашка</h2>
+                    <p>от 190 рублей</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/jacket.png">
+                    <h2>Пиджак</h2>
+                    <p>от 390 рублей</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/linen.png" class="linen">
+                    <h2 class="linen-text">Стирка постельного белья</h2>
+                    <p>190 рублей за кг</p>
+                </div>
             </div>
+            <button class="btn btn-price">ВСЕ ЦЕНЫ</button>
         </div>
     </div>
 
@@ -130,11 +147,66 @@
                 <h2>Отзывы о нашей работе</h2>
                 <img src="img/dot-blue.png">
             </div>
+            <div class="row">
+                <div class="col-sm-4 bg-reviews">
+
+                </div>
+                <div class="col-sm-4 bg-reviews">
+
+                </div>
+                <div class="col-sm-4 bg-reviews">
+
+                </div>
+            </div>
         </div>
     </div>
 
+    <div class="seven-screen">
+        <div class="container size-main-page">
+            <div class="discount">
+                <h2>Получите скидку 500 рублей</h2>
+                <p>Для этого используйте промокод "Промокод" при оформлении заказа</p>
+                <button class="btn btn-order">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
+            </div>
+        </div>
+    </div>
 
+    <footer>
+        <div class="container size-main-page">
+            <div class="col-sm-2 col-sm-offset-1">
+                <img src="img/logo.png" class="logo-footer">
+            </div>
+            <div class="col-sm-2">
+                <p>Города присутствия:</p>
+                <p class="city">Москва</p>
+            </div>
+            <div class="col-sm-3">
+                <p>Принимаем к оплате карты:</p>
+                <img src="img/visamastercard.png">
+            </div>
+            <div class="col-sm-4">
+                <button class="btn-apple">
+                    <div class="shirt"></div>
+                    <div class="cta-btn">App store</div>
+                </button>
+                <button class="btn-android">
+                    <div class="shirt"></div>
+                </button>
+            </div>
+            <hr class="footer-hr">
+            <div class="left-block">
+                <p>Как это работает?</p>
+                <p>Наши цены</p>
+                <p>Контакты</p>
+            </div>
+            <div class="right-block">
+                <p>© 2016 Washdrop </p>
+                <p>Политика конфидециальности</p>
+                <p>Публичная оферта</p>
 
+            </div>
+        </div>
+    </footer>
 
 </div>
 

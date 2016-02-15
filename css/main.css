@@ -3,6 +3,7 @@ body{font-size:16px}
 @font-face{font-family:UBUNTU-MEDIUM;src:url(../fonts/UBUNTU-MEDIUM.TTF);font-weight:400;font-style:normal}
 @font-face{font-family:SummerFont;src:url(../fonts/SUMMER-FONT-LIGHT.OTF);font-weight:400;font-style:normal}
 @font-face{font-family:UBUNTU-REGULAR;src:url(../fonts/UBUNTU-REGULAR.TTF);font-weight:400;font-style:normal}
+@font-face{font-family:UBUNTU-LIGHT;src:url(../fonts/UBUNTU-LIGHT.TTF);font-weight:400;font-style:normal}
 .navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;top:60px;height:120px}
 .navbar-washdrop .size-navbar{width:80%}
 .navbar-washdrop .size-navbar .my-navbar{padding:0}
@@ -11,7 +12,7 @@ body{font-size:16px}
 .navbar-washdrop .size-navbar .my-navbar .my-navbar-right{margin-right:0;padding-right:15px}
 .navbar-washdrop .size-navbar .my-navbar .my-navbar-right .btn-navbar{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:185px;height:52px;color:#fff;text-align:center}
 .navbar-default .navbar-nav>li>a{color:#fefefe;text-align:left}
-.main-screen{background:url(../img/main-photo.png) 50% 50%,rgba(176,52,61,.65);background-size:cover;height:70vh}
+.main-screen{background:url(../img/main-photo.png) 50% 50%,rgba(176,52,61,.65);background-size:cover;height:100vh}
 .main-screen .size-main-page{width:80%}
 .main-screen .size-main-page .header{margin-top:20vh;font-family:SummerFont;color:#fefefe;font-size:7.5em;font-weight:300;line-height:60px;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25);height:100px}
 .main-screen .size-main-page .get-it-btn,.main-screen .size-main-page .order{font-family:UBUNTU-REGULAR;font-weight:400;line-height:24px;text-align:center;margin-top:7vh;color:#fff}
@@ -26,32 +27,56 @@ body{font-size:16px}
 .second-screen .size-main-page .btn-second .for-ios{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:75px;margin-left:5px}
 .second-screen .size-main-page .btn-second .for-ios .shirt{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:11px 13px 0 16px;float:left}
 .second-screen .size-main-page .btn-second .for-ios .cta-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM;font-size:1.125em;font-weight:500;line-height:50px;text-align:left;float:left}
-.fifth-screen .size-main-page .subscribe h2,.fifth-screen .size-main-page .subscribe h3,.forth-screen .size-main-page .middle-text h2,.forth-screen .size-main-page .middle-text h3,.third-screen .size-main-page .how-it-work h2,.third-screen .size-main-page .how-it-work h3{font-family:SummerFont;font-weight:300;line-height:100px}
 .second-screen .size-main-page .btn-second .for-android{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:75px;margin-left:10px}
 .second-screen .size-main-page .btn-second .for-android .shirt{background:url(../img/logo-google.png) no-repeat;width:117px;height:27px;margin:0 20px}
 .third-screen .size-main-page{width:75%;text-align:center}
-.third-screen .size-main-page .how-it-work h2{color:#4a4b4c;font-size:6.25em;text-align:center;text-transform:uppercase;margin-top:60px}
-.third-screen .size-main-page .how-it-work h3{color:#3caad2;font-size:3.125em;text-align:center;text-transform:uppercase}
+.third-screen .size-main-page .how-it-work h2{font-family:SummerFont;color:#4a4b4c;font-size:6.25em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase;margin-top:60px}
+.third-screen .size-main-page .how-it-work h3{font-family:SummerFont;color:#3caad2;font-size:3.125em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
 .third-screen .size-main-page .how-it-work img{margin-top:25px}
+.third-screen .size-main-page .my-size{width:85%;margin-bottom:60px}
 .third-screen .size-main-page .no-padding{padding:0}
-.third-screen .size-main-page .first-block{border-radius:50%;border:2px solid #3caad2;box-sizing:border-box;background-color:rgba(60,170,210,0);width:180px;height:180px;float:left}
-.third-screen .size-main-page .first-block img{margin:55px 67px}
-.third-screen .size-main-page .first-block .my-hr{background-color:#3caad2;width:121px;height:2px;float:left}
+.third-screen .size-main-page .no-padding h2{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:center}
+.third-screen .size-main-page .no-padding p{font-family:UBUNTU-LIGHT;color:#3caad2;font-size:.938em;font-weight:300;line-height:20px;text-align:center}
 .forth-screen{background:url(../img/forth-block.png) 50% 50% rgba(210,214,220,.2);background-size:cover;height:75vh;opacity:.8;text-align:center}
 .forth-screen .size-main-page{width:75%;height:75vh}
 .forth-screen .size-main-page .middle-text{height:272px;position:relative;top:50%;margin-top:-136px}
-.forth-screen .size-main-page .middle-text h3{color:#fff;font-size:6.25em;text-align:center}
-.forth-screen .size-main-page .middle-text h2{color:#fff;font-size:7.5em;text-align:center;text-transform:uppercase}
+.forth-screen .size-main-page .middle-text h3{font-family:SummerFont;color:#fff;font-size:6.25em;font-weight:300;line-height:100px;text-align:center}
+.forth-screen .size-main-page .middle-text h2{font-family:SummerFont;color:#fff;font-size:7.5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
 .fifth-screen .size-main-page{width:75%;text-align:center}
-.fifth-screen .size-main-page .subscribe h2{color:#4a4b4c;font-size:6.25em;text-align:center;text-transform:uppercase;margin-top:60px}
-.fifth-screen .size-main-page .subscribe h3{color:#3caad2;font-size:3.125em;text-align:center;text-transform:uppercase}
+.fifth-screen .size-main-page .btn-price{border-radius:6px;background-color:#3caad2;width:136px;height:50px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;font-weight:300;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:60px}
+.fifth-screen .size-main-page .subscribe h2,.fifth-screen .size-main-page .subscribe h3{font-family:SummerFont;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
+.fifth-screen .size-main-page .subscribe h2{color:#4a4b4c;font-size:6.25em;margin-top:60px}
+.fifth-screen .size-main-page .subscribe h3{color:#3caad2;font-size:3.125em}
 .fifth-screen .size-main-page .subscribe img{margin-top:25px}
 .fifth-screen .size-main-page .email{margin-bottom:60px;margin-top:60px;text-align:center}
 .fifth-screen .size-main-page .email .input-email{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;width:570px;height:50px}
 .fifth-screen .size-main-page .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:49px;margin-left:-200px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-.fifth-screen .size-main-page .price h2,.six-screen .size-main-page .reviews h2{font-family:SummerFont;color:#4a4b4c;font-weight:300;line-height:100px;text-align:center}
 .fifth-screen .size-main-page .fifth-hr{width:80%;background-color:#cbcbcb;height:1px}
-.fifth-screen .size-main-page .price h2{font-size:6.25em}
+.seven-screen .size-main-page,.six-screen .size-main-page{width:75%;text-align:center}
+.fifth-screen .size-main-page .price{margin-bottom:60px}
+.fifth-screen .size-main-page .price h2{font-family:SummerFont;color:#4a4b4c;font-size:6.25em;font-weight:300;line-height:100px;text-align:center}
+.fifth-screen .size-main-page .price-carousel{margin-bottom:60px}
+.fifth-screen .size-main-page .price-carousel h2{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:34px;text-align:center}
+.fifth-screen .size-main-page .price-carousel p{font-family:UBUNTU-LIGHT;color:#3caad2;font-size:1.313em;font-weight:300;line-height:34px;text-align:center}
+.fifth-screen .size-main-page .price-carousel .linen{margin-top:20px}
+.fifth-screen .size-main-page .price-carousel .linen-text{margin-top:27px}
 .six-screen{background:url(../img/main-photo2.png) 50% 50%;height:673px}
-.six-screen .size-main-page{width:75%;text-align:center}
-.six-screen .size-main-page .reviews h2{font-size:5em;text-transform:uppercase}
+.six-screen .size-main-page .reviews h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
+.six-screen .size-main-page .bg-reviews{background:url(../img/bg-reviews.png) no-repeat;height:180px}
+.seven-screen .size-main-page .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:25px;text-align:center;margin-top:60px}
+.seven-screen .size-main-page .discount p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center;margin-top:50px}
+.seven-screen .size-main-page .discount .btn-order{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:20px;margin-bottom:60px}
+footer{background-color:#3e4041;height:179px}
+footer .size-main-page{width:75%}
+footer .size-main-page .btn-apple{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none}
+footer .size-main-page .btn-apple .shirt{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:11px 13px 0 16px;float:left}
+footer .size-main-page .btn-apple .cta-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM;font-size:1.125em;font-weight:500;line-height:50px;text-align:left;float:left}
+footer .size-main-page .btn-android{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none;margin-top:30px;margin-left:10px}
+footer .size-main-page .btn-android .shirt{background:url(../img/logo-google.png) no-repeat;width:117px;height:27px;margin:0 20px}
+footer .size-main-page p{font-family:UBUNTU-LIGHT;color:#fff;font-size:.938em;font-weight:300;line-height:22px;text-align:left;margin-top:20px}
+footer .size-main-page .city{color:#2a96bd;margin-top:15px}
+footer .size-main-page .left-block p,footer .size-main-page .right-block p{font-family:Ubuntu;color:#fff;font-size:.938em;font-weight:300;line-height:24px;text-align:left;display:inline-block;margin-right:20px}
+footer .size-main-page .logo-footer{width:112px}
+footer .size-main-page .footer-hr{background-color:rgba(255,255,255,.05);width:85%;height:1px}
+footer .size-main-page .left-block{display:inline-block}
+footer .size-main-page .right-block{float:right}
