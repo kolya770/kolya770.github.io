@@ -13,6 +13,132 @@
 </head>
 <body>
 
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
+            </div>
+            <div class="modal-body">
+                <p>Вход</p>
+            </div>
+            <div class="modal-footer">
+                <input type="text" class="login" placeholder="Логин">
+                <input type="text" class="password" placeholder="Пароль">
+                <div class="forgot-password">
+                    <a href="#">Забыли пароль?</a>
+                </div>
+                <button class="btn btn-enter">ВОЙТИ</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="myModalLegal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
+            </div>
+            <div class="modal-body">
+                <p>Юридическая информация</p>
+            </div>
+            <div class="modal-footer">
+               <p>Химчистка (химическая чистка), профессиональная сухая чистка — химический процесс очистки изделий из
+                   текстильных материалов с использованием органических растворителей. Основное назначение химической
+                   чистки — удаление грязи и пятен, которые не поддаются очистке при обычной стирке. <br /><br />
+
+                   Услуги химчистки востребованы у любого слоя населения — от бедного до богатого.<br /><br />
+
+                   Впервые использование нефтепродуктов для очистки одежды было предложено владельцем красильни Жаном
+                   Батистом Жолли (Франция, 1855 г). Он заметил, что скатерть в его доме стала более чистой после того,
+                   как горничная пролила на неё керосин. Жолли открыл самую первую химчистку, где очищал одежду керосином.<br /><br />
+
+                   Вначале для химчистки использовались нефтепродукты типа бензина и керосина. Их лёгкая воспламеняемость
+                   приводила к частым пожарам и взрывам. Проблемы пожароопасности заставили Уильяма Джозефа Стоддарда,
+                   специалиста по химической чистке из Атланты, изобрести растворитель Стоддарда. Его огнеопасность была
+                   значительно меньше, чем у нефтепродуктов.<br /><br />
+
+                   После Первой мировой войны начали использовать различные хлорированные растворители —
+                   они менее огнеопасны, чем нефтепродукты, и лучше удаляют загрязнения.<br /><br />
+
+                   К середине 1930-х в химической чистке начали использовать тетрахлорэтилен (перхлорэтилен) как
+                   стандарт идеального растворителя — он устойчив, негорюч и превосходно удаляет загрязнения,
+                   практически не нанося ущерб одежде.
+               </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalWhereYou" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
+            </div>
+            <div class="modal-body">
+                <p>Откуда Вы?</p>
+            </div>
+            <div class="modal-footer">
+                <input type="text" class="city" placeholder="Ваш город*">
+                <a href="#" data-toggle="modal" data-target="#myModalSingUp">
+                    <button class="btn btn-next">ДАЛЕЕ >></button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="myModalSingUp" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
+            </div>
+            <div class="modal-body">
+                <p>Извините! Пока нас нет в вашем городе</p>
+            </div>
+            <div class="modal-footer">
+                <h2>Подпишитесь</h2>
+                <p>Чтобы быть в курсе новостей и специальных предложений</p>
+                <input type="text" class="email" placeholder="Ваш email">
+                <a href="#" data-toggle="modal" data-target="#myModalDistribution">
+                    <button class="btn btn-sing-up">ПОДПИСАТЬСЯ</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="myModalDistribution" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
+            </div>
+            <div class="modal-body">
+                <p>Вы успешно подписаны на рассылку!</p>
+            </div>
+            <div class="modal-footer">
+                <h2>Получите скидку 500 рублей</h2>
+                <p>Для этого используйте промокод "Промокод" при оформлении заказа</p>
+                <input type="text" class="email" placeholder="Ваш email">
+                <button class="btn btn-distribution">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <nav class="navbar navbar-default navbar-washdrop">
     <div class="container">
         <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
@@ -44,7 +170,7 @@
                 <button class="get-it-btn center-block">
                     <div class="cta-btn">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</div>
                 </button>
-                <p class="center-block order">Уже заказывали раньше? <a href="#">ВОЙТИ ></a></p>
+                <p class="center-block order">Уже заказывали раньше? <a href="#" data-toggle="modal" data-target="#myModal">ВОЙТИ ></a></p>
             </div>
         </div>
     </div>
@@ -252,14 +378,18 @@
             </div>
             <hr class="footer-hr">
             <div class="left-block">
-                <p>Как это работает?</p>
+                <a href="#" data-toggle="modal" data-target="#myModalWhereYou">
+                    <p>Как это работает?</p>
+                </a>
                 <p>Наши цены</p>
                 <p>Контакты</p>
             </div>
             <div class="right-block">
                 <p>© 2016 Washdrop </p>
                 <p>Политика конфидециальности</p>
-                <p>Публичная оферта</p>
+                <a href="#" data-toggle="modal" data-target="#myModalLegal">
+                    <p>Публичная оферта</p>
+                </a>
             </div>
         </div>
     </footer>

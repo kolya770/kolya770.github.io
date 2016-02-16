@@ -1,0 +1,481 @@
+#myModal{
+  .modal-dialog {
+    width: 430px;
+    height: 453px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -226.5px;
+    margin-left: -215px;
+    .modal-content {
+      border-radius: 6px;
+      background-color: #ffffff;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      width: 430px;
+      height: 453px;
+      .modal-header {
+        border: none;
+      }
+      .modal-body {
+        text-align: center;
+        p {
+          font-family: SummerFont;
+          color: #4a4b4c;
+          font-size: 3.750em;
+          font-weight: 300;
+          line-height: 60px;
+          text-align: center;
+        }
+      }
+      .modal-footer {
+        border: none;
+        text-align: center;
+        input {
+          border-radius: 6px;
+          border: 1px solid #cbcbcb;
+          box-sizing: border-box;
+          background-color: #f9f9f9;
+          width: 370px;
+          height: 50px;
+          margin-top: 20px;
+        }
+        ::-webkit-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        ::-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-ms-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        .forgot-password {
+          margin-top: 20px;
+          a {
+            font-family: UBUNTU-REGULAR;
+            color:  #3caad2;
+            font-size: 1em;
+            font-weight: 400;
+            line-height: 24px;
+            text-decoration: underline;
+            text-align: center;
+          }
+        }
+        .btn-enter {
+          border-radius: 6px;
+          background-color:  #f39c12;
+          width: 130px;
+          height: 50px;
+          margin-top: 20px;
+          font-family: UBUNTU-REGULAR;
+          color: #ffffff;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}
+
+#myModalLegal {
+  .modal-dialog {
+    width: 770px;
+    height: 713px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -356.5px;
+    margin-left: -385px;
+    .modal-content {
+      border-radius: 6px;
+      background-color:  #ffffff;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      width: 770px;
+      height: 713px;
+      .modal-header {
+        border: none;
+      }
+      .modal-body {
+        text-align: center;
+        p {
+          font-family: SummerFont;
+          color:  #4a4b4c;
+          font-size: 3.750em;
+          font-weight: 300;
+          line-height: 60px;
+          text-align: center;
+        }
+      }
+      .modal-footer {
+        border: none;
+        p {
+          font-family: UBUNTU-LIGHT;
+          color:  #4a4b4c;
+          font-size: 0.938em;
+          font-weight: 300;
+          line-height: 20px;
+          text-align: left;
+          padding: 0 50px 50px 50px;
+        }
+      }
+    }
+  }
+}
+
+#myModalWhereYou {
+  .modal-dialog {
+    width: 770px;
+    height: 274px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -137px;
+    margin-left: -385px;
+    .modal-content {
+      border-radius: 6px;
+      background-color:  #ffffff;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      width: 770px;
+      height: 274px;
+      .modal-header {
+        border: none;
+      }
+      .modal-body {
+        text-align: center;
+        p {
+          font-family: SummerFont;
+          color:  #4a4b4c;
+          font-size: 3.750em;
+          font-weight: 300;
+          line-height: 60px;
+          text-align: center;
+        }
+      }
+      .modal-footer {
+        border: none;
+        text-align: center;
+        input {
+          border-radius: 6px;
+          border: 1px solid #cbcbcb;
+          box-sizing: border-box;
+          background-color: #f9f9f9;
+          width: 580px;
+          height: 50px;
+        }
+        ::-webkit-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        ::-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-ms-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        .btn-next {
+          border-radius: 6px;
+          background-color:  #f39c12;
+          width: 150px;
+          height: 50px;
+          margin-left: -150px;
+          font-family: UBUNTU-REGULAR;
+          color: #ffffff;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}
+
+#myModalSingUp {
+  .modal-dialog {
+    width: 770px;
+    height: 518px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -385px;
+    margin-top: -259px;
+    .modal-content {
+      border-radius: 6px;
+      background-color:  #ffffff;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      width: 770px;
+      height: 518px;
+      .modal-header {
+        border: none;
+      }
+      .modal-body {
+        text-align: center;
+        height: 125px;
+        p {
+          font-family: SummerFont;
+          color:  #4a4b4c;
+          font-size: 3.750em;
+          font-weight: 300;
+          line-height: 60px;
+          text-align: center;
+        }
+      }
+      .modal-footer {
+        border: none;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        background-color:  #f4f5f5;
+        width: 767px;
+        height: 355px;
+        text-align: center;
+        h2 {
+          font-family: SummerFont;
+          color:  #3caad2;
+          font-size: 6.250em;
+          font-weight: 300;
+          line-height: 80px;
+          text-align: center;
+        }
+        p {
+          font-family: UBUNTU-LIGHT;
+          color:  #4a4b4c;
+          font-size: 1.125em;
+          font-weight: 300;
+          line-height: 40px;
+          text-align: center;
+          margin-top: 20px;
+        }
+        input {
+          border-radius: 6px;
+          border: 1px solid #cbcbcb;
+          box-sizing: border-box;
+          background-color:  #f9f9f9;
+          width: 570px;
+          height: 50px;
+          margin-top: 20px;
+        }
+        ::-webkit-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        ::-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-ms-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        .btn-sing-up {
+          border-radius: 6px;
+          background-color:  #3caad2;
+          width: 200px;
+          height: 50px;
+          margin-left: -200px;
+          font-family: UBUNTU-REGULAR;
+          color: #ffffff;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}
+
+#myModalDistribution {
+  .modal-dialog {
+    width: 770px;
+    height: 462px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -231px;
+    margin-left: -385px;
+    .modal-content {
+      border-radius: 6px;
+      background-color:  #ffffff;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      width: 770px;
+      height: 462px;
+      .modal-header{
+        border: none;
+      }
+      .modal-body {
+        font-family: SummerFont;
+        color: #4a4b4c;
+        font-size: 3.750em;
+        font-weight: 300;
+        line-height: 60px;
+        text-align: center;
+        height: 125px;
+      }
+      .modal-footer {
+        border: none;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        background-color:  #f4f5f5;
+        width: 767px;
+        height: 299px;
+        text-align: center;
+        h2 {
+          font-family: SummerFont;
+          color:  #3caad2;
+          font-size: 5.625em;
+          font-weight: 300;
+          line-height: 65px;
+          text-align: center;
+        }
+        p {
+          font-family: UBUNTU-LIGHT;
+          color:  #1e1f20;
+          font-size: 1.125em;
+          font-weight: 300;
+          line-height: 39px;
+          text-align: center;
+        }
+        input {
+          border-radius: 6px;
+          border: 1px solid #cbcbcb;
+          box-sizing: border-box;
+          background-color:  #f9f9f9;
+          width: 570px;
+          height: 50px;
+          margin-top: 20px;
+        }
+        ::-webkit-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        ::-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-moz-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        :-ms-input-placeholder {
+          padding-left: 20px;
+          font-family: UBUNTU-LIGHT;
+          color: #4a4b4c;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 24px;
+          text-align: left;
+        }
+        .btn-distribution {
+          border-radius: 6px;
+          background-color:  #f39c12;
+          width: 260px;
+          height: 50px;
+          font-family: UBUNTU-REGULAR;
+          color: #ffffff;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          margin-left: -200px;
+        }
+      }
+    }
+  }
+}
