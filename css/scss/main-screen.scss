@@ -1,0 +1,51 @@
+.main-screen {
+  background: url(../img/main-photo.png) 50% 50% fixed, rgba(176, 52, 61, 0.65);
+  background-size: cover;
+  height: 100vh;
+  .header-center {
+    height: 370px;
+    position: absolute;
+    top: 50%;
+    margin-top: -185px;
+    .header {
+      font-family: SummerFont;
+      color: #fefefe;
+      font-size: 7.4em;
+      font-weight: 300;
+      line-height: 60px;
+      text-align: center;
+      text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+      height: 100px;
+    }
+    .get-it-btn {
+      border-radius: 6px;
+      background-color: #f39c12;
+      width: 316px;
+      height: 65px;
+      border: none;
+      margin-top: 7vh;
+      font-family: "UBUNTU-REGULAR";
+      color: #ffffff;
+      font-size: 1.313em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    }
+    .order {
+      font-family: "UBUNTU-REGULAR";
+      color: #ffffff;
+      font-size: 1.125em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-top: 7vh;
+      a {
+        color: #ffffff;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,101 @@
+footer {
+  background-color: #3e4041;
+  height: 179px;
+  .no-padding {
+    padding: 0;
+  }
+  .btn-right {
+    float: right;
+    .btn-apple {
+      border-radius: 6px;
+      background-color:  #2a96bd;
+      width: 170px;
+      height: 50px;
+      border: none;
+      .shirt {
+        background: url(../img/apple-logo.png) no-repeat;
+        width: 22px;
+        height: 27px;
+        margin: 11px 13px 0 16px;
+        float: left;
+      }
+      .cta-btn {
+        color: #ffffff;
+        vertical-align: middle;
+        height: 100%;
+        display: inline-block;
+        font-family: UBUNTU-MEDIUM;
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: left;
+        float: left;
+      }
+    }
+    .btn-android {
+      border-radius: 6px;
+      background-color: #2a96bd;
+      width: 170px;
+      height: 50px;
+      border: none;
+      margin-top: 30px;
+      margin-left: 10px;
+      .shirt {
+        background: url(../img/logo-google.png) no-repeat ,117px 27px;
+        width: 117px;
+        height: 27px;
+        margin: 0 20px;
+      }
+    }
+  }
+
+  p {
+    font-family: UBUNTU-LIGHT;
+    color:  #ffffff;
+    font-size: 0.938em;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .city {
+    color: #2a96bd;
+    margin-top: 15px;
+  }
+  .logo-footer {
+    width: 112px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  hr {
+    width: 100%;
+    border-top: 1px solid rgb(82,84,85);
+    margin-bottom: 0;
+  }
+  .left-block {
+    display: inline-block;
+    p {
+      font-family: UBUNTU-LIGHT;
+      color: rgb(82,84,85);
+      font-size: 0.938em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+  .right-block {
+    float: right;
+    p {
+      font-family: UBUNTU-LIGHT;
+      color: rgb(82,84,85);
+      font-size: 0.938em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+}

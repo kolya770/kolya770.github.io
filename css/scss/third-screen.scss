@@ -1,0 +1,49 @@
+.third-screen {
+  .how-it-work {
+    text-align: center;
+    h2 {
+      font-family: SummerFont;
+      color:  #4a4b4c;
+      font-size: 6.25em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 60px;
+    }
+    h3 {
+      font-family: SummerFont;
+      color:  rgb(60, 170, 210);
+      font-size: 3.125em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    img {
+      margin-top: 25px;
+    }
+  }
+  .text-for-how-it-work {
+    margin-bottom: 60px;
+  }
+  .no-padding {
+    padding: 0;
+    h2 {
+      font-family: UBUNTU-LIGHT;
+      color:  #4a4b4c;
+      font-size: 1.188em;
+      font-weight: 300;
+      line-height: 20px;
+      text-align: center;
+    }
+    p {
+      font-family: UBUNTU-LIGHT;
+      color:  #3caad2;
+      font-size: 0.938em;
+      font-weight: 300;
+      line-height: 20px;
+      text-align: center;
+    }
+  }
+}

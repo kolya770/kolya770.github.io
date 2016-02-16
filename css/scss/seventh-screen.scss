@@ -1,0 +1,38 @@
+.seventh-screen {
+    .discount {
+      text-align: center;
+      h2 {
+        font-family: SummerFont;
+        color: #3caad2;
+        font-size: 5.625em;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 60px;
+      }
+      p {
+        font-family: UBUNTU-LIGHT;
+        color: #1e1f20;
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 39px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .btn-order {
+        border-radius: 6px;
+        background-color:  #f39c12;
+        width: 260px;
+        height: 50px;
+        font-family: UBUNTU-REGULAR;
+        color: #ffffff;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        margin-top: 20px;
+        margin-bottom: 60px;
+      }
+    }
+  }
