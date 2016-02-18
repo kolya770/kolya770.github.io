@@ -198,8 +198,11 @@ footer .right-block{float:right}
 .section-discount .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:100px;text-align:center}
 .section-discount .discount p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:500;line-height:25px;text-align:center}
 .section-discount .discount .btn-order{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:60px}
+.section-news-other .news-text h2,.section-news-other .other-news h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center}
+.section-news-other .other-news{text-align:center}
+.section-news-other .other-news img.dot{margin-bottom:40px}
 .section-news-other .news-text{text-align:center}
-.section-news-other .news-text h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
+.section-news-other .news-text h2{text-transform:uppercase}
 .section-news-other .info{max-width:770px}
 .section-news-other .info p.date{font-family:UBUNTU-BOLD;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:center}
 .section-news-other .info img{margin-bottom:30px}
@@ -207,8 +210,6 @@ footer .right-block{float:right}
 .section-news-other .info .hr-info{background-color:#cbcbcb;height:1px}
 .section-news-other .news-block h3{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px;text-align:left}
 .section-news-other .news-block p{font-family:UBUNTU-BOLD;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:left}
-.section-news-other .middle-btn .btn-download,.section-news-other .news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT;color:#fff;font-weight:300;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-.section-news-other .news-block .btn-news{background-color:#3caad2;width:96px;height:30px;font-size:.875em;text-align:center;padding:0}
-.section-news-other .news-block .hr-news{background-color:#cbcbcb;width:370px;height:1px}
+.section-news-other .news-block .hr-news{background-color:#cbcbcb;width:370px;height:1px;margin-bottom:60px}
 .section-news-other .middle-btn{text-align:center}
-.section-news-other .middle-btn .btn-download{background-color:#3caad2;width:192px;height:50px;font-size:1em;text-align:center;margin-bottom:50px;margin-top:50px}
+.section-news-other .middle-btn .btn-download{border-radius:6px;background-color:#3caad2;width:192px;height:50px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;font-weight:300;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:50px;margin-top:50px}

@@ -41,6 +41,20 @@
 }
 
 .section-news-other {
+  .other-news {
+    text-align: center;
+    h2 {
+      font-family: SummerFont;
+      color:  #4a4b4c;
+      font-size: 5em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+    }
+    img.dot {
+      margin-bottom: 40px;
+    }
+  }
   .news-text {
     text-align: center;
     h2 {
@@ -95,24 +109,11 @@
       line-height: 24px;
       text-align: left;
     }
-    .btn-news {
-      border-radius: 6px;
-      background-color:  #3caad2;
-      width: 96px;
-      height: 30px;
-      font-family: UBUNTU-LIGHT;
-      color:  #ffffff;
-      font-size: 0.875em;
-      font-weight: 300;
-      line-height: 24px;
-      text-align: center;
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      padding: 0;
-    }
     .hr-news {
       background-color:  #cbcbcb;
       width: 370px;
       height: 1px;
+      margin-bottom: 60px;
     }
   }
   .middle-btn {
