@@ -1,0 +1,164 @@
+.main-screen-faq {
+  background: rgba(210, 214, 220, 0.8) url(../img/photo-faq.png) 50% 50% fixed;
+  background-size: cover;
+  height: 100vh;
+  .header-center {
+    height: 104px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    margin-top: -52px;
+    left: 50%;
+    margin-left: -250px;
+    .header {
+      font-family: SummerFont;
+      color: #fefefe;
+      font-size: 7.4em;
+      font-weight: 300;
+      line-height: 60px;
+      text-align: center;
+      text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+      height: 100px;
+    }
+    .get-it-btn {
+      border-radius: 6px;
+      background-color: #f39c12;
+      width: 316px;
+      height: 65px;
+      border: none;
+      margin-top: 7vh;
+      font-family: "UBUNTU-REGULAR";
+      color: #ffffff;
+      font-size: 1.313em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    }
+    .order {
+      font-family: "UBUNTU-REGULAR";
+      color: #ffffff;
+      font-size: 1.125em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-top: 7vh;
+      a {
+        color: #ffffff;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.second-screen-faq {
+  .discount {
+    text-align: center;
+    h2 {
+      font-family: SummerFont;
+      color:  #3caad2;
+      font-size: 5.625em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+    }
+    p{
+      font-family: UBUNTU-LIGHT;
+      color:  rgb(30, 31, 32);
+      font-size: 1.125em;
+      font-weight: 500;
+      line-height: 25px;
+      text-align: center;
+    }
+    .btn-order {
+      border-radius: 6px;
+      background-color:  #f39c12;
+      width: 260px;
+      height: 50px;
+      font-family: UBUNTU-REGULAR;
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-bottom: 60px;
+    }
+  }
+  .cont-hr {
+    background-color:  #cbcbcb;
+    height: 1px;
+  }
+  .question {
+    margin-top: 45px;
+    p {
+      font-family: UBUNTU-LIGHT;
+      color:  #3caad2;
+      font-size: 0.938em;
+      font-weight: 300;
+      line-height: 40px;
+      text-align: center;
+    }
+    span {
+      text-decoration: underline;
+    }
+  }
+  .first-order {
+    text-align: center;
+    h2 {
+      font-family: SummerFont;
+      color:  #4a4b4c;
+      font-size: 5em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .faq {
+    .nav__btn {
+      border-radius: 50%;
+      background-color:  rgba(60, 170, 210, 0.5);
+      width: 36px;
+      height: 36px;
+      float: right;
+      padding: 0;
+      margin-top: 13px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    ul.sub-nav {
+      display: none;
+    }
+    .faq-hr {
+      background-color:  #cbcbcb;
+      width: 570px;
+      height: 1px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .nav__text {
+      font-family: UBUNTU-LIGHT;
+      color:  #4a4b4c;
+      font-size: 1.188em;
+      font-weight: 300;
+      line-height: 60px;
+      text-align: left;
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    .link {
+      color: #3caad2;
+      font-size: 0.938em;
+      font-weight: 300;
+      line-height: 20px;
+      text-align: left;
+      max-width: 442px;
+    }
+  }
+}
+

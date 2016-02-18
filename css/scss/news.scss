@@ -1,0 +1,165 @@
+.main-screen-news {
+  background: rgba(210, 214, 220, 0.8) url(../img/news-photo.png) 50% 50% fixed;
+  background-size: cover;
+  height: 100vh;
+  .header-center {
+    p {
+      font-family: UBUNTU-BOLD;
+      color:  #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .main-hr {
+      background-color: rgba(255, 255, 255, 0.75);
+      height: 1px;
+      margin-top: 80vh;
+    }
+    .header {
+      font-family: SummerFont;
+      color: #fefefe;
+      font-size: 3.750em;
+      font-weight: 300;
+      line-height: 60px;
+      text-align: left;
+      text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .get-it-btn {
+      border-radius: 6px;
+      background-color: #f39c12;
+      width: 316px;
+      height: 65px;
+      border: none;
+      margin-top: 7vh;
+      font-family: "UBUNTU-REGULAR";
+      color: #ffffff;
+      font-size: 1.313em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    }
+    .order {
+      font-family: "UBUNTU-REGULAR";
+      color: #ffffff;
+      font-size: 1.125em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-top: 7vh;
+      a {
+        color: #ffffff;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.section-discount {
+  .discount {
+    text-align: center;
+    h2 {
+      font-family: SummerFont;
+      color:  #3caad2;
+      font-size: 5.625em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+    }
+    p{
+      font-family: UBUNTU-LIGHT;
+      color:  rgb(30, 31, 32);
+      font-size: 1.125em;
+      font-weight: 500;
+      line-height: 25px;
+      text-align: center;
+    }
+    .btn-order {
+      border-radius: 6px;
+      background-color:  #f39c12;
+      width: 260px;
+      height: 50px;
+      font-family: UBUNTU-REGULAR;
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.section-news {
+  .news-text {
+    text-align: center;
+    h2 {
+      font-family: SummerFont;
+      color: #4a4b4c;
+      font-size: 5em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .news-block {
+    h3 {
+      font-family: UBUNTU-LIGHT;
+      color: #4a4b4c;
+      font-size: 1.188em;
+      font-weight: 300;
+      line-height: 23px;
+      text-align: left;
+    }
+    p {
+      font-family: UBUNTU-BOLD;
+      color:  #3caad2;
+      font-size: 0.938em;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+    }
+    .btn-news {
+      border-radius: 6px;
+      background-color:  #3caad2;
+      width: 96px;
+      height: 30px;
+      font-family: UBUNTU-LIGHT;
+      color:  #ffffff;
+      font-size: 0.875em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      padding: 0;
+    }
+    .hr-news {
+      background-color:  #cbcbcb;
+      width: 370px;
+      height: 1px;
+    }
+  }
+  .middle-btn {
+    text-align: center;
+    .btn-download {
+      border-radius: 6px;
+      background-color:  #3caad2;
+      width: 192px;
+      height: 50px;
+      font-family: UBUNTU-LIGHT;
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+  }
+}
