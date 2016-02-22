@@ -1,0 +1,100 @@
+.application-download-block {
+  background: url(../img/main-photo2.png) 50% 50%, rgb(255, 255, 255);
+  background-size: cover;
+  height: 160px;
+
+  .header-app {
+    display: inline-block;
+    float: left;
+    @media #{$bootstrap-sm} {
+      max-width: 360px;
+      z-index: 100;
+      position: relative;
+    }
+    @media #{$bootstrap-lg} {
+      max-width: 100%;
+    }
+
+    h2 {
+      font-family: SummerFont;
+      color: #4a4b4c;
+      font-size: 3.750em;
+      font-weight: 300;
+      line-height: 60px;
+      text-align: left;
+      float: left;
+
+      @media #{$bootstrap-sm} {
+        margin-top: 15px;
+        z-index: 100;
+      }
+      @media #{$bootstrap-lg} {
+        margin-top: 45px;
+      }
+    }
+  }
+
+  .phone-app-bg {
+    background: url(../img/phone.png) no-repeat;
+    height: 135px;
+    width: 300px;
+    display: inline-block;
+    float: left;
+    margin-top: 25px;
+    @media #{$bootstrap-sm} {
+      margin-left: -300px;
+      z-index: 1;
+      position: relative;
+      }
+    @media #{$bootstrap-md} {
+      margin-left: -115px;
+    }
+  }
+
+  .block-for-app-btn {
+    .btn-for-ios {
+      border-radius: 6px;
+      background-color: #191919;
+      width: 170px;
+      height: 50px;
+      border: none;
+      margin-top: 60px;
+      margin-left: 5px;
+      .apple-logo {
+        background: url(../img/apple-logo.png) no-repeat;
+        width: 22px;
+        height: 27px;
+        margin: 10px 13px 0 16px;
+        float: left;
+      }
+      .apple-text-btn {
+        color: #ffffff;
+        vertical-align: middle;
+        height: 100%;
+        display: inline-block;
+        font-family: UBUNTU-MEDIUM;
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 46px;
+        text-align: left;
+        float: left;
+      }
+    }
+
+    .btn-for-android {
+      border-radius: 6px;
+      background-color: #191919;
+      width: 170px;
+      height: 50px;
+      border: none;
+      margin-top: 60px;
+      margin-left: 10px;
+      .google-logo {
+        background: url(../img/logo-google.png) no-repeat;
+        width: 117px;
+        height: 27px;
+        margin: 0 20px;
+      }
+    }
+  }
+}

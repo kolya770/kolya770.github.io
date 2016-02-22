@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WashDrop</title>
-
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
 
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
-        <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
@@ -38,7 +34,6 @@
 
 <div class="modal fade" id="myModalLegal" role="dialog">
     <div class="modal-dialog">
-        <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
@@ -76,7 +71,6 @@
 
 <div class="modal fade" id="myModalWhereYou" role="dialog">
     <div class="modal-dialog">
-        <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
@@ -97,7 +91,6 @@
 
 <div class="modal fade" id="myModalSingUp" role="dialog">
     <div class="modal-dialog">
-        <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
@@ -120,7 +113,6 @@
 
 <div class="modal fade" id="myModalDistribution" role="dialog">
     <div class="modal-dialog">
-        <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><img src="img/close.png"></button>
@@ -163,43 +155,45 @@
 
 <div id="full-page">
 
-    <div class="main-screen section">
+    <div class="main-screen-home">
         <div class="container">
-            <div class="header-center">
-                <h1 class="header">Ваша персональная прачечная и химчистка</h1>
-                <button class="get-it-btn center-block">
-                    <div class="cta-btn">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</div>
-                </button>
-                <p class="center-block order">Уже заказывали раньше? <a href="#" data-toggle="modal" data-target="#myModal">ВОЙТИ ></a></p>
+            <div class="middle-text">
+                <div class="header-center">
+                    <h1 class="header">Ваша персональная прачечная и химчистка</h1>
+                    <button class="make-order-btn center-block">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
+                    <p class="center-block order-before">Уже заказывали раньше?
+                        <a href="#" data-toggle="modal" data-target="#myModal">ВОЙТИ</a><i class="fa fa-angle-right arrow"></i>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="second-screen">
+    <div class="application-download-block">
         <div class="container">
-            <div class="second-text">
+            <div class="header-app">
                 <h2>Загрузите приложение для вашего смартфона</h2>
             </div>
-            <div class="phone"></div>
-            <div class="btn-second">
-                <button class="for-ios">
-                    <div class="shirt"></div>
-                    <div class="cta-btn">App store</div>
+            <div class="phone-app-bg"></div>
+            <div class="block-for-app-btn">
+                <button class="btn-for-ios">
+                    <div class="apple-logo"></div>
+                    <div class="apple-text-btn">App store</div>
                 </button>
-                <button class="for-android">
-                    <div class="shirt"></div>
+                <button class="btn-for-android">
+                    <div class="google-logo"></div>
                 </button>
             </div>
         </div>
     </div>
 
-    <div class="third-screen">
+    <div class="how-it-work-block">
         <div class="container">
             <div class="how-it-work">
                 <h2>Как это работает</h2>
                 <img src="img/dot-blue.png">
                 <h3>4 простых шага</h3>
-                <img src="img/steps.png">
+                <img src="img/steps.png" class="steps">
             </div>
             <div class="row text-for-how-it-work">
                 <div class="col-sm-3 no-padding">
@@ -222,65 +216,72 @@
         </div>
     </div>
 
-    <div class="fourth-screen">
-        <div class="container">
-            <div class="row size-fourth-screen">
-                <div class="middle-text">
-                    <h3>Вы ненавидите стирку и глажку?</h3>
-                    <h2>Мы обожаем!</h2>
-                    <img src="img/dot-white.png">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="fifth-screen">
-        <div class="container">
-            <div class="subscribe">
-                <h2>Подпишитесь</h2>
-                <img src="img/dot-blue.png">
-                <h3>Чтобы быть в курсе новостей и специальных предложений</h3>
-            </div>
-            <div class="email">
-                <input class="input-email" type="text">
-                <input class="input-btn" type="submit" value="ПОДПИСАТЬСЯ">
-            </div>
-            <hr class="fifth-hr">
-            <div class="our-price">
-                <div class="price">
-                    <h2>Наши цены</h2>
-                    <img src="img/dot-blue.png">
-                </div>
-                <div class="row price-carousel">
-                    <div class="col-sm-4">
-                        <img src="img/shirt.png">
-                        <h2>Рубашка</h2>
-                        <p>от 190 рублей</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="img/jacket.png">
-                        <h2>Пиджак</h2>
-                        <p>от 390 рублей</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="img/linen.png" class="linen">
-                        <h2 class="linen-text">Стирка постельного белья</h2>
-                        <p>190 рублей за кг</p>
-                    </div>
-                </div>
-                <button class="btn btn-price">ВСЕ ЦЕНЫ</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="sixth-screen">
+    <div class="photo-block">
         <div class="container">
             <div class="row">
-                <div class="reviews">
+                <div class="case-for-photo">
+                    <div class="header-text">
+                        <h3>Вы ненавидите стирку и глажку?</h3>
+                        <h2>Мы обожаем!</h2>
+                        <img src="img/dot-white.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="subscription-and-price-block">
+        <div class="container">
+            <div class="row">
+                <div class="subscribe">
+                    <h2>Подпишитесь</h2>
+                    <img src="img/dot-blue.png">
+                    <h3>Чтобы быть в курсе новостей и специальных предложений</h3>
+                </div>
+                <div class="email">
+                    <input class="input-email" type="text">
+                    <input class="input-btn" type="submit" value="ПОДПИСАТЬСЯ">
+                </div>
+                <hr class="sub-hr">
+            </div>
+            <div class="row">
+                <div class="our-price">
+                    <div class="header-price">
+                        <h2>Наши цены</h2>
+                        <img src="img/dot-blue.png">
+                    </div>
+                    <div class="col-sm-12 price-carousel    ">
+                        <div class="col-sm-4">
+                            <img src="img/shirt.png">
+                            <h2>Рубашка</h2>
+                            <p>от 190 рублей</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/jacket.png">
+                            <h2>Пиджак</h2>
+                            <p>от 390 рублей</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/linen.png" class="linen">
+                            <h2 class="linen-text">Стирка постельного белья</h2>
+                            <p>190 рублей за кг</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-price">ВСЕ ЦЕНЫ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews-block">
+        <div class="container">
+            <div class="row">
+                <div class="header-reviews">
                     <h2>Отзывы о нашей работе</h2>
                     <img src="img/dot-blue.png">
                 </div>
-                <div class="row">
+                <div class="container">
                     <div class="col-sm-4">
                         <div class="b-profile">
                             <div class="text-reviews">
@@ -330,23 +331,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="center-btn">
-                        <button class="btn btn-sixth-screen">ВСЕ ОТЗЫВЫ</button>
+                <div class="container">
+                    <div class="col-sm-12 center-btn">
+                        <button class="btn btn-reviews">ВСЕ ОТЗЫВЫ</button>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="seventh-screen">
+    <div class="discount-block">
         <div class="container">
             <div class="row">
                 <div class="discount">
                     <h2>Получите скидку 500 рублей</h2>
                     <p>Для этого используйте промокод "Промокод" при оформлении заказа</p>
-                    <button class="btn btn-order">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
+                    <button class="btn btn-discount">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
                 </div>
             </div>
         </div>
@@ -357,7 +357,7 @@
             <div class="col-sm-2 no-padding">
                 <img src="img/logo.png" class="logo-footer">
             </div>
-            <div class="col-sm-2 col-sm-offset-1 no-padding">
+            <div class="col-sm-2 col-sm-offset-1 col-md-offset-0 col-lg-offset-1 no-padding">
                 <p>Города присутствия:</p>
                 <p class="city">Москва</p>
             </div>
@@ -365,38 +365,31 @@
                 <p>Принимаем к оплате карты:</p>
                 <img src="img/visamastercard.png">
             </div>
-            <div class="col-sm-4 no-padding">
+            <div class="col-sm-4 col-md-5 col-lg-4 no-padding">
                 <div class="btn-right">
                     <button class="btn-apple">
-                        <div class="shirt"></div>
-                        <div class="cta-btn">App store</div>
+                        <div class="apple-logo"></div>
+                        <div class="apple-text-btn">App store</div>
                     </button>
                     <button class="btn-android">
-                        <div class="shirt"></div>
+                        <div class="google-logo"></div>
                     </button>
                 </div>
             </div>
             <hr class="footer-hr">
             <div class="left-block">
-                <a href="#" data-toggle="modal" data-target="#myModalWhereYou">
-                    <p>Как это работает?</p>
-                </a>
-                <p>Наши цены</p>
-                <p>Контакты</p>
+                <a href="#" data-toggle="modal" data-target="#myModalWhereYou">Как это работает?</a>
+                <a href="#">Наши цены</a>
+                <a href="#">Контакты</a>
             </div>
             <div class="right-block">
-                <p>© 2016 Washdrop </p>
-                <p>Политика конфидециальности</p>
-                <a href="#" data-toggle="modal" data-target="#myModalLegal">
-                    <p>Публичная оферта</p>
-                </a>
+                <a href="#">© 2016 Washdrop </a>
+                <a href="#">Политика конфидециальности</a>
+                <a href="#" class="last" data-toggle="modal" data-target="#myModalLegal">Публичная оферта</a>
             </div>
         </div>
     </footer>
-
 </div>
-
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

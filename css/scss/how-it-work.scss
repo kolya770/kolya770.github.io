@@ -1,4 +1,4 @@
-.third-screen {
+.how-it-work-block {
   .how-it-work {
     text-align: center;
     h2 {
@@ -23,6 +23,9 @@
     img {
       margin-top: 25px;
     }
+    .steps {
+      width: 93%;
+    }
   }
   .text-for-how-it-work {
     margin-bottom: 60px;
@@ -36,6 +39,12 @@
       font-weight: 300;
       line-height: 20px;
       text-align: center;
+      @media #{$bootstrap-sm} {
+        min-height: 45px;
+      }
+      @media #{$bootstrap-md} {
+        min-height: 20px;
+      }
     }
     p {
       font-family: UBUNTU-LIGHT;

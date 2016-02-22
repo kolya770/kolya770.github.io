@@ -1,10 +1,23 @@
-.sixth-screen {
+.reviews-block {
   background: url(../img/main-photo2.png) 50% 50%;
-  height: 673px;
+  min-height: 673px;
+  .header-reviews {
+    text-align: center;
+    h2 {
+      font-family: SummerFont;
+      color:  #4a4b4c;
+      font-size: 5em;
+      font-weight: 300;
+      line-height: 100px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
   .center-btn {
     text-align: center;
     margin-top: 60px;
-    .btn-sixth-screen {
+    margin-bottom: 60px;
+    .btn-reviews {
       border-radius: 6px;
       background-color:  #3caad2;
       width: 160px;
@@ -18,23 +31,12 @@
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     }
   }
-  .reviews {
-    text-align: center;
-    h2 {
-      font-family: SummerFont;
-      color:  #4a4b4c;
-      font-size: 5em;
-      font-weight: 300;
-      line-height: 100px;
-      text-align: center;
-      text-transform: uppercase;
-    }
-  }
+
   .b-profile {
     margin: 150px auto 0 auto;
     background-color: #fff;
     width: 100%;
-    height: 177px;
+    min-height: 177px;
     position: relative;
     border-radius: 6px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
