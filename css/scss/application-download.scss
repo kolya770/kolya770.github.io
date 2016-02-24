@@ -1,15 +1,16 @@
 .application-download-block {
   background: url(../img/main-photo2.png) 50% 50%, rgb(255, 255, 255);
   background-size: cover;
-  height: 160px;
+  min-height: 160px;
 
   .header-app {
-    display: inline-block;
-    float: left;
+
     @media #{$bootstrap-sm} {
       max-width: 360px;
       z-index: 100;
       position: relative;
+      float: left;
+      display: inline-block;
     }
     @media #{$bootstrap-lg} {
       max-width: 100%;
@@ -18,15 +19,19 @@
     h2 {
       font-family: SummerFont;
       color: #4a4b4c;
-      font-size: 3.750em;
       font-weight: 300;
       line-height: 60px;
-      text-align: left;
-      float: left;
 
+      @media #{$bootstrap-xs} {
+        text-align: center;
+        font-size: 3.125em;
+      }
       @media #{$bootstrap-sm} {
         margin-top: 15px;
         z-index: 100;
+        text-align: left;
+        float: left;
+        font-size: 3.750em;
       }
       @media #{$bootstrap-lg} {
         margin-top: 45px;
@@ -35,13 +40,16 @@
   }
 
   .phone-app-bg {
-    background: url(../img/phone.png) no-repeat;
-    height: 135px;
-    width: 300px;
-    display: inline-block;
-    float: left;
-    margin-top: 25px;
+    @media #{$bootstrap-xs} {
+      background: none;
+    }
     @media #{$bootstrap-sm} {
+      background: url(../img/phone.png) no-repeat;
+      height: 135px;
+      width: 300px;
+      display: inline-block;
+      float: left;
+      margin-top: 25px;
       margin-left: -300px;
       z-index: 1;
       position: relative;
@@ -52,14 +60,24 @@
   }
 
   .block-for-app-btn {
+    @media #{$bootstrap-xs} {
+      text-align: center;
+    }
     .btn-for-ios {
       border-radius: 6px;
       background-color: #191919;
       width: 170px;
       height: 50px;
       border: none;
-      margin-top: 60px;
-      margin-left: 5px;
+
+      @media #{$bootstrap-xs} {
+        margin-top: 20px;
+        margin-left: 0;
+      }
+      @media #{$bootstrap-sm} {
+        margin-top: 60px;
+        margin-left: 5px;
+      }
       .apple-logo {
         background: url(../img/apple-logo.png) no-repeat;
         width: 22px;
@@ -87,8 +105,16 @@
       width: 170px;
       height: 50px;
       border: none;
-      margin-top: 60px;
-      margin-left: 10px;
+
+      @media #{$bootstrap-xs} {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0;
+      }
+      @media #{$bootstrap-sm} {
+        margin-top: 60px;
+        margin-left: 10px;
+      }
       .google-logo {
         background: url(../img/logo-google.png) no-repeat;
         width: 117px;

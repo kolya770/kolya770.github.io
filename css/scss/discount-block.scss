@@ -6,9 +6,17 @@
         color: #3caad2;
         font-size: 5.625em;
         font-weight: 300;
-        line-height: 25px;
+        line-height: 90px;
         text-align: center;
         margin-top: 60px;
+        @media #{$bootstrap-xs} {
+          font-size: 4.063em;
+          line-height: 60px;
+        }
+        @media #{$bootstrap-sm} {
+          font-size: 5.625em;
+          line-height: 90px;
+        }
       }
       p {
         font-family: UBUNTU-LIGHT;

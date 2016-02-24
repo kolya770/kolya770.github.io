@@ -7,47 +7,74 @@ body{font-size:16px}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.TTF);font-weight:400;font-style:normal}
 @media (min-width:1200px){.container{width:1200px}
 }
-.navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;top:60px}
+.navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;top:50px;z-index:1}
 .navbar-washdrop .my-navbar{padding:0}
 .navbar-washdrop .my-navbar .logo{position:absolute;margin-left:-87px;left:50%;width:174px}
 .navbar-washdrop .my-navbar .logo img{margin-top:-50px}
 .navbar-washdrop .my-navbar .my-navbar-right{margin-right:0;padding-right:15px}
 .navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:185px;height:52px;color:#fff;text-align:center}
 .navbar-default .navbar-nav>li>a{color:#fefefe;text-align:left}
-.main-screen-home{background:url(../img/main-photo.png) 50% 50% fixed,#fff;background-size:cover;height:100vh}
-.main-screen-home .middle-text{height:100vh}
-.main-screen-home .middle-text .header-center{width:100%;height:370px;position:relative;top:50%;margin-top:-185px}
-.main-screen-home .middle-text .header-center .header{font-family:SummerFont;color:#fefefe;font-size:7.4em;font-weight:300;line-height:60px;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25);height:100px}
-.main-screen-home .middle-text .header-center .make-order-btn,.main-screen-home .middle-text .header-center .order-before{font-family:UBUNTU-REGULAR;font-weight:400;line-height:24px;text-align:center;margin-top:7vh;color:#fff}
-.main-screen-home .middle-text .header-center .make-order-btn{border-radius:6px;background-color:#f39c12;width:316px;height:65px;border:none;font-size:1.313em;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-.main-screen-home .middle-text .header-center .order-before{font-size:1.125em;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-.main-screen-home .middle-text .header-center .order-before a{color:#fff;margin-left:15px;border-bottom:1px dotted #fff;text-decoration:none}
-.main-screen-home .middle-text .header-center .order-before .arrow{margin-left:10px}
-.application-download-block{background:url(../img/main-photo2.png) 50% 50%,#fff;background-size:cover;height:160px}
-.application-download-block .header-app{display:inline-block;float:left}
-@media (min-width:768px){.application-download-block .header-app{max-width:360px;z-index:100;position:relative}
-.application-download-block .header-app h2{margin-top:15px;z-index:100}
+.main-screen-home .first-bg{background:url(../img/main-photo.png) 50% 50% fixed,#464646;background-size:cover;height:100vh;position:absolute;opacity:1;width:100%}
+.main-screen-home .content{height:100vh}
+.main-screen-home .content .header{font-family:SummerFont;color:#fefefe;font-weight:300;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
+@media (max-width:767px){.main-screen-home .content .header{font-size:3.125em;line-height:60px;margin-top:30vh}
 }
-.application-download-block .header-app h2{font-family:SummerFont;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:left;float:left}
+@media (min-width:768px){.main-screen-home .content .header{font-size:7.4em;line-height:90px;margin-top:42vh}
+}
+.main-screen-home .content .make-order-btn,.main-screen-home .content .order-before{font-family:UBUNTU-REGULAR;font-weight:400;line-height:24px;text-align:center;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15)}
+.main-screen-home .content .make-order-btn{border-radius:6px;background-color:#f39c12;height:65px;border:none;margin-top:50px}
+@media (max-width:767px){.main-screen-home .content .make-order-btn{max-width:270px;width:90%;font-size:1.188em}
+}
+@media (min-width:768px){.main-screen-home .content .make-order-btn{width:316px;font-size:1.313em}
+}
+.main-screen-home .content .order-before{margin-top:40px}
+@media (max-width:767px){.main-screen-home .content .order-before{font-size:.938em}
+}
+.main-screen-home .content .order-before a{color:#fff;margin-left:15px;border-bottom:1px dotted #fff;text-decoration:none}
+.main-screen-home .content .order-before .arrow{margin-left:10px}
+.application-download-block{background:url(../img/main-photo2.png) 50% 50%,#fff;background-size:cover;min-height:160px}
+@media (min-width:768px){.main-screen-home .content .order-before{font-size:1.125em}
+.application-download-block .header-app{max-width:360px;z-index:100;position:relative;float:left;display:inline-block}
+}
+.application-download-block .header-app h2{font-family:SummerFont;color:#4a4b4c;font-weight:300;line-height:60px}
+@media (max-width:767px){.application-download-block .header-app h2{text-align:center;font-size:3.125em}
+.application-download-block .phone-app-bg{background:0 0}
+}
+@media (min-width:768px){.application-download-block .header-app h2{margin-top:15px;z-index:100;text-align:left;float:left;font-size:3.75em}
+}
 @media (min-width:1200px){.application-download-block .header-app{max-width:100%}
 .application-download-block .header-app h2{margin-top:45px}
 }
-.application-download-block .phone-app-bg{background:url(../img/phone.png) no-repeat;height:135px;width:300px;display:inline-block;float:left;margin-top:25px}
-@media (min-width:768px){.application-download-block .phone-app-bg{margin-left:-300px;z-index:1;position:relative}
-.how-it-work-block .no-padding h2{min-height:45px}
+@media (min-width:768px){.application-download-block .phone-app-bg{background:url(../img/phone.png) no-repeat;height:135px;width:300px;display:inline-block;float:left;margin-top:25px;margin-left:-300px;z-index:1;position:relative}
 }
 @media (min-width:992px){.application-download-block .phone-app-bg{margin-left:-115px}
 }
-.application-download-block .block-for-app-btn .btn-for-ios{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:60px;margin-left:5px}
+.application-download-block .block-for-app-btn .btn-for-ios{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none}
+@media (max-width:767px){.application-download-block .block-for-app-btn{text-align:center}
+.application-download-block .block-for-app-btn .btn-for-ios{margin-top:20px;margin-left:0}
+}
+@media (min-width:768px){.application-download-block .block-for-app-btn .btn-for-ios{margin-top:60px;margin-left:5px}
+}
 .application-download-block .block-for-app-btn .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:10px 13px 0 16px;float:left}
 .application-download-block .block-for-app-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM;font-size:1.125em;font-weight:500;line-height:46px;text-align:left;float:left}
-.how-it-work-block .how-it-work h2,.how-it-work-block .how-it-work h3{font-family:SummerFont;font-weight:300;line-height:100px;text-transform:uppercase}
-.application-download-block .block-for-app-btn .btn-for-android{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;margin-top:60px;margin-left:10px}
+.application-download-block .block-for-app-btn .btn-for-android{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none}
+@media (max-width:767px){.application-download-block .block-for-app-btn .btn-for-android{margin-top:20px;margin-bottom:20px;margin-left:0}
+.how-it-work-block .how-it-work h2{font-size:4.063em;line-height:60px}
+}
+@media (min-width:768px){.application-download-block .block-for-app-btn .btn-for-android{margin-top:60px;margin-left:10px}
+}
 .application-download-block .block-for-app-btn .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;width:117px;height:27px;margin:0 20px}
 .how-it-work-block .how-it-work{text-align:center}
-.how-it-work-block .how-it-work h2{color:#4a4b4c;font-size:6.25em;text-align:center;margin-top:60px}
-.how-it-work-block .how-it-work h3{color:#3caad2;font-size:3.125em;text-align:center}
-.how-it-work-block .no-padding h2,.how-it-work-block .no-padding p{font-family:UBUNTU-LIGHT;line-height:20px;text-align:center;font-weight:300}
+.how-it-work-block .how-it-work h2{font-family:SummerFont;color:#4a4b4c;font-weight:300;text-align:center;text-transform:uppercase;margin-top:60px}
+@media (min-width:768px){.how-it-work-block .how-it-work h2{font-size:6.25em;line-height:100px}
+}
+.how-it-work-block .how-it-work h3{font-family:SummerFont;color:#3caad2;font-size:3.125em;font-weight:300;text-align:center;text-transform:uppercase}
+@media (max-width:767px){.how-it-work-block .how-it-work h3{line-height:60px}
+}
+@media (min-width:768px){.how-it-work-block .how-it-work h3{line-height:100px}
+.how-it-work-block .no-padding h2{min-height:45px}
+}
+.how-it-work-block .no-padding h2,.how-it-work-block .no-padding p{font-family:UBUNTU-LIGHT;line-height:20px;font-weight:300;text-align:center}
 .how-it-work-block .how-it-work img{margin-top:25px}
 .how-it-work-block .how-it-work .steps{width:93%}
 .how-it-work-block .text-for-how-it-work{margin-bottom:60px}
@@ -59,25 +86,51 @@ body{font-size:16px}
 .photo-block{background:url(../img/forth-block.png) 50% 50% rgba(210,214,220,.2);background-size:cover;height:75vh;opacity:.8;text-align:center}
 .photo-block .case-for-photo{height:75vh}
 .photo-block .case-for-photo .header-text{height:272px;position:relative;top:50%;margin-top:-136px}
-.photo-block .case-for-photo .header-text h3{font-family:SummerFont;color:#fff;font-size:6.25em;font-weight:300;line-height:100px;text-align:center}
-.photo-block .case-for-photo .header-text h2{font-family:SummerFont;color:#fff;font-size:7.5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
+.photo-block .case-for-photo .header-text h3{font-family:SummerFont;color:#fff;font-size:6.25em;text-align:center}
+@media (max-width:767px){.photo-block .case-for-photo .header-text h3{font-size:3.125em;line-height:60px}
+}
+@media (min-width:768px){.photo-block .case-for-photo .header-text h3{font-size:6.25em;line-height:100px}
+}
+.photo-block .case-for-photo .header-text h2{font-family:SummerFont;color:#fff;font-weight:300;text-align:center;text-transform:uppercase}
+@media (max-width:767px){.photo-block .case-for-photo .header-text h2{font-size:3.125em;line-height:60px}
+}
+@media (min-width:768px){.photo-block .case-for-photo .header-text h2{font-size:4.063em;line-height:100px}
+}
 .subscription-and-price-block .btn-price{border-radius:6px;background-color:#3caad2;width:136px;height:50px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;font-weight:300;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:60px}
-.subscription-and-price-block .subscribe h2,.subscription-and-price-block .subscribe h3{font-family:SummerFont;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
 .subscription-and-price-block .subscribe{text-align:center}
-.subscription-and-price-block .subscribe h2{color:#4a4b4c;font-size:6.25em;margin-top:60px}
-.subscription-and-price-block .subscribe h3{color:#3caad2;font-size:3.125em}
+.subscription-and-price-block .subscribe h2{font-family:SummerFont;color:#4a4b4c;font-weight:300;text-align:center;text-transform:uppercase;margin-top:60px}
+@media (max-width:767px){.subscription-and-price-block .subscribe h2{font-size:4.063em;line-height:60px}
+}
+@media (min-width:768px){.subscription-and-price-block .subscribe h2{font-size:6.25em;line-height:100px}
+}
+.subscription-and-price-block .subscribe h3{font-family:SummerFont;color:#3caad2;font-size:3.125em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
 .subscription-and-price-block .subscribe img{margin-top:25px}
 .subscription-and-price-block .email{margin-bottom:60px;margin-top:60px;text-align:center}
-.subscription-and-price-block .email .input-email{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;width:570px;height:50px}
+.subscription-and-price-block .email .input-email{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px}
+@media (max-width:767px){.subscription-and-price-block .subscribe h3{line-height:60px}
+.subscription-and-price-block .email .input-email{width:90%}
+}
+@media (min-width:768px){.subscription-and-price-block .subscribe h3{line-height:100px}
+.subscription-and-price-block .email .input-email{width:570px}
+}
 .subscription-and-price-block .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:50px;margin-left:-204px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-.subscription-and-price-block .sub-hr{width:100%;background-color:#cbcbcb;height:1px}
+.subscription-and-price-block .email ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+.subscription-and-price-block .email ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+.subscription-and-price-block .email :-moz-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;padding-left:20px;line-height:24px;text-align:left}
+.subscription-and-price-block .email :-ms-input-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+.subscription-and-price-block .sub-hr{background-color:#cbcbcb;height:1px}
 .subscription-and-price-block .our-price{text-align:center}
 .subscription-and-price-block .our-price .header-price{text-align:center;margin-bottom:60px}
 .subscription-and-price-block .our-price .header-price h2{font-family:SummerFont;color:#4a4b4c;font-size:6.25em;font-weight:300;line-height:100px;text-align:center}
+@media (max-width:767px){.subscription-and-price-block .sub-hr{width:90%}
+.subscription-and-price-block .our-price .header-price h2{font-size:4.063em;line-height:60px}
+}
+@media (min-width:768px){.subscription-and-price-block .sub-hr{width:100%}
+.subscription-and-price-block .our-price .header-price h2{font-size:6.25em;line-height:100px}
+.subscription-and-price-block .our-price .price-carousel h2{min-height:70px}
+}
 .subscription-and-price-block .our-price .price-carousel{margin-bottom:60px}
 .subscription-and-price-block .our-price .price-carousel h2{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:34px;text-align:center}
-@media (min-width:768px){.subscription-and-price-block .our-price .price-carousel h2{min-height:70px}
-}
 @media (min-width:992px){.subscription-and-price-block .our-price .price-carousel h2{min-height:20px}
 }
 .subscription-and-price-block .our-price .price-carousel p{font-family:UBUNTU-LIGHT;color:#3caad2;font-size:1.313em;font-weight:300;line-height:34px;text-align:center}
@@ -85,22 +138,35 @@ body{font-size:16px}
 .subscription-and-price-block .our-price .price-carousel .linen-text{margin-top:27px}
 .reviews-block{background:url(../img/main-photo2.png) 50% 50%;min-height:673px}
 .reviews-block .header-reviews{text-align:center}
-.reviews-block .header-reviews h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
+.reviews-block .header-reviews h2{font-family:SummerFont;color:#4a4b4c;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
+@media (max-width:767px){.reviews-block .header-reviews h2{font-size:4.063em;line-height:60px}
+}
+@media (min-width:768px){.reviews-block .header-reviews h2{font-size:6.25em;line-height:100px}
+}
 .reviews-block .center-btn{text-align:center;margin-top:60px;margin-bottom:60px}
 .reviews-block .center-btn .btn-reviews{border-radius:6px;background-color:#3caad2;width:160px;height:50px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;font-weight:300;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
 .reviews-block .b-profile{margin:150px auto 0;background-color:#fff;width:100%;min-height:177px;position:relative;border-radius:6px;box-shadow:0 1px 2px 0 rgba(0,0,0,.2)}
 .reviews-block .b-profile .text-reviews{padding-top:15px}
 .reviews-block .b-profile .text-reviews h2{font-family:UBUNTU-REGULAR;color:#3caad2;font-size:18px;font-weight:400;line-height:20px;text-align:center}
-.reviews-block .b-profile .text-reviews p{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:14px;font-weight:300;line-height:20px;text-align:center;padding:0 20px 20px}
+.reviews-block .b-profile .text-reviews p{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:14px;font-weight:300;line-height:20px;text-align:center;padding:0 25px 25px}
 .reviews-block .avatar__section{position:absolute;top:-120px;left:50%;-webkit-transform:translatex(-50%);-ms-transform:translatex(-50%);-o-transform:translatex(-50%);transform:translatex(-50%)}
 .reviews-block .main-avatar{padding:6px;border:3px solid #fff;border-radius:50%}
 .reviews-block .main-avatar__image{width:128px;height:128px;border-radius:50%}
 .reviews-block .main-avatar__image-dop{position:absolute;top:0;right:-30px}
 .discount-block .discount{text-align:center}
-.discount-block .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:25px;text-align:center;margin-top:60px}
+.discount-block .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:90px;text-align:center;margin-top:60px}
+@media (max-width:767px){.discount-block .discount h2{font-size:4.063em;line-height:60px}
+}
+@media (min-width:768px){.discount-block .discount h2{font-size:5.625em;line-height:90px}
+footer .mobile-footer-hr{display:none}
+}
 .discount-block .discount p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center;margin-top:50px}
 .discount-block .discount .btn-discount{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:20px;margin-bottom:60px}
 footer{background-color:#3e4041;min-height:179px}
+@media (max-width:767px){footer .mobile-logo{text-align:center}
+footer .mobile-logo .mobile-footer-hr{width:100%;border-top:1px solid #656667;margin-bottom:25px}
+footer .no-padding-1{padding:0}
+}
 footer .no-padding{padding:0}
 footer .btn-right{float:right}
 footer .btn-right .btn-apple{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none}
@@ -122,18 +188,31 @@ footer p{font-family:UBUNTU-LIGHT;color:#fff;font-size:.938em;font-weight:300;li
 @media (min-width:992px){footer p{margin-top:20px}
 }
 footer .city{color:#2a96bd;margin-top:15px}
-footer .left-block a,footer .right-block a{font-family:UBUNTU-LIGHT;color:#656667;font-size:.938em;line-height:24px;text-align:left;display:inline-block;margin-right:20px;font-weight:300}
-footer .logo-footer{width:112px;margin-bottom:25px}
-@media (min-width:768px){footer .logo-footer{margin-top:35px}
+footer .left-block a,footer .right-block a{font-family:UBUNTU-LIGHT;color:#656667;font-size:.938em;line-height:24px;text-align:left;margin-right:20px;font-weight:300}
+footer .logo-footer{width:112px}
+@media (max-width:767px){footer .btn-right{display:none}
+footer .logo-footer{margin-top:25px;margin-bottom:5px}
+footer .footer-hr{display:none}
+}
+@media (min-width:768px){footer .logo-footer{margin-top:35px;margin-bottom:25px}
 }
 @media (min-width:992px){footer .logo-footer{margin-top:15px}
 }
-footer hr{width:100%;border-top:1px solid #656667;margin-bottom:0}
+footer .footer-hr{width:100%;border-top:1px solid #656667;margin-bottom:0}
 footer .left-block{margin-top:25px;display:inline-block}
+@media (max-width:767px){footer .left-block a{display:block;margin-bottom:5px}
+}
+footer .footer-hr-mobile{width:100%;border-top:1px solid #656667;margin-bottom:0}
 footer .right-block{margin-top:25px}
-@media (min-width:768px){footer .right-block{float:left;margin-bottom:25px}
+@media (min-width:768px){footer .left-block a{display:inline-block}
+footer .footer-hr-mobile{display:none}
+footer .right-block{float:left;margin-bottom:25px}
 }
 @media (min-width:992px){footer .right-block{float:right;margin-bottom:0}
+}
+@media (max-width:767px){footer .right-block a{display:block;text-align:center;margin-bottom:10px}
+}
+@media (min-width:768px){footer .right-block a{display:inline-block}
 }
 footer .right-block a.last{margin-right:0}
 #myModal .modal-dialog{width:430px;height:453px;position:absolute;top:50%;left:50%;margin-top:-226.5px;margin-left:-215px}
@@ -192,62 +271,65 @@ footer .right-block a.last{margin-right:0}
 #myModalDistribution .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;width:570px;height:50px;margin-top:20px}
 #myModalDistribution .modal-dialog .modal-content .modal-footer ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #myModalDistribution .modal-dialog .modal-content .modal-footer ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#myModalDistribution .modal-dialog .modal-content .modal-footer :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#myModalDistribution .modal-dialog .modal-content .modal-footer :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#myModalDistribution .modal-dialog .modal-content .modal-footer :-moz-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;padding-left:20px;line-height:24px;text-align:left}
+#myModalDistribution .modal-dialog .modal-content .modal-footer :-ms-input-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-left:-200px}
-.main-screen-faq{background:url(../img/photo-faq.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:100vh}
-.main-screen-faq .header-center{height:104px;width:500px;position:absolute;top:50%;margin-top:-52px;left:50%;margin-left:-250px}
-.main-screen-faq .header-center .header{font-family:SummerFont;color:#fefefe;font-size:7.4em;font-weight:300;line-height:60px;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25);height:100px}
+.main-screen-faq .first-bg{background:url(../img/photo-faq.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:100vh;width:100%;position:absolute}
+.main-screen-faq .content{height:100vh}
+.main-screen-faq .content .header{font-family:SummerFont;color:#fefefe;font-size:7.4em;font-weight:300;line-height:60px;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25);height:100px;margin-top:45vh}
 .question-faq-block .discount{text-align:center}
-.question-faq-block .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:100px;text-align:center}
-.question-faq-block .discount p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:500;line-height:25px;text-align:center}
+.question-faq-block .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:90px;text-align:center;margin-top:35px;margin-bottom:25px}
+.question-faq-block .discount p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:500;line-height:25px;text-align:center;margin-bottom:20px}
 .question-faq-block .discount .btn-order{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:60px}
-.question-faq-block .cont-hr{background-color:#cbcbcb;height:1px}
-.question-faq-block .question{margin-top:45px}
+.question-faq-block .cont-hr{background-color:#cbcbcb;height:1px;margin-top:55px}
+.question-faq-block .question{margin-top:50px}
 .question-faq-block .question p{font-family:UBUNTU-LIGHT;color:#3caad2;font-size:.938em;font-weight:300;line-height:40px;text-align:center}
 .question-faq-block .question span{text-decoration:underline}
 .question-faq-block .first-order{text-align:center}
-.question-faq-block .first-order h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
-.question-faq-block .faq .nav__btn{border-radius:50%;background-color:rgba(60,170,210,.5);width:36px;height:36px;float:right;padding:0;margin-top:13px}
+.question-faq-block .first-order h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase;margin-top:35px}
+.question-faq-block .first-order img{margin-bottom:15px}
+.question-faq-block .faq .nav__btn{border-radius:50%;background-color:rgba(60,170,210,.5);width:36px;height:36px;float:right;padding:0;max-width:10%}
 .question-faq-block .faq ul{list-style-type:none;padding-left:0;margin-bottom:0}
 .question-faq-block .faq ul.sub-nav{display:none}
-.question-faq-block .faq .faq-hr{background-color:#cbcbcb;width:570px;height:1px;margin-top:10px;margin-bottom:10px}
-.question-faq-block .faq .nav__text{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:60px;text-align:left;display:inline-block;margin-bottom:0}
+.question-faq-block .faq .faq-hr{background-color:#cbcbcb;width:100%;height:1px;margin-top:10px;margin-bottom:10px}
+.question-faq-block .faq .nav__text{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:40px;text-align:left;display:inline-block;margin-bottom:0;max-width:85%}
 .question-faq-block .faq .link{color:#3caad2;font-size:.938em;font-weight:300;line-height:20px;text-align:left;max-width:442px}
-.main-screen-news{background:url(../img/news-photo.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:100vh}
-.main-screen-news .header-center p{font-family:UBUNTU-BOLD;color:#fff;font-size:15px;font-weight:700;line-height:24px;text-align:left;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
-.main-screen-news .header-center .main-hr{background-color:rgba(255,255,255,.75);height:1px;margin-top:80vh}
-.main-screen-news .header-center .header{font-family:SummerFont;color:#fefefe;font-size:3.75em;font-weight:300;line-height:60px;text-align:left;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
-.main-screen-news .header-center .get-it-btn,.main-screen-news .header-center .order{font-family:UBUNTU-REGULAR;font-weight:400;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:7vh;color:#fff;text-align:center}
-.main-screen-news .header-center .get-it-btn{border-radius:6px;background-color:#f39c12;width:316px;height:65px;border:none;font-size:1.313em}
-.main-screen-news .header-center .order{font-size:1.125em}
-.main-screen-news .header-center .order a{color:#fff;margin-left:15px}
+.main-screen-news .first-bg{background:url(../img/news-photo.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:100vh;width:100%;position:absolute}
+.main-screen-news .content{height:100vh}
+.main-screen-news .content p{font-family:UBUNTU-BOLD;color:#fff;font-size:15px;font-weight:700;line-height:24px;text-align:left;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
+.main-screen-news .content .main-hr{background-color:rgba(255,255,255,.75);height:1px;margin-top:85vh}
+.main-screen-news .content .header{font-family:SummerFont;color:#fefefe;font-size:3.75em;font-weight:300;line-height:60px;text-align:left;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
 .section-news .news-text{text-align:center}
-.section-news .news-text h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
+.section-news .news-text h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase;margin-top:60px}
+.section-news .news-text img{margin-bottom:25px}
 .section-news .news-block h3{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px;text-align:left}
 .section-news .news-block p{font-family:UBUNTU-BOLD;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:left}
 .section-news .middle-btn .btn-download,.section-news .news-block .btn-news{font-family:UBUNTU-LIGHT;color:#fff;line-height:24px;border-radius:6px;text-shadow:0 1px 1px rgba(0,0,0,.15)}
 .section-news .news-block .btn-news{background-color:#3caad2;width:96px;height:30px;font-size:.875em;font-weight:300;text-align:center;padding:0}
-.section-news .news-block .hr-news{background-color:#cbcbcb;width:370px;height:1px}
+.section-news .news-block .hr-news{background-color:#cbcbcb;width:100%;height:1px;margin-top:30px;margin-bottom:30px}
+.section-news .news-block img{width:100%}
 .section-news .middle-btn{text-align:center}
 .section-news .middle-btn .btn-download{background-color:#3caad2;width:192px;height:50px;font-size:1em;font-weight:300;text-align:center;margin-bottom:50px;margin-top:50px}
+.section-news .middle-btn .btn-download .arrow{margin-left:10px}
 .main-screen-news-other{background:url(../img/main-photo.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:149px}
 .section-discount .discount{text-align:center}
-.section-discount .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:100px;text-align:center}
-.section-discount .discount p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:500;line-height:25px;text-align:center}
+.section-discount .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:90px;text-align:center;margin-top:35px;margin-bottom:25px}
+.section-discount .discount p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:500;line-height:25px;text-align:center;margin-bottom:20px}
 .section-discount .discount .btn-order{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:60px}
-.section-news-other .news-text h2,.section-news-other .other-news h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center}
+.section-news-other .news-text h2,.section-news-other .other-news h2{font-family:SummerFont;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-transform:uppercase;text-align:center}
 .section-news-other .other-news{text-align:center}
-.section-news-other .other-news img.dot{margin-bottom:40px}
+.section-news-other .other-news img.dot{margin-bottom:25px}
 .section-news-other .news-text{text-align:center}
-.section-news-other .news-text h2{text-transform:uppercase}
+.section-news-other .news-text h2{margin-top:55px;margin-bottom:25px}
 .section-news-other .info{max-width:770px}
-.section-news-other .info p.date{font-family:UBUNTU-BOLD;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:center}
-.section-news-other .info img{margin-bottom:30px}
-.section-news-other .info .btn-inform{border-radius:3px;background-color:rgba(74,75,76,.5);height:30px;padding:0 12px}
-.section-news-other .info .hr-info{background-color:#cbcbcb;height:1px}
+.section-news-other .info p.date{font-family:UBUNTU-BOLD;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:center;margin-bottom:35px}
+.section-news-other .info p.info-text{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:20px;text-align:left;margin-bottom:25px}
+.section-news-other .info img{margin-bottom:25px;width:100%}
+.section-news-other .info .btn-inform{border-radius:3px;background-color:rgba(74,75,76,.5);height:30px;padding:0 12px;margin-right:10px}
+.section-news-other .info .hr-info{background-color:#cbcbcb;height:1px;margin-top:30px}
 .section-news-other .news-block h3{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px;text-align:left}
 .section-news-other .news-block p{font-family:UBUNTU-BOLD;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:left}
-.section-news-other .news-block .hr-news{background-color:#cbcbcb;width:370px;height:1px;margin-bottom:60px}
+.section-news-other .news-block .hr-news{background-color:#cbcbcb;width:100%;height:1px;margin-bottom:55px}
+.section-news-other .news-block img{width:100%}
 .section-news-other .middle-btn{text-align:center}
 .section-news-other .middle-btn .btn-download{border-radius:6px;background-color:#3caad2;width:192px;height:50px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;font-weight:300;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:50px;margin-top:50px}

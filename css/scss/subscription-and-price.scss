@@ -18,12 +18,18 @@
     h2 {
       font-family: SummerFont;
       color: #4a4b4c;
-      font-size: 6.250em;
       font-weight: 300;
-      line-height: 100px;
       text-align: center;
       text-transform: uppercase;
       margin-top: 60px;
+      @media #{$bootstrap-xs} {
+        font-size: 4.063em;
+        line-height: 60px;
+      }
+      @media #{$bootstrap-sm} {
+        font-size: 6.25em;
+        line-height: 100px;
+      }
     }
     h3 {
       font-family: SummerFont;
@@ -33,6 +39,12 @@
       line-height: 100px;
       text-align: center;
       text-transform: uppercase;
+      @media #{$bootstrap-xs} {
+        line-height: 60px;
+      }
+      @media #{$bootstrap-sm} {
+        line-height: 100px;
+      }
     }
     img {
       margin-top: 25px;
@@ -47,8 +59,13 @@
       border: 1px solid #cbcbcb;
       box-sizing: border-box;
       background-color: #f9f9f9;
-      width: 570px;
       height: 50px;
+      @media #{$bootstrap-xs} {
+        width: 90%;
+      }
+      @media #{$bootstrap-sm} {
+        width: 570px;
+      }
     }
     .input-btn {
       border-radius: 6px;
@@ -65,11 +82,54 @@
       text-align: center;
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     }
+    ::-webkit-input-placeholder {
+      padding-left: 20px;
+      font-family: UBUNTU-LIGHT;
+      color: #4a4b4c;
+      font-size: 1em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+    }
+    ::-moz-placeholder {
+      padding-left: 20px;
+      font-family: UBUNTU-LIGHT;
+      color: #4a4b4c;
+      font-size: 1em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+    }
+    :-moz-placeholder {
+      padding-left: 20px;
+      font-family: UBUNTU-LIGHT;
+      color: #4a4b4c;
+      font-size: 1em;
+      font-weight: 300;
+      padding-left: 20px;
+      line-height: 24px;
+      text-align: left;
+    }
+    :-ms-input-placeholder {
+      font-family: UBUNTU-LIGHT;
+      color: #4a4b4c;
+      font-size: 1em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+    }
   }
   .sub-hr {
-    width: 100%;
     background-color: #cbcbcb;
     height: 1px;
+
+    @media #{$bootstrap-xs} {
+      width: 90%;
+    }
+
+    @media #{$bootstrap-sm} {
+      width: 100%;
+    }
   }
   .our-price {
     text-align: center;
@@ -83,6 +143,14 @@
         font-weight: 300;
         line-height: 100px;
         text-align: center;
+        @media #{$bootstrap-xs} {
+          font-size: 4.063em;
+          line-height: 60px;
+        }
+        @media #{$bootstrap-sm} {
+          font-size: 6.25em;
+          line-height: 100px;
+        }
       }
     }
     .price-carousel {

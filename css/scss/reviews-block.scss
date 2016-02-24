@@ -6,11 +6,18 @@
     h2 {
       font-family: SummerFont;
       color:  #4a4b4c;
-      font-size: 5em;
       font-weight: 300;
       line-height: 100px;
       text-align: center;
       text-transform: uppercase;
+      @media #{$bootstrap-xs} {
+        font-size: 4.063em;
+        line-height: 60px;
+      }
+      @media #{$bootstrap-sm} {
+        font-size: 6.25em;
+        line-height: 100px;
+      }
     }
   }
   .center-btn {
@@ -57,7 +64,7 @@
         font-weight: 300;
         line-height: 20px;
         text-align: center;
-        padding: 0 20px 20px 20px;
+        padding: 0 25px 25px 25px;
       }
     }
   }

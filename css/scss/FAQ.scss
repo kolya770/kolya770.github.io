@@ -1,15 +1,13 @@
 .main-screen-faq {
-  background: rgba(210, 214, 220, 0.8) url(../img/photo-faq.png) 50% 50% fixed;
-  background-size: cover;
-  height: 100vh;
-  .header-center {
-    height: 104px;
-    width: 500px;
+  .first-bg {
+    background: rgba(210, 214, 220, 0.8) url(../img/photo-faq.png) 50% 50% fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     position: absolute;
-    top: 50%;
-    margin-top: -52px;
-    left: 50%;
-    margin-left: -250px;
+  }
+  .content {
+    height: 100vh;
     .header {
       font-family: SummerFont;
       color: #fefefe;
@@ -19,6 +17,7 @@
       text-align: center;
       text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
       height: 100px;
+      margin-top: 45vh;
     }
   }
 }
@@ -31,8 +30,10 @@
       color:  #3caad2;
       font-size: 5.625em;
       font-weight: 300;
-      line-height: 100px;
+      line-height: 90px;
       text-align: center;
+      margin-top: 35px;
+      margin-bottom: 25px;
     }
     p{
       font-family: UBUNTU-LIGHT;
@@ -41,6 +42,7 @@
       font-weight: 500;
       line-height: 25px;
       text-align: center;
+      margin-bottom: 20px;
     }
     .btn-order {
       border-radius: 6px;
@@ -60,9 +62,10 @@
   .cont-hr {
     background-color:  #cbcbcb;
     height: 1px;
+    margin-top: 55px;
   }
   .question {
-    margin-top: 45px;
+    margin-top: 50px;
     p {
       font-family: UBUNTU-LIGHT;
       color:  #3caad2;
@@ -85,6 +88,10 @@
       line-height: 100px;
       text-align: center;
       text-transform: uppercase;
+      margin-top: 35px;
+    }
+    img {
+      margin-bottom: 15px;
     }
   }
   .faq {
@@ -95,7 +102,7 @@
       height: 36px;
       float: right;
       padding: 0;
-      margin-top: 13px;
+      max-width: 10%;
     }
     ul {
       list-style-type: none;
@@ -107,7 +114,7 @@
     }
     .faq-hr {
       background-color:  #cbcbcb;
-      width: 570px;
+      width: 100%;
       height: 1px;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -117,10 +124,11 @@
       color:  #4a4b4c;
       font-size: 1.188em;
       font-weight: 300;
-      line-height: 60px;
+      line-height: 40px;
       text-align: left;
       display: inline-block;
       margin-bottom: 0;
+      max-width: 85%;
     }
     .link {
       color: #3caad2;

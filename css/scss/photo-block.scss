@@ -15,18 +15,30 @@
         font-family: SummerFont;
         color: #ffffff;
         font-size: 6.250em;
-        font-weight: 300;
-        line-height: 100px;
         text-align: center;
+        @media #{$bootstrap-xs} {
+          font-size: 3.125em;
+          line-height: 60px;
+        }
+        @media #{$bootstrap-sm} {
+          font-size: 6.25em;
+          line-height: 100px;
+        }
       }
       h2 {
         font-family: SummerFont;
         color: #ffffff;
-        font-size: 7.500em;
         font-weight: 300;
-        line-height: 100px;
         text-align: center;
         text-transform: uppercase;
+        @media #{$bootstrap-xs} {
+          font-size: 3.125em;
+          line-height: 60px;
+        }
+        @media #{$bootstrap-sm} {
+          font-size: 4.063em;
+          line-height: 100px;
+        }
       }
     }
   }
