@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WashDrop</title>
-
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css" />
 </head>
 <body>
 
@@ -18,7 +16,7 @@
         <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="#">FAQ</a></li>
-                <li><a href="#">НОВОСТИ</a></li>
+                <li><a href="#news" class="page-scroll">НОВОСТИ</a></li>
             </ul>
             <ul class="nav navbar-nav logo">
                 <a class="navbar-brand" href="#">
@@ -37,73 +35,74 @@
 <div id="full-page">
 
     <div class="main-screen-news-other"></div>
-
-    <div class="section-news-other">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="news-text">
-                        <h2>Новейшие немецкие технологии химической чистки</h2>
+    <section id="news">
+        <div class="section-news-other">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="news-text">
+                            <h2>Новейшие немецкие технологии химической чистки</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="info center-block">
-                        <p class="date">10.01.16</p>
-                        <img src="img/news-other.png">
-                        <p class="info-text">При химической чистке важно, чтобы растворители, препараты, машины и технологии были совместимы.<br /><br />
-                            SYSTEMK4 представляет собой экологичную и абсолютно безопасную технологию чистки.
-                            Основной компонент SYSTEMK4 — безгалогеновый растворитель, который не представляет
-                            опасности для людей и окружающей среды. Огромный инновационный потенциал SYSTEMK4
-                            заключается в том, что чистящий эффект растворителя  SOLVONK4 аналогичен эффекту
-                            перхлороэтилена, а иногда и превосходит его.<br /><br />
-                            В то же время, SOLVONK4 не входит в европейскую классификацию опасных веществ или материалов!
-                            Более того, SOLVONK4 обладает способностью к биоразложению и прошел дерматологические испытания
-                            с результатом «очень хорошо».</p>
-                        <button class="btn btn-inform">химчистка</button>
-                        <button class="btn btn-inform">немецкие технологии</button>
-                        <button class="btn btn-inform">новинка</button>
-                        <hr class="hr-info">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="info center-block">
+                            <p class="date">10.01.16</p>
+                            <img src="img/news-other.png">
+                            <p class="info-text">При химической чистке важно, чтобы растворители, препараты, машины и технологии были совместимы.<br /><br />
+                                SYSTEMK4 представляет собой экологичную и абсолютно безопасную технологию чистки.
+                                Основной компонент SYSTEMK4 — безгалогеновый растворитель, который не представляет
+                                опасности для людей и окружающей среды. Огромный инновационный потенциал SYSTEMK4
+                                заключается в том, что чистящий эффект растворителя  SOLVONK4 аналогичен эффекту
+                                перхлороэтилена, а иногда и превосходит его.<br /><br />
+                                В то же время, SOLVONK4 не входит в европейскую классификацию опасных веществ или материалов!
+                                Более того, SOLVONK4 обладает способностью к биоразложению и прошел дерматологические испытания
+                                с результатом «очень хорошо».</p>
+                            <button class="btn btn-inform">химчистка</button>
+                            <button class="btn btn-inform">немецкие технологии</button>
+                            <button class="btn btn-inform">новинка</button>
+                            <hr class="hr-info">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="other-news">
-                        <div class="col-sm-12">
-                            <h2>Другие новости</h2>
-                            <img src="img/dot-blue.png" class="dot">
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="news-block">
-                                <img src="img/Basker.png">
-                                <h3>Экологичная и абсолютно безопасная технология чистки</h3>
-                                <p>10.01.16</p>
-                                <hr class="hr-news">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="other-news">
+                            <div class="col-sm-12">
+                                <h2>Другие новости</h2>
+                                <img src="img/dot-blue.png" class="dot">
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="news-block">
-                                <img src="img/Basker.png">
-                                <h3>Экологичная и абсолютно безопасная технология чистки</h3>
-                                <p>10.01.16</p>
-                                <hr class="hr-news">
+                            <div class="col-sm-4">
+                                <div class="news-block">
+                                    <img src="img/Basker.png">
+                                    <h3>Экологичная и абсолютно безопасная технология чистки</h3>
+                                    <p>10.01.16</p>
+                                    <hr class="hr-news">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="news-block">
-                                <img src="img/Basker.png">
-                                <h3>Экологичная и абсолютно безопасная технология чистки</h3>
-                                <p>10.01.16</p>
-                                <hr class="hr-news">
+                            <div class="col-sm-4">
+                                <div class="news-block">
+                                    <img src="img/Basker.png">
+                                    <h3>Экологичная и абсолютно безопасная технология чистки</h3>
+                                    <p>10.01.16</p>
+                                    <hr class="hr-news">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="news-block">
+                                    <img src="img/Basker.png">
+                                    <h3>Экологичная и абсолютно безопасная технология чистки</h3>
+                                    <p>10.01.16</p>
+                                    <hr class="hr-news">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="application-download-block">
         <div class="container">
@@ -179,11 +178,12 @@
 
 </div>
 
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="js/jAccordion.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fadethis.js"></script>
+<script src="js/jFade.js"></script>
 
 </body>
 </html>

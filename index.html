@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css" />
 </head>
 <body>
 
@@ -135,8 +136,8 @@
     <div class="container">
         <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">КАК ЭТО РАБОТАЕТ?</a></li>
-                <li><a href="#">НАШИ ЦЕНЫ</a></li>
+                <li><a href="#how-it-work" class="page-scroll">КАК ЭТО РАБОТАЕТ?</a></li>
+                <li><a href="#our-price" class="page-scroll">НАШИ ЦЕНЫ</a></li>
                 <li><a href="#">КОНТАКТЫ</a></li>
             </ul>
             <ul class="nav navbar-nav logo">
@@ -159,7 +160,7 @@
         <div class="container-fluid first-bg"></div>
         <div class="container content">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 slide-bottom">
                     <h1 class="header">Ваша персональная прачечная и химчистка</h1>
                     <button class="make-order-btn center-block">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
                     <p class="center-block order-before">Уже заказывали раньше?
@@ -172,11 +173,11 @@
 
     <div class="application-download-block">
         <div class="container">
-            <div class="header-app">
+            <div class="header-app slide-bottom">
                 <h2>Загрузите приложение для вашего смартфона</h2>
             </div>
-            <div class="phone-app-bg"></div>
-            <div class="block-for-app-btn">
+            <div class="phone-app-bg slide-left"></div>
+            <div class="block-for-app-btn slide-right">
                 <button class="btn-for-ios">
                     <div class="apple-logo"></div>
                     <div class="apple-text-btn">App store</div>
@@ -188,37 +189,39 @@
         </div>
     </div>
 
-    <div class="how-it-work-block">
-        <div class="container">
-            <div class="how-it-work">
-                <h2>Как это работает</h2>
-                <img src="img/dot-blue.png">
-                <h3>4 простых шага</h3>
-                <img src="img/steps.png" class="steps">
-            </div>
-            <div class="row text-for-how-it-work">
-                <div class="col-sm-3 no-padding">
-                    <h2>Вы размещаете заказ</h2>
-                    <p>используя наш сайт или мобильное приложение</p>
+    <section id="how-it-work">
+        <div class="how-it-work-block">
+            <div class="container slide-bottom">
+                <div class="how-it-work ">
+                    <h2>Как это работает</h2>
+                    <img src="img/dot-blue.png">
+                    <h3>4 простых шага</h3>
+                    <img src="img/steps.png" class="steps">
                 </div>
-                <div class="col-sm-3 no-padding">
-                    <h2>Мы забираем вещи</h2>
-                    <p>от вашего порога и в удобное для Вас время</p>
-                </div>
-                <div class="col-sm-3 no-padding" >
-                    <h2>Мы чистим и стираем</h2>
-                    <p>с использованием самого современного оборудования</p>
-                </div>
-                <div class="col-sm-3 no-padding">
-                    <h2>Мы возвращаем вещи</h2>
-                    <p>уже на следующий день</p>
+                <div class="row text-for-how-it-work">
+                    <div class="col-sm-3 no-padding">
+                        <h2>Вы размещаете заказ</h2>
+                        <p>используя наш сайт или мобильное приложение</p>
+                    </div>
+                    <div class="col-sm-3 no-padding">
+                        <h2>Мы забираем вещи</h2>
+                        <p>от вашего порога и в удобное для Вас время</p>
+                    </div>
+                    <div class="col-sm-3 no-padding" >
+                        <h2>Мы чистим и стираем</h2>
+                        <p>с использованием самого современного оборудования</p>
+                    </div>
+                    <div class="col-sm-3 no-padding">
+                        <h2>Мы возвращаем вещи</h2>
+                        <p>уже на следующий день</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="photo-block">
-        <div class="container">
+        <div class="container slide-bottom">
             <div class="row">
                 <div class="case-for-photo">
                     <div class="header-text">
@@ -235,19 +238,20 @@
     <div class="subscription-and-price-block">
         <div class="container">
             <div class="row">
-                <div class="subscribe">
+                <div class="subscribe slide-bottom">
                     <h2>Подпишитесь</h2>
                     <img src="img/dot-blue.png">
                     <h3>Чтобы быть в курсе новостей и специальных предложений</h3>
                 </div>
-                <div class="email">
+                <div class="email slide-bottom">
                     <input class="input-email" type="text" placeholder="Ваш email">
                     <input class="input-btn" type="submit" value="ПОДПИСАТЬСЯ">
                 </div>
                 <hr class="sub-hr">
             </div>
+            <section id="our-price">
             <div class="row">
-                <div class="our-price">
+                <div class="our-price slide-bottom">
                     <div class="header-price">
                         <h2>Наши цены</h2>
                         <img src="img/dot-blue.png">
@@ -272,17 +276,18 @@
                     <button class="btn btn-price">ВСЕ ЦЕНЫ</button>
                 </div>
             </div>
+            </section>
         </div>
     </div>
 
     <div class="reviews-block">
         <div class="container">
             <div class="row">
-                <div class="header-reviews">
+                <div class="header-reviews slide-bottom">
                     <h2>Отзывы о нашей работе</h2>
                     <img src="img/dot-blue.png">
                 </div>
-                <div class="container">
+                <div class="container slide-bottom">
                     <div class="col-sm-4">
                         <div class="b-profile">
                             <div class="text-reviews">
@@ -344,7 +349,7 @@
     <div class="discount-block">
         <div class="container">
             <div class="row">
-                <div class="discount">
+                <div class="discount slide-bottom">
                     <h2>Получите скидку 500 рублей</h2>
                     <p>Для этого используйте промокод "Промокод" при оформлении заказа</p>
                     <button class="btn btn-discount">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
@@ -361,7 +366,7 @@
             </div>
             <div class="col-sm-2 col-sm-offset-1 col-md-offset-0 col-lg-offset-1 no-padding">
                 <p>Города присутствия:</p>
-                <p class="city">Москва</p>
+                <a href="#" class="city">Москва</a>
             </div>
             <div class="col-sm-3 no-padding-1">
                 <p>Принимаем к оплате карты:</p>
@@ -386,16 +391,21 @@
             </div>
             <hr class="footer-hr-mobile">
             <div class="right-block">
-                <a href="#">© 2016 Washdrop </a>
+                <p class="no-link">© 2016 Washdrop </p>
                 <a href="#">Политика конфидециальности</a>
                 <a href="#" class="last" data-toggle="modal" data-target="#myModalLegal">Публичная оферта</a>
             </div>
         </div>
     </footer>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fadethis.js"></script>
+<script src="js/jFade.js"></script>
 
 </body>
 </html>

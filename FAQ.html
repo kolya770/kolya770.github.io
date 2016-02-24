@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WashDrop</title>
-
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css" />
 </head>
 <body>
 
@@ -17,7 +15,7 @@
     <div class="container">
         <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">FAQ</a></li>
+                <li><a href="#faq" class="page-scroll">FAQ</a></li>
                 <li><a href="#">НОВОСТИ</a></li>
             </ul>
             <ul class="nav navbar-nav logo">
@@ -41,349 +39,299 @@
         <div class="container content">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="header">Все ответы здесь!</h1>
+                    <h1 id="lala" class="header">Все ответы здесь!</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="question-faq-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="question">
-                        <p>Если у вас есть вопросы или предложения, пишите нам на email:
-                            <span class="info-email">info@washrop.ru</span></p>
+    <section id="faq">
+        <div class="question-faq-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="questions">
+                            <p>Если у вас есть вопросы или предложения, пишите нам на email:
+                                <span class="info-email">info@washrop.ru</span></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="block-order">
-                        <div class="row">
-                            <div class="first-order">
-                                <h2>Ваш первый заказ</h2>
-                                <img src="img/dot-blue.png">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="block-order">
+                            <div class="row">
+                                <div class="first-order">
+                                    <h2>Ваш первый заказ</h2>
+                                    <img src="img/dot-blue.png">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <div class="faq">
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Как сделать заказ?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Что я могу сдать?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Нужно обязательно сообщить, что я буду сдавать?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">А сколько будет стоить?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Доставка платная?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Когда нужно платить?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Как можно оплатить заказ?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Как сделать заказ?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Что я могу сдать?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Нужно обязательно сообщить, что я буду сдавать?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">А сколько будет стоить?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Доставка платная?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Когда нужно платить?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Как можно оплатить заказ?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="block-technology">
-                        <div class="row">
-                            <div class="first-order">
-                                <h2>Наши технологии</h2>
-                                <img src="img/dot-blue.png">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="block-technology">
+                            <div class="row">
+                                <div class="first-order">
+                                    <h2>Наши технологии</h2>
+                                    <img src="img/dot-blue.png">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <div class="faq">
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Как происходит чистка?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Гладите ли вы вещи?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">В чем отличие химчистки от прачечной?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Гарантии какие-то даете?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Чем отличается стирка рубашки от химчистки?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Как происходит чистка?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Гладите ли вы вещи?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">В чем отличие химчистки от прачечной?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Гарантии какие-то даете?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Чем отличается стирка рубашки от химчистки?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="block-about-us">
-                        <div class="row">
-                            <div class="first-order">
-                                <h2>О нас</h2>
-                                <img src="img/dot-blue.png">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="block-about-us">
+                            <div class="row">
+                                <div class="first-order">
+                                    <h2>О нас</h2>
+                                    <img src="img/dot-blue.png">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <div class="faq">
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Сколько вы уже работаете?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">У вас свои фабрики?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">А куда возите вещи, на какие фабрики?​</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
-                                    <ul class="b-nav">
-                                        <li class="nav__item  accordion">
-                                            <p class="nav__text">Все вещи чистите?</p>
-                                            <button class="btn nav__btn"><img src="img/btn-icon.png"></button>
-                                            <ul class="sub-nav">
-                                                <li class="sub-nav__item">
-                                                    <p class="sub-nav__link link">
-                                                        Оплатить заказ можно тремя способами: наличными
-                                                        курьеру, банковской картой с помощью терминала у курьера или по
-                                                        выставленному счету через банк.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <hr class="faq-hr">
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Сколько вы уже работаете?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">У вас свои фабрики?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">А куда возите вещи, на какие фабрики?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-button">
+                                                <h3>
+                                                    <div class="accordion-marker"><i class="fa fa-angle-down"></i></div>
+                                                    <span class="question">Все вещи чистите?</span>
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                Оплатить заказ можно тремя способами: наличными
+                                                курьеру, банковской картой с помощью терминала у курьера или по
+                                                выставленному счету через банк.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <hr class="cont-hr">
                     </div>
-                    <hr class="cont-hr">
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="discount">
-                    <h2>Получите скидку 500 рублей на первый заказ</h2>
-                    <p> Для этого используйте промокод "Промокод" при оформлении заказа</p>
-                    <button class="btn btn-order">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
+                <div class="row">
+                    <div class="discount">
+                        <h2>Получите скидку 500 рублей на первый заказ</h2>
+                        <p> Для этого используйте промокод "Промокод" при оформлении заказа</p>
+                        <button class="btn btn-order">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
     <footer>
         <div class="container">
@@ -427,11 +375,13 @@
 
 </div>
 
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="js/jAccordion.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fadethis.js"></script>
+<script src="js/jFade.js"></script>
 
 </body>
 </html>

@@ -1,20 +1,21 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-    $(".accordion > .nav__btn").click(function(){
+    var lastIcon;
 
-        $(".nav__text").removeClass('nav__item--active');
+    $('.accordion > .accordion-item').click(function () {
 
-        if(false == $(this).next().is(':visible')) {
+        if ($(this).hasClass('active')) {
 
-            $('.accordion > ul').stop().slideUp(400);
-            $(this).addClass('nav__item--active');
+            $(this).removeClass('active');
+            $(this).find('i').toggleClass('fa-angle-down fa-angle-up');
+            lastIcon = null;
+            return true;
         }
 
-        $(this).next().stop().slideToggle(400);
+        $('.accordion > .accordion-item').removeClass('active');
+        $(this).addClass('active');
+        $(this).find('i').add(lastIcon).toggleClass('fa-angle-down fa-angle-up');
+        lastIcon = $(this).find('i');
     });
-
-    var link = $('.sub-nav__link--active').parent();
-
-    $(link).parent().attr('id', 'sub-nav--active');
-    $('#sub-nav--active').prev().addClass("nav__item__two--active");
 });
+
