@@ -17,19 +17,36 @@
       text-align: left;
       text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
     }
+    @media #{$bootstrap-xs} {
+      .mobile-content {
+        position: absolute;
+        bottom: 0;
+      }
+    }
     .main-hr {
       background-color: rgba(255, 255, 255, 0.75);
       height: 1px;
-      margin-top: 85vh;
+      @media #{$bootstrap-xs} {
+        margin-top: 0;
+      }
+      @media #{$bootstrap-sm} {
+        margin-top: 80vh;
+      }
     }
     .header {
       font-family: SummerFont;
       color: #fefefe;
-      font-size: 3.750em;
       font-weight: 300;
       line-height: 60px;
       text-align: left;
       text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+      @media #{$bootstrap-xs} {
+        font-size: 3.125em;
+      }
+      @media #{$bootstrap-sm} {
+        font-size: 3.750em;
+      }
+
     }
   }
 }
@@ -40,12 +57,18 @@
     h2 {
       font-family: SummerFont;
       color:  #3caad2;
-      font-size: 5.625em;
       font-weight: 300;
-      line-height: 90px;
       text-align: center;
       margin-top: 35px;
       margin-bottom: 25px;
+      @media #{$bootstrap-xs} {
+        font-size: 4.063em;
+        line-height: 60px;
+      }
+      @media #{$bootstrap-sm} {
+        font-size: 5.625em;
+        line-height: 90px;
+      }
     }
     p {
       font-family: UBUNTU-LIGHT;
