@@ -7,7 +7,10 @@ body{font-size:16px}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.TTF);font-weight:400;font-style:normal}
 @media (min-width:1200px){.container{width:1200px}
 }
-.navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;top:50px;z-index:1}
+.navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;z-index:1}
+.navbar-washdrop .navbar-header .mobile-nav{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:38px;height:40px;padding:9px 6px}
+.navbar-washdrop .navbar-header .mobile-nav .mobile-icon{background-color:#fff}
+.navbar-washdrop .navbar-header .mobile-logo{position:absolute;left:50%;margin-left:-103px}
 .navbar-washdrop .my-navbar{padding:0}
 .navbar-washdrop .my-navbar .logo{position:absolute;margin-left:-87px;left:50%;width:174px}
 .navbar-washdrop .my-navbar .logo img{margin-top:-50px}
@@ -15,17 +18,20 @@ body{font-size:16px}
 .navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:185px;height:52px;color:#fff;text-align:center;outline:0}
 .navbar-default .navbar-nav>li>a{color:#fefefe;text-align:left}
 .main-screen-home .first-bg{background:url(../img/main-photo.png) 50% 50% fixed,#464646;background-size:cover;height:100vh;position:absolute;opacity:1;width:100%}
+.main-screen-home .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-home .content{height:100vh}
 .main-screen-home .content .header{font-family:SummerFont;color:#fefefe;font-weight:300;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
-@media (max-width:767px){.main-screen-home .content .header{font-size:3.125em;line-height:60px;margin-top:30vh}
+@media (max-width:767px){.navbar-washdrop{top:15px}
+.main-screen-home .content .header{font-size:3.125em;line-height:60px;margin-top:30vh}
 }
-@media (min-width:768px){.main-screen-home .content .header{font-size:7.4em;line-height:90px;margin-top:42vh}
+@media (min-width:768px){.navbar-washdrop{top:50px}
+.main-screen-home .content .header{font-size:7.4em;line-height:90px;margin-top:42vh}
 }
 .main-screen-home .content .make-order-btn,.main-screen-home .content .order-before{font-family:UBUNTU-REGULAR;font-weight:400;line-height:24px;text-align:center;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-.main-screen-home .content .make-order-btn{border-radius:6px;background-color:#f39c12;height:65px;border:none;margin-top:50px;outline:0}
-@media (max-width:767px){.main-screen-home .content .make-order-btn{max-width:270px;width:90%;font-size:1.188em}
+.main-screen-home .content .make-order-btn{border-radius:6px;background-color:#f39c12;height:65px;border:none;outline:0}
+@media (max-width:767px){.main-screen-home .content .make-order-btn{max-width:270px;width:90%;font-size:1em;margin-top:30px}
 }
-@media (min-width:768px){.main-screen-home .content .make-order-btn{width:316px;font-size:1.313em}
+@media (min-width:768px){.main-screen-home .content .make-order-btn{width:316px;font-size:1.313em;margin-top:50px}
 }
 .main-screen-home .content .order-before{margin-top:40px}
 @media (max-width:767px){.main-screen-home .content .order-before{font-size:.938em}
@@ -288,6 +294,7 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 #myModalDistribution .modal-dialog .modal-content .modal-footer :-ms-input-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-left:-200px}
 .main-screen-faq .first-bg{background:url(../img/photo-faq.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:100vh;width:100%;position:absolute}
+.main-screen-faq .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-faq .content{height:100vh}
 .main-screen-faq .content .header{font-family:SummerFont;color:#fefefe;font-weight:300;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
 @media (max-width:767px){.main-screen-faq .content .header{font-size:3.125em;line-height:60px;margin-top:45vh}
@@ -328,11 +335,12 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 .question-faq-block .accordion>div.active .accordion-marker .fa-angle-up{color:#fff}
 .question-faq-block .accordion>div.active p{max-height:200px}
 .main-screen-news .first-bg{background:url(../img/news-photo.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:100vh;width:100%;position:absolute}
+.main-screen-news .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-news .content{height:100vh}
 .main-screen-news .content p{font-family:UBUNTU-BOLD;color:#fff;font-size:15px;font-weight:700;line-height:24px;text-align:left;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
 .main-screen-news .content .main-hr{background-color:rgba(255,255,255,.75);height:1px}
 .main-screen-news .content .header{font-family:SummerFont;color:#fefefe;font-weight:300;line-height:60px;text-align:left;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
-@media (max-width:767px){.main-screen-news .content .mobile-content{position:absolute;bottom:0}
+@media (max-width:767px){.main-screen-news .content .mobile-content{position:absolute!important;bottom:0}
 .main-screen-news .content .main-hr{margin-top:0}
 .main-screen-news .content .header{font-size:3.125em}
 }
@@ -357,6 +365,7 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 }
 .section-news .middle-btn .btn-download .arrow{margin-left:10px}
 .main-screen-news-other{background:url(../img/main-photo.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:149px}
+.main-screen-news-other .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .section-discount .discount{text-align:center}
 .section-discount .discount h2{font-family:SummerFont;color:#3caad2;font-weight:300;text-align:center;margin-top:35px;margin-bottom:25px}
 @media (min-width:768px){.section-discount .discount h2{font-size:5.625em;line-height:90px}

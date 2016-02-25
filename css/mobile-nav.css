@@ -1,0 +1,25 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+#container{
+	background: transparent;
+	padding: 20px;
+	z-index: 1;
+	position: absolute;
+}
+.menu-btn {
+	border-radius: 5px;
+	border: 2px solid #ffffff;
+	background-color: rgba(60, 170, 210, 0);
+	box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.2);
+	width: 38px;
+	height: 40px;
+	padding: 9px 10px;
+	cursor: pointer;
+	color: #ffffff;
+}
+.menu-btn:hover{
+	background: transparent;
+	color: #FFF;
+}

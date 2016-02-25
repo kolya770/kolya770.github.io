@@ -3,8 +3,32 @@
   position: absolute;
   width: 100%;
   border: none;
-  top: 50px;
   z-index: 1;
+  @media #{$bootstrap-xs} {
+    top: 15px;
+  }
+  @media #{$bootstrap-sm} {
+    top: 50px;
+  }
+  .navbar-header {
+    .mobile-nav {
+      border-radius: 5px;
+      border: 2px solid #ffffff;
+      background-color:  rgba(60, 170, 210, 0);
+      box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.2);
+      width: 38px;
+      height: 40px;
+      padding: 9px 6px;
+      .mobile-icon {
+        background-color:  #ffffff;
+      }
+    }
+    .mobile-logo {
+      position: absolute;
+      left:50%;
+      margin-left: -103px;
+    }
+  }
   .my-navbar {
     padding: 0;
     .logo {

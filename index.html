@@ -6,8 +6,10 @@
     <title>WashDrop</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/pushy.css">
 </head>
 <body>
 
@@ -128,11 +130,10 @@
                 <button class="btn btn-distribution">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
             </div>
         </div>
-
     </div>
 </div>
 
-<nav class="navbar navbar-default navbar-washdrop">
+<nav class="navbar navbar-default navbar-washdrop hidden-xs">
     <div class="container">
         <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -141,7 +142,7 @@
                 <li><a href="#">КОНТАКТЫ</a></li>
             </ul>
             <ul class="nav navbar-nav logo">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand hidden-xs" href="#">
                     <img src="img/logo.png">
                 </a>
             </ul>
@@ -154,10 +155,29 @@
     </div>
 </nav>
 
+<!-- Mobile NAVBAR -->
+<nav class="pushy pushy-left">
+    <ul>
+        <li><a href="#how-it-work" class="page-scroll">КАК ЭТО РАБОТАЕТ?</a></li>
+        <li><a href="#our-price" class="page-scroll">НАШИ ЦЕНЫ</a></li>
+        <li><a href="#">КОНТАКТЫ</a></li>
+    </ul>
+</nav>
+
+<div class="site-overlay"></div>
+
+<div id="container">
+    <div class="menu-btn visible-xs-block">☰</div>
+</div>
+
+<!-- end mobile-nav-->
+
 <div id="full-page">
 
     <div class="main-screen-home">
-        <div class="container-fluid first-bg"></div>
+        <div class="container-fluid first-bg">
+            <img src="img/logo.png" class="visible-xs-block logo-mobile">
+        </div>
         <div class="container content">
             <div class="row">
                 <div class="col-sm-12 slide-bottom" data-plugin-options='{"reverse":false}'>
@@ -391,19 +411,19 @@
 
     <footer>
         <div class="container">
-            <div class="col-xs-12 col-sm-2 no-padding mobile-logo">
+            <div class="col-xs-12 col-sm-2 no-padding mobile-logo slide-bottom" data-plugin-options='{"reverse":false}'>
                 <img src="img/logo.png" class="logo-footer">
                 <hr class="mobile-footer-hr">
             </div>
-            <div class="col-sm-2 col-sm-offset-1 col-md-offset-0 col-lg-offset-1 no-padding">
+            <div class="col-sm-2 col-sm-offset-1 col-md-offset-0 col-lg-offset-1 no-padding slide-bottom" data-plugin-options='{"reverse":false}'>
                 <p>Города присутствия:</p>
                 <a href="#" class="city">Москва</a>
             </div>
-            <div class="col-sm-3 no-padding-1">
+            <div class="col-sm-3 no-padding-1 slide-bottom" data-plugin-options='{"reverse":false}'>
                 <p>Принимаем к оплате карты:</p>
                 <img src="img/visamastercard.png">
             </div>
-            <div class="col-sm-4 col-md-5 col-lg-4 no-padding">
+            <div class="col-sm-4 col-md-5 col-lg-4 no-padding slide-bottom" data-plugin-options='{"reverse":false}'>
                 <div class="btn-right">
                     <button class="btn-apple">
                         <div class="apple-logo"></div>
@@ -420,7 +440,7 @@
                 <a href="#">Наши цены</a>
                 <a href="#">Контакты</a>
             </div>
-            <hr class="footer-hr-mobile">
+            <hr class="footer-hr-mobile slide-bottom" data-plugin-options='{"reverse":false}'>
             <div class="right-block">
                 <p class="no-link">© 2016 Washdrop </p>
                 <a href="#">Политика конфидециальности</a>
@@ -437,6 +457,7 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/jquery.fadethis.js"></script>
 <script src="js/jFade.js"></script>
+<script src="js/pushy.min.js"></script>
 
 </body>
 </html>

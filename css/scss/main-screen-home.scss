@@ -6,6 +6,12 @@
     position: absolute;
     opacity: 1;
     width: 100%;
+    .logo-mobile {
+      position: absolute;
+      left: 50%;
+      margin-left: -85px;
+      margin-top: 10px;
+    }
   }
   .content {
     height: 100vh;
@@ -31,7 +37,6 @@
       background-color: #f39c12;
       height: 65px;
       border: none;
-      margin-top: 50px;
       font-family: "UBUNTU-REGULAR";
       color: #ffffff;
       font-weight: 400;
@@ -42,11 +47,13 @@
       @media #{$bootstrap-xs} {
         max-width: 270px;
         width: 90%;
-        font-size: 1.188em;
+        font-size: 1em;
+        margin-top: 30px;
       }
       @media #{$bootstrap-sm} {
         width: 316px;
         font-size: 1.313em;
+        margin-top: 50px;
       }
     }
     .order-before {
