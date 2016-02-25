@@ -160,7 +160,7 @@
         <div class="container-fluid first-bg"></div>
         <div class="container content">
             <div class="row">
-                <div class="col-sm-12 slide-bottom">
+                <div class="col-sm-12 slide-bottom" data-plugin-options='{"reverse":false}'>
                     <h1 class="header">Ваша персональная прачечная и химчистка</h1>
                     <button class="make-order-btn center-block">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
                     <p class="center-block order-before">Уже заказывали раньше?
@@ -173,11 +173,11 @@
 
     <div class="application-download-block">
         <div class="container">
-            <div class="header-app slide-bottom">
+            <div class="header-app slide-bottom" data-plugin-options='{"reverse":false}'>
                 <h2>Загрузите приложение для вашего смартфона</h2>
             </div>
-            <div class="phone-app-bg slide-left"></div>
-            <div class="block-for-app-btn slide-right">
+            <div class="phone-app-bg slide-bottom" data-plugin-options='{"reverse":false}'></div>
+            <div class="block-for-app-btn slide-bottom" data-plugin-options='{"reverse":false}'>
                 <button class="btn-for-ios">
                     <div class="apple-logo"></div>
                     <div class="apple-text-btn">App store</div>
@@ -191,14 +191,14 @@
 
     <section id="how-it-work">
         <div class="how-it-work-block">
-            <div class="container slide-bottom">
-                <div class="how-it-work ">
+            <div class="container">
+                <div class="how-it-work slide-bottom" data-plugin-options='{"reverse":false}'>
                     <h2>Как это работает</h2>
                     <img src="img/dot-blue.png">
                     <h3>4 простых шага</h3>
-                    <img src="img/steps.png" class="steps">
+                    <img src="img/steps.png" class="steps hidden-xs">
                 </div>
-                <div class="row text-for-how-it-work">
+                <div class="row text-for-how-it-work hidden-xs slide-bottom" data-plugin-options='{"reverse":false}'>
                     <div class="col-sm-3 no-padding">
                         <h2>Вы размещаете заказ</h2>
                         <p>используя наш сайт или мобильное приложение</p>
@@ -220,8 +220,34 @@
         </div>
     </section>
 
+    <section id="how-it-work-mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="how-it-work-mobile">
+                        <div class="clearfix visible-xs-block">
+                            <img src="img/how-mobile-1.png" class="first-img">
+                            <h2>Вы размещаете заказ</h2>
+                            <p>используя наш сайт или мобильное приложение</p>
+                            <img src="img/mobile-how-2.png">
+                            <h2>Мы забираем вещи</h2>
+                            <p>от вашего порога и в удобное для Вас время</p>
+                            <img src="img/mobile-how-3.png">
+                            <h2>Мы чистим и стираем</h2>
+                            <p>с использованием самого современного оборудования</p>
+                            <img src="img/mobile-how-4.png">
+                            <h2>Мы возвращаем вещи</h2>
+                            <p>уже на следующий день</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <div class="photo-block">
-        <div class="container slide-bottom">
+        <div class="container slide-bottom" data-plugin-options='{"reverse":false}'>
             <div class="row">
                 <div class="case-for-photo">
                     <div class="header-text">
@@ -238,56 +264,61 @@
     <div class="subscription-and-price-block">
         <div class="container">
             <div class="row">
-                <div class="subscribe slide-bottom">
+                <div class="subscribe slide-bottom" data-plugin-options='{"reverse":false}'>
                     <h2>Подпишитесь</h2>
                     <img src="img/dot-blue.png">
                     <h3>Чтобы быть в курсе новостей и специальных предложений</h3>
                 </div>
-                <div class="email slide-bottom">
+                <div class="email slide-bottom" data-plugin-options='{"reverse":false}'>
                     <input class="input-email" type="text" placeholder="Ваш email">
                     <input class="input-btn" type="submit" value="ПОДПИСАТЬСЯ">
                 </div>
                 <hr class="sub-hr">
             </div>
-            <section id="our-price">
-            <div class="row">
-                <div class="our-price slide-bottom">
-                    <div class="header-price">
-                        <h2>Наши цены</h2>
-                        <img src="img/dot-blue.png">
-                    </div>
-                    <div class="col-sm-12 price-carousel    ">
-                        <div class="col-sm-4">
-                            <img src="img/shirt.png">
-                            <h2>Рубашка</h2>
-                            <p>от 190 рублей</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="img/jacket.png">
-                            <h2>Пиджак</h2>
-                            <p>от 390 рублей</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="img/linen.png" class="linen">
-                            <h2 class="linen-text">Стирка постельного белья</h2>
-                            <p>190 рублей за кг</p>
-                        </div>
-                    </div>
-                    <button class="btn btn-price">ВСЕ ЦЕНЫ</button>
-                </div>
-            </div>
-            </section>
         </div>
     </div>
+
+    <section id="our-price">
+        <div class="price-block">
+            <div class="container">
+                <div class="row">
+                    <div class="our-price slide-bottom" data-plugin-options='{"reverse":false}'>
+                        <div class="header-price">
+                            <h2>Наши цены</h2>
+                            <img src="img/dot-blue.png">
+                        </div>
+                        <div class="col-sm-12 price-carousel">
+                            <div class="col-sm-4">
+                                <img src="img/shirt.png">
+                                <h2>Рубашка</h2>
+                                <p>от 190 рублей</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/jacket.png">
+                                <h2>Пиджак</h2>
+                                <p>от 390 рублей</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/linen.png" class="linen">
+                                <h2 class="linen-text">Стирка постельного белья</h2>
+                                <p>190 рублей за кг</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-price">ВСЕ ЦЕНЫ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="reviews-block">
         <div class="container">
             <div class="row">
-                <div class="header-reviews slide-bottom">
+                <div class="header-reviews slide-bottom" data-plugin-options='{"reverse":false}'>
                     <h2>Отзывы о нашей работе</h2>
                     <img src="img/dot-blue.png">
                 </div>
-                <div class="container slide-bottom">
+                <div class="container slide-bottom" data-plugin-options='{"reverse":false}'>
                     <div class="col-sm-4">
                         <div class="b-profile">
                             <div class="text-reviews">
@@ -349,7 +380,7 @@
     <div class="discount-block">
         <div class="container">
             <div class="row">
-                <div class="discount slide-bottom">
+                <div class="discount slide-bottom" data-plugin-options='{"reverse":false}'>
                     <h2>Получите скидку 500 рублей</h2>
                     <p>Для этого используйте промокод "Промокод" при оформлении заказа</p>
                     <button class="btn btn-discount">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>

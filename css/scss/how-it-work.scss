@@ -67,3 +67,34 @@
     }
   }
 }
+
+.how-it-work-mobile {
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: 180px;
+  }
+  .first-img {
+    margin-top: 45px;
+  }
+  h2 {
+    font-family: UBUNTU-LIGHT;
+    color:  #4a4b4c;
+    font-size: 1.188em;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+  }
+  p {
+    font-family: UBUNTU-LIGHT;
+    color:  #3caad2;
+    font-size: 0.938em;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 25px;
+  }
+  p:last-child {
+    margin-bottom: 55px;
+  }
+}

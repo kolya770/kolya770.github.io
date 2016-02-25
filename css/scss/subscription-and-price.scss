@@ -1,19 +1,4 @@
 .subscription-and-price-block {
-  .btn-price {
-    border-radius: 6px;
-    background-color: #3caad2;
-    width: 136px;
-    height: 50px;
-    font-family: UBUNTU-LIGHT;
-    color: #ffffff;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 24px;
-    text-align: center;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-    margin-bottom: 60px;
-    outline: none;
-  }
   .subscribe {
     text-align: center;
     h2 {
@@ -133,6 +118,9 @@
       width: 100%;
     }
   }
+}
+
+.price-block {
   .our-price {
     text-align: center;
     .header-price {
@@ -154,6 +142,21 @@
           line-height: 100px;
         }
       }
+    }
+    .btn-price {
+      border-radius: 6px;
+      background-color: #3caad2;
+      width: 136px;
+      height: 50px;
+      font-family: UBUNTU-LIGHT;
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      margin-bottom: 60px;
+      outline: none;
     }
     .price-carousel {
       margin-bottom: 60px;

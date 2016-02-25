@@ -160,6 +160,9 @@
     margin-top: 14px;
     outline: none;
   }
+  .accordion-marker:hover {
+    background-color:  #3caad2;
+  }
   .accordion-marker i{
     padding-top:10px;
     padding-left:13px;
@@ -179,7 +182,7 @@
     max-width: 85%;
   }
   .accordion > div.active .accordion-marker{
-    background-color:#21c2f8;
+    background-color:  rgba(60, 170, 210, 0.5);
   }
   .accordion > div.active .question{
     color:#000;
