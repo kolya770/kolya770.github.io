@@ -25,7 +25,7 @@ body{font-size:16px}
 @media (max-width:767px){.navbar-washdrop{top:15px}
 .main-screen-home .content .header{font-size:3.125em;line-height:60px;margin-top:30vh}
 }
-@media (min-width:768px){.navbar-washdrop{top:50px}
+@media (min-width:768px){.navbar-washdrop{top:35px}
 .main-screen-home .content .header{font-size:7.4em;line-height:90px;margin-top:42vh}
 }
 .main-screen-home .content .make-order-btn,.main-screen-home .content .order-before{font-family:UBUNTU-REGULAR;font-weight:400;line-height:24px;text-align:center;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15)}
