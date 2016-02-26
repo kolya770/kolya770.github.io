@@ -7,7 +7,7 @@
 
 .pushy{
     position: fixed;
-    width: 200px;
+    width: 270px;
     height: 100%;
     top: 0;
     right: 0;
@@ -24,26 +24,24 @@
 
 .pushy a{
     display: block;
-    color: #b3b3b1;
+    color: #fff;
     padding: 15px 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    border-top: 1px solid rgba(255, 255, 255, .1);
     text-decoration: none;
+    text-align: right;
 }
 
 .pushy a:hover{
-    background: #00b4ff;
     color: #FFF;
 }
 
 /* Menu Movement */
 
 .pushy-left{
-    -webkit-transform: translate3d(200px,0,0);
-    -moz-transform: translate3d(200px,0,0);
-    -ms-transform: translate3d(200px,0,0);
-    -o-transform: translate3d(200px,0,0);
-    transform: translate3d(200px,0,0);
+    -webkit-transform: translate3d(270px,0,0);
+    -moz-transform: translate3d(270px,0,0);
+    -ms-transform: translate3d(270px,0,0);
+    -o-transform: translate3d(270px,0,0);
+    transform: translate3d(270px,0,0);
 }
 
 .pushy-open{
