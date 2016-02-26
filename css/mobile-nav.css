@@ -2,7 +2,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-#container{
+#container {
 	background: transparent;
 	padding: 20px;
 	z-index: 1;
@@ -19,7 +19,7 @@ ul{
 	cursor: pointer;
 	color: #ffffff;
 }
-.menu-btn:hover{
+.menu-btn:hover {
 	background: transparent;
 	color: #FFF;
 }

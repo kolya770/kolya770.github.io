@@ -1,18 +1,33 @@
 #myModal{
   .modal-dialog {
-    width: 430px;
-    height: 453px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -226.5px;
-    margin-left: -215px;
+    @media #{$bootstrap-xs} {
+      width: 90%;
+      height: 453px;
+      margin-left: -45%;
+      margin-top: -226.5px;
+    }
+    @media #{$bootstrap-sm} {
+      width: 430px;
+      height: 453px;
+      margin-top: -226.5px;
+      margin-left: -215px;
+    }
     .modal-content {
       border-radius: 6px;
       background-color: #ffffff;
       box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
-      width: 430px;
-      height: 453px;
+
+      @media #{$bootstrap-xs} {
+        width: 100%;
+        height: 453px;
+      }
+      @media #{$bootstrap-sm} {
+        width: 430px;
+        height: 453px;
+      }
       .modal-header {
         border: none;
       }
@@ -35,9 +50,14 @@
           border: 1px solid #cbcbcb;
           box-sizing: border-box;
           background-color: #f9f9f9;
-          width: 370px;
           height: 50px;
           margin-top: 20px;
+          @media #{$bootstrap-xs} {
+            width: 90%;
+          }
+          @media #{$bootstrap-sm} {
+            width: 370px;
+          }
         }
         ::-webkit-input-placeholder {
           padding-left: 20px;
@@ -108,19 +128,36 @@
 
 #myModalLegal {
   .modal-dialog {
-    width: 770px;
-    height: 713px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -356.5px;
-    margin-left: -385px;
+
+    @media #{$bootstrap-xs} {
+      width: 90%;
+      margin-left: -45%;
+      height: 90%;
+      margin-top: -45%;
+    }
+    @media #{$bootstrap-sm} {
+      width: 770px;
+      height: 713px;
+      margin-top: -356.5px;
+      margin-left: -385px;
+    }
     .modal-content {
       border-radius: 6px;
       background-color:  #ffffff;
       box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
-      width: 770px;
-      height: 713px;
+      overflow-y: scroll;
+      @media #{$bootstrap-xs} {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+      }
+      @media #{$bootstrap-sm} {
+        width: 770px;
+        height: 713px;
+      }
       .modal-header {
         border: none;
       }
@@ -153,19 +190,35 @@
 
 #myModalWhereYou {
   .modal-dialog {
-    width: 770px;
-    height: 274px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -137px;
-    margin-left: -385px;
+    @media #{$bootstrap-xs} {
+      width: 90%;
+      margin-left: -45%;
+      height: 274px;
+      margin-top: -137px;
+    }
+    @media #{$bootstrap-sm} {
+      margin-top: -137px;
+      margin-left: -385px;
+      width: 770px;
+      height: 274px;
+    }
     .modal-content {
       border-radius: 6px;
       background-color:  #ffffff;
       box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
       width: 770px;
       height: 274px;
+      @media #{$bootstrap-xs} {
+        width: 100%;
+        height: auto;
+      }
+      @media #{$bootstrap-sm} {
+        width: 770px;
+        height: 274px;
+      }
       .modal-header {
         border: none;
       }
@@ -188,8 +241,13 @@
           border: 1px solid #cbcbcb;
           box-sizing: border-box;
           background-color: #f9f9f9;
-          width: 580px;
           height: 50px;
+          @media #{$bootstrap-xs} {
+            width: 100%;
+          }
+          @media #{$bootstrap-sm} {
+            width: 580px;
+          }
         }
         ::-webkit-input-placeholder {
           padding-left: 20px;
@@ -232,7 +290,6 @@
           background-color:  #f39c12;
           width: 150px;
           height: 50px;
-          margin-left: -150px;
           font-family: UBUNTU-REGULAR;
           color: #ffffff;
           font-size: 1em;
@@ -240,6 +297,14 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          @media #{$bootstrap-xs} {
+            margin-top: 20px;
+            margin-left: 0;
+            margin-bottom: 20px;
+          }
+          @media #{$bootstrap-sm} {
+            margin-left: -150px;
+          }
         }
       }
     }
@@ -248,19 +313,33 @@
 
 #myModalSingUp {
   .modal-dialog {
-    width: 770px;
-    height: 518px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -385px;
-    margin-top: -259px;
+    @media #{$bootstrap-xs} {
+      width: 90%;
+      margin-left: -45%;
+      height: 518px;
+      margin-top: -259px;
+    }
+    @media #{$bootstrap-sm} {
+      width: 770px;
+      height: 518px;
+      margin-left: -385px;
+      margin-top: -259px;
+    }
     .modal-content {
       border-radius: 6px;
       background-color:  #ffffff;
       box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
-      width: 770px;
-      height: 518px;
+      @media #{$bootstrap-xs} {
+        width: 100%;
+        height: auto;
+      }
+      @media #{$bootstrap-sm} {
+        width: 770px;
+        height: 518px;
+      }
       .modal-header {
         border: none;
       }
@@ -270,10 +349,16 @@
         p {
           font-family: SummerFont;
           color:  #4a4b4c;
-          font-size: 3.750em;
           font-weight: 300;
-          line-height: 60px;
           text-align: center;
+          @media #{$bootstrap-xs} {
+            font-size: 3em;
+            line-height: 40px;
+          }
+          @media #{$bootstrap-sm} {
+            line-height: 60px;
+            font-size: 3.750em;
+          }
         }
       }
       .modal-footer {
@@ -281,16 +366,28 @@
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px;
         background-color:  #f4f5f5;
-        width: 767px;
-        height: 355px;
         text-align: center;
+        @media #{$bootstrap-xs} {
+          width: 100%;
+          height: auto;
+        }
+        @media #{$bootstrap-sm} {
+          width: 767px;
+          height: 355px;
+        }
         h2 {
           font-family: SummerFont;
           color:  #3caad2;
-          font-size: 6.250em;
           font-weight: 300;
-          line-height: 80px;
           text-align: center;
+          @media #{$bootstrap-xs} {
+            font-size: 4.25em;
+            line-height: 60px;
+          }
+          @media #{$bootstrap-sm} {
+            line-height: 80px;
+            font-size: 6.250em;
+          }
         }
         p {
           font-family: UBUNTU-LIGHT;
@@ -306,9 +403,14 @@
           border: 1px solid #cbcbcb;
           box-sizing: border-box;
           background-color:  #f9f9f9;
-          width: 570px;
           height: 50px;
           margin-top: 20px;
+          @media #{$bootstrap-xs} {
+            width: 100%;
+          }
+          @media #{$bootstrap-sm} {
+            width: 570px;
+          }
         }
         ::-webkit-input-placeholder {
           padding-left: 20px;
@@ -349,9 +451,8 @@
         .btn-sing-up {
           border-radius: 6px;
           background-color:  #3caad2;
-          width: 200px;
           height: 50px;
-          margin-left: -200px;
+          width: 200px;
           font-family: UBUNTU-REGULAR;
           color: #ffffff;
           font-size: 1em;
@@ -359,6 +460,13 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          @media #{$bootstrap-xs} {
+            margin-left: 0;
+            margin-top: 20px;
+          }
+          @media #{$bootstrap-sm} {
+            margin-left: -200px;
+          }
         }
       }
     }
@@ -367,39 +475,65 @@
 
 #myModalDistribution {
   .modal-dialog {
-    width: 770px;
-    height: 462px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -231px;
-    margin-left: -385px;
+    @media #{$bootstrap-xs} {
+      width: 90%;
+      margin-left: -45%;
+      height: 462px;
+      margin-top: -231px;
+    }
+    @media #{$bootstrap-sm} {
+      width: 770px;
+      height: 462px;
+      margin-top: -231px;
+      margin-left: -385px;
+    }
     .modal-content {
       border-radius: 6px;
       background-color:  #ffffff;
       box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
-      width: 770px;
-      height: 462px;
+      @media #{$bootstrap-xs} {
+        width: 100%;
+        height: auto;
+      }
+      @media #{$bootstrap-sm} {
+        width: 770px;
+        height: 462px;
+      }
       .modal-header{
         border: none;
       }
       .modal-body {
         font-family: SummerFont;
         color: #4a4b4c;
-        font-size: 3.750em;
         font-weight: 300;
-        line-height: 60px;
         text-align: center;
         height: 125px;
+        @media #{$bootstrap-xs} {
+          font-size: 3em;
+          line-height: 40px;
+        }
+        @media #{$bootstrap-sm} {
+          line-height: 60px;
+          font-size: 3.750em;
+        }
       }
       .modal-footer {
         border: none;
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px;
         background-color:  #f4f5f5;
-        width: 767px;
-        height: 299px;
         text-align: center;
+        @media #{$bootstrap-xs} {
+          width: 100%;
+          height: auto;
+        }
+        @media #{$bootstrap-sm} {
+          width: 767px;
+          height: 299px;
+        }
         h2 {
           font-family: SummerFont;
           color:  #3caad2;
@@ -407,6 +541,14 @@
           font-weight: 300;
           line-height: 65px;
           text-align: center;
+          @media #{$bootstrap-xs} {
+            font-size: 4.625em;
+            line-height: 55px;
+          }
+          @media #{$bootstrap-sm} {
+            line-height: 65px;
+            font-size: 5.625em;
+          }
         }
         p {
           font-family: UBUNTU-LIGHT;
@@ -421,9 +563,14 @@
           border: 1px solid #cbcbcb;
           box-sizing: border-box;
           background-color:  #f9f9f9;
-          width: 570px;
           height: 50px;
           margin-top: 20px;
+          @media #{$bootstrap-xs} {
+            width: 100%;
+          }
+          @media #{$bootstrap-sm} {
+            width: 570px;
+          }
         }
         ::-webkit-input-placeholder {
           padding-left: 20px;
@@ -473,7 +620,13 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-          margin-left: -200px;
+          @media #{$bootstrap-xs} {
+            margin-left: 0;
+            margin-top: 20px;
+          }
+          @media #{$bootstrap-sm} {
+            margin-left: -200px;
+          }
         }
       }
     }
