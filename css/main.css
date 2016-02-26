@@ -7,6 +7,7 @@ body{font-size:16px}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.TTF);font-weight:400;font-style:normal}
 @media (min-width:1200px){.container{width:1200px}
 }
+.first-screen-animation{opacity:0;bottom:-10vh}
 .navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;z-index:1}
 .navbar-washdrop .navbar-header .mobile-nav{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:38px;height:40px;padding:9px 6px}
 .navbar-washdrop .navbar-header .mobile-nav .mobile-icon{background-color:#fff}
@@ -117,14 +118,15 @@ body{font-size:16px}
 .subscription-and-price-block .subscribe h3{font-family:SummerFont;color:#3caad2;font-size:3.125em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
 .subscription-and-price-block .subscribe img{margin-top:25px}
 .subscription-and-price-block .email{margin-bottom:60px;margin-top:60px;text-align:center}
-.subscription-and-price-block .email .input-email{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px}
+.subscription-and-price-block .email .input-email{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;outline:0;padding:0}
 @media (max-width:767px){.subscription-and-price-block .subscribe h3{line-height:60px}
 .subscription-and-price-block .email .input-email{width:90%}
+.subscription-and-price-block .email .input-btn{margin-left:0;margin-top:40px}
 }
 @media (min-width:768px){.subscription-and-price-block .subscribe h3{line-height:100px}
-.subscription-and-price-block .email .input-email{width:570px}
+.subscription-and-price-block .email .input-email{width:370px}
 }
-.subscription-and-price-block .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:50px;margin-left:-204px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
+.subscription-and-price-block .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;padding:0 0 1px}
 .subscription-and-price-block .email ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 .subscription-and-price-block .email ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 .subscription-and-price-block .email :-moz-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;padding-left:20px;line-height:24px;text-align:left}
@@ -137,7 +139,8 @@ body{font-size:16px}
 @media (max-width:767px){.subscription-and-price-block .sub-hr{width:90%}
 .price-block .our-price .header-price h2{font-size:4.063em;line-height:60px}
 }
-@media (min-width:768px){.subscription-and-price-block .sub-hr{width:100%}
+@media (min-width:768px){.subscription-and-price-block .email .input-btn{margin-left:-20px}
+.subscription-and-price-block .sub-hr{width:100%}
 .price-block .our-price .header-price h2{font-size:6.25em;line-height:100px}
 .price-block .our-price .price-carousel h2{min-height:70px}
 }

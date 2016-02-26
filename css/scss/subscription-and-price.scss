@@ -46,11 +46,13 @@
       box-sizing: border-box;
       background-color: #f9f9f9;
       height: 50px;
+      outline: none;
+      padding: 0;
       @media #{$bootstrap-xs} {
         width: 90%;
       }
       @media #{$bootstrap-sm} {
-        width: 570px;
+        width: 370px;
       }
     }
     .input-btn {
@@ -59,7 +61,6 @@
       background-color: #3caad2;
       width: 200px;
       height: 50px;
-      margin-left: -204px;
       font-family: UBUNTU-REGULAR;
       color: #ffffff;
       font-size: 1em;
@@ -68,6 +69,14 @@
       text-align: center;
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
       outline: none;
+      padding: 0 0 1px 0;
+      @media #{$bootstrap-xs} {
+        margin-left: 0;
+        margin-top: 40px;
+      }
+      @media #{$bootstrap-sm} {
+        margin-left: -20px;
+    }
     }
     ::-webkit-input-placeholder {
       padding-left: 20px;

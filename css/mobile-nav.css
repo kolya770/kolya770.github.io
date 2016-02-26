@@ -7,6 +7,7 @@ ul{
 	padding: 20px;
 	z-index: 1;
 	position: absolute;
+	right: 0;
 }
 .menu-btn {
 	border-radius: 5px;
@@ -15,7 +16,7 @@ ul{
 	box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.2);
 	width: 38px;
 	height: 40px;
-	padding: 9px 10px;
+	padding: 7px 6px;
 	cursor: pointer;
 	color: #ffffff;
 }

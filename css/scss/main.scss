@@ -42,6 +42,11 @@ body {
   }
 }
 
+.first-screen-animation {
+  opacity: 0;
+  bottom: -10vh;
+}
+
 @import "navbar";
 @import "main-screen-home";
 @import "application-download";
