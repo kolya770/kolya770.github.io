@@ -4,7 +4,7 @@ $(document).ready(function() {
          opacity: 1
         }, 1500);
 
-    $('.container').fadeThis({
+    $('.fade-bottom').fadeThis({
         speed: 1000
     });
 
