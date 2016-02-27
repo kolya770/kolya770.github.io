@@ -7,4 +7,5 @@ $(document).ready(function() {
     $('.container').fadeThis({
         speed: 1000
     });
+
 });

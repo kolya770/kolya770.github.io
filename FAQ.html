@@ -70,7 +70,7 @@
     <section id="faq">
         <div class="question-faq-block">
             <div class="container">
-                <div class="row">
+                <div class="row animate">
                     <div class="col-sm-12">
                         <div class="questions">
                             <p>Если у вас есть вопросы или предложения, пишите нам на email:
@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row animate">
                     <div class="col-sm-12 slide-bottom" data-plugin-options='{"reverse":false}'>
                         <div class="block-order">
                             <div class="row">
@@ -189,7 +189,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row animate">
                     <div class="col-sm-12 slide-bottom" data-plugin-options='{"reverse":false}'>
                         <div class="block-technology">
                             <div class="row">
@@ -273,7 +273,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row animate">
                     <div class="col-sm-12 slide-bottom" data-plugin-options='{"reverse":false}'>
                         <div class="block-about-us">
                             <div class="row">
@@ -345,7 +345,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row animate">
                     <div class="discount slide-bottom"  data-plugin-options='{"reverse":false}'>
                         <h2>Получите скидку 500 рублей на первый заказ</h2>
                         <p> Для этого используйте промокод "Промокод" при оформлении заказа</p>
@@ -381,18 +381,24 @@
                     </button>
                 </div>
             </div>
-            <hr class="footer-hr">
-            <div class="left-block">
-                <a href="#" data-toggle="modal" data-target="#myModalWhereYou">Как это работает?</a>
-                <a href="#">Наши цены</a>
-                <a href="#">Контакты</a>
+            <div class="col-sm-12 no-padding">
+                <hr class="footer-hr">
+            </div>
+            <div class="col-sm-6 no-padding">
+                <div class="left-block">
+                    <a href="#">Как это работает?</a>
+                    <a href="#">Наши цены</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>
+            <div class="col-sm-6 no-padding">
+                <div class="right-block">
+                    <p class="no-link">© 2016 Washdrop </p>
+                    <a href="#">Политика конфидециальности</a>
+                    <a href="#" class="last" data-toggle="modal" data-target="#myModalLegal">Публичная оферта</a>
+                </div>
             </div>
             <hr class="footer-hr-mobile slide-bottom" data-plugin-options='{"reverse":false}'>
-            <div class="right-block">
-                <p class="no-link">© 2016 Washdrop </p>
-                <a href="#">Политика конфидециальности</a>
-                <a href="#" class="last" data-toggle="modal" data-target="#myModalLegal">Публичная оферта</a>
-            </div>
         </div>
     </footer>
 
@@ -406,6 +412,12 @@
 <script src="js/jquery.fadethis.js"></script>
 <script src="js/jFade.js"></script>
 <script src="js/pushy.min.js"></script>
+
+<script>
+    $('.animate').fadeThis({
+        speed: 1000
+    });
+</script>
 
 </body>
 </html>

@@ -32,12 +32,14 @@
   .my-navbar {
     padding: 0;
     .logo {
-
-      @include logo-centered(174px);
-
       @media #{$bootstrap-md} {
         margin-left: 0;
       }
+      @media #{$bootstrap-lg} {
+        @include logo-centered(174px);
+      }
+
+
       img {
         margin-top: -50px;
       }

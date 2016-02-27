@@ -192,6 +192,9 @@
   }
   .accordion > div.active .accordion-marker{
     background-color:  rgba(60, 170, 210, 0.5);
+    &:hover {
+      background-color:  #3caad2;
+    }
   }
   .accordion > div.active .question{
     color:#000;

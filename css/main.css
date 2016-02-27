@@ -13,8 +13,9 @@ body{font-size:16px}
 .navbar-washdrop .navbar-header .mobile-nav .mobile-icon{background-color:#fff}
 .navbar-washdrop .navbar-header .mobile-logo{position:absolute;left:50%;margin-left:-103px}
 .navbar-washdrop .my-navbar{padding:0}
-.navbar-washdrop .my-navbar .logo{position:absolute;margin-left:-87px;left:50%;width:174px}
 @media (min-width:992px){.navbar-washdrop .my-navbar .logo{margin-left:0}
+}
+@media (min-width:1200px){.navbar-washdrop .my-navbar .logo{position:absolute;margin-left:-87px;left:50%;width:174px}
 }
 .navbar-washdrop .my-navbar .logo img{margin-top:-50px}
 .navbar-washdrop .my-navbar .my-navbar-right{margin-right:0;padding-right:15px}
@@ -79,7 +80,7 @@ body{font-size:16px}
 @media (max-width:767px){.application-download-block .block-for-app-btn .btn-for-android{margin-top:20px;margin-bottom:20px;margin-left:0}
 .how-it-work-block .how-it-work h2{font-size:4.063em;line-height:60px}
 }
-@media (min-width:768px){.application-download-block .block-for-app-btn .btn-for-android{margin-top:60px;margin-left:10px}
+@media (min-width:768px){.application-download-block .block-for-app-btn .btn-for-android{margin-top:60px;margin-left:10px;float:right}
 }
 .application-download-block .block-for-app-btn .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;width:117px;height:27px;margin:0 20px}
 .how-it-work-block .how-it-work{text-align:center}
@@ -201,16 +202,16 @@ footer .no-padding-1{padding:0}
 footer .no-padding{padding:0}
 footer .btn-right{float:right}
 footer .btn-right .btn-apple{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none;outline:0}
-@media (min-width:768px){footer .btn-right .btn-apple{float:right;margin-top:15px}
+@media (min-width:768px){footer .btn-right .btn-apple{float:right;margin-top:15px;margin-bottom:15px}
 }
-@media (min-width:992px){footer .btn-right .btn-apple{float:none;margin-top:0}
+@media (min-width:992px){footer .btn-right .btn-apple{float:none;margin-top:30px}
 }
 footer .btn-right .btn-apple .apple-logo{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:10px 13px 0 16px;float:left}
 footer .btn-right .btn-apple .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM;font-size:1.125em;font-weight:500;line-height:46px;text-align:left;float:left}
 footer .btn-right .btn-android{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none;margin-left:10px;outline:0}
 @media (min-width:768px){footer .btn-right .btn-android{float:right;margin-top:15px;margin-bottom:15px}
 }
-@media (min-width:992px){footer .btn-right .btn-android{float:none;margin-top:30px;margin-bottom:0}
+@media (min-width:992px){footer .btn-right .btn-android{margin-top:30px}
 }
 footer .btn-right .btn-android .google-logo{background:url(../img/logo-google.png) no-repeat,117px 27px;width:117px;height:27px;margin:0 20px}
 footer .left-block a,footer .right-block a{text-align:left;margin-right:20px;text-decoration:none}
@@ -430,6 +431,7 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 .question-faq-block .accordion-marker .fa-angle-down{color:#fff}
 .question-faq-block .accordion p{max-height:0;overflow:hidden;transition:max-height 350ms ease-in-out;color:#3caad2;font-size:.938em;font-weight:300;line-height:20px;text-align:left;max-width:85%}
 .question-faq-block .accordion>div.active .accordion-marker{background-color:rgba(60,170,210,.5)}
+.question-faq-block .accordion>div.active .accordion-marker:hover{background-color:#3caad2}
 .question-faq-block .accordion>div.active .question{color:#000}
 .question-faq-block .accordion>div.active .accordion-marker .fa-angle-up{color:#fff}
 .question-faq-block .accordion>div.active p{max-height:200px}
