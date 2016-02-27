@@ -110,7 +110,7 @@ body{font-size:16px}
 .how-it-work-mobile p:last-child{margin-bottom:55px}
 .photo-block{background:url(../img/forth-block.png) 50% 50% rgba(210,214,220,.2);background-size:cover;height:75vh;opacity:.8;text-align:center}
 .photo-block .case-for-photo{height:75vh}
-.photo-block .case-for-photo .header-text{height:272px;position:relative;top:50%;margin-top:-136px}
+.photo-block .case-for-photo .header-text{position:relative;top:27vh}
 .photo-block .case-for-photo .header-text h3{font-family:SummerFont;color:#fff;font-size:6.25em;text-align:center}
 @media (max-width:767px){.photo-block .case-for-photo .header-text h3{font-size:3.125em;line-height:60px}
 }
@@ -145,7 +145,7 @@ body{font-size:16px}
 .subscription-and-price-block .email :-moz-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;padding-left:20px;line-height:24px;text-align:left}
 .subscription-and-price-block .email :-ms-input-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 .subscription-and-price-block .sub-hr{background-color:#cbcbcb;height:1px}
-.price-block .our-price .btn-price,.reviews-block .center-btn .btn-reviews{height:50px;font-weight:300;border-radius:6px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
+.price-block .our-price .btn-price,.reviews-block .center-btn .btn-reviews{height:50px;font-weight:300;margin-bottom:60px;border-radius:6px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
 .price-block .our-price{text-align:center}
 .price-block .our-price .header-price{text-align:center;margin-bottom:60px}
 .price-block .our-price .header-price h2{font-family:SummerFont;color:#4a4b4c;font-size:6.25em;font-weight:300;line-height:100px;text-align:center}
@@ -157,7 +157,7 @@ body{font-size:16px}
 .price-block .our-price .header-price h2{font-size:6.25em;line-height:100px}
 .price-block .our-price .price-carousel h2{min-height:70px}
 }
-.price-block .our-price .btn-price{background-color:#3caad2;width:136px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;line-height:24px;margin-bottom:60px}
+.price-block .our-price .btn-price{background-color:#3caad2;width:136px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;line-height:24px}
 .price-block .our-price .btn-price:hover{background-color:#3d9bc3}
 .price-block .our-price .price-carousel{margin-bottom:60px}
 .price-block .our-price .price-carousel h2{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:34px;text-align:center}
@@ -173,7 +173,7 @@ body{font-size:16px}
 }
 @media (min-width:768px){.reviews-block .header-reviews h2{font-size:6.25em;line-height:100px}
 }
-.reviews-block .center-btn{text-align:center;margin-top:60px;margin-bottom:60px}
+.reviews-block .center-btn{text-align:center}
 .reviews-block .center-btn .btn-reviews{background-color:#3caad2;width:160px;font-family:UBUNTU-LIGHT;color:#fff;font-size:1em;line-height:24px}
 .reviews-block .center-btn .btn-reviews:hover{background-color:#3d9bc3}
 .reviews-block .b-profile{margin:150px auto 0;background-color:#fff;width:100%;min-height:177px;position:relative;border-radius:6px;box-shadow:0 1px 2px 0 rgba(0,0,0,.2)}
@@ -184,6 +184,7 @@ body{font-size:16px}
 .reviews-block .main-avatar{padding:6px;border:3px solid #fff;border-radius:50%}
 .reviews-block .main-avatar__image{width:128px;height:128px;border-radius:50%}
 .reviews-block .main-avatar__image-dop{position:absolute;top:0;right:-30px}
+.margin-reviews-block{margin-bottom:60px}
 .discount-block .discount{text-align:center}
 .discount-block .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:90px;text-align:center;margin-top:60px}
 @media (max-width:767px){.discount-block .discount h2{font-size:4.063em;line-height:60px}
