@@ -1,15 +1,15 @@
 #myModal{
   .modal-dialog {
     position: absolute;
-    top: 50%;
     left: 50%;
     @media #{$bootstrap-xs} {
       width: 90%;
       height: 453px;
       margin-left: -45%;
-      margin-top: -226.5px;
+      top: 10vh;
     }
     @media #{$bootstrap-sm} {
+      top: 50%;
       width: 430px;
       height: 453px;
       margin-top: -226.5px;
@@ -129,20 +129,19 @@
 #myModalLegal {
   .modal-dialog {
     position: absolute;
-    top: 50%;
     left: 50%;
-
     @media #{$bootstrap-xs} {
       width: 90%;
       margin-left: -45%;
       height: 90%;
-      margin-top: -45%;
+      top: 10vh;
     }
     @media #{$bootstrap-sm} {
       width: 770px;
       height: 713px;
       margin-top: -356.5px;
       margin-left: -385px;
+      top: 50%;
     }
     .modal-content {
       border-radius: 6px;
@@ -191,19 +190,19 @@
 #myModalWhereYou {
   .modal-dialog {
     position: absolute;
-    top: 50%;
     left: 50%;
     @media #{$bootstrap-xs} {
       width: 90%;
       margin-left: -45%;
       height: 274px;
-      margin-top: -137px;
+      top:10vh;
     }
     @media #{$bootstrap-sm} {
       margin-top: -137px;
       margin-left: -385px;
       width: 770px;
       height: 274px;
+      top: 50%;
     }
     .modal-content {
       border-radius: 6px;
@@ -314,19 +313,19 @@
 #myModalSingUp {
   .modal-dialog {
     position: absolute;
-    top: 50%;
     left: 50%;
     @media #{$bootstrap-xs} {
       width: 90%;
       margin-left: -45%;
       height: 518px;
-      margin-top: -259px;
+      top: 10vh;
     }
     @media #{$bootstrap-sm} {
       width: 770px;
       height: 518px;
       margin-left: -385px;
       margin-top: -259px;
+      top: 50%;
     }
     .modal-content {
       border-radius: 6px;
@@ -476,19 +475,19 @@
 #myModalDistribution {
   .modal-dialog {
     position: absolute;
-    top: 50%;
     left: 50%;
     @media #{$bootstrap-xs} {
       width: 90%;
       margin-left: -45%;
       height: 462px;
-      margin-top: -231px;
+      top: 10vh;
     }
     @media #{$bootstrap-sm} {
       width: 770px;
       height: 462px;
       margin-top: -231px;
       margin-left: -385px;
+      top: 50%;
     }
     .modal-content {
       border-radius: 6px;
@@ -548,6 +547,7 @@
           @media #{$bootstrap-sm} {
             line-height: 65px;
             font-size: 5.625em;
+            margin-top: 50px;
           }
         }
         p {
@@ -557,57 +557,10 @@
           font-weight: 300;
           line-height: 39px;
           text-align: center;
-        }
-        input {
-          border-radius: 6px;
-          border: 1px solid #cbcbcb;
-          box-sizing: border-box;
-          background-color:  #f9f9f9;
-          height: 50px;
           margin-top: 20px;
-          @media #{$bootstrap-xs} {
-            width: 100%;
-          }
-          @media #{$bootstrap-sm} {
-            width: 570px;
-          }
+          margin-bottom: 20px;
         }
-        ::-webkit-input-placeholder {
-          padding-left: 20px;
-          font-family: UBUNTU-LIGHT;
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        ::-moz-placeholder {
-          padding-left: 20px;
-          font-family: UBUNTU-LIGHT;
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        :-moz-placeholder {
-          padding-left: 20px;
-          font-family: UBUNTU-LIGHT;
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          padding-left: 20px;
-          line-height: 24px;
-          text-align: left;
-        }
-        :-ms-input-placeholder {
-          font-family: UBUNTU-LIGHT;
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
+
         .btn-distribution {
           border-radius: 6px;
           background-color:  #f39c12;
@@ -623,12 +576,28 @@
           @media #{$bootstrap-xs} {
             margin-left: 0;
             margin-top: 20px;
+            margin-bottom: 20px;
           }
           @media #{$bootstrap-sm} {
-            margin-left: -200px;
+
           }
         }
       }
     }
   }
+}
+
+.close {
+  opacity: .5;
+  outline: none;
+  .close-icon {
+    color: #f39c12;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+}
+.close:hover {
+  opacity: 1;
 }

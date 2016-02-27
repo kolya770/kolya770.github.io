@@ -58,7 +58,7 @@ body{font-size:16px}
 }
 .application-download-block .block-for-app-btn .btn-for-ios{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;outline:0}
 @media (max-width:767px){.application-download-block .block-for-app-btn{text-align:center}
-.application-download-block .block-for-app-btn .btn-for-ios{margin-top:20px;margin-left:0}
+.application-download-block .block-for-app-btn .btn-for-ios{margin-top:20px;margin-left:0;margin-bottom:20px}
 }
 @media (min-width:768px){.application-download-block .block-for-app-btn .btn-for-ios{margin-top:60px;margin-left:5px}
 }
@@ -169,7 +169,6 @@ body{font-size:16px}
 .reviews-block .main-avatar{padding:6px;border:3px solid #fff;border-radius:50%}
 .reviews-block .main-avatar__image{width:128px;height:128px;border-radius:50%}
 .reviews-block .main-avatar__image-dop{position:absolute;top:0;right:-30px}
-#myModal .modal-dialog,#myModalDistribution .modal-dialog,#myModalLegal .modal-dialog,#myModalSingUp .modal-dialog,#myModalWhereYou .modal-dialog{top:50%;position:absolute;left:50%}
 .discount-block .discount{text-align:center}
 .discount-block .discount h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:90px;text-align:center;margin-top:60px}
 @media (max-width:767px){.discount-block .discount h2{font-size:4.063em;line-height:60px}
@@ -234,13 +233,12 @@ footer .right-block{float:left;margin-bottom:25px}
 }
 footer .right-block a.last{margin-right:0}
 footer .right-block p.no-link{text-align:left;margin-right:20px}
+#myModal .modal-dialog{position:absolute;left:50%}
 @media (max-width:767px){footer .right-block p.no-link{display:block;text-align:center;margin-bottom:10px}
+#myModal .modal-dialog{width:90%;height:453px;margin-left:-45%;top:10vh}
 }
 @media (min-width:768px){footer .right-block p.no-link{display:inline-block;margin-top:0}
-}
-@media (max-width:767px){#myModal .modal-dialog{width:90%;height:453px;margin-left:-45%;margin-top:-226.5px}
-}
-@media (min-width:768px){#myModal .modal-dialog{width:430px;height:453px;margin-top:-226.5px;margin-left:-215px}
+#myModal .modal-dialog{top:50%;width:430px;height:453px;margin-top:-226.5px;margin-left:-215px}
 }
 #myModal .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
 @media (max-width:767px){#myModal .modal-dialog .modal-content{width:100%;height:453px}
@@ -263,9 +261,10 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 #myModal .modal-dialog .modal-content .modal-footer .forgot-password{margin-top:20px}
 #myModal .modal-dialog .modal-content .modal-footer .forgot-password a{font-family:UBUNTU-REGULAR;color:#3caad2;font-size:1em;font-weight:400;line-height:24px;text-decoration:underline;text-align:center}
 #myModal .modal-dialog .modal-content .modal-footer .btn-enter{border-radius:6px;background-color:#f39c12;width:130px;height:50px;margin-top:20px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-@media (max-width:767px){#myModalLegal .modal-dialog{width:90%;margin-left:-45%;height:90%;margin-top:-45%}
+#myModalLegal .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#myModalLegal .modal-dialog{width:90%;margin-left:-45%;height:90%;top:10vh}
 }
-@media (min-width:768px){#myModalLegal .modal-dialog{width:770px;height:713px;margin-top:-356.5px;margin-left:-385px}
+@media (min-width:768px){#myModalLegal .modal-dialog{width:770px;height:713px;margin-top:-356.5px;margin-left:-385px;top:50%}
 }
 #myModalLegal .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);overflow-y:scroll}
 #myModalLegal .modal-dialog .modal-content .modal-footer,#myModalLegal .modal-dialog .modal-content .modal-header{border:none}
@@ -276,9 +275,10 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 #myModalLegal .modal-dialog .modal-content .modal-body{text-align:center}
 #myModalLegal .modal-dialog .modal-content .modal-body p{font-family:SummerFont;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:center}
 #myModalLegal .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:20px;text-align:left;padding:0 50px 50px}
-@media (max-width:767px){#myModalWhereYou .modal-dialog{width:90%;margin-left:-45%;height:274px;margin-top:-137px}
+#myModalWhereYou .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#myModalWhereYou .modal-dialog{width:90%;margin-left:-45%;height:274px;top:10vh}
 }
-@media (min-width:768px){#myModalWhereYou .modal-dialog{margin-top:-137px;margin-left:-385px;width:770px;height:274px}
+@media (min-width:768px){#myModalWhereYou .modal-dialog{margin-top:-137px;margin-left:-385px;width:770px;height:274px;top:50%}
 }
 #myModalWhereYou .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:770px;height:274px}
 @media (max-width:767px){#myModalWhereYou .modal-dialog .modal-content{width:100%;height:auto}
@@ -302,9 +302,10 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 #myModalWhereYou .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
 @media (min-width:768px){#myModalWhereYou .modal-dialog .modal-content .modal-footer .btn-next{margin-left:-150px}
 }
-@media (max-width:767px){#myModalSingUp .modal-dialog{width:90%;margin-left:-45%;height:518px;margin-top:-259px}
+#myModalSingUp .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#myModalSingUp .modal-dialog{width:90%;margin-left:-45%;height:518px;top:10vh}
 }
-@media (min-width:768px){#myModalSingUp .modal-dialog{width:770px;height:518px;margin-left:-385px;margin-top:-259px}
+@media (min-width:768px){#myModalSingUp .modal-dialog{width:770px;height:518px;margin-left:-385px;margin-top:-259px;top:50%}
 }
 #myModalSingUp .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
 @media (max-width:767px){#myModalSingUp .modal-dialog .modal-content{width:100%;height:auto}
@@ -340,9 +341,10 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 }
 @media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-footer .btn-sing-up{margin-left:-200px}
 }
-@media (max-width:767px){#myModalDistribution .modal-dialog{width:90%;margin-left:-45%;height:462px;margin-top:-231px}
+#myModalDistribution .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#myModalDistribution .modal-dialog{width:90%;margin-left:-45%;height:462px;top:10vh}
 }
-@media (min-width:768px){#myModalDistribution .modal-dialog{width:770px;height:462px;margin-top:-231px;margin-left:-385px}
+@media (min-width:768px){#myModalDistribution .modal-dialog{width:770px;height:462px;margin-top:-231px;margin-left:-385px;top:50%}
 }
 #myModalDistribution .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
 @media (max-width:767px){#myModalDistribution .modal-dialog .modal-content{width:100%;height:auto}
@@ -360,23 +362,16 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 }
 #myModalDistribution .modal-dialog .modal-content .modal-footer h2{font-family:SummerFont;color:#3caad2;font-size:5.625em;font-weight:300;line-height:65px;text-align:center}
 @media (max-width:767px){#myModalDistribution .modal-dialog .modal-content .modal-footer h2{font-size:4.625em;line-height:55px}
-#myModalDistribution .modal-dialog .modal-content .modal-footer input{width:100%}
 }
-@media (min-width:768px){#myModalDistribution .modal-dialog .modal-content .modal-footer h2{line-height:65px;font-size:5.625em}
+@media (min-width:768px){#myModalDistribution .modal-dialog .modal-content .modal-footer h2{line-height:65px;font-size:5.625em;margin-top:50px}
 }
-#myModalDistribution .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center}
-#myModalDistribution .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;margin-top:20px}
-@media (min-width:768px){#myModalDistribution .modal-dialog .modal-content .modal-footer input{width:570px}
-}
-#myModalDistribution .modal-dialog .modal-content .modal-footer ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#myModalDistribution .modal-dialog .modal-content .modal-footer ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#myModalDistribution .modal-dialog .modal-content .modal-footer :-moz-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;padding-left:20px;line-height:24px;text-align:left}
-#myModalDistribution .modal-dialog .modal-content .modal-footer :-ms-input-placeholder{font-family:UBUNTU-LIGHT;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#myModalDistribution .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center;margin-top:20px;margin-bottom:20px}
 #myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-@media (max-width:767px){#myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{margin-left:0;margin-top:20px}
+@media (max-width:767px){#myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{margin-left:0;margin-top:20px;margin-bottom:20px}
 }
-@media (min-width:768px){#myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{margin-left:-200px}
-}
+.close{opacity:.5;outline:0}
+.close .close-icon{color:#f39c12;font-size:20px;font-weight:400;line-height:25px;text-align:left}
+.close:hover{opacity:1}
 .main-screen-faq .first-bg{background:url(../img/photo-faq.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:100vh;width:100%;position:absolute}
 .main-screen-faq .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-faq .content{height:100vh}
