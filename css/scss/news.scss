@@ -99,6 +99,9 @@
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
       margin-bottom: 60px;
       outline: none;
+      &:hover {
+        background-color: #E48D12;
+      }
     }
   }
 }
@@ -151,6 +154,9 @@
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
       padding: 0;
       outline: none;
+      &:hover {
+        background-color: #3d9bc3;;
+      }
     }
     .hr-news {
       background-color:  #cbcbcb;
@@ -179,6 +185,9 @@
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
       margin-bottom: 50px;
       outline: none;
+      &:hover {
+        background-color: #3d9bc3;;
+      }
       @media #{$bootstrap-xs} {
         margin-top: 20px;
       }

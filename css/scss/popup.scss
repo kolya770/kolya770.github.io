@@ -120,6 +120,9 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          &:hover {
+            background-color: #E48D12;
+          }
         }
       }
     }
@@ -296,6 +299,9 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          &:hover {
+            background-color: #E48D12;
+          }
           @media #{$bootstrap-xs} {
             margin-top: 20px;
             margin-left: 0;
@@ -459,6 +465,9 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          &:hover {
+            background-color: #3d9bc3;;
+          }
           @media #{$bootstrap-xs} {
             margin-left: 0;
             margin-top: 20px;
@@ -573,6 +582,9 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          &:hover {
+            background-color: #E48D12;
+          }
           @media #{$bootstrap-xs} {
             margin-left: 0;
             margin-top: 20px;

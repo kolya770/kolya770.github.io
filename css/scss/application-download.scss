@@ -76,10 +76,16 @@
         margin-left: 0;
         margin-bottom: 20px;
       }
+
       @media #{$bootstrap-sm} {
         margin-top: 60px;
         margin-left: 5px;
       }
+
+      @media (max-width: 374px) {
+        margin-bottom: 0;
+      }
+
       .apple-logo {
         background: url(../img/apple-logo.png) no-repeat;
         width: 22px;
@@ -118,6 +124,7 @@
         margin-top: 60px;
         margin-left: 10px;
       }
+
       .google-logo {
         background: url(../img/logo-google.png) no-repeat;
         width: 117px;
