@@ -1,7 +1,7 @@
 body{font-size:16px}
 .navbar-default .navbar-nav>li>a,.navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{font-family:UBUNTU-MEDIUM;font-size:.938em;font-weight:500;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 @font-face{font-family:UBUNTU-MEDIUM;src:url(../fonts/UBUNTU-MEDIUM.TTF);font-weight:400;font-style:normal}
-@font-face{font-family:SummerFont;src:url(../fonts/SUMMER-FONT-LIGHT.OTF);font-weight:400;font-style:normal}
+@font-face{font-family:SummerFont;src:url(../fonts/Summer-Font-Light.eot);src:url(../fonts/Summer-Font-Light.eot?#iefix) format("embedded-opentype"),url(../fonts/Summer-Font-Light.woff) format("woff"),url(../fonts/Summer-Font-Light.otf) format("opentype"),url(../fonts/Summer-Font-Light.ttf) format("truetype"),url(../fonts/Summer-Font-Light.svg#SummerFont) format("svg");font-weight:400;font-style:normal}
 @font-face{font-family:UBUNTU-REGULAR;src:url(../fonts/UBUNTU-REGULAR.TTF);font-weight:400;font-style:normal}
 @font-face{font-family:UBUNTU-LIGHT;src:url(../fonts/UBUNTU-LIGHT.TTF);font-weight:400;font-style:normal}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.TTF);font-weight:400;font-style:normal}
@@ -26,7 +26,7 @@ body{font-size:16px}
 .main-screen-home .first-bg{background:url(../img/main-photo.png) 50% 50% fixed,#464646;background-size:cover;height:100vh;position:absolute;opacity:1;width:100%}
 .main-screen-home .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-home .content{height:100vh}
-.main-screen-home .content .header{font-family:SummerFont;color:#fefefe;font-weight:300;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
+.main-screen-home .content .header{font-family:SummerFont,sans-serif;color:#fefefe;font-weight:300;text-align:center;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
 @media (max-width:767px){.navbar-washdrop{top:15px}
 .main-screen-home .content .header{font-size:3.125em;line-height:60px;margin-top:30vh}
 }
