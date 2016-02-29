@@ -1,8 +1,8 @@
 body{font-size:16px}
 .navbar-default .navbar-nav>li>a,.navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{font-family:UBUNTU-MEDIUM;font-size:.938em;font-weight:500;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
-@font-face{font-family:UBUNTU-MEDIUM;src:url(../fonts/UBUNTU-MEDIUM.TTF);font-weight:400;font-style:normal}
+@font-face{font-family:UBUNTU-MEDIUM;src:url(../fonts/UBUNTU-MEDIUM.eot);src:url(../fonts/UBUNTU-MEDIUM.eot#iefix) format("embedded-opentype"),url(../fonts/UBUNTU-MEDIUM.woff) format("woff"),url(../fonts/UBUNTU-MEDIUM.otf) format("opentype"),url(../fonts/UBUNTU-MEDIUM.ttf) format("truetype"),url(../fonts/UBUNTU-MEDIUM.svg#UBUNTU-MEDIUM) format("svg");font-weight:400;font-style:normal}
 @font-face{font-family:SummerFont;src:url(../fonts/Summer-Font-Light.eot);src:url(../fonts/Summer-Font-Light.eot?#iefix) format("embedded-opentype"),url(../fonts/Summer-Font-Light.woff) format("woff"),url(../fonts/Summer-Font-Light.otf) format("opentype"),url(../fonts/Summer-Font-Light.ttf) format("truetype"),url(../fonts/Summer-Font-Light.svg#SummerFont) format("svg");font-weight:400;font-style:normal}
-@font-face{font-family:UBUNTU-REGULAR;src:url(../fonts/UBUNTU-REGULAR.TTF);font-weight:400;font-style:normal}
+@font-face{font-family:UBUNTU-REGULAR;src:url(../fonts/UBUNTU-REGULAR.eot);src:url(../fonts/UBUNTU-REGULAR.eot#iefix) format("embedded-opentype"),url(../fonts/UBUNTU-REGULAR.woff) format("woff"),url(../fonts/UBUNTU-REGULAR.otf) format("opentype"),url(../fonts/UBUNTU-REGULAR.ttf) format("truetype"),url(../fonts/UBUNTU-REGULAR.svg#UBUNTU-MEDIUM) format("svg");font-weight:400;font-style:normal}
 @font-face{font-family:UBUNTU-LIGHT;src:url(../fonts/UBUNTU-LIGHT.TTF);font-weight:400;font-style:normal}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.TTF);font-weight:400;font-style:normal}
 @media (min-width:1200px){.container{width:1200px}

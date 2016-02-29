@@ -6,7 +6,12 @@ body {
 
 @font-face {
   font-family: "UBUNTU-MEDIUM";
-  src: url("../fonts/UBUNTU-MEDIUM.TTF");
+  src: url("../fonts/UBUNTU-MEDIUM.eot");
+  src: url("../fonts/UBUNTU-MEDIUM.eot#iefix") format("embedded-opentype"),
+  url("../fonts/UBUNTU-MEDIUM.woff") format("woff"),
+  url("../fonts/UBUNTU-MEDIUM.otf") format("opentype"),
+  url("../fonts/UBUNTU-MEDIUM.ttf") format("truetype"),
+  url("../fonts/UBUNTU-MEDIUM.svg#UBUNTU-MEDIUM") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -21,12 +26,14 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
-$summer-font: "SummerFont";
-
 @font-face {
   font-family: "UBUNTU-REGULAR";
-  src: url("../fonts/UBUNTU-REGULAR.TTF");
+  src: url("../fonts/UBUNTU-REGULAR.eot");
+  src: url("../fonts/UBUNTU-REGULAR.eot#iefix") format("embedded-opentype"),
+  url("../fonts/UBUNTU-REGULAR.woff") format("woff"),
+  url("../fonts/UBUNTU-REGULAR.otf") format("opentype"),
+  url("../fonts/UBUNTU-REGULAR.ttf") format("truetype"),
+  url("../fonts/UBUNTU-REGULAR.svg#UBUNTU-MEDIUM") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -43,6 +50,8 @@ $summer-font: "SummerFont";
   font-style: normal;
 }
 
+$summer-font: "SummerFont";
+$ubuntu-medium-font: "UBUNTU-MEDIUM";
 
 @media (min-width: 1200px) {
   .container {
