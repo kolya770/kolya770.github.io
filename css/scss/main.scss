@@ -12,10 +12,18 @@ body {
 }
 @font-face {
   font-family: "SummerFont";
-  src: url("../fonts/SUMMER-FONT-LIGHT.OTF");
+  src: url("../fonts/Summer-Font-Light.eot");
+  src: url("../fonts/Summer-Font-Light.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Summer-Font-Light.woff") format("woff"),
+  url("../fonts/Summer-Font-Light.otf") format("opentype"),
+  url("../fonts/Summer-Font-Light.svg#SummerFont") format("svg"),
+  url("../fonts/Summer-Font-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
+$summer-font: "SummerFont";
+
 @font-face {
   font-family: "UBUNTU-REGULAR";
   src: url("../fonts/UBUNTU-REGULAR.TTF");
