@@ -1,0 +1,57 @@
+ul{
+  margin: 0;
+  padding: 0;
+}
+#container {
+  background: transparent;
+  padding: 20px;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+}
+.menu-btn {
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  background-color: rgba(60, 170, 210, 0);
+  box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.2);
+  width: 38px;
+  height: 40px;
+  padding: 7px 6px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.close-block {
+  height: 85px;
+}
+.close-btn {
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+}
+.menu-btn:hover {
+  background: transparent;
+  color: #FFF;
+}
+.nav-text-mobile {
+  font-family: $ubuntu-medium-font, "sans-serif";
+  font-size: 0.938em;
+  font-weight: 500;
+  line-height: 30px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.btn-navbar-mobile {
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  background-color:  rgba(60, 170, 210, 0);
+  box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.2);
+  width: 184px;
+  height: 52px;
+  font-family: $ubuntu-medium-font, "sans-serif";
+  color: #ffffff;
+  font-size: 0.938em;;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}

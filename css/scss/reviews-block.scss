@@ -4,7 +4,7 @@
   .header-reviews {
     text-align: center;
     h2 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color:  #4a4b4c;
       font-weight: 300;
       line-height: 100px;
@@ -27,7 +27,7 @@
       background-color:  #3caad2;
       width: 160px;
       height: 50px;
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #ffffff;
       font-size: 1em;
       font-weight: 300;
@@ -53,7 +53,7 @@
     .text-reviews {
       padding-top: 15px;
       h2 {
-        font-family: UBUNTU-REGULAR;
+        font-family: $ubuntu-regular-font, "sans-serif";
         color:  #3caad2;
         font-size: 18px;
         font-weight: 400;
@@ -61,7 +61,7 @@
         text-align: center;
       }
       p {
-        font-family: UBUNTU-LIGHT;
+        font-family: $ubuntu-light-font, "sans-serif";
         color:  #4a4b4c;
         font-size: 14px;
         font-weight: 300;

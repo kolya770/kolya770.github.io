@@ -46,7 +46,7 @@
       background-color: #f39c12;
       height: 65px;
       border: none;
-      font-family: "UBUNTU-REGULAR";
+      font-family: $ubuntu-regular-font, "sans-serif";
       color: #ffffff;
       font-weight: 400;
       line-height: 24px;
@@ -70,7 +70,7 @@
     }
 
     .order-before {
-      font-family: "UBUNTU-REGULAR";
+      font-family: $ubuntu-regular-font, "sans-serif";
       color: #ffffff;
       font-weight: 400;
       line-height: 24px;

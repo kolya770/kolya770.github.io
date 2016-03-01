@@ -10,60 +10,11 @@
   }
 }
 
-.section-discount {
-  .discount {
-    text-align: center;
-    h2 {
-      font-family: SummerFont;
-      color:  #3caad2;
-      font-weight: 300;
-      text-align: center;
-      margin-top: 35px;
-      margin-bottom: 25px;
-      @media #{$bootstrap-xs} {
-        font-size: 4.063em;
-        line-height: 60px;
-      }
-      @media #{$bootstrap-sm} {
-        font-size: 5.625em;
-        line-height: 90px;
-      }
-    }
-    p {
-      font-family: UBUNTU-LIGHT;
-      color:  rgb(30, 31, 32);
-      font-size: 1.125em;
-      font-weight: 500;
-      line-height: 25px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .btn-order {
-      border-radius: 6px;
-      background-color:  #f39c12;
-      width: 260px;
-      height: 50px;
-      font-family: UBUNTU-REGULAR;
-      color: #ffffff;
-      font-size: 1em;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: center;
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      margin-bottom: 60px;
-      outline: none;
-      &:hover {
-        background-color: #E48D12;
-      }
-    }
-  }
-}
 
-.section-news-other {
   .other-news {
     text-align: center;
     h2 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color:  #4a4b4c;
       font-weight: 300;
       line-height: 100px;
@@ -85,7 +36,7 @@
   .news-text {
     text-align: center;
     h2 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color: #4a4b4c;
       font-weight: 300;
       text-align: center;
@@ -105,7 +56,7 @@
   .info {
     max-width: 770px;
     p.date{
-      font-family: UBUNTU-BOLD;
+      font-family: $ubuntu-bold-font, "sans-serif";
       color:  #3caad2;
       font-size: 0.938em;
       font-weight: 700;
@@ -114,7 +65,7 @@
       margin-bottom: 35px;
     }
     p.info-text {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color:  #4a4b4c;
       font-size: 0.875em;
       font-weight: 300;
@@ -138,7 +89,7 @@
       padding: 0 12px;
       margin-right: 10px;
       outline: none;
-      font-family: UBUNTU-MEDIUM;
+      font-family: $ubuntu-medium-font, "sans-serif";
       color:  #ffffff;
       font-size: 0.938em;
       font-weight: 500;
@@ -162,7 +113,7 @@
   }
   .news-block {
     h3 {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #4a4b4c;
       font-size: 1.188em;
       font-weight: 300;
@@ -170,7 +121,7 @@
       text-align: left;
     }
     p {
-      font-family: UBUNTU-BOLD;
+      font-family: $ubuntu-bold-font, "sans-serif";
       color:  #3caad2;
       font-size: 0.938em;
       font-weight: 700;
@@ -194,7 +145,7 @@
       background-color:  #3caad2;
       width: 192px;
       height: 50px;
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #ffffff;
       font-size: 1em;
       font-weight: 300;
@@ -209,4 +160,3 @@
       }
     }
   }
-}

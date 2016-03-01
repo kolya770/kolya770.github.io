@@ -2,9 +2,12 @@
   .first-bg {
     background: rgba(210, 214, 220, 0.8) url(../img/news-photo.png) 50% 50% fixed;
     background-size: cover;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     position: absolute;
+    @media #{$bootstrap-xs} {
+      height: 100vh;
+    }
     .logo-mobile {
       position: absolute;
       left: 50%;
@@ -13,94 +16,71 @@
     }
   }
   .content {
-    height: 100vh;
-    p {
-      font-family: UBUNTU-BOLD;
-      color:  #ffffff;
-      font-size: 15px;
-      font-weight: 700;
-      line-height: 24px;
-      text-align: left;
-      text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
-    }
+    height: 50vh;
     @media #{$bootstrap-xs} {
-      .mobile-content {
-        position: absolute!important;
+      height: 100vh;
+    }
+    .content-height {
+      height: 50vh;
+      @media #{$bootstrap-xs} {
+        height: 100vh;
+      }
+      .main-block {
+        position: absolute;
         bottom: 0;
-      }
-    }
-    .main-hr {
-      background-color: rgba(255, 255, 255, 0.75);
-      height: 1px;
-      @media #{$bootstrap-xs} {
-        margin-top: 0;
-      }
-      @media #{$bootstrap-sm} {
-        margin-top: 80vh;
-      }
-    }
-    .header {
-      font-family: SummerFont;
-      color: #fefefe;
-      font-weight: 300;
-      line-height: 60px;
-      text-align: left;
-      text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
-      @media #{$bootstrap-xs} {
-        font-size: 3.125em;
-      }
-      @media #{$bootstrap-sm} {
-        font-size: 3.750em;
-      }
-
-    }
-  }
-}
-
-.section-discount {
-  .discount {
-    text-align: center;
-    h2 {
-      font-family: SummerFont;
-      color:  #3caad2;
-      font-weight: 300;
-      text-align: center;
-      margin-top: 35px;
-      margin-bottom: 25px;
-      @media #{$bootstrap-xs} {
-        font-size: 4.063em;
-        line-height: 60px;
-      }
-      @media #{$bootstrap-sm} {
-        font-size: 5.625em;
-        line-height: 90px;
-      }
-    }
-    p {
-      font-family: UBUNTU-LIGHT;
-      color:  rgb(30, 31, 32);
-      font-size: 1.125em;
-      font-weight: 500;
-      line-height: 25px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .btn-order {
-      border-radius: 6px;
-      background-color:  #f39c12;
-      width: 260px;
-      height: 50px;
-      font-family: UBUNTU-REGULAR;
-      color: #ffffff;
-      font-size: 1em;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: center;
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      margin-bottom: 60px;
-      outline: none;
-      &:hover {
-        background-color: #E48D12;
+        @media #{$bootstrap-xs} {
+          width: 90%;
+          left: 50%;
+          margin-left: -45%;
+        }
+        @media #{$bootstrap-sm} {
+          width: 720px;
+        }
+        @media #{$bootstrap-md} {
+          width: 940px;
+        }
+        @media #{$bootstrap-lg} {
+          width: 1170px;
+        }
+        p {
+          font-family: $ubuntu-bold-font, "sans-serif";
+          color:  #ffffff;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 24px;
+          text-align: left;
+          text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+        }
+        @media #{$bootstrap-xs} {
+          .mobile-content {
+            position: absolute!important;
+            bottom: 0;
+          }
+        }
+        .main-hr {
+          background-color: rgba(255, 255, 255, 0.75);
+          height: 1px;
+          @media #{$bootstrap-xs} {
+            margin-top: 0;
+          }
+          @media #{$bootstrap-sm} {
+            margin-top: 0;
+          }
+        }
+        .header {
+          font-family: $summer-font, "sans-serif";
+          color: #fefefe;
+          font-weight: 300;
+          line-height: 60px;
+          text-align: left;
+          text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+          @media #{$bootstrap-xs} {
+            font-size: 3.125em;
+          }
+          @media #{$bootstrap-sm} {
+            font-size: 3.750em;
+          }
+        }
       }
     }
   }
@@ -110,7 +90,7 @@
   .news-text {
     text-align: center;
     h2 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color: #4a4b4c;
       font-size: 5em;
       font-weight: 300;
@@ -125,7 +105,7 @@
   }
   .news-block {
     h3 {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #4a4b4c;
       font-size: 1.188em;
       font-weight: 300;
@@ -133,7 +113,7 @@
       text-align: left;
     }
     p {
-      font-family: UBUNTU-BOLD;
+      font-family: $ubuntu-bold-font, "sans-serif";
       color:  #3caad2;
       font-size: 0.938em;
       font-weight: 700;
@@ -145,14 +125,14 @@
       background-color:  #3caad2;
       width: 96px;
       height: 30px;
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color:  #ffffff;
       font-size: 0.875em;
       font-weight: 300;
       line-height: 24px;
       text-align: center;
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      padding: 0;
+      padding: 2px 0 0 0;
       outline: none;
       &:hover {
         background-color: #3d9bc3;;
@@ -176,7 +156,7 @@
       background-color:  #3caad2;
       width: 192px;
       height: 50px;
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #ffffff;
       font-size: 1em;
       font-weight: 300;

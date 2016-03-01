@@ -33,35 +33,49 @@ body {
   url("../fonts/UBUNTU-REGULAR.woff") format("woff"),
   url("../fonts/UBUNTU-REGULAR.otf") format("opentype"),
   url("../fonts/UBUNTU-REGULAR.ttf") format("truetype"),
-  url("../fonts/UBUNTU-REGULAR.svg#UBUNTU-MEDIUM") format("svg");
+  url("../fonts/UBUNTU-REGULAR.svg#UBUNTU-REGULAR") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "UBUNTU-LIGHT";
-  src: url("../fonts/UBUNTU-LIGHT.TTF");
+  src: url("../fonts/UBUNTU-LIGHT.eot");
+  src: url("../fonts/UBUNTU-LIGHT.eot#iefix") format("embedded-opentype"),
+  url("../fonts/UBUNTU-LIGHT.woff") format("woff"),
+  url("../fonts/UBUNTU-LIGHT.otf") format("opentype"),
+  url("../fonts/UBUNTU-LIGHT.ttf") format("truetype"),
+  url("../fonts/UBUNTU-LIGHT.svg#UBUNTU-LIGHT") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "UBUNTU-BOLD";
-  src: url("../fonts/UBUNTU-BOLD.TTF");
+  src: url("../fonts/UBUNTU-BOLD.eot");
+  src: url("../fonts/UBUNTU-BOLD.eot#iefix") format("embedded-opentype"),
+  url("../fonts/UBUNTU-BOLD.woff") format("woff"),
+  url("../fonts/UBUNTU-BOLD.otf") format("opentype"),
+  url("../fonts/UBUNTU-BOLD.ttf") format("truetype"),
+  url("../fonts/UBUNTU-BOLD.svg#UBUNTU-BOLD") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 $summer-font: "SummerFont";
 $ubuntu-medium-font: "UBUNTU-MEDIUM";
+$ubuntu-regular-font: "UBUNTU-REGULAR";
+$ubuntu-light-font: "UBUNTU-LIGHT";
+$ubuntu-bold-font: "UBUNTU-BOLD";
 
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
   }
 }
-
-.first-screen-animation {
-  opacity: 0;
-  bottom: -10vh;
+@media #{$bootstrap-sm} {
+  .first-screen-animation {
+    opacity: 0;
+    bottom: -10vh;
+  }
 }
 
 @import "navbar";
@@ -77,3 +91,4 @@ $ubuntu-medium-font: "UBUNTU-MEDIUM";
 @import "FAQ";
 @import "news";
 @import "other-news";
+@import "navbar-mobile";

@@ -16,15 +16,7 @@ footer {
       }
     }
   }
-  @media #{$bootstrap-xs} {
-    .no-padding-1 {
-      padding: 0;
-    }
-  }
 
-  .no-padding {
-    padding: 0;
-  }
   .btn-right {
     float: right;
     .btn-apple {
@@ -55,7 +47,7 @@ footer {
         vertical-align: middle;
         height: 100%;
         display: inline-block;
-        font-family: UBUNTU-MEDIUM;
+        font-family: $ubuntu-medium-font, "sans-serif";
         font-size: 1.125em;
         font-weight: 500;
         line-height: 46px;
@@ -73,8 +65,6 @@ footer {
       outline: none;
       @media #{$bootstrap-sm} {
         float: right;
-        margin-top: 15px;
-        margin-bottom: 15px;
       }
       @media #{$bootstrap-md} {
         //float: none;
@@ -96,7 +86,7 @@ footer {
     }
   }
   p {
-    font-family: UBUNTU-LIGHT;
+    font-family: $ubuntu-light-font, "sans-serif";
     color:  #ffffff;
     font-size: 0.938em;
     font-weight: 300;
@@ -112,7 +102,7 @@ footer {
   .city {
     color: #2a96bd;
     margin-top: 15px;
-    font-family: UBUNTU-LIGHT;
+    font-family: $ubuntu-light-font, "sans-serif";
     text-decoration: none;
   }
   .logo-footer {
@@ -133,6 +123,12 @@ footer {
     width: 100%;
     border-top: 1px solid #656667;
     margin-bottom: 0;
+    @media #{$bootstrap-sm} {
+      margin-top: 20px;
+    }
+    @media #{$bootstrap-md} {
+      margin-top: 0;
+    }
   }
   @media #{$bootstrap-xs} {
     .footer-hr {
@@ -143,7 +139,7 @@ footer {
     margin-top: 25px;
     display: inline-block;
     a {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #656667;
       font-size: 0.938em;
       font-weight: 300;
@@ -165,11 +161,6 @@ footer {
     border-top: 1px solid #656667;
     margin-bottom: 0;
   }
-  @media #{$bootstrap-sm} {
-    .footer-hr-mobile {
-      display: none;
-    }
-  }
   .right-block {
     margin-top: 25px;
     @media #{$bootstrap-sm} {
@@ -181,7 +172,7 @@ footer {
       margin-bottom: 0;
     }
     a {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #656667;
       font-size: 0.938em;
       font-weight: 300;
@@ -203,7 +194,7 @@ footer {
       margin-right: 0;
     }
     p.no-link {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #656667;
       font-size: 0.938em;
       font-weight: 300;

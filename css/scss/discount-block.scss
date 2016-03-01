@@ -2,7 +2,7 @@
     .discount {
       text-align: center;
       h2 {
-        font-family: SummerFont;
+        font-family: $summer-font, "sans-serif";
         color: #3caad2;
         font-size: 5.625em;
         font-weight: 300;
@@ -19,7 +19,7 @@
         }
       }
       p {
-        font-family: UBUNTU-LIGHT;
+        font-family: $ubuntu-light-font, "sans-serif";
         color: #1e1f20;
         font-size: 1.125em;
         font-weight: 300;
@@ -32,7 +32,7 @@
         background-color:  #f39c12;
         width: 260px;
         height: 50px;
-        font-family: UBUNTU-REGULAR;
+        font-family: $ubuntu-regular-font, "sans-serif";
         color: #ffffff;
         font-size: 1em;
         font-weight: 400;

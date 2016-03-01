@@ -2,7 +2,7 @@
   .how-it-work {
     text-align: center;
     h2 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color:  #4a4b4c;
       font-weight: 300;
       text-align: center;
@@ -18,7 +18,7 @@
       }
     }
     h3 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color:  rgb(60, 170, 210);
       font-size: 3.125em;
       font-weight: 300;
@@ -44,7 +44,7 @@
   .no-padding {
     padding: 0;
     h2 {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color:  #4a4b4c;
       font-size: 1.188em;
       font-weight: 300;
@@ -58,7 +58,7 @@
       }
     }
     p {
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color:  #3caad2;
       font-size: 0.938em;
       font-weight: 300;
@@ -78,7 +78,7 @@
     margin-top: 45px;
   }
   h2 {
-    font-family: UBUNTU-LIGHT;
+    font-family: $ubuntu-light-font, "sans-serif";
     color:  #4a4b4c;
     font-size: 1.188em;
     font-weight: 300;
@@ -86,7 +86,7 @@
     text-align: center;
   }
   p {
-    font-family: UBUNTU-LIGHT;
+    font-family: $ubuntu-light-font, "sans-serif";
     color:  #3caad2;
     font-size: 0.938em;
     font-weight: 300;

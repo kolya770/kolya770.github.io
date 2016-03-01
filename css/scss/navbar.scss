@@ -8,7 +8,7 @@
     top: 15px;
   }
   @media #{$bootstrap-sm} {
-    top: 35px;
+    top: 27px;
   }
   .navbar-header {
     .mobile-nav {
@@ -38,15 +38,18 @@
       @media #{$bootstrap-lg} {
         @include logo-centered(174px);
       }
-
-
       img {
-        margin-top: -50px;
+        margin-top: -40px;
       }
     }
+    @media #{$bootstrap-md} {
+      .logo-center-class {
+        @include logo-centered(174px);
+      }
+    }
+
     .my-navbar-right {
       margin-right: 0;
-      padding-right: 15px;
       .btn-navbar {
         border-radius: 5px;
         border: 2px solid #ffffff;
@@ -55,7 +58,7 @@
         width: 185px;
         height: 52px;
         color: #ffffff;
-        font-family: UBUNTU-MEDIUM;
+        font-family: $ubuntu-medium-font, "sans-serif";
         font-size: 0.938em;
         font-weight: 500;
         line-height: 24px;
@@ -71,7 +74,7 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-  font-family: UBUNTU-MEDIUM;
+  font-family: $ubuntu-medium-font, "sans-serif";
   color: #fefefe;
   font-size: 0.938em;
   font-weight: 500;
@@ -82,3 +85,9 @@
     color: #ffffff;;
   }
 }
+
+.navbar-nav li:first-child a{
+  padding-left: 0;
+}
+
+

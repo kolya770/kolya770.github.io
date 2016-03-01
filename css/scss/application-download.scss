@@ -17,7 +17,7 @@
     }
 
     h2 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color: #4a4b4c;
       font-weight: 300;
       line-height: 60px;
@@ -62,7 +62,19 @@
   .block-for-app-btn {
     @media #{$bootstrap-xs} {
       text-align: center;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 345px;
     }
+    @media #{$bootstrap-sm} {
+      display: inline-block;
+      float: right;
+    }
+    @media (max-width: 375px) {
+      width: 170px;
+    }
+
     .btn-for-ios {
       border-radius: 6px;
       background-color: #191919;
@@ -70,20 +82,14 @@
       height: 50px;
       border: none;
       outline: none;
-
       @media #{$bootstrap-xs} {
         margin-top: 20px;
-        margin-left: 0;
         margin-bottom: 20px;
+        float: left;
       }
-
       @media #{$bootstrap-sm} {
         margin-top: 60px;
-        margin-left: 5px;
-      }
-
-      @media (max-width: 374px) {
-        margin-bottom: 0;
+        float: right;
       }
 
       .apple-logo {
@@ -114,18 +120,21 @@
       height: 50px;
       border: none;
       outline: none;
-
       @media #{$bootstrap-xs} {
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 0;
+        float: right;
+        margin-left: 5px;
       }
       @media #{$bootstrap-sm} {
         margin-top: 60px;
         margin-left: 10px;
         float: right;
       }
-
+      @media (max-width: 375px) {
+        margin-left: 0;
+        margin-bottom: 0;
+      }
       .google-logo {
         background: url(../img/logo-google.png) no-repeat;
         width: 117px;

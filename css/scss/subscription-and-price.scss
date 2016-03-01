@@ -2,7 +2,7 @@
   .subscribe {
     text-align: center;
     h2 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color: #4a4b4c;
       font-weight: 300;
       text-align: center;
@@ -18,7 +18,7 @@
       }
     }
     h3 {
-      font-family: SummerFont;
+      font-family: $summer-font, "sans-serif";
       color: #3caad2;
       font-size: 3.125em;
       font-weight: 300;
@@ -47,7 +47,43 @@
       background-color: #f9f9f9;
       height: 50px;
       outline: none;
-      padding: 0;
+      padding: 10px 10px 10px 20px;
+      ::-webkit-input-placeholder {
+        padding-left: 20px;
+        font-family: $ubuntu-light-font, "sans-serif";
+        color: #4a4b4c;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+      }
+      ::-moz-placeholder {
+        padding-left: 20px;
+        font-family: $ubuntu-light-font, "sans-serif";
+        color: #4a4b4c;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+      }
+      :-moz-placeholder {
+        padding-left: 20px;
+        font-family: $ubuntu-light-font, "sans-serif";
+        color: #4a4b4c;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+      }
+      :-ms-input-placeholder {
+        padding-left: 20px;
+        font-family: $ubuntu-light-font, "sans-serif";
+        color: #4a4b4c;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+      }
       @media #{$bootstrap-xs} {
         width: 90%;
       }
@@ -61,7 +97,7 @@
       background-color: #3caad2;
       width: 200px;
       height: 50px;
-      font-family: UBUNTU-REGULAR;
+      font-family: $ubuntu-regular-font, "sans-serif";
       color: #ffffff;
       font-size: 1em;
       font-weight: 400;
@@ -79,43 +115,7 @@
       }
       @media #{$bootstrap-sm} {
         margin-left: -20px;
-    }
-    }
-    ::-webkit-input-placeholder {
-      padding-left: 20px;
-      font-family: UBUNTU-LIGHT;
-      color: #4a4b4c;
-      font-size: 1em;
-      font-weight: 300;
-      line-height: 24px;
-      text-align: left;
-    }
-    ::-moz-placeholder {
-      padding-left: 20px;
-      font-family: UBUNTU-LIGHT;
-      color: #4a4b4c;
-      font-size: 1em;
-      font-weight: 300;
-      line-height: 24px;
-      text-align: left;
-    }
-    :-moz-placeholder {
-      padding-left: 20px;
-      font-family: UBUNTU-LIGHT;
-      color: #4a4b4c;
-      font-size: 1em;
-      font-weight: 300;
-      padding-left: 20px;
-      line-height: 24px;
-      text-align: left;
-    }
-    :-ms-input-placeholder {
-      font-family: UBUNTU-LIGHT;
-      color: #4a4b4c;
-      font-size: 1em;
-      font-weight: 300;
-      line-height: 24px;
-      text-align: left;
+      }
     }
   }
   .sub-hr {
@@ -139,7 +139,7 @@
       text-align: center;
       margin-bottom: 60px;
       h2 {
-        font-family: SummerFont;
+        font-family: $summer-font, "sans-serif";
         color: #4a4b4c;
         font-size: 6.25em;
         font-weight: 300;
@@ -160,7 +160,7 @@
       background-color: #3caad2;
       width: 136px;
       height: 50px;
-      font-family: UBUNTU-LIGHT;
+      font-family: $ubuntu-light-font, "sans-serif";
       color: #ffffff;
       font-size: 1em;
       font-weight: 300;
@@ -176,7 +176,7 @@
     .price-carousel {
       margin-bottom: 60px;
       h2 {
-        font-family: UBUNTU-LIGHT;
+        font-family: $ubuntu-light-font, "sans-serif";
         color: #4a4b4c;
         font-size: 1.188em;
         font-weight: 300;
@@ -190,7 +190,7 @@
         }
       }
       p {
-        font-family: UBUNTU-LIGHT;
+        font-family: $ubuntu-light-font, "sans-serif";
         color: #3caad2;
         font-size: 1.313em;
         font-weight: 300;
