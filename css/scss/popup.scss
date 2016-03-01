@@ -52,48 +52,50 @@
           background-color: #f9f9f9;
           height: 50px;
           margin-top: 20px;
+          padding:10px 10px 10px 20px;
+          outline: none;
+          ::-webkit-input-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
+          ::-moz-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
+          :-moz-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
+          :-ms-input-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
           @media #{$bootstrap-xs} {
             width: 90%;
           }
           @media #{$bootstrap-sm} {
             width: 370px;
           }
-        }
-        ::-webkit-input-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        ::-moz-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        :-moz-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        :-ms-input-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
         }
         .forgot-password {
           margin-top: 20px;
@@ -245,6 +247,7 @@
           background-color: #f9f9f9;
           height: 50px;
           padding: 10px 10px 10px 20px;
+          outline :none;
           ::-webkit-input-placeholder {
             padding-left: 20px;
             font-family: $ubuntu-light-font, "sans-serif";
@@ -300,7 +303,8 @@
           line-height: 35px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-          //padding: 11px 0 0 0;
+          margin-top: -1px;
+          outline: none;
           &:hover {
             background-color: #E48D12;
           }
@@ -412,48 +416,50 @@
           background-color:  #f9f9f9;
           height: 50px;
           margin-top: 20px;
+          padding: 10px 10px 10px 20px;
+          outline: none;
+          ::-webkit-input-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
+          ::-moz-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
+          :-moz-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
+          :-ms-input-placeholder {
+            padding-left: 20px;
+            font-family: $ubuntu-light-font, "sans-serif";
+            color: #4a4b4c;
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+          }
           @media #{$bootstrap-xs} {
             width: 100%;
           }
           @media #{$bootstrap-sm} {
             width: 570px;
           }
-        }
-        ::-webkit-input-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        ::-moz-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        :-moz-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
-        }
-        :-ms-input-placeholder {
-          padding-left: 20px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          font-size: 1em;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: left;
         }
         .btn-sing-up {
           border-radius: 6px;
@@ -467,6 +473,8 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          outline: none;
+          margin-top: -1px;
           &:hover {
             background-color: #3d9bc3;;
           }
@@ -584,6 +592,7 @@
           line-height: 24px;
           text-align: center;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          outline: none;
           &:hover {
             background-color: #E48D12;
           }
