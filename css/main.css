@@ -117,12 +117,12 @@ body{font-size:16px}
 .how-it-work-mobile .first-img{margin-top:45px}
 .how-it-work-mobile h2{color:#4a4b4c;font-size:1.188em;text-align:center}
 .how-it-work-mobile p{color:#3caad2;font-size:.938em;text-align:center;padding:0 25px}
-.photo-block .case-for-photo .header-text h2,.photo-block .case-for-photo .header-text h3{color:#fff;font-family:SummerFont,sans-serif;text-align:center}
+.photo-block .case-for-photo .header-text h2,.photo-block .case-for-photo .header-text h3{color:#fff;text-shadow:1px 2px 1px rgba(0,0,0,.25);font-family:SummerFont,sans-serif;text-align:center}
 .how-it-work-mobile p:last-child{margin-bottom:55px}
 .photo-block{background:url(../img/forth-block.png) 50% 50% rgba(210,214,220,.2);background-size:cover;height:75vh;opacity:.8;text-align:center}
 .photo-block .case-for-photo{height:75vh}
 .photo-block .case-for-photo .header-text{height:272px;position:relative;top:50%;margin-top:-136px}
-.photo-block .case-for-photo .header-text h3{font-size:6.25em;text-shadow:1px 2px 1px rgba(0,0,0,.25)}
+.photo-block .case-for-photo .header-text h3{font-size:6.25em}
 @media (max-width:767px){.photo-block .case-for-photo .header-text h3{font-size:3.125em;line-height:60px}
 }
 @media (min-width:768px){.photo-block .case-for-photo .header-text h3{font-size:6.25em;line-height:100px}
