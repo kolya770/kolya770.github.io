@@ -1,6 +1,8 @@
 .navbar-washdrop-store {
   height: 110px;
   background-color: #3e4041;
+  border: none;
+  border-radius: 0;
   .my-navbar {
     .navbar-brand {
       img {
@@ -12,71 +14,129 @@
       border-radius: 10px;
       background-color:  rgba(255, 255, 255, 0.05);
       height: 50px;
-      .nav-btn {
-        .btn-for-ios {
-          width: 95px;
-          height: 30px;
-          border: none;
-          border-radius: 6px;
-          background-color:  #3caad2;
-          outline: none;
-          margin-top: 10px;
-          .apple-logo {
-            background: url(../img/apple-logo.png) no-repeat;
-            background-size: 14px 16px;
-            width: 14px;
-            height: 16px;
-            margin: 5px 5px 0 5px;
+      .navbar-right {
+        margin-right: 15px;
+        .nav-btn {
+          display: inline-block;
+          .btn-for-ios {
+            width: 95px;
+            height: 30px;
+            border: none;
+            border-radius: 6px;
+            background-color:  #3caad2;
+            outline: none;
+            padding: 0;
+            .apple-logo {
+              background: url(../img/apple-logo.png) no-repeat;
+              background-size: 14px 16px;
+              width: 14px;
+              height: 16px;
+              margin: 7px 5px 0 14px;
+              float: left;
+            }
+            .apple-text-btn {
+              color: #ffffff;
+              vertical-align: middle;
+              height: 100%;
+              display: inline-block;
+              font-family: $ubuntu-medium-font, "sans-serif";
+              font-size: 0.675em;
+              font-weight: 500;
+              line-height: 32px;
+              text-align: left;
+              float: left;
+              margin-left: 2px;
+            }
+          }
+          .btn-for-android {
+            width: 95px;
+            height: 30px;
+            border: none;
+            border-radius: 6px;
+            background-color:  #3caad2;
+            outline: none;
+            @media #{$bootstrap-lg} {
+              margin-left: 5px;
+            }
+            .google-logo {
+              background: url(../img/logo-google.png) no-repeat;
+              background-size: 70px 16px;
+              width: 70px;
+              height: 16px;
+            }
+          }
+        }
+        .nav-basket {
+          display: inline-block;
+          width: 190px;
+          @media #{$bootstrap-lg} {
+            margin-left: 15px;
+          }
+          .basket {
+            margin: 13px 13px 0 0;
             float: left;
           }
-          .apple-text-btn {
-            color: #ffffff;
-            vertical-align: middle;
-            height: 100%;
-            display: inline-block;
-            font-family: $ubuntu-medium-font, "sans-serif";
-            font-size: 0.675em;
-            font-weight: 500;
-            line-height: 28px;
+          .text-basket {
+            font-family: $ubuntu-regular-font, "sans-serif";
+            color:  #ffffff;
+            font-size: 0.875em;
+            font-weight: 400;
+            line-height: 24px;
             text-align: left;
-            float: left;
+            text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+            margin-top: 12px;
+            .pick-items {
+              color: rgb(243, 156, 18);
+              margin-left: 5px;
+              border-bottom: 2px dotted;
+            }
           }
         }
-        .btn-for-android {
-          width: 95px;
-          height: 30px;
-          border: none;
-          border-radius: 6px;
-          background-color:  #3caad2;
-          outline: none;
-          margin-top: 10px;
-          .google-logo {
-            background: url(../img/logo-google.png) no-repeat;
-            background-size: 70px 16px;
-            width: 70px;
-            height: 16px;
-            margin: 0 5px;
+        .nav-enter {
+          display: inline-block;
+          .btn-enter {
+            border-radius: 5px;
+            border: 2px solid #ffffff;
+            background-color: rgba(60, 170, 210, 0);
+            box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.2);
+            width: 104px;
+            height: 32px;
+            font-family: $ubuntu-medium-font, "sans-serif";
+            color: #ffffff;
+            font-size: 0.938em;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+            padding: 0;
+            outline: none;
+            .sing-in-icon {
+              margin: 0 10px;
+            }
           }
-        }
-      }
-      .nav-basket {
-        margin-left: 10px;
-        .basket {
-          margin: 12px 10px 0 0;
-        }
-        .text-basket {
-          font-family: $ubuntu-regular-font, "sans-serif";
-          color:  #ffffff;
-          font-size: 0.875em;
-          font-weight: 400;
-          line-height: 24px;
-          text-align: left;
-          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-          margin-top: 11px;
-          .pick-items {
-            color: rgb(243, 156, 18);
-            margin-left: 5px;
-            border-bottom: 2px dotted;
+          .btn-drop {
+            border-radius: 5px;
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            background-color: #ffffff;
+            box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.2);
+            max-width: 240px;
+            height: 30px;
+            padding: 0;
+            font-family: $ubuntu-regular-font, "sans-serif";
+            color:  #3e4041;
+            font-size: 0.938em;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            .user-icon {
+              margin: 3px 5px 0 5px;
+              float: left;
+            }
+            .sort-icon {
+              margin: 0 5px;
+              float: right;
+            }
           }
         }
       }
