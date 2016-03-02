@@ -536,3 +536,28 @@ ul{margin:0;padding:0}
 .menu-btn:hover{background:0 0;color:#FFF}
 .nav-text-mobile{line-height:30px}
 .btn-navbar-mobile{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);width:184px;height:52px;color:#fff;line-height:24px;text-align:center;margin-top:30px}
+.pushy{position:fixed;width:225px;height:100%;top:0;right:0;z-index:9999;background:#333332;font-size:.9em;font-weight:700;-webkit-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);-moz-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);overflow:auto;-webkit-overflow-scrolling:touch}
+.pushy a{display:block;color:#fff;padding:0 30px;text-decoration:none;text-align:right}
+.pushy a:hover{color:#FFF}
+.pushy-left{-webkit-transform:translate3d(225px,0,0);-moz-transform:translate3d(225px,0,0);-ms-transform:translate3d(225px,0,0);-o-transform:translate3d(225px,0,0);transform:translate3d(225px,0,0)}
+.pushy-open{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.container-push,.push-push{-webkit-transform:translate3d(-225px,0,0);-moz-transform:translate3d(-225px,0,0);-ms-transform:translate3d(-225px,0,0);-o-transform:translate3d(-225px,0,0);transform:translate3d(-225px,0,0)}
+#container,.push,.pushy{-webkit-transition:-webkit-transform .2s cubic-bezier(.16,.68,.43,.99);-moz-transition:-moz-transform .2s cubic-bezier(.16,.68,.43,.99);-o-transition:-o-transform .2s cubic-bezier(.16,.68,.43,.99);transition:transform .2s cubic-bezier(.16,.68,.43,.99)}
+.site-overlay{display:none}
+.pushy-active .site-overlay{display:block;position:fixed;top:0;right:0;bottom:0;left:0;z-index:9998;background-color:rgba(0,0,0,.5);-webkit-animation:fade .5s;-moz-animation:fade .5s;-o-animation:fade .5s;animation:fade .5s}
+@keyframes fade{0%{opacity:0}
+100%{opacity:1}
+}
+@-moz-keyframes fade{0%{opacity:0}
+100%{opacity:1}
+}
+@-webkit-keyframes fade{0%{opacity:0}
+100%{opacity:1}
+}
+@-o-keyframes fade{0%{opacity:0}
+100%{opacity:1}
+}
+@media screen and (max-width:768px){.pushy{font-size:1em}
+}
+.navbar-washdrop-store{height:110px;background-color:#3e4041}
+.navbar-washdrop-store .my-navbar .navbar-brand img{width:137px}

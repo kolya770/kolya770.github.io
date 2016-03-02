@@ -78,17 +78,18 @@ $ubuntu-bold-font: "UBUNTU-BOLD";
   }
 }
 
-@import "navbar";
-@import "main-screen-home";
-@import "application-download";
-@import "how-it-work";
-@import "photo-block";
-@import "subscription-and-price";
-@import "reviews-block";
-@import "discount-block";
-@import "footer";
-@import "popup";
-@import "FAQ";
-@import "news";
-@import "other-news";
-@import "navbar-mobile";
+@import "partials/navbar";
+@import "landing/main-screen-home";
+@import "partials/application-download";
+@import "landing/how-it-work";
+@import "landing/photo-block";
+@import "landing/subscription-and-price";
+@import "landing/reviews-block";
+@import "partials/discount-block";
+@import "partials/footer";
+@import "landing/popup";
+@import "partials/FAQ";
+@import "partials/news";
+@import "partials/other-news";
+@import "partials/navbar-mobile";
+@import "partials/navbar-store";
