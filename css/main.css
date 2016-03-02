@@ -27,9 +27,9 @@ body{font-size:16px}
 .navbar-washdrop .my-navbar .my-navbar-right{margin-right:0}
 .navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:185px;height:52px;color:#fff;text-align:center;outline:0}
 .navbar-washdrop .my-navbar .my-navbar-right .btn-navbar:hover{background-color:rgba(255,255,255,.12)}
+.navbar-washdrop .navbar-nav li:first-child a{padding-left:0}
 .navbar-default .navbar-nav>li>a{color:#fefefe;text-align:left}
 .navbar-default .navbar-nav>li>a:hover{color:#fff}
-.navbar-nav li:first-child a{padding-left:0}
 .main-screen-home .first-bg{background:url(../img/main-photo.png) 50% 50% fixed,#464646;background-size:cover;height:100vh;position:absolute;opacity:1;width:100%}
 .main-screen-home .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-home .content{height:100vh}
@@ -83,7 +83,7 @@ body{font-size:16px}
 @media (min-width:768px){.application-download-block .block-for-app-btn .btn-for-ios{margin-top:60px;float:right}
 }
 .application-download-block .block-for-app-btn .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:10px 13px 0 16px;float:left}
-.application-download-block .block-for-app-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM;font-size:1.125em;font-weight:500;line-height:46px;text-align:left;float:left}
+.application-download-block .block-for-app-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:1.125em;font-weight:500;line-height:46px;text-align:left;float:left}
 .how-it-work-block .how-it-work h2,.how-it-work-block .how-it-work h3{font-family:SummerFont,sans-serif;font-weight:300;text-transform:uppercase}
 .application-download-block .block-for-app-btn .btn-for-android{border-radius:6px;background-color:#191919;width:170px;height:50px;border:none;outline:0}
 @media (max-width:767px){.application-download-block .block-for-app-btn .btn-for-android{margin-top:20px;margin-bottom:20px;float:right;margin-left:5px}
@@ -526,7 +526,7 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 .news-block .hr-news{width:100%;margin-bottom:55px}
 .middle-btn{text-align:center}
 .middle-btn .btn-download{border-radius:6px;background-color:#3caad2;width:192px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:300;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:50px;margin-top:50px;outline:0}
-.btn-navbar-mobile,.nav-text-mobile{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.btn-navbar-mobile,.nav-text-mobile{font-size:.938em;font-weight:500;font-family:UBUNTU-MEDIUM,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 .middle-btn .btn-download:hover{background-color:#3d9bc3}
 ul{margin:0;padding:0}
 #container{background:0 0;padding:20px;z-index:1;position:absolute;right:0}
@@ -561,3 +561,13 @@ ul{margin:0;padding:0}
 }
 .navbar-washdrop-store{height:110px;background-color:#3e4041}
 .navbar-washdrop-store .my-navbar .navbar-brand img{width:137px}
+.navbar-washdrop-store .my-navbar .navbar-menu{margin-top:29px;border-radius:10px;background-color:rgba(255,255,255,.05);height:50px}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-btn .btn-for-ios{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;margin-top:10px}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-btn .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:5px 5px 0;float:left}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:.675em;font-weight:500;line-height:28px;text-align:left;float:left}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-btn .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;margin-top:10px}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-btn .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;background-size:70px 16px;width:70px;height:16px;margin:0 5px}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-basket{margin-left:10px}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-basket .basket{margin:12px 10px 0 0}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-basket .text-basket{font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:.875em;font-weight:400;line-height:24px;text-align:left;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:11px}
+.navbar-washdrop-store .my-navbar .navbar-menu .nav-basket .text-basket .pick-items{color:#f39c12;margin-left:5px;border-bottom:2px dotted}

@@ -71,6 +71,9 @@
       }
     }
   }
+  .navbar-nav li:first-child a{
+    padding-left: 0;
+  }
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -86,8 +89,5 @@
   }
 }
 
-.navbar-nav li:first-child a{
-  padding-left: 0;
-}
 
 

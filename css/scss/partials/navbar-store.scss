@@ -7,5 +7,79 @@
         width: 137px;
       }
     }
+    .navbar-menu {
+      margin-top: 29px;
+      border-radius: 10px;
+      background-color:  rgba(255, 255, 255, 0.05);
+      height: 50px;
+      .nav-btn {
+        .btn-for-ios {
+          width: 95px;
+          height: 30px;
+          border: none;
+          border-radius: 6px;
+          background-color:  #3caad2;
+          outline: none;
+          margin-top: 10px;
+          .apple-logo {
+            background: url(../img/apple-logo.png) no-repeat;
+            background-size: 14px 16px;
+            width: 14px;
+            height: 16px;
+            margin: 5px 5px 0 5px;
+            float: left;
+          }
+          .apple-text-btn {
+            color: #ffffff;
+            vertical-align: middle;
+            height: 100%;
+            display: inline-block;
+            font-family: $ubuntu-medium-font, "sans-serif";
+            font-size: 0.675em;
+            font-weight: 500;
+            line-height: 28px;
+            text-align: left;
+            float: left;
+          }
+        }
+        .btn-for-android {
+          width: 95px;
+          height: 30px;
+          border: none;
+          border-radius: 6px;
+          background-color:  #3caad2;
+          outline: none;
+          margin-top: 10px;
+          .google-logo {
+            background: url(../img/logo-google.png) no-repeat;
+            background-size: 70px 16px;
+            width: 70px;
+            height: 16px;
+            margin: 0 5px;
+          }
+        }
+      }
+      .nav-basket {
+        margin-left: 10px;
+        .basket {
+          margin: 12px 10px 0 0;
+        }
+        .text-basket {
+          font-family: $ubuntu-regular-font, "sans-serif";
+          color:  #ffffff;
+          font-size: 0.875em;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+          margin-top: 11px;
+          .pick-items {
+            color: rgb(243, 156, 18);
+            margin-left: 5px;
+            border-bottom: 2px dotted;
+          }
+        }
+      }
+    }
   }
 }
