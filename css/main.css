@@ -156,7 +156,7 @@ body{font-size:16px}
 .subscription-and-price-block .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:50px;font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;padding:0 0 1px}
 .subscription-and-price-block .email .input-btn:hover{background-color:#3d9bc3}
 .subscription-and-price-block .sub-hr{background-color:#cbcbcb;height:1px}
-.price-block .our-price .btn-price,.reviews-block .center-btn .btn-reviews{height:50px;margin-bottom:60px;border-radius:6px;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
+.price-block .our-price .btn-price,.reviews-block .center-btn .btn-reviews{height:50px;margin-bottom:60px;border-radius:6px;outline:0;text-shadow:0 1px 1px rgba(0,0,0,.15)}
 .price-block .our-price{text-align:center}
 .price-block .our-price .header-price{text-align:center;margin-bottom:60px}
 .price-block .our-price .header-price h2{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:6.25em;font-weight:300;line-height:100px;text-align:center}
@@ -203,71 +203,71 @@ body{font-size:16px}
 @media (max-width:767px){.discount-block .discount h2{font-size:4.063em;line-height:60px}
 }
 @media (min-width:768px){.discount-block .discount h2{font-size:5.625em;line-height:90px}
-footer .mobile-footer-hr{display:none}
+.footer-landing .mobile-footer-hr{display:none}
 }
 .discount-block .discount p{font-family:UBUNTU-LIGHT,sans-serif;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center;margin-top:50px}
 .discount-block .discount .btn-discount{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:20px;margin-bottom:60px;outline:0}
 .discount-block .discount .btn-discount:hover{background-color:#E48D12}
-footer{background-color:#3e4041;min-height:179px}
-@media (max-width:767px){footer .mobile-logo{text-align:center}
-footer .mobile-logo .mobile-footer-hr{width:100%;border-top:1px solid #656667;margin-bottom:25px}
+.footer-landing{background-color:#3e4041;min-height:179px}
+@media (max-width:767px){.footer-landing .mobile-logo{text-align:center}
+.footer-landing .mobile-logo .mobile-footer-hr{width:100%;border-top:1px solid #656667;margin-bottom:25px}
 }
-footer .btn-right{float:right}
-footer .btn-right .btn-apple{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none;outline:0}
-@media (min-width:768px){footer .btn-right .btn-apple{float:right;margin-top:15px;margin-bottom:15px}
+.footer-landing .btn-right{float:right}
+.footer-landing .btn-right .btn-apple{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none;outline:0}
+@media (min-width:768px){.footer-landing .btn-right .btn-apple{float:right;margin-top:15px;margin-bottom:15px}
 }
-@media (min-width:992px){footer .btn-right .btn-apple{float:none;margin-top:30px}
+@media (min-width:992px){.footer-landing .btn-right .btn-apple{float:none;margin-top:30px}
 }
-footer .btn-right .btn-apple .apple-logo{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:10px 13px 0 16px;float:left}
-footer .btn-right .btn-apple .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:1.125em;font-weight:500;line-height:46px;text-align:left;float:left}
-footer .btn-right .btn-android{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none;margin-left:10px;outline:0}
-@media (min-width:992px){footer .btn-right .btn-android{margin-top:30px}
+.footer-landing .btn-right .btn-apple .apple-logo{background:url(../img/apple-logo.png) no-repeat;width:22px;height:27px;margin:10px 13px 0 16px;float:left}
+.footer-landing .btn-right .btn-apple .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:1.125em;font-weight:500;line-height:46px;text-align:left;float:left}
+.footer-landing .btn-right .btn-android{border-radius:6px;background-color:#2a96bd;width:170px;height:50px;border:none;margin-left:10px;outline:0}
+@media (min-width:992px){.footer-landing .btn-right .btn-android{margin-top:30px}
 }
-footer .btn-right .btn-android .google-logo{background:url(../img/logo-google.png) no-repeat,117px 27px;width:117px;height:27px;margin:0 20px}
-footer .left-block a,footer .right-block a{text-align:left;margin-right:20px;text-decoration:none}
-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:.938em;font-weight:300;line-height:22px;text-align:left}
-@media (min-width:768px){footer .btn-right .btn-android{float:right}
-footer p{margin-top:35px}
+.footer-landing .btn-right .btn-android .google-logo{background:url(../img/logo-google.png) no-repeat,117px 27px;width:117px;height:27px;margin:0 20px}
+.footer-landing .left-block a,.footer-landing .right-block a{text-align:left;margin-right:20px;text-decoration:none}
+.footer-landing p{font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:.938em;font-weight:300;line-height:22px;text-align:left}
+@media (min-width:768px){.footer-landing .btn-right .btn-android{float:right}
+.footer-landing p{margin-top:35px}
 }
-@media (min-width:992px){footer p{margin-top:20px}
+@media (min-width:992px){.footer-landing p{margin-top:20px}
 }
-footer .city{color:#2a96bd;margin-top:15px;font-family:UBUNTU-LIGHT,sans-serif;text-decoration:none}
-footer .left-block a,footer .right-block a,footer .right-block p.no-link{font-family:UBUNTU-LIGHT,sans-serif;color:#656667;font-size:.938em;line-height:24px;font-weight:300}
-footer .logo-footer{width:112px}
-@media (max-width:767px){footer .btn-right{display:none}
-footer .logo-footer{margin-top:25px;margin-bottom:5px}
-footer .footer-hr{display:none}
+.footer-landing .city{color:#2a96bd;margin-top:15px;font-family:UBUNTU-LIGHT,sans-serif;text-decoration:none}
+.footer-landing .left-block a,.footer-landing .right-block a,.footer-landing .right-block p.no-link{font-family:UBUNTU-LIGHT,sans-serif;color:#656667;font-size:.938em;line-height:24px;font-weight:300}
+.footer-landing .logo-footer{width:112px}
+@media (max-width:767px){.footer-landing .btn-right{display:none}
+.footer-landing .logo-footer{margin-top:25px;margin-bottom:5px}
+.footer-landing .footer-hr{display:none}
 }
-@media (min-width:768px){footer .logo-footer{margin-top:35px;margin-bottom:25px}
+@media (min-width:768px){.footer-landing .logo-footer{margin-top:35px;margin-bottom:25px}
 }
-@media (min-width:992px){footer .logo-footer{margin-top:15px}
+@media (min-width:992px){.footer-landing .logo-footer{margin-top:15px}
 }
-footer .footer-hr{width:100%;border-top:1px solid #656667;margin-bottom:0}
-@media (min-width:768px){footer .footer-hr{margin-top:20px}
+.footer-landing .footer-hr{width:100%;border-top:1px solid #656667;margin-bottom:0}
+@media (min-width:768px){.footer-landing .footer-hr{margin-top:20px}
 }
-@media (min-width:992px){footer .footer-hr{margin-top:0}
+@media (min-width:992px){.footer-landing .footer-hr{margin-top:0}
 }
-footer .left-block{margin-top:25px;display:inline-block}
-@media (max-width:767px){footer .left-block a{display:block;margin-bottom:5px}
+.footer-landing .left-block{margin-top:25px;display:inline-block}
+@media (max-width:767px){.footer-landing .left-block a{display:block;margin-bottom:5px}
 }
-footer .footer-hr-mobile{width:100%;border-top:1px solid #656667;margin-bottom:0}
-footer .right-block{margin-top:25px}
-@media (min-width:768px){footer .left-block a{display:inline-block}
-footer .right-block{float:left;margin-bottom:25px}
+.footer-landing .footer-hr-mobile{width:100%;border-top:1px solid #656667;margin-bottom:0}
+.footer-landing .right-block{margin-top:25px}
+@media (min-width:768px){.footer-landing .left-block a{display:inline-block}
+.footer-landing .right-block{float:left;margin-bottom:25px}
 }
-@media (min-width:992px){footer .right-block{float:right;margin-bottom:0}
+@media (min-width:992px){.footer-landing .right-block{float:right;margin-bottom:0}
 }
-@media (max-width:767px){footer .right-block a{display:block;text-align:center;margin-bottom:10px}
+@media (max-width:767px){.footer-landing .right-block a{display:block;text-align:center;margin-bottom:10px}
 }
-@media (min-width:768px){footer .right-block a{display:inline-block}
+@media (min-width:768px){.footer-landing .right-block a{display:inline-block}
 }
-footer .right-block a.last{margin-right:0}
-footer .right-block p.no-link{text-align:left;margin-right:20px}
+.footer-landing .right-block a.last{margin-right:0}
+.footer-landing .right-block p.no-link{text-align:left;margin-right:20px}
 #myModal .modal-dialog{position:absolute;left:50%}
-@media (max-width:767px){footer .right-block p.no-link{display:block;text-align:center;margin-bottom:10px}
+@media (max-width:767px){.footer-landing .right-block p.no-link{display:block;text-align:center;margin-bottom:10px}
 #myModal .modal-dialog{width:90%;height:453px;margin-left:-45%;top:10vh}
 }
-@media (min-width:768px){footer .right-block p.no-link{display:inline-block;margin-top:0}
+@media (min-width:768px){.footer-landing .right-block p.no-link{display:inline-block;margin-top:0}
 #myModal .modal-dialog{top:50%;width:430px;height:453px;margin-top:-226.5px;margin-left:-215px}
 }
 #myModal .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
@@ -381,7 +381,6 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 @media (min-width:768px){#myModalDistribution .modal-dialog{width:770px;height:462px;margin-top:-231px;margin-left:-385px;top:50%}
 }
 #myModalDistribution .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
-.btn-navbar-mobile,.menu-btn{box-shadow:1px 3px 1px 0 rgba(0,0,0,.2)}
 @media (max-width:767px){#myModalDistribution .modal-dialog .modal-content{width:100%;height:auto}
 #myModalDistribution .modal-dialog .modal-content .modal-body{font-size:3em;line-height:40px}
 }
@@ -403,12 +402,22 @@ footer .right-block p.no-link{text-align:left;margin-right:20px}
 #myModalDistribution .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center;margin-top:20px;margin-bottom:20px}
 #myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
 #myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution:hover{background-color:#E48D12}
+@media (max-width:767px){#myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{margin-left:0;margin-top:20px;margin-bottom:20px}
+}
+#myModalSubscription .modal-dialog{position:absolute;width:770px;height:238px;left:50%;top:50%;margin-top:-119px;margin-left:-335px}
+#myModalSubscription .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:770px;height:237px}
+.btn-navbar-mobile,.menu-btn{box-shadow:1px 3px 1px 0 rgba(0,0,0,.2)}
+#myModalSubscription .modal-dialog .modal-content .modal-header{border:none}
+#myModalSubscription .modal-dialog .modal-content .modal-body{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.125em;font-weight:300;line-height:60px;text-align:center}
+#myModalSubscription .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
+#myModalSubscription .modal-dialog .modal-content .modal-footer .btn-no,#myModalSubscription .modal-dialog .modal-content .modal-footer .btn-yes{border-radius:6px;width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;line-height:24px;text-align:center;transform:scaleY(1.0004);outline:0}
+#myModalSubscription .modal-dialog .modal-content .modal-footer .btn-yes{background-color:#f39c12;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-right:20px}
+#myModalSubscription .modal-dialog .modal-content .modal-footer .btn-no{background-color:#e5e5e5;color:#a2a2a3}
 .close{opacity:.5;outline:0}
 .close .close-icon{color:#f39c12;font-size:20px;font-weight:400;line-height:25px;text-align:left}
 .close:hover{opacity:1}
 .main-screen-faq .first-bg{background:url(../img/photo-faq.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:50vh;width:100%;position:absolute}
-@media (max-width:767px){#myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{margin-left:0;margin-top:20px;margin-bottom:20px}
-.main-screen-faq .first-bg{height:100vh}
+@media (max-width:767px){.main-screen-faq .first-bg{height:100vh}
 }
 .main-screen-faq .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-faq .content{height:50vh}
@@ -581,15 +590,33 @@ ul{margin:0;padding:0}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-enter .sing-in-icon{margin:0 10px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop{border-radius:5px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);max-width:240px;height:30px;padding:0;font-family:UBUNTU-REGULAR,sans-serif;color:#3e4041;font-size:.938em;font-weight:400;line-height:24px;text-align:left}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop .user-icon{margin:3px 5px 0;float:left}
+.subscription-management .header-block .select-day .btn-drop-sub .sort-icon,.subscription-management .header-block .select-day-change .btn-middle .btn-drop-sub .sort-icon,.subscription-management .header-block .select-day-yet .btn-middle .btn-drop-sub-no-active .sort-icon{float:right}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop .sort-icon{margin:0 5px;float:right}
-.footer .first-footer{background-color:#3e4041;height:127px;width:100%}
-.footer .first-footer .block-step{display:inline-block}
-.footer .first-footer .block-step .title-step{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;text-align:left;color:#9e9fa0;width:70px}
-.footer .first-footer .block-step .text-step{font-family:UBUNTU-REGULAR,sans-serif;color:#9e9fa0;font-size:.938em;font-weight:400;line-height:24px;text-align:left;text-transform:uppercase;margin-top:0;display:inline-block;float:left}
-.footer .first-footer .block-step .active{color:#fff}
-.footer .second-footer .copyrighting .footer-link,.footer .second-footer .copyrighting .no-link{font-family:UBUNTU-LIGHT,sans-serif;color:#9e9fa0;font-size:.938em;font-weight:300;line-height:24px;text-align:center;margin-right:10px;margin-top:15px}
-.footer .first-footer .pointer{float:right}
-.footer .second-footer{background-color:#f5f5f5;height:53px;width:100%}
-.footer .second-footer .copyrighting{text-align:center}
-.footer .second-footer .copyrighting .no-link{display:inline-block}
-.footer .second-footer .copyrighting .last{margin-right:0}
+.footer-store .copyrighting .footer-link,.footer-store .copyrighting .no-link{font-family:UBUNTU-LIGHT,sans-serif;color:#9e9fa0;font-size:.938em;line-height:24px;margin-right:10px;margin-top:15px;text-align:center}
+.footer-store{background-color:#f5f5f5;height:53px;width:100%;position:absolute;left:0;bottom:0}
+.footer-store .copyrighting{text-align:center}
+.footer-store .copyrighting .no-link{display:inline-block;font-weight:300}
+.footer-store .copyrighting .footer-link{font-weight:300}
+.subscription-management .header-block .header-text,.subscription-management .header-block .header-title{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300}
+.footer-store .copyrighting .last{margin-right:0}
+.subscription-management .header-block{text-align:center}
+.subscription-management .header-block .header-title{font-size:5em;line-height:100px;text-align:center;text-transform:uppercase;margin-top:10px}
+.subscription-management .header-block .header-text{font-size:3.125em;line-height:60px;text-align:center;margin-top:20px}
+.subscription-management .header-block .btn-save,.subscription-management .header-block .btn-yes{border-radius:6px;background-color:#f39c12;height:41px;color:#fff;font-size:15.99px;font-weight:700;line-height:24px;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15)}
+.subscription-management .header-block .btn-yes{width:80px;outline:0;font-family:UBUNTU-BOLD,sans-serif;margin-top:10px}
+.subscription-management .header-block .btn-save{width:148px;margin-top:25px;outline:0}
+.subscription-management .header-block .btn-change,.subscription-management .header-block .btn-off{width:260px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;line-height:24px;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:30px;border-radius:6px;text-align:center}
+.subscription-management .header-block .btn-off{background-color:#484a4b;margin-right:30px}
+.subscription-management .header-block .btn-change{background-color:#3caad2}
+.subscription-management .header-block .btn-change .pencil-icon{margin-right:5px}
+.subscription-management .header-block .select-day{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f5f5f5;width:720px;height:167px;margin-top:35px}
+.subscription-management .header-block .select-day .select-header{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:25px;text-align:center;padding:0 90px}
+.subscription-management .header-block .select-day .btn-drop-sub{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:14px;text-align:left}
+.subscription-management .header-block .select-day-change{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f5f5f5;width:720px;height:104px;margin-top:35px}
+.subscription-management .header-block .select-day-change .btn-middle,.subscription-management .header-block .select-day-yet .btn-middle{margin-top:30px}
+.subscription-management .header-block .select-day-change .btn-middle .select-header{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:25px;text-align:center;padding:0 90px}
+.subscription-management .header-block .select-day-change .btn-middle .btn-drop-sub{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:14px;text-align:left;margin-right:20px}
+.subscription-management .header-block .select-day-change .btn-middle .last{margin-right:0}
+.subscription-management .header-block .select-day-yet{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f5f5f5;width:720px;height:104px;margin-top:30px}
+.subscription-management .header-block .select-day-yet .btn-middle .btn-drop-sub-no-active{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#f5f5f5;width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:rgba(74,75,76,.5);font-size:.938em;font-weight:300;line-height:14px;text-align:left;margin-right:20px}
+.subscription-management .header-block .select-day-yet .btn-middle .last{margin-right:0}

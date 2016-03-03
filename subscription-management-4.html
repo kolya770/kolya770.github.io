@@ -42,8 +42,8 @@
                                     <img src="img/basket.png" class="basket"><p class="text-basket">В корзине:<span class="pick-items">2 позиции</span></p>
                                 </div>
                                 <div class="nav-enter">
-                                    <!--<button class="btn btn-enter"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>-->
-                                    <div class="btn-group">
+                                    <button class="btn btn-enter"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>
+                                    <div class="btn-group" style="display: none">
                                         <button type="button" class="btn btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fa fa-user user-icon"></i>Алексей Дмитриев<i class="fa fa-sort-desc sort-icon"></i>
                                         </button>
@@ -58,13 +58,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--<ul class="nav navbar-nav nav-basket">-->
-                            <!--<li><img src="img/basket.png" class="basket"></li>-->
-                            <!--<li><p class="text-basket">В корзине:<span class="pick-items">2 позиции</span></p></li>-->
-                        <!--</ul>-->
-                        <!--<ul class="nav navbar-nav nav-enter">-->
-                            <!--<li><button class="btn btn-enter">ВОЙТИ</button></li>-->
-                        <!--</ul>-->
                     </div>
                 </div>
             </div>
@@ -73,41 +66,57 @@
 </nav>
 
 <div id="full-page">
-    <div style="height: 65vh"></div>
-    <!--<div class="first-footer">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-sm-3">-->
-                    <!--<div class="block-step">-->
-                        <!--<h2 class="title-step active">1 шаг</h2>-->
-                        <!--<p class="text-step active">выбор позиции</p>-->
-                    <!--</div>-->
-                    <!--<img src="img/pointer.png" class="pointer">-->
-                <!--</div>-->
-                <!--<div class="col-sm-3">-->
-                    <!--<div class="block-step">-->
-                        <!--<h2 class="title-step">2 шаг</h2>-->
-                        <!--<p class="text-step">указание адреса</p>-->
-                    <!--</div>-->
-                    <!--<img src="img/pointer.png" class="pointer">-->
-                <!--</div>-->
-                <!--<div class="col-sm-3">-->
-                    <!--<div class="block-step">-->
-                        <!--<h2 class="title-step">3 шаг</h2>-->
-                        <!--<p class="text-step">выбор времени</p>-->
-                    <!--</div>-->
-                    <!--<img src="img/pointer.png" class="pointer">-->
-                <!--</div>-->
-                <!--<div class="col-sm-3">-->
-                    <!--<div class="block-step">-->
-                        <!--<h2 class="title-step">4 шаг</h2>-->
-                        <!--<p class="text-step">контактные данные</p>-->
-                    <!--</div>-->
-                    <!--<img src="img/pointer.png" class="pointer">-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+
+    <div class="subscription-management">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="header-block">
+                        <h2 class="header-title">Управление подпиской</h2>
+                        <img src="img/dot-blue.png">
+                        <p class="header-text">Планируете регулярно пользоваться нашими услугами?</p>
+                        <div class="select-day-change center-block">
+                            <div class="btn-middle">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-drop-sub dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        День недели<i class="fa fa-sort-desc sort-icon"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Понедельник</a></li>
+                                        <li><a href="#">Вторник</a></li>
+                                        <li><a href="#">Среда</a></li>
+                                        <li><a href="#">Четверг</a></li>
+                                        <li><a href="#">Пятница</a></li>
+                                        <li><a href="#">Суббота</a></li>
+                                        <li><a href="#">Воскресенье</a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-drop-sub dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Раз в месяц<i class="fa fa-sort-desc sort-icon"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-drop-sub last dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Время<i class="fa fa-sort-desc sort-icon"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">12:00</a></li>
+                                        <li><a href="#">13:00</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-save">СОХРАНИТЬ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer-store">
         <div class="container">

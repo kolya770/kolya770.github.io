@@ -1,0 +1,34 @@
+.first-footer {
+  background-color:  #3e4041;
+  height: 127px;
+  width: 100%;
+  .block-step {
+    display: inline-block;
+    .title-step {
+      font-family: $summer-font,"sans-serif";
+      font-size: 3.125em;
+      font-weight: 300;
+      text-align: left;
+      color:  #9e9fa0;
+      width: 70px;
+    }
+    .text-step {
+      font-family: $ubuntu-regular-font, "sans-serif";
+      color:  #9e9fa0;
+      font-size: 0.938em;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-top: 0;
+      display: inline-block;
+      float: left;
+    }
+    .active {
+      color: #ffffff;
+    }
+  }
+  .pointer {
+    float: right;
+  }
+}
