@@ -554,7 +554,6 @@ ul{margin:0;padding:0}
 #container,.push,.pushy{-webkit-transition:-webkit-transform .2s cubic-bezier(.16,.68,.43,.99);-moz-transition:-moz-transform .2s cubic-bezier(.16,.68,.43,.99);-o-transition:-o-transform .2s cubic-bezier(.16,.68,.43,.99);transition:transform .2s cubic-bezier(.16,.68,.43,.99)}
 .site-overlay{display:none}
 .pushy-active .site-overlay{display:block;position:fixed;top:0;right:0;bottom:0;left:0;z-index:9998;background-color:rgba(0,0,0,.5);-webkit-animation:fade .5s;-moz-animation:fade .5s;-o-animation:fade .5s;animation:fade .5s}
-.footer-store .copyrighting .no-link,.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket,.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn,.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter,.steps .block-step,.steps .block-step .text-step{display:inline-block}
 @keyframes fade{0%{opacity:0}
 100%{opacity:1}
 }
@@ -573,18 +572,20 @@ ul{margin:0;padding:0}
 .navbar-washdrop-store .my-navbar .navbar-brand img{width:137px}
 .navbar-washdrop-store .my-navbar .navbar-menu{margin-top:29px;border-radius:10px;background-color:rgba(255,255,255,.05);height:50px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right{margin-right:15px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn{display:inline-block}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;padding:0}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:7px 5px 0 14px;float:left}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:.675em;font-weight:500;line-height:32px;text-align:left;float:left;margin-left:2px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;background-size:70px 16px;width:70px;height:16px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket{width:190px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket{display:inline-block;width:190px}
 @media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-android{margin-left:5px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket{margin-left:15px}
 }
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .basket{margin:13px 13px 0 0;float:left}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .text-basket{font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:.875em;font-weight:400;line-height:24px;text-align:left;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:12px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .text-basket .pick-items{color:#f39c12;margin-left:5px;border-bottom:2px dotted}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter{display:inline-block}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-enter{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:104px;height:32px;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:30px;text-align:left;text-shadow:0 1px 1px rgba(0,0,0,.2);padding:0;outline:0}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-enter .sing-in-icon{margin:0 10px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop{border-radius:5px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);max-width:240px;height:30px;padding:0;font-family:UBUNTU-REGULAR,sans-serif;color:#3e4041;font-size:.938em;font-weight:400;line-height:24px;text-align:left}
@@ -594,6 +595,7 @@ ul{margin:0;padding:0}
 .footer-store .copyrighting .footer-link,.footer-store .copyrighting .no-link{font-family:UBUNTU-LIGHT,sans-serif;color:#9e9fa0;font-size:.938em;line-height:24px;margin-right:10px;margin-top:15px;text-align:center;font-weight:300}
 .footer-store{background-color:#f5f5f5;height:53px;width:100%}
 .footer-store .copyrighting{text-align:center}
+.footer-store .copyrighting .no-link{display:inline-block}
 .footer-store .copyrighting .last{margin-right:0}
 #subscription .subscription-management .header-block{text-align:center}
 #subscription .subscription-management .header-block .header-title{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase;margin-top:10px}
@@ -601,7 +603,7 @@ ul{margin:0;padding:0}
 #subscription .subscription-management .header-block .btn-save,#subscription .subscription-management .header-block .btn-yes{border-radius:6px;background-color:#f39c12;height:41px;color:#fff;font-size:15.99px;font-weight:700;line-height:24px;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15)}
 #subscription .subscription-management .header-block .btn-yes{width:80px;outline:0;font-family:UBUNTU-BOLD,sans-serif;margin-top:10px}
 #subscription .subscription-management .header-block .btn-save{width:148px;margin-top:25px;outline:0}
-#subscription .subscription-management .header-block .btn-change,#subscription .subscription-management .header-block .btn-off{width:260px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;line-height:24px;margin-top:30px;text-align:center;border-radius:6px;outline:0;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15)}
+#subscription .subscription-management .header-block .btn-change,#subscription .subscription-management .header-block .btn-off{width:260px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;line-height:24px;margin-top:30px;text-align:center;border-radius:6px;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
 #subscription .subscription-management .header-block .btn-off{background-color:#484a4b;margin-right:30px}
 #subscription .subscription-management .header-block .btn-change{background-color:#3caad2}
 #subscription .subscription-management .header-block .btn-change .pencil-icon{margin-right:5px}
@@ -616,27 +618,29 @@ ul{margin:0;padding:0}
 #subscription .subscription-management .header-block .select-day-yet{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f5f5f5;width:720px;height:104px;margin-top:30px}
 #subscription .subscription-management .header-block .select-day-yet .btn-middle .btn-drop-sub-no-active{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#f5f5f5;width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:rgba(74,75,76,.5);font-size:.938em;font-weight:300;line-height:14px;text-align:left;margin-right:20px}
 #subscription .subscription-management .header-block .select-day-yet .btn-middle .last{margin-right:0}
-#subscription .footer-store{position:absolute;left:0;bottom:0}
-.steps{background-color:#3e4041;height:127px;width:100%}
-.steps .block-step .title-step{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;text-align:left;color:#9e9fa0;width:70px}
-.steps .block-step .text-step{font-family:UBUNTU-REGULAR,sans-serif;color:#9e9fa0;font-size:.938em;font-weight:400;line-height:24px;text-align:left;text-transform:uppercase;margin-top:0;float:left}
-.steps .block-step .active{color:#fff}
-.steps .pointer{float:right}
+.steps-block{background-color:#3e4041;height:127px;width:100%}
+.steps-block .block-step{display:inline-block}
+.steps-block .block-step .title-step{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;text-align:left;color:#9e9fa0;width:70px}
+.steps-block .block-step .text-step{font-family:UBUNTU-REGULAR,sans-serif;color:#9e9fa0;font-size:.938em;font-weight:400;line-height:24px;text-align:left;text-transform:uppercase;margin-top:0;display:inline-block;float:left}
+.steps-block .block-step .active{color:#fff}
+.steps-block .pointer{float:right}
 .address .header-block{text-align:center}
 .address .header-block .header-title{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
 .address .form-block{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f5f5f5;width:630px;height:521px;margin-top:40px;margin-bottom:40px}
 .address .form-block .width-form-block{width:90%;margin-top:20px}
 .address .form-block .width-form-block .form-title{display:block;font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:34px;text-align:left}
-.address .sum .summary,.address .sum .total-cost{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;text-align:left;display:inline-block}
+.address .sum .summary,.address .sum .total-cost{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;line-height:50px;text-align:left;display:inline-block}
 .address .form-block .width-form-block .form-title .necessarily{display:inline-block;color:#f39c12;margin:0 0 0 3px}
-.address .form-block .width-form-block .form-input{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:100%;height:42px;outline:0}
+.address .form-block .width-form-block .form-input{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:100%;height:42px;outline:0;resize:none}
 .address .form-block .width-form-block .know{height:120px}
 .address .form-block .width-form-block .mini-block{width:100px;display:inline-block;margin-right:23.5px}
 .address .form-block .width-form-block .mini-block .mini-input{width:100%}
 .address .form-block .width-form-block .mini-block .mini-lable{display:inline-block}
 .address .form-block .width-form-block .large{width:140px}
 .address .form-block .width-form-block .last{margin-right:0}
+.address .sum{margin-bottom:30px}
 .address .sum .address-hr{background-color:#e5e5e5;height:1px}
-.address .sum .total-cost{color:#3e4041;line-height:50px;margin-right:40px}
-.address .sum .summary{color:#3caad2;line-height:100px}
-.address .sum .btn-next{float:right;border-radius:6px;background-color:#f39c12;width:170px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;line-height:24px;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15)}
+.address .sum .total-cost{color:#3e4041;margin-right:40px;margin-top:10px}
+.address .sum .summary{color:#3caad2}
+.address .sum .btn-next{float:right;border-radius:6px;background-color:#f39c12;width:170px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;line-height:24px;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:13px}
+.address .sum .btn-next .icon-next{margin-left:5px}
