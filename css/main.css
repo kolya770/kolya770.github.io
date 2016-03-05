@@ -687,8 +687,18 @@ ul{margin:0;padding:0}
 .steps-block .block-step{display:inline-block}
 .steps-block .block-step .title-step{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;text-align:left;color:#9e9fa0;width:70px}
 .steps-block .block-step .text-step{font-family:UBUNTU-REGULAR,sans-serif;color:#9e9fa0;font-size:.938em;font-weight:400;line-height:24px;text-align:left;text-transform:uppercase;margin-top:0;display:inline-block;float:left}
+.store .header-block .header-text,.store .header-block .header-title{font-family:SummerFont,sans-serif;line-height:100px;font-weight:300}
 .steps-block .block-step .active{color:#fff}
 .steps-block .pointer{float:right}
+.store .header-block{text-align:center}
+.store .header-block .header-title{color:#4a4b4c;font-size:5em;text-align:center}
+.store .header-block .header-text{color:#3caad2;font-size:3.125em;text-align:center}
+.select-items .button-block{text-align:center;margin-bottom:60px}
+.select-items .button-block .btn-select-item{border-radius:6px;border:2px solid #9e9fa0;background-color:#fff;box-sizing:border-box;height:41px;font-family:UBUNTU-LIGHT,sans-serif;color:#9e9fa0;font-size:1em;font-weight:300;line-height:24px;text-align:center;transform:scaleY(1.0004)}
+.select-items .button-block .active{border-radius:6px;background-color:#3caad2;border:2px solid #3caad2;height:41px;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15);box-shadow:none}
+.select-items .clothes-block .card{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#fff;height:481px;width:270px}
+.select-items .clothes-block .card .img-block{height:270px}
+.select-items .clothes-block .card .img-block img{width:100%;height:270px;border-bottom:1px solid #cbcbcb;border-radius:6px 6px 0 0}
 .address .header-block{text-align:center}
 .address .header-block .header-title{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
 .address .form-block{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f5f5f5;width:630px;height:521px;margin-top:40px;margin-bottom:40px}
