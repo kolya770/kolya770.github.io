@@ -406,7 +406,6 @@ body,html{height:100%;font-size:16px}
 @media (min-width:768px){#myModalSubscription .modal-dialog{margin-top:-119px;margin-left:-335px;top:50%;width:770px}
 }
 #myModalSubscription .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:770px;height:238px}
-.btn-navbar-mobile,.menu-btn{box-shadow:1px 3px 1px 0 rgba(0,0,0,.2)}
 @media (max-width:767px){#myModalSubscription .modal-dialog .modal-content{width:100%;height:auto}
 }
 #myModalSubscription .modal-dialog .modal-content .modal-header{border:none}
@@ -488,13 +487,13 @@ body,html{height:100%;font-size:16px}
 .section-news .news-text img{margin-bottom:25px}
 .section-news .news-block h3{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px;text-align:left}
 .section-news .news-block p{font-family:UBUNTU-BOLD,sans-serif;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:left}
-.section-news .middle-btn .btn-download,.section-news .news-block .btn-news{border-radius:6px;background-color:#3caad2;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
-.section-news .news-block .btn-news{width:96px;height:30px;font-size:.875em;font-weight:300;text-align:center;padding:2px 0 0}
+.section-news .middle-btn .btn-download,.section-news .news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
+.section-news .news-block .btn-news{background-color:#3caad2;width:96px;height:30px;font-size:.875em;font-weight:300;text-align:center;padding:2px 0 0}
 .section-news .news-block .btn-news:hover{background-color:#3d9bc3}
 .section-news .news-block .hr-news{background-color:#cbcbcb;width:100%;height:1px;margin-top:30px;margin-bottom:30px}
 .section-news .news-block img{width:100%}
 .section-news .middle-btn{text-align:center}
-.section-news .middle-btn .btn-download{width:192px;height:50px;font-size:1em;font-weight:300;text-align:center;margin-bottom:50px}
+.section-news .middle-btn .btn-download{background-color:#3caad2;width:192px;height:50px;font-size:1em;font-weight:300;text-align:center;margin-bottom:50px}
 .info img,.news-block img{width:100%}
 .news-text h2,.other-news h2{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center;text-transform:uppercase}
 .news-text h2,.other-news img.dot{margin-bottom:25px}
@@ -538,19 +537,49 @@ body,html{height:100%;font-size:16px}
 .news-block .hr-news{width:100%;margin-bottom:55px}
 .middle-btn{text-align:center}
 .middle-btn .btn-download{border-radius:6px;background-color:#3caad2;width:192px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:300;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-bottom:50px;margin-top:50px;outline:0}
-.btn-navbar-mobile,.nav-text-mobile{font-size:.938em;font-weight:500;font-family:UBUNTU-MEDIUM,sans-serif}
 .middle-btn .btn-download:hover{background-color:#3d9bc3}
 ul{margin:0;padding:0}
 #container{background:0 0;padding:20px;z-index:1;position:absolute;right:0}
-.menu-btn{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);width:38px;height:40px;padding:7px 6px;color:#fff}
+#container-store{background-color:#3e4041;height:110px;position:relative;width:100%}
+#container-store .menu-btn-store{position:absolute;right:0;margin:35px 20px}
+#container-store .logo-store{position:absolute;top:15px;left:25px}
+#container-store .logo-store img{width:137px;height:80px}
+.menu-btn{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:38px;height:40px;padding:7px 6px;color:#fff}
 .close-block{height:85px}
 .close-btn{margin-top:20px;margin-right:20px;float:right}
+.close-btn-store{margin-top:35px;margin-bottom:35px}
+.close-block-store{height:110px}
 .menu-btn:hover{background:0 0;color:#FFF}
-.nav-text-mobile{line-height:30px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
-.btn-navbar-mobile{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);width:184px;height:52px;color:#fff;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:30px}
+.nav-text-mobile{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;line-height:30px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.btn-navbar-mobile{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:184px;height:52px;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:30px}
+.btn-enter,.btn-navbar-basket{border-radius:5px;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-weight:500;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.btn-navbar-basket{border:2px solid #fff;width:200px;height:32px;font-size:15px;line-height:24px;text-align:left;padding:0 12px;margin-top:25px}
+.btn-drop-mobile,.btn-enter{font-size:.938em;text-align:left}
+.btn-navbar-basket img{width:18px;height:16px;margin-right:10px;margin-top:-4px}
+.btn-enter{border:2px solid #fff;width:104px;height:32px;line-height:30px;padding:0;outline:0;margin-left:25px;margin-top:25px}
+.btn-enter .sing-in-icon{margin:0 10px}
+.btn-drop-mobile{border-radius:5px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;box-shadow:1px 3px 1px 0 rgba(0,0,0,.05);width:200px;height:30px;font-family:UBUNTU-REGULAR,sans-serif;color:#3e4041;font-weight:400;line-height:24px;padding:0 10px;margin-left:25px!important;margin-top:25px;position:relative;z-index:2}
+.btn-drop-mobile .user-icon{float:left;margin-right:5px;margin-top:4px}
+.btn-drop-mobile .sort-icon{float:right}
 .pushy{position:fixed;width:225px;height:100%;top:0;right:0;z-index:9999;background:#333332;font-size:.9em;font-weight:700;-webkit-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);-moz-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);overflow:auto;-webkit-overflow-scrolling:touch}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios .apple-text-btn,.pushy-store .btn-for-ios .apple-text-btn{vertical-align:middle;font-family:UBUNTU-MEDIUM,sans-serif;font-weight:500;line-height:32px;float:left}
+.pushy-store{background-color:#3e4041}
+.pushy-store .btn-for-ios{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;padding:0;margin-left:25px;margin-right:5px;margin-top:25px}
+.pushy-store .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:7px 5px 0 14px;float:left}
+.pushy-store .btn-for-ios .apple-text-btn{color:#fff;height:100%;display:inline-block;font-size:.675em;text-align:left;margin-left:2px}
+.pushy-store .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;margin-top:25px}
+.pushy-store .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;background-size:70px 16px;width:70px;height:16px}
 .pushy a{display:block;color:#fff;padding:0 30px;text-decoration:none;text-align:right}
+.pushy-store a{display:inline-block;padding-left:25px;padding-right:0}
+.drop-menu{position:relative;margin-left:24px;margin-top:-5px;z-index:1;border-radius:0 0 5px 5px;width:202px;background-color:#fff}
+.drop-menu a{text-align:left}
+.drop-menu>li>a{padding:3px 10px}
+.drop-menu .hr-nav{background-color:#e5e5e5;height:1px;margin:0}
+.drop-menu .angle-icon{margin-right:10px}
 .pushy a:hover{color:#FFF}
+#subscription .pushy{width:250px}
+#subscription .pushy-left{-webkit-transform:translate3d(250px,0,0);-moz-transform:translate3d(250px,0,0);-ms-transform:translate3d(250px,0,0);-o-transform:translate3d(250px,0,0);transform:translate3d(250px,0,0)}
+#subscription .container-push,#subscription .push-push{-webkit-transform:translate3d(-250px,0,0);-moz-transform:translate3d(-250px,0,0);-ms-transform:translate3d(-250px,0,0);-o-transform:translate3d(-250px,0,0);transform:translate3d(-250px,0,0)}
 .pushy-left{-webkit-transform:translate3d(225px,0,0);-moz-transform:translate3d(225px,0,0);-ms-transform:translate3d(225px,0,0);-o-transform:translate3d(225px,0,0);transform:translate3d(225px,0,0)}
 .pushy-open{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
 .container-push,.push-push{-webkit-transform:translate3d(-225px,0,0);-moz-transform:translate3d(-225px,0,0);-ms-transform:translate3d(-225px,0,0);-o-transform:translate3d(-225px,0,0);transform:translate3d(-225px,0,0)}
@@ -578,7 +607,7 @@ ul{margin:0;padding:0}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn{display:inline-block}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;padding:0}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:7px 5px 0 14px;float:left}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:.675em;font-weight:500;line-height:32px;text-align:left;float:left;margin-left:2px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-ios .apple-text-btn{color:#fff;height:100%;display:inline-block;font-size:.675em;text-align:left;margin-left:2px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-btn .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;background-size:70px 16px;width:70px;height:16px}
 .navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket{display:inline-block;width:190px}
