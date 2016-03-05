@@ -613,18 +613,29 @@
 #myModalSubscription {
   .modal-dialog {
     position: absolute;
-    width: 770px;
-    height: 238px;
     left: 50%;
-    top: 50%;
-    margin-top: -119px;
-    margin-left: -335px;
+    height: 238px;
+    @media #{$bootstrap-xs} {
+      width: 90%;
+      margin-left: -45%;
+      top: 10vh;
+    }
+    @media #{$bootstrap-sm} {
+      margin-top: -119px;
+      margin-left: -335px;
+      top: 50%;
+      width: 770px;
+    }
     .modal-content {
       border-radius: 6px;
       background-color:  #ffffff;
       box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
       width: 770px;
-      height: 237px;
+      height: 238px;
+      @media #{$bootstrap-xs} {
+        width: 100%;
+        height: auto;
+      }
       .modal-header {
         border: none;
       }

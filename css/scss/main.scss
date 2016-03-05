@@ -1,8 +1,12 @@
 @import "mixins";
 
+html,
 body {
+  height: 100%;
   font-size: 16px;
+  /* The html and body elements cannot have any padding or margin. */
 }
+
 
 @font-face {
   font-family: "UBUNTU-MEDIUM";

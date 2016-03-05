@@ -1,5 +1,20 @@
 #subscription {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -53px;
+    padding: 0 0 53px;
+    @media #{$bootstrap-xs} {
+      padding: 0 0 110px;
+      margin: 0 auto -110px;
+    }
+
   .subscription-management {
+    margin-bottom: 60px;
+    @media #{$bootstrap-xs} {
+      .no-padding {
+        padding: 0;
+      }
+    }
     .header-block {
       text-align: center;
       .header-title {
@@ -11,6 +26,10 @@
         text-align: center;
         text-transform: uppercase;
         margin-top: 10px;
+        @media #{$bootstrap-xs} {
+          font-size: 3.05em;
+          line-height: 60px;
+        }
       }
       .header-text {
         font-family: $summer-font, "sans-serif";
@@ -20,6 +39,11 @@
         line-height: 60px;
         text-align: center;
         margin-top: 20px;
+        @media #{$bootstrap-xs} {
+          font-size: 3.05em;
+          padding: 0 15px;
+        }
+
       }
       .btn-yes {
         width: 80px;
@@ -51,6 +75,9 @@
         text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
         margin-top: 25px;
         outline: none;
+        @media #{$bootstrap-xs} {
+          margin-top: 30px;
+        }
       }
       .btn-off {
         border-radius: 6px;
@@ -68,6 +95,9 @@
         outline: none;
         margin-top: 30px;
         margin-right: 30px;
+        @media #{$bootstrap-xs} {
+          margin-right: 0;
+        }
       }
       .btn-change {
         border-radius: 6px;
@@ -84,6 +114,9 @@
         text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
         outline: none;
         margin-top: 30px;
+        @media #{$bootstrap-xs} {
+          margin-top: 20px;
+        }
         .pencil-icon {
           margin-right: 5px;
         }
@@ -96,6 +129,11 @@
         width: 720px;
         height: 167px;
         margin-top: 35px;
+        @media #{$bootstrap-xs} {
+          width: 100%;
+          border-radius: 0;
+          height: 336px;
+        }
         .select-header {
           font-family: $ubuntu-medium-font, "sans-serif";
           color: #4a4b4c;
@@ -104,6 +142,10 @@
           line-height: 25px;
           text-align: center;
           padding: 0 90px;
+          @media #{$bootstrap-xs} {
+            padding: 0 30px;
+            margin-bottom: 0;
+          }
         }
         .btn-drop-sub {
           border-radius: 6px;
@@ -121,6 +163,9 @@
           .sort-icon {
             float: right;
           }
+          @media #{$bootstrap-xs} {
+            margin-top: 20px;
+          }
         }
       }
 
@@ -132,8 +177,16 @@
         width: 720px;
         height: 104px;
         margin-top: 35px;
+        @media #{$bootstrap-xs} {
+          height: 223px;
+          width: 100%;
+          border-radius: 0;
+        }
         .btn-middle {
           margin-top: 30px;
+          @media #{$bootstrap-xs} {
+            margin-top: 10px;
+          }
           .select-header {
             font-family: $ubuntu-medium-font, "sans-serif";
             color: #4a4b4c;
@@ -157,6 +210,10 @@
             line-height: 14px;
             text-align: left;
             margin-right: 20px;
+            @media #{$bootstrap-xs} {
+              margin-right: 0;
+              margin-top: 20px;
+            }
             .sort-icon {
               float: right;
             }
@@ -175,8 +232,16 @@
         width: 720px;
         height: 104px;
         margin-top: 30px;
+        @media #{$bootstrap-xs} {
+          height: 223px;
+          width: 100%;
+          border-radius: 0;
+        }
         .btn-middle {
           margin-top: 30px;
+          @media #{$bootstrap-xs} {
+            margin-top: 10px;
+          }
           .btn-drop-sub-no-active {
             border-radius: 6px;
             border: 1px solid #e5e5e5;
@@ -193,6 +258,10 @@
             margin-right: 20px;
             .sort-icon {
               float: right;
+            }
+            @media #{$bootstrap-xs} {
+              margin-right: 0;
+              margin-top: 20px;
             }
           }
           .last {
