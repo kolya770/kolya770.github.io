@@ -552,13 +552,12 @@ ul{margin:0;padding:0}
 .menu-btn:hover{background:0 0;color:#FFF}
 .nav-text-mobile{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;line-height:30px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 .btn-navbar-mobile{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:184px;height:52px;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:30px}
-.btn-enter,.btn-navbar-basket{border-radius:5px;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-weight:500;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.btn-enter-mobile,.btn-navbar-basket{border-radius:5px;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-weight:500;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 .btn-navbar-basket{border:2px solid #fff;width:200px;height:32px;font-size:15px;line-height:24px;text-align:left;padding:0 12px;margin-top:25px}
-.btn-drop-mobile,.btn-enter{font-size:.938em;text-align:left}
 .btn-navbar-basket img{width:18px;height:16px;margin-right:10px;margin-top:-4px}
-.btn-enter{border:2px solid #fff;width:104px;height:32px;line-height:30px;padding:0;outline:0;margin-left:25px;margin-top:25px}
-.btn-enter .sing-in-icon{margin:0 10px}
-.btn-drop-mobile{border-radius:5px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;box-shadow:1px 3px 1px 0 rgba(0,0,0,.05);width:200px;height:30px;font-family:UBUNTU-REGULAR,sans-serif;color:#3e4041;font-weight:400;line-height:24px;padding:0 10px;margin-left:25px!important;margin-top:25px;position:relative;z-index:2}
+.btn-enter-mobile{border:2px solid #fff;width:104px;height:32px;font-size:.938em;line-height:30px;text-align:left;padding:0;outline:0;margin-left:25px;margin-top:25px}
+.btn-enter-mobile .sing-in-icon{margin:0 10px}
+.btn-drop-mobile{border-radius:5px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;box-shadow:1px 3px 1px 0 rgba(0,0,0,.05);width:200px;height:30px;font-family:UBUNTU-REGULAR,sans-serif;color:#3e4041;font-size:.938em;font-weight:400;line-height:24px;text-align:left;padding:0 10px;margin-left:25px!important;margin-top:25px;position:relative;z-index:2}
 .btn-drop-mobile .user-icon{float:left;margin-right:5px;margin-top:4px}
 .btn-drop-mobile .sort-icon{float:right}
 .pushy{position:fixed;width:225px;height:100%;top:0;right:0;z-index:9999;background:#333332;font-size:.9em;font-weight:700;-webkit-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);-moz-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);overflow:auto;-webkit-overflow-scrolling:touch}
