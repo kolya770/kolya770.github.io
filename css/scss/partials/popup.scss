@@ -685,6 +685,110 @@
   }
 }
 
+#myModalThanksOrder {
+  .modal-dialog {
+    height: 762px;
+    position: absolute;
+    left: 50%;
+    @media #{$bootstrap-xs} {
+      width: 90%;
+      top: 10vh;
+      margin-left: -45%;
+    }
+    @media #{$bootstrap-sm} {
+      width: 760px;
+      top: 50%;
+      margin-top: -381px;
+      margin-left: -380px;
+    }
+    .modal-content {
+      border-radius: 6px;
+      background-color:  #ffffff;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      @media #{$bootstrap-xs} {
+        width: 100%;
+        height: auto;
+      }
+      @media #{$bootstrap-sm} {
+        width: 760px;
+        height: 762px;
+      }
+    }
+    .modal-header {
+      border: none;
+    }
+    .modal-body {
+      text-align: center;
+      .header-title {
+        font-family: $summer-font, "sans-serif";
+        color:  #4a4b4c;
+        font-size: 5em;
+        font-weight: 300;
+        line-height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .header-text {
+        font-family: $summer-font, "sans-serif";
+        color:  #3caad2;
+        font-size: 3.125em;
+        font-weight: 300;
+        line-height: 60px;
+        margin-bottom: 20px;
+      }
+      .car {
+        width: 100%;
+      }
+    }
+    .modal-footer {
+      width: 630px;
+      padding: 0;
+      text-align: center;
+      @media #{$bootstrap-xs} {
+        width: 85%;
+      }
+      .footer-title {
+        font-family: $summer-font, "sans-serif";
+        color:  #4a4b4c;
+        font-size: 3.125em;
+        font-weight: 300;
+        line-height: 60px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .btn-yes {
+        border-radius: 6px;
+        background-color:  #f39c12;
+        width: 80px;
+        height: 41px;
+        font-family: $ubuntu-bold-font, "sans-serif";
+        color:  #ffffff;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        transform: scaleY(1.0004);
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        outline: none;
+      }
+      .btn-no {
+        border-radius: 6px;
+        background-color:  #e5e5e5;
+        width: 80px;
+        height: 41px;
+        font-family: $ubuntu-bold-font, "sans-serif";
+        color:  #a2a2a3;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        transform: scaleY(1.0004);
+        outline: none;
+      }
+    }
+  }
+}
+
 .close {
   opacity: .5;
   outline: none;

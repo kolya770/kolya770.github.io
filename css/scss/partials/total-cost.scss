@@ -1,6 +1,9 @@
 .total-cost-block {
   .sum {
     margin-bottom: 30px;
+    @media #{$bootstrap-xs} {
+      text-align: center;
+    }
     .address-hr {
       background-color: #e5e5e5;
       height: 1px;
@@ -16,6 +19,9 @@
       display: inline-block;
       margin-right: 40px;
       margin-top: 10px;
+      @media #{$bootstrap-xs} {
+        margin-right: 0;
+      }
     }
     .summary {
       font-family: $summer-font, "sans-serif";
@@ -25,6 +31,10 @@
       line-height: 50px;
       text-align: left;
       display: inline-block;
+      @media #{$bootstrap-xs} {
+        display: block;
+        text-align: center;
+      }
     }
     .btn-next {
       float: right;
@@ -42,9 +52,18 @@
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
       outline: none;
       margin-top: 15px;
+      @media #{$bootstrap-xs} {
+        float: none;
+      }
       .icon-next {
         margin-left: 5px;
       }
+    }
+    .basket-style {
+      width: 370px;
+    }
+    .basket-style-sm {
+      width: 270px;
     }
   }
 }
