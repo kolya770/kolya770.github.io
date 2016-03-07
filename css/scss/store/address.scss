@@ -71,51 +71,5 @@
       }
     }
   }
-  .sum {
-    margin-bottom: 30px;
-    .address-hr {
-      background-color:  #e5e5e5;
-      height: 1px;
-    }
-    .total-cost {
-      font-family: $summer-font, "sans-serif";
-      color:  #3e4041;
-      font-size: 3.125em;
-      font-weight: 300;
-      line-height: 50px;
-      text-align: left;
-      display: inline-block;
-      margin-right: 40px;
-      margin-top: 10px;
-    }
-    .summary {
-      font-family: $summer-font, "sans-serif";
-      color:  #3caad2;
-      font-size: 3.125em;
-      font-weight: 300;
-      line-height: 50px;
-      text-align: left;
-      display: inline-block;
-    }
-    .btn-next {
-      float:right;
-      border-radius: 6px;
-      background-color:  #f39c12;
-      width: 170px;
-      height: 41px;
-      font-family: $ubuntu-bold-font, "sans-serif";
-      color: #ffffff;
-      font-size: 1em;
-      font-weight: 700;
-      line-height: 24px;
-      text-align: center;
-      transform: scaleY(1.0004);
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      outline: none;
-      margin-top: 13px;
-      .icon-next {
-        margin-left:5px;
-      }
-    }
-  }
+
 }

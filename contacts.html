@@ -67,44 +67,83 @@
 
 <div id="full-page">
 
-    <div class="address">
+    <div class="store">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="header-block">
-                        <h2 class="header-title">Укажите ваш адрес</h2>
+                        <h2 class="header-title">Укажите ваши контактные данные</h2>
                         <img src="img/dot-blue.png">
                     </div>
-                    <div class="form-block center-block">
-                        <div class="width-form-block center-block">
-                            <label class="form-title">Город:<p class="necessarily">*</p></label>
-                            <input class="form-input" placeholder="Начните вводить название города">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="first-form center-block">
+                        <div class="col-sm-6">
+                            <label class="label-text">Имя:<span class="necessarily">*</span></label>
+                            <input class="input-first-form" placeholder="Ваше имя">
                         </div>
-                        <div class="width-form-block center-block">
-                            <label class="form-title">Улица:<p class="necessarily">*</p></label>
-                            <input class="form-input" placeholder="Начните вводить название улицы">
+                        <div class="col-sm-6">
+                            <label class="label-text">Фамилия:<span class="necessarily">*</span></label>
+                            <input class="input-first-form" placeholder="Ваша фамилия">
                         </div>
-                        <div class="width-form-block center-block">
-                            <div class="mini-block">
-                                <label class="form-title mini-lable">Корпус:</label>
-                                <input class="form-input mini-input">
-                            </div>
-                            <div class="mini-block">
-                                <label class="form-title mini-lable">Этаж:</label>
-                                <input class="form-input mini-input">
-                            </div>
-                            <div class="mini-block large">
-                                <label class="form-title mini-lable">Квартира/ офис:<p class="necessarily">*</p></label>
-                                <input class="form-input mini-input">
-                            </div>
-                            <div class="mini-block large last">
-                                <label class="form-title mini-lable">Код домофона:</label>
-                                <input class="form-input mini-input">
-                            </div>
+                        <div class="col-sm-6">
+                            <label class="label-text">E-mail:<span class="necessarily">*</span></label>
+                            <input class="input-first-form" placeholder="client@gmail.com">
                         </div>
-                        <div class="width-form-block center-block">
-                            <label class="form-title">Дополнительная информация:</label>
-                            <textarea name="text" class="form-input know" placeholder="Что еще нам нужно знать?"></textarea>
+                        <div class="col-sm-6">
+                            <label class="label-text">Телефон:<span class="necessarily">*</span></label>
+                            <input class="input-first-form" placeholder="Ваше имя">
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="label-text">Придумайте пароль:<span class="necessarily">*</span></label>
+                            <input class="input-first-form" placeholder="Ваше имя">
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="label-text">Промокод<span class="necessarily">*</span></label>
+                            <input class="input-first-form" placeholder="Введите промокод">
+                        </div>
+                        <div class="col-xs-12">
+                            <article class="check-btn">
+                                <input id="box2" type="checkbox" class="with-font" />
+                                <label for="box2" class="check-text"></label>
+                                <p class="agree">Я хочу получать новости и специальные предложения</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="second-form center-block">
+                        <div class="payment-method-block">
+                            <h2 class="payment">Выберите способ оплаты:<span class="necessarily">*</span></h2>
+                            <a href="#" class="more-payment">Подробнее о способах оплаты</a>
+                            <i class="fa fa-question-circle icon-question"></i>
+                            <div class="radio-btn">
+                                <div>
+                                    <input id="question1" name="question" type="radio" class="with-font" value="sel" />
+                                    <label for="question1" class="label-text">Наличными</label>
+                                </div>
+                                <div>
+                                    <input id="question2" name="question" type="radio" class="with-font" value="sel"/>
+                                    <label for="question2" class="label-text">Банковской картой при получении</label>
+                                </div>
+                                <div>
+                                    <input id="question3" name="question" type="radio" class="with-font" value="sel"/>
+                                    <label for="question3" class="label-text last-label"></label>
+                                    <p class="last-label-text">Привязать банковскую карту (деньги спишутся автоматически после получения Вами одежды)</p>
+                                </div>
+                            </div>
+                            <div class="check-btn">
+                                <div>
+                                    <input id="box1" type="checkbox" class="with-font" />
+                                    <label for="box1" class="check-text"></label>
+                                    <p class="agree">Согласен с условиями использования сайта</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

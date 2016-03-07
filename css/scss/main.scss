@@ -7,7 +7,10 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 
-
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome.woff");
+}
 @font-face {
   font-family: "UBUNTU-MEDIUM";
   src: url("../fonts/UBUNTU-MEDIUM.eot");
@@ -63,7 +66,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
+$fontawesome: "FontAwesome";
 $summer-font: "SummerFont";
 $ubuntu-medium-font: "UBUNTU-MEDIUM";
 $ubuntu-regular-font: "UBUNTU-REGULAR";
@@ -101,3 +104,7 @@ $ubuntu-bold-font: "UBUNTU-BOLD";
 @import "store/subscription-management";
 @import "store/store";
 @import "store/address";
+@import "partials/total-cost";
+@import "partials/steps-store";
+@import "store/contacts";
+@import "store/basket";
