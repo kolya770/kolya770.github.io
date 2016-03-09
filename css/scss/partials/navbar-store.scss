@@ -14,18 +14,27 @@
       border-radius: 10px;
       background-color:  rgba(255, 255, 255, 0.05);
       height: 50px;
+      .navbar-left-store>li>a {
+        line-height: 20px;
+      }
       .navbar-right {
         margin-right: 15px;
-        .nav-btn {
+        height: 50px;
+        .nav-market-btn {
           display: inline-block;
           .btn-for-ios {
-            width: 95px;
             height: 30px;
             border: none;
             border-radius: 6px;
             background-color:  #3caad2;
             outline: none;
             padding: 0;
+            @media #{$bootstrap-md} {
+              width: 30px;
+            }
+            @media #{$bootstrap-lg} {
+              width: 95px;
+            }
             .apple-logo {
               background: url(../img/apple-logo.png) no-repeat;
               background-size: 14px 16px;
@@ -33,16 +42,21 @@
               height: 16px;
               margin: 7px 5px 0 14px;
               float: left;
+              @media #{$bootstrap-md} {
+                margin: -2px 0 0 8px;
+              }
+              @media #{$bootstrap-lg} {
+                margin: 6px 5px 0 14px;
+              }
             }
             .apple-text-btn {
               color: #ffffff;
               vertical-align: middle;
-              height: 100%;
               display: inline-block;
               font-family: $ubuntu-medium-font, "sans-serif";
-              font-size: 0.675em;
+              font-size: 0.75em;
               font-weight: 500;
-              line-height: 32px;
+              line-height: 30px;
               text-align: left;
               float: left;
               margin-left: 2px;
@@ -55,23 +69,36 @@
             border-radius: 6px;
             background-color:  #3caad2;
             outline: none;
+            margin-left: 5px;
+            @media #{$bootstrap-md} {
+              width: 30px;
+              padding-left: 9px;
+            }
             @media #{$bootstrap-lg} {
-              margin-left: 5px;
+              width: 95px;
             }
             .google-logo {
               background: url(../img/logo-google.png) no-repeat;
-              background-size: 70px 16px;
-              width: 70px;
-              height: 16px;
+
+              @media #{$bootstrap-md} {
+                background-size: 70px 16px;
+                width: 16px;
+                height: 16px;
+              }
+              @media #{$bootstrap-lg} {
+                background-size: 70px 16px;
+                width: 70px;
+                height: 16px;
+              }
             }
           }
         }
         .nav-basket {
           display: inline-block;
-          width: 190px;
-          @media #{$bootstrap-lg} {
-            margin-left: 15px;
-          }
+          width: 200px;
+          height: 50px;
+          margin-left: 15px;
+
           .basket {
             margin: 13px 13px 0 0;
             float: left;
@@ -92,8 +119,13 @@
             }
           }
         }
+
+        .nav-basket-md {
+
+        }
         .nav-enter {
           display: inline-block;
+          margin-top: 10px;
           .btn-enter {
             border-radius: 5px;
             border: 2px solid #ffffff;
@@ -129,13 +161,49 @@
             font-weight: 400;
             line-height: 24px;
             text-align: left;
+            width: 260px;
+            z-index: 2;
             .user-icon {
-              margin: 3px 5px 0 5px;
+              margin: 3px 10px 0 10px;
               float: left;
             }
             .sort-icon {
               margin: 0 5px;
               float: right;
+            }
+          }
+          .btn-group {
+            .drop-menu-pc {
+              width: 240px;
+              margin-top: -5px;
+              z-index: 1;
+              border-radius: 0 0 6px 6px;
+              border: 1px solid #e5e5e5;
+              .angle-icon {
+                margin-right: 10px;
+                color:  #4a4b4c;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+              }
+              .nav-pc {
+                font-family: $ubuntu-light-font, "sans-serif";
+                color: #4a4b4c;
+                font-size: 0.875em;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: left;
+                padding: 5px 10px 5px 15px;
+              }
+              >li>a:hover {
+                text-decoration: underline;
+                color: #3caad2;
+                background-color: transparent;
+              }
+              .divider {
+                margin: 0;
+              }
             }
           }
         }
