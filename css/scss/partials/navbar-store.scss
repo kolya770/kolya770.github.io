@@ -76,9 +76,10 @@
             }
             @media #{$bootstrap-lg} {
               width: 95px;
+              padding-left: 12px;
             }
             .google-logo {
-              background: url(../img/logo-google.png) no-repeat;
+              background: url(../img/google-logo-store.png) no-repeat;
 
               @media #{$bootstrap-md} {
                 background-size: 70px 16px;

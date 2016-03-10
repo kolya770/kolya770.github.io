@@ -476,7 +476,7 @@
           outline: none;
           margin-top: -1px;
           &:hover {
-            background-color: #3d9bc3;;
+            background-color: #3d9bc3;
           }
           @media #{$bootstrap-xs} {
             margin-left: 0;
@@ -650,21 +650,20 @@
       .modal-footer {
         border: none;
         text-align: center;
+        @media #{$bootstrap-xs} {
+          margin-bottom: 10px;
+        }
         .btn-yes {
           border-radius: 6px;
-          background-color: #f39c12;
           width: 80px;
           height: 41px;
           font-family: $ubuntu-bold-font, "sans-serif";
-          color: #ffffff;
           font-size: 1em;
           font-weight: 700;
           line-height: 24px;
-          text-align: center;
           transform: scaleY(1.0004);
-          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
           margin-right: 20px;
-          outline: none;
         }
         .btn-no {
           border-radius: 6px;
@@ -679,6 +678,9 @@
           text-align: center;
           transform: scaleY(1.0004);
           outline: none;
+          &:hover {
+            background-color: #878788;
+          }
         }
       }
     }
@@ -784,6 +786,183 @@
         text-align: center;
         transform: scaleY(1.0004);
         outline: none;
+        &:hover {
+          background-color: #878788;
+        }
+      }
+    }
+  }
+}
+
+#YourOrder {
+  .modal-dialog {
+    width: 770px;
+    height: 1428px;
+    .modal-content {
+      border-radius: 6px;
+      background-color:  $white-color;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      width: 770px;
+      height: 1428px;
+      .modal-header {
+        border: none;
+      }
+      .modal-body {
+        font-family: $summer-font, "sans-serif";
+        color:  #4a4b4c;
+        font-size: 3.750em;
+        font-weight: 300;
+        line-height: 60px;
+        text-align: center;
+      }
+      .modal-position {
+        .position-header {
+          font-family: $ubuntu-medium-font;
+          color:  #4a4b4c;
+          font-size: 0.938em;
+          font-weight: 500;
+          line-height: 34px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        .basket-item-block {
+          width: 635px;
+          height: 92px;
+          margin-bottom: 10px;
+          .basket-item {
+            border-radius: 6px;
+            border: 1px solid rgba(203, 203, 203, 50);
+            box-sizing: border-box;
+            background-color: #ffffff;
+            width: 600px;
+            height: 92px;
+            float: left;
+            .img-mini-block {
+              width: 70px;
+              height: 70px;
+              margin-top: 10px;
+              margin-left: 10px;
+              border: 1px solid rgba(203, 203, 203, 50);
+              display: inline-block;
+              float: left;
+              img {
+                width: 100%;
+              }
+            }
+            .info-about-clothe {
+              display: inline-block;
+              float: left;
+              margin-left: 10px;
+              .name-clothe {
+                font-family: $ubuntu-light-font, "sans-serif";
+                color: #4a4b4c;
+                font-size: 1.188em;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: left;
+                margin-top: 25px;
+              }
+              .dop-info {
+                font-family: $ubuntu-light-font, "sans-serif";
+                color: #4a4b4c;
+                font-size: 0.750em;
+                font-weight: 300;
+                line-height: 14px;
+                text-align: left;
+              }
+            }
+            .price-block {
+              float: right;
+              display: inline-block;
+              width: 110px;
+              height: 55px;
+              margin-top: 18px;
+              border-left: 1px solid rgba(203, 203, 203, 50);
+              .price {
+                font-family: $ubuntu-medium-font, "sans-serif";
+                color: #3caad2;
+                font-size: 0.938em;
+                font-weight: 500;
+                line-height: 34px;
+                text-align: center;
+                margin-top: 10px;
+              }
+            }
+          }
+          .basket-item-delete {
+            border-radius: 6px;
+            border: 1px solid rgba(203, 203, 203, 50);
+            box-sizing: border-box;
+            background-color:  #ffffff;
+            width: 600px;
+            height: 45px;
+            .delete-item-text {
+              color:rgb(158, 159, 160);
+              font-family: $ubuntu-light-font, "sans-serif";
+              font-size: 1em;
+              font-weight: 300;
+              line-height: 45px;
+              text-align: left;
+              margin: 0;
+              padding-left: 10px;
+              display: inline-block;
+            }
+            .return-text {
+              display: inline-block;
+              float: right;
+              font-family: $ubuntu-light-font, "sans-serif";
+              color:  #4a4b4c;
+              font-size: 0.875em;
+              font-weight: 300;
+              line-height: 17px;
+              border-bottom: 1px dotted #4a4b4c;
+              margin-top: 15px;
+            }
+            .icon-reply {
+              float: right;
+              margin: 17px 15px 15px 5px;
+            }
+          }
+          .btn-block-item {
+            float: left;
+            margin-left: 10px;
+            margin-top: 35px;
+            .btn-delete-item {
+              border-radius: 50%;
+              width: 22px;
+              height: 22px;
+              .icon-close {
+                color: #ffffff;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: center;
+                transform: scaleY(1.0004);
+              }
+            }
+          }
+        }
+        .delete-item {
+          height: 45px;
+          margin-bottom: 100px;
+        }
+      }
+      .modal-address {
+        .address {
+          border-radius: 6px;
+          background-color: #f5f5f5;
+          width: 630px;
+          height: 147px;
+          margin-top: 40px;
+          .address-title {
+            font-family: $ubuntu-light-font;
+            color:  #4a4b4c;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 34px;/* Приближение из-за подстановки шрифтов */
+            text-align: left;
+          }
+        }
       }
     }
   }

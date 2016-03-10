@@ -4,13 +4,13 @@ html,
 body {
   height: 100%;
   font-size: 16px;
-  /* The html and body elements cannot have any padding or margin. */
 }
 
 @font-face {
   font-family: "FontAwesome";
   src: url("../fonts/fontawesome.woff");
 }
+
 @font-face {
   font-family: "UBUNTU-MEDIUM";
   src: url("../fonts/UBUNTU-MEDIUM.eot");
@@ -22,6 +22,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "SummerFont";
   src: url("../fonts/Summer-Font-Light.eot");
@@ -33,6 +34,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "UBUNTU-REGULAR";
   src: url("../fonts/UBUNTU-REGULAR.eot");
@@ -44,6 +46,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "UBUNTU-LIGHT";
   src: url("../fonts/UBUNTU-LIGHT.eot");
@@ -55,6 +58,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "UBUNTU-BOLD";
   src: url("../fonts/UBUNTU-BOLD.eot");
@@ -66,6 +70,8 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+//global-fonts
 $fontawesome: "FontAwesome";
 $summer-font: "SummerFont";
 $ubuntu-medium-font: "UBUNTU-MEDIUM";
@@ -73,11 +79,21 @@ $ubuntu-regular-font: "UBUNTU-REGULAR";
 $ubuntu-light-font: "UBUNTU-LIGHT";
 $ubuntu-bold-font: "UBUNTU-BOLD";
 
+//global-colors
+$orange-color: #f39c12;
+$white-color: #ffffff;
+$blue-color: #3caad2;
+$orange-hover-color: #e48d12;
+$blue-hover-color: #3d9bc3;
+
+//new media container for large desktop
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
   }
 }
+
+//animation fadeIN
 @media #{$bootstrap-sm} {
   .first-screen-animation {
     opacity: 0;
@@ -108,3 +124,4 @@ $ubuntu-bold-font: "UBUNTU-BOLD";
 @import "partials/steps-store";
 @import "store/contacts";
 @import "store/basket";
+@import "global";
