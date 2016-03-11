@@ -954,13 +954,204 @@
           width: 630px;
           height: 147px;
           margin-top: 40px;
+          padding-top: 5px;
           .address-title {
-            font-family: $ubuntu-light-font;
+            font-family: $ubuntu-medium-font, "sans-serif";
             color:  #4a4b4c;
-            font-size: 15px;
+            font-size: 0.938em;
             font-weight: 500;
-            line-height: 34px;/* Приближение из-за подстановки шрифтов */
+            line-height: 20px;
             text-align: left;
+            display: inline-block;
+            margin-left: 30px;
+            margin-bottom: 0;
+          }
+          .address-text {
+            font-family: $ubuntu-light-font, "sans-serif";
+            color:  #4a4b4c;
+            font-size: 1.188em;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: left;
+            display: inline-block;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .modal-date {
+        .date-block {
+          width: 630px;
+          border-bottom: 1px solid #e5e5e5;
+          margin-top: 15px;
+          height: 115px;
+          .date-title {
+            font-family: $ubuntu-medium-font, "sans-serif";
+            color:  #4a4b4c;
+            font-size: 0.938em;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+            display: inline-block;
+            margin-left: 30px;
+            margin-bottom: 0;
+            width: 200px;
+          }
+          .date-text {
+            font-family: $ubuntu-light-font, "sans-serif";
+            color:  #4a4b4c;
+            font-size: 1.188em;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: left;
+            display: inline-block;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .modal-contacts {
+        .contacts-block {
+          width: 630px;
+          border-bottom: 1px solid #e5e5e5;
+          margin-top: 35px;
+          height: 170px;
+          .contacts-title {
+            font-family: $ubuntu-medium-font, "sans-serif";
+            color:  #4a4b4c;
+            font-size: 0.938em;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+            margin-left: 30px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+          }
+          .contacts-text {
+            font-family: $ubuntu-light-font, "sans-serif";
+            color:  #4a4b4c;
+            font-size: 1.188em;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: left;
+            margin-bottom: 15px;
+            margin-left: 30px;
+          }
+        }
+      }
+      .modal-payment {
+        .payment-block {
+          width: 630px;
+          border-bottom: 1px solid #e5e5e5;
+          height: 95px;
+          .payment-title {
+            font-family: $ubuntu-medium-font, "sans-serif";
+            color:  #4a4b4c;
+            font-size: 0.938em;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            margin-top: 35px;
+          }
+          .payment-text {
+            font-family: $ubuntu-light-font, "sans-serif";
+            color:  #4a4b4c;
+            font-size: 1.188em;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: left;
+            margin-bottom: 0;
+            margin-left: 30px;
+          }
+        }
+      }
+      .modal-footer {
+        border: none;
+        .delivery-block {
+          width: 630px;
+          .delivery {
+            height: 70px;
+            .delivery-title {
+              font-family: $summer-font, "sans-serif";
+              color:  #3e4041;
+              font-size: 2.500em;
+              font-weight: 300;
+              text-align: left;
+              display: inline-block;
+              float: left;
+              margin-bottom: 0;
+            }
+            .delivery-text {
+              font-family: $summer-font, "sans-serif";
+              color:  #3e4041;
+              font-size: 2.500em;
+              font-weight: 300;
+              text-align: left;
+              display: inline-block;
+              float: right;
+              margin-top: 10px;
+              width: 120px;
+              margin-bottom: 0;
+            }
+          }
+          .last-price {
+            height: 70px;
+            .price-title {
+              font-family: $summer-font, "sans-serif";
+              color:  #3e4041;
+              font-size: 3.125em;
+              font-weight: 300;
+              display: inline-block;
+              text-align: left;
+              float: left;
+              margin-top: 10px;
+              margin-bottom: 0;
+            }
+            .price {
+              font-family: $summer-font, "sans-serif";
+              color:  #3caad2;
+              font-size: 3.125em;
+              font-weight: 300;
+              display: inline-block;
+              float: right;
+              width: 120px;
+              text-align: left;
+              margin-top: 0;
+              margin-bottom: 0;
+              height: 55px;
+
+            }
+          }
+          .btn-block-group {
+            text-align: center;
+            margin-top: 20px;
+            .btn-agree {
+              border-radius: 6px;
+              background-color:  #f39c12;
+              width: 230px;
+              height: 41px;
+              font-family: $ubuntu-bold-font, "sans-serif";
+              color: #ffffff;
+              font-size: 1em;
+              font-weight: 700;
+              text-align: center;
+              transform: scaleY(1.0004);
+              text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+              display: block;
+            }
+            .icon-pencil {
+              margin-right: 10px;
+            }
+            .edit {
+              font-family: $ubuntu-light-font, "sans-serif";
+              color:  #4a4b4c;
+              font-size: 1em;
+              font-weight: 300;
+              line-height: 34px;
+              text-align: center;
+              text-decoration: underline;
+            }
           }
         }
       }
