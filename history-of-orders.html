@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WashDrop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-washdrop-store">
+    <div class="container">
+        <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
+            <div class="row">
+                <div class="col-sm-2">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png">
+                    </a>
+                </div>
+                <div class="col-sm-9 col-md-10 col-lg-9 col-lg-offset-1">
+                    <div class="navbar-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/FAQ.html" class="page-scroll nav-link">FAQ</a></li>
+                            <li><a href="/news.html" class="page-scroll nav-link">НОВОСТИ</a></li>
+                        </ul>
+                        <div class="nav navbar-nav navbar-right">
+                            <div class="right-block">
+                                <div class="nav-btn">
+                                    <div class="btn-container">
+                                        <button class=" btn btn-for-ios">
+                                            <div class="apple-logo"></div>
+                                            <div class="apple-text-btn">App store</div>
+                                        </button>
+                                        <button class="btn btn-for-android">
+                                            <div class="google-logo"></div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="nav-basket">
+                                    <img src="img/basket.png" class="basket"><p class="text-basket">В корзине:<span class="pick-items">2 позиции</span></p>
+                                </div>
+                                <div class="nav-enter">
+                                    <!--Hidden button log in-->
+                                    <button class="btn btn-enter" style="display: none"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-user user-icon"></i>Алексей Дмитриев<i class="fa fa-sort-desc sort-icon"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="full-page">
+
+    <div class="store">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="header-block">
+                        <h2 class="header-title">История заказов</h2>
+                        <img src="img/dot-blue.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="history">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="accordion">
+                        <div class="accordion-item center-block">
+                            <div class="accordion-button">
+                                <div class="accordion-marker"><i class="fa fa-angle-double-down"></i></div>
+                                <div class="history-number-block">
+                                    <span class="number">№ 1057727</span>
+                                </div>
+                                <div class="history-price-block">
+                                    <span class="price">840 руб.</span>
+                                </div>
+                                <div class="history-order-block">
+                                    <span class="order">Принят</span>
+                                </div>
+                            </div>
+                            <div class="drop-history">
+                                <div class="drop-text">
+                                    <h2 class="drop-title">Пиджак</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-store">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="copyrighting">
+                        <p class="no-link">© 2016 Washdrop </p>
+                        <a href="#" class="footer-link">Политика конфидециальности</a>
+                        <a href="#" class="footer-link last" data-toggle="modal" data-target="#myModalLegal">Публичная оферта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/Accordion.js"></script>
+
+</body>
+</html>
