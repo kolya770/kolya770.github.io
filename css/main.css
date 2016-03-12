@@ -435,6 +435,7 @@ body,html{height:100%;font-size:16px}
 #myModalThanksOrder .modal-dialog .modal-body .car{width:100%}
 #myModalThanksOrder .modal-dialog .modal-footer{width:630px;padding:0;text-align:center}
 @media (max-width:767px){#myModalThanksOrder .modal-dialog .modal-footer{width:85%}
+#AddToBasket .modal-dialog{top:10vh}
 }
 #myModalThanksOrder .modal-dialog .modal-footer .footer-title{color:#4a4b4c;text-align:center}
 #myModalThanksOrder .modal-dialog .modal-footer .btn-no,#myModalThanksOrder .modal-dialog .modal-footer .btn-yes{width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;line-height:24px;border-radius:6px;text-align:center;transform:scaleY(1.0004);outline:0}
@@ -487,6 +488,16 @@ body,html{height:100%;font-size:16px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .btn-agree{border-radius:6px;background-color:#f39c12;width:230px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);display:block}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .icon-pencil{margin-right:10px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .edit{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:34px;text-align:center;text-decoration:underline}
+#AddToBasket .modal-dialog{width:300px;height:340px;position:absolute;left:50%;margin-left:-150px}
+@media (min-width:768px){#AddToBasket .modal-dialog{top:50%;margin-top:-170px}
+}
+#AddToBasket .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:300px;height:340px}
+#AddToBasket .modal-dialog .modal-content .modal-header{border:none}
+#AddToBasket .modal-dialog .modal-content .modal-body{text-align:center}
+#AddToBasket .modal-dialog .modal-content .modal-body .header-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.125em;font-weight:300;line-height:60px;text-align:center;text-transform:uppercase}
+#AddToBasket .modal-dialog .modal-content .modal-body .dot{text-align:center}
+#AddToBasket .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
+#AddToBasket .modal-dialog .modal-content .modal-footer .btn-add-to-basket{border-radius:50%;width:130px;height:130px;text-align:center}
 .close{opacity:.5;outline:0}
 .close .close-icon{color:#f39c12;font-size:20px;font-weight:400;line-height:25px;text-align:left}
 .close:hover{opacity:1}

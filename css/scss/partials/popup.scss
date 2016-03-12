@@ -1159,6 +1159,58 @@
   }
 }
 
+#AddToBasket {
+  .modal-dialog {
+    width: 300px;
+    height: 340px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    @media #{$bootstrap-xs} {
+      top: 10vh;
+    }
+    @media #{$bootstrap-sm} {
+      top: 50%;
+      margin-top: -170px;
+    }
+    .modal-content {
+      border-radius: 6px;
+      background-color:  #ffffff;
+      box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.6);
+      width: 300px;
+      height: 340px;
+      .modal-header {
+        border: none;
+      }
+      .modal-body {
+        text-align: center;
+        .header-text {
+          font-family: $summer-font, "sans-serif";
+          color: #4a4b4c;
+          font-size: 3.125em;
+          font-weight: 300;
+          line-height: 60px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        .dot {
+          text-align: center;
+        }
+      }
+      .modal-footer {
+        border: none;
+        text-align: center;
+        .btn-add-to-basket {
+          border-radius: 50%;
+          width: 130px;
+          height: 130px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
 .close {
   opacity: .5;
   outline: none;

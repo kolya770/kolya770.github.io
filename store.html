@@ -66,6 +66,23 @@
     </div>
 </nav>
 
+<div class="modal fade" id="AddToBasket" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times close-icon"></i></button>
+            </div>
+            <div class="modal-body">
+                <p class="header-text">Добавлено в корзину</p>
+                <img src="img/dot-blue.png" class="dot">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-blue btn-add-to-basket"><img src="img/add-basket.png"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="full-page">
 
     <div class="store">
@@ -129,7 +146,9 @@
                                 <div class="total-block">
                                     <h2 class="total-text">Итого:</h2>
                                     <p class="price">490 руб.</p>
-                                    <button class="btn btn-add-to-basket"><i class="fa fa-plus plus-icon"></i></button>
+                                    <button class="btn btn-add-to-basket" data-toggle="modal" data-target="#AddToBasket">
+                                        <i class="fa fa-plus plus-icon"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
