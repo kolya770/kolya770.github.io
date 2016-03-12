@@ -1,4 +1,3 @@
-.menu-btn,.question-faq-block .accordion>div{cursor:pointer}
 body,html{height:100%;font-size:16px}
 .navbar-default .navbar-nav>li>a,.navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 @font-face{font-family:FontAwesome;src:url(../fonts/fontawesome.woff)}
@@ -488,16 +487,34 @@ body,html{height:100%;font-size:16px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .btn-agree{border-radius:6px;background-color:#f39c12;width:230px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);display:block}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .icon-pencil{margin-right:10px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .edit{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:34px;text-align:center;text-decoration:underline}
+#AddToBasket .modal-dialog .modal-content .modal-body .header-text,#ReadNews .modal-dialog .modal-content .modal-body .header-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center;text-transform:uppercase}
 #AddToBasket .modal-dialog{width:300px;height:340px;position:absolute;left:50%;margin-left:-150px}
 @media (min-width:768px){#AddToBasket .modal-dialog{top:50%;margin-top:-170px}
 }
 #AddToBasket .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:300px;height:340px}
 #AddToBasket .modal-dialog .modal-content .modal-header{border:none}
 #AddToBasket .modal-dialog .modal-content .modal-body{text-align:center}
-#AddToBasket .modal-dialog .modal-content .modal-body .header-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.125em;font-weight:300;line-height:60px;text-align:center;text-transform:uppercase}
-#AddToBasket .modal-dialog .modal-content .modal-body .dot{text-align:center}
+#AddToBasket .modal-dialog .modal-content .modal-body .header-text{font-size:3.125em;line-height:60px}
 #AddToBasket .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
 #AddToBasket .modal-dialog .modal-content .modal-footer .btn-add-to-basket{border-radius:50%;width:130px;height:130px;text-align:center}
+#ReadNews .modal-dialog{height:auto;position:absolute;top:10vh;left:50%}
+@media (max-width:767px){#ReadNews .modal-dialog{width:90%;margin-left:-45%}
+}
+@media (min-width:768px){#ReadNews .modal-dialog{margin-left:-375px;width:750px}
+}
+#ReadNews .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:750px;height:auto}
+#ReadNews .modal-dialog .modal-content .modal-footer,#ReadNews .modal-dialog .modal-content .modal-header{border:none}
+#ReadNews .modal-dialog .modal-content .modal-body{text-align:center}
+#ReadNews .modal-dialog .modal-content .modal-body .header-text{font-size:5em;line-height:100px}
+@media (max-width:767px){#ReadNews .modal-dialog .modal-content{width:100%}
+#ReadNews .modal-dialog .modal-content .modal-body .header-text{font-size:3.125em;line-height:60px}
+}
+#ReadNews .modal-dialog .modal-content .modal-footer .news-block{width:370px}
+@media (max-width:767px){#ReadNews .modal-dialog .modal-content .modal-footer .news-block{width:100%}
+}
+#ReadNews .modal-dialog .modal-content .modal-footer .news-block .btn-news{border-radius:6px;width:96px;height:30px;font-family:UBUNTU-LIGHT,sans-serif;font-size:.875em;font-weight:300;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);line-height:30px;float:left;margin-bottom:30px;margin-top:5px}
+#ReadNews .modal-dialog .modal-content .modal-footer .news-block .hr-news{margin-bottom:20px}
+#ReadNews .modal-dialog .modal-content .modal-footer .news-block:last-child .hr-news{display:none}
 .close{opacity:.5;outline:0}
 .close .close-icon{color:#f39c12;font-size:20px;font-weight:400;line-height:25px;text-align:left}
 .close:hover{opacity:1}
@@ -523,6 +540,7 @@ body,html{height:100%;font-size:16px}
 @media (min-width:768px){.question-faq-block .first-order h2{font-size:5em;line-height:90px}
 }
 .question-faq-block .first-order img{margin-bottom:15px}
+.question-faq-block .accordion>div{cursor:pointer}
 .question-faq-block .accordion-item{min-height:55px}
 .question-faq-block .accordion-button h3 .question{position:relative;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:40px;text-align:left;display:inline-block;margin-bottom:0;margin-top:12px;max-width:85%}
 .question-faq-block .accordion h3{font-size:16px;background-color:#fff;border-top:1px solid #cbcbcb;cursor:pointer;margin:0}
@@ -627,7 +645,7 @@ ul{margin:0;padding:0}
 #container-store .menu-btn-store{position:absolute;right:0;margin:35px 20px}
 #container-store .logo-store{position:absolute;top:15px;left:25px}
 #container-store .logo-store img{width:137px;height:80px}
-.menu-btn{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:38px;height:40px;padding:7px 6px;color:#fff}
+.menu-btn{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:38px;height:40px;padding:7px 6px;cursor:pointer;color:#fff}
 .close-block{height:85px}
 .close-btn{margin-top:20px;margin-right:20px;float:right}
 .close-btn-store{margin-top:35px;margin-bottom:35px}
