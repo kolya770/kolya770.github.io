@@ -1,4 +1,10 @@
 .history {
+  .btn-return {
+    width: 370px;
+    height: 41px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
   .history-number-block {
     display: inline-block;
     height: 35px;
@@ -51,10 +57,10 @@
       padding-left: 35px;
     }
   }
-  .accordion {
+  .accordion-order {
+    margin-top: 55px;
   }
-  .accordion > div{
-
+  .accordion-order > div{
     cursor:pointer;
   }
   .accordion-item {
@@ -64,6 +70,7 @@
     background-color:  #ffffff;
     width: 570px;
     min-height: 55px;
+    margin-top: 10px;
   }
   .accordion-button {
     margin: 0 20px;
@@ -71,10 +78,9 @@
     background-color:  #ffffff;
     height: 55px;
   }
-
-  .accordion-marker{
+  .accordion-marker {
     border-radius: 50%;
-    background-color:  rgba(60, 170, 210, 0.5);
+    background-color: #3caad2;
     width: 22px;
     height: 22px;
     padding: 0;
@@ -82,19 +88,27 @@
     display: inline-block;
     margin-top: 17px;
     float: left;
+    &:hover {
+      background-color: #6cc2e1;
+    }
   }
-  .accordion-marker:hover {
-    background-color:  #3caad2;
-  }
+
   .accordion-marker i{
     font-size: 16px;
-    padding-left: 6px;
-    padding-top: 5px;
   }
-  .accordion-marker .fa-angle-double-down{
+  .accordion-marker .fa-angle-double-down {
+    padding-left: 5.7px;
+    padding-top: 5px;
     color:#ffffff;
   }
-  .accordion .drop-history{
+
+  .accordion-marker .fa-angle-double-up {
+    padding-left: 5.7px;
+    padding-top: 2px;
+    color:#ffffff;
+  }
+
+  .accordion-order .drop-history{
     max-height:0;
     overflow:hidden;
     transition: max-height 350ms ease-in-out;
@@ -106,23 +120,59 @@
     background-color:  #f5f5f5;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
-    .drop-text {
+    .drop-block {
       border-top: 1px solid rgba(203, 203, 203, .5);
+      .drop-text-block {
+        width: 65%;
+        margin-left: 62px;
+        display: inline-block;
+        .drop-title {
+          font-family: $ubuntu-light-font, "sans-serif";
+          color: #4a4b4c;
+          font-size: 1.188em;
+          font-weight: 300;
+          line-height: 30px;
+          text-align: left;
+          margin-top: 10px;
+          margin-bottom: 0;
+
+        }
+        .drop-text {
+          font-family: $ubuntu-light-font, "sans-serif";
+          color:  #4a4b4c;
+          font-size: 0.750em;
+          font-weight: 300;
+          line-height: 14px;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+      }
+      .price-block {
+        display: inline-block;
+        margin-right: 30px;
+        float: right;
+        .price-text {
+          font-family: $ubuntu-medium-font, "sans-serif";
+          color:  #3caad2;
+          font-size: 0.938em;
+          font-weight: 500;
+          line-height: 34px;
+          text-align: left;
+          margin-top: 15px;
+        }
+      }
     }
   }
-  .accordion > div.active .accordion-marker{
-    background-color:  rgba(60, 170, 210, 0.5);
+  .accordion-order > div.active .accordion-marker{
+    background-color: #3caad2;
     &:hover {
-      background-color:  #3caad2;
+      background-color: #6cc2e1;
     }
   }
-  .accordion > div.active .question{
-    color:#000;
-  }
-  .accordion > div.active .accordion-marker .fa-angle-up{
+  .accordion-order > div.active .accordion-marker .fa-angle-double-up{
     color:#fff;
   }
-  .accordion > div.active .drop-history{
-    max-height:200px;
+  .accordion-order > div.active .drop-history{
+    max-height: 1000px;
   }
 }

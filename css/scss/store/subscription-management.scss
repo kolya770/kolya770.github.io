@@ -75,23 +75,11 @@
       .btn-yes {
         width: 80px;
         height: 41px;
-        font-family: $ubuntu-bold-font, "sans-serif";
-        font-size: 1em;
-        font-weight: 700;
-        transform: scaleY(1.0004);
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-        border-radius: 6px;
         margin-top: 10px;
       }
       .btn-save {
         width: 148px;
         height: 41px;
-        font-family: $ubuntu-bold-font, "sans-serif";
-        font-size: 1em;
-        font-weight: 700;
-        transform: scaleY(1.0004);
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-        border-radius: 6px;
         margin-top: 30px;
       }
       .btn-off {
@@ -118,19 +106,36 @@
         }
       }
       .btn-change {
-        border-radius: 6px;
         width: 260px;
         height: 41px;
-        font-family: $ubuntu-bold-font, "sans-serif";
-        font-size: 1em;
-        font-weight: 700;
-        transform: scaleY(1.0004);
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
         margin-top: 30px;
         .pencil-icon {
           margin-right: 10px;
         }
       }
+
+      .btn-drop-sub {
+        width: 200px;
+        height: 42px;
+        font-family: $ubuntu-light-font, "sans-serif";
+        color: #4a4b4c;
+        border-radius: 6px;
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        font-size: 0.938em;
+        font-weight: 300;
+        text-align: left;
+        padding: 0 15px 0 20px;
+        .sort-icon {
+          float: right;
+          font-size: 17px;
+        }
+        @media #{$bootstrap-xs} {
+          margin-top: 20px;
+        }
+      }
+
       .select-day {
         border-radius: 6px;
         border: 1px solid rgba(203, 203, 203, .5);
@@ -159,28 +164,6 @@
             margin-bottom: 10px;
           }
         }
-        .btn-drop-sub {
-          width: 200px;
-          height: 42px;
-          font-family: $ubuntu-light-font, "sans-serif";
-          color: #4a4b4c;
-          border-radius: 6px;
-          border: 1px solid #e5e5e5;
-          box-sizing: border-box;
-          background-color: #ffffff;
-          font-size: 0.938em;
-          font-weight: 300;
-          text-align: left;
-          padding: 0 15px 0 20px;
-          .sort-icon {
-            float: right;
-            font-size: 17px;
-          }
-          @media #{$bootstrap-xs} {
-            margin-top: 20px;
-          }
-        }
-
       }
 
       .select-day-change {
@@ -209,29 +192,6 @@
             line-height: 25px;
             text-align: center;
             padding: 0 90px;
-          }
-          .btn-drop-sub {
-            border-radius: 6px;
-            border: 1px solid #e5e5e5;
-            box-sizing: border-box;
-            background-color: #ffffff;
-            width: 200px;
-            height: 42px;
-            font-family: $ubuntu-light-font, "sans-serif";
-            color: #4a4b4c;
-            font-size: 0.938em;
-            font-weight: 300;
-            text-align: left;
-            @media #{$bootstrap-xs} {
-              margin-right: 0;
-              margin-top: 20px;
-            }
-            .sort-icon {
-              float: right;
-            }
-          }
-          .last {
-            margin-right: 0;
           }
         }
       }
@@ -273,9 +233,6 @@
             @media #{$bootstrap-xs} {
               margin-top: 20px;
             }
-          }
-          .last {
-            margin-right: 0;
           }
         }
       }

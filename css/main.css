@@ -1,6 +1,6 @@
-.history .accordion>div,.menu-btn,.question-faq-block .accordion>div,.subscription .dropdown-menu li a:hover{cursor:pointer}
+.history .accordion-order>div,.menu-btn,.question-faq-block .accordion>div,.subscription .dropdown-menu li a:hover{cursor:pointer}
 body,html{height:100%;font-size:16px}
-.navbar-default .navbar-nav>li>a,.navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.btn-blue,.btn-orange{border:none;padding:0;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;outline:0}
 @font-face{font-family:FontAwesome;src:url(../fonts/fontawesome.woff)}
 @font-face{font-family:UBUNTU-MEDIUM;src:url(../fonts/UBUNTU-MEDIUM.eot);src:url(../fonts/UBUNTU-MEDIUM.eot#iefix) format("embedded-opentype"),url(../fonts/UBUNTU-MEDIUM.woff) format("woff"),url(../fonts/UBUNTU-MEDIUM.otf) format("opentype"),url(../fonts/UBUNTU-MEDIUM.ttf) format("truetype"),url(../fonts/UBUNTU-MEDIUM.svg#UBUNTU-MEDIUM) format("svg");font-weight:400;font-style:normal}
 @font-face{font-family:SummerFont;src:url(../fonts/Summer-Font-Light.eot);src:url(../fonts/Summer-Font-Light.eot?#iefix) format("embedded-opentype"),url(../fonts/Summer-Font-Light.woff) format("woff"),url(../fonts/Summer-Font-Light.otf) format("opentype"),url(../fonts/Summer-Font-Light.ttf) format("truetype"),url(../fonts/Summer-Font-Light.svg#SummerFont) format("svg");font-weight:400;font-style:normal}
@@ -9,6 +9,13 @@ body,html{height:100%;font-size:16px}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.eot);src:url(../fonts/UBUNTU-BOLD.eot#iefix) format("embedded-opentype"),url(../fonts/UBUNTU-BOLD.woff) format("woff"),url(../fonts/UBUNTU-BOLD.otf) format("opentype"),url(../fonts/UBUNTU-BOLD.ttf) format("truetype"),url(../fonts/UBUNTU-BOLD.svg#UBUNTU-BOLD) format("svg");font-weight:400;font-style:normal}
 @media (min-width:1200px){.container{width:1200px}
 }
+.btn-orange{background-color:#f39c12;border-radius:6px}
+.btn-orange:hover{background-color:#e48d12;color:#fff;outline:0}
+.btn-orange:active:focus,.btn-orange:focus{outline:0;color:#fff}
+.btn-blue{background-color:#3caad2;border-radius:6px}
+.navbar-default .navbar-nav>li>a,.navbar-washdrop .my-navbar .my-navbar-right .btn-navbar{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.btn-blue:hover{background-color:#3d9bc3;color:#fff;outline:0}
+.btn-blue:active:focus,.btn-blue:focus{outline:0;color:#fff}
 .navbar-washdrop{background-color:transparent;position:absolute;width:100%;border:none;z-index:1}
 @media (max-width:767px){.navbar-washdrop{top:15px}
 }
@@ -631,7 +638,7 @@ body,html{height:100%;font-size:16px}
 .info .hr-info{background-color:#cbcbcb;height:1px;margin-top:30px}
 .news-block h3{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px}
 .news-block p{font-family:UBUNTU-BOLD,sans-serif;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px}
-.middle-btn .btn-download,.news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;font-weight:300;text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;line-height:24px;outline:0}
+.middle-btn .btn-download,.news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;font-weight:300;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;outline:0}
 .news-block .btn-news{background-color:#3caad2;width:96px;height:30px;font-size:.875em;text-align:center;padding:2px 0 0}
 .news-block .btn-news:hover{background-color:#3d9bc3}
 .news-block .hr-news{background-color:#cbcbcb;width:100%;height:1px;margin-bottom:55px}
@@ -771,32 +778,29 @@ ul{margin:0;padding:0}
 .subscription .subscription-management .header-block .header-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.125em;font-weight:300;line-height:60px;text-align:center;margin-top:20px}
 @media (max-width:767px){.subscription .subscription-management .header-block .header-text{font-size:3.05em;padding:0 15px}
 }
-.subscription .subscription-management .header-block .btn-yes{width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);border-radius:6px;margin-top:10px}
-.subscription .subscription-management .header-block .btn-save{width:148px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);border-radius:6px;margin-top:30px}
-.subscription .subscription-management .header-block .btn-change,.subscription .subscription-management .header-block .btn-off{width:260px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;margin-top:30px;border-radius:6px;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15)}
-.subscription .subscription-management .header-block .btn-off{background-color:#37393a;color:#fff;line-height:24px;text-align:center;outline:0;margin-right:30px}
+.subscription .subscription-management .header-block .btn-yes{width:80px;height:41px;margin-top:10px}
+.subscription .subscription-management .header-block .btn-save{width:148px;height:41px;margin-top:30px}
+.subscription .subscription-management .header-block .btn-off{border-radius:6px;background-color:#37393a;width:260px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;line-height:24px;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:30px;margin-right:30px}
 .subscription .subscription-management .header-block .btn-off:hover{background-color:#37393a}
 @media (max-width:767px){.subscription .subscription-management .header-block .btn-off{margin-right:0}
 }
+.subscription .subscription-management .header-block .btn-change{width:260px;height:41px;margin-top:30px}
 .subscription .subscription-management .header-block .btn-change .pencil-icon{margin-right:10px}
-.subscription .subscription-management .header-block .select-day-change .btn-middle .last,.subscription .subscription-management .header-block .select-day-yet .btn-middle .last{margin-right:0}
+.subscription .subscription-management .header-block .btn-drop-sub{width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;font-size:.938em;font-weight:300;text-align:left;padding:0 15px 0 20px}
+.subscription .subscription-management .header-block .btn-drop-sub .sort-icon{float:right;font-size:17px}
+@media (max-width:767px){.subscription .subscription-management .header-block .btn-drop-sub{margin-top:20px}
+}
 .subscription .subscription-management .header-block .select-day{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:720px;height:167px;margin-top:35px}
 .subscription .subscription-management .header-block .select-day .select-header{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:25px;text-align:center;padding:0 90px;margin-bottom:25px}
 @media (max-width:767px){.subscription .subscription-management .header-block .select-day{width:100%;border-radius:0;height:336px}
 .subscription .subscription-management .header-block .select-day .select-header{padding:0 30px;margin-bottom:10px}
-.subscription .subscription-management .header-block .select-day .btn-drop-sub{margin-top:20px}
 }
-.subscription .subscription-management .header-block .select-day .btn-drop-sub{width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;font-size:.938em;font-weight:300;text-align:left;padding:0 15px 0 20px}
-.subscription .subscription-management .header-block .select-day .btn-drop-sub .sort-icon{float:right;font-size:17px}
 .subscription .subscription-management .header-block .select-day-change{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:720px;height:104px;margin-top:35px}
 .subscription .subscription-management .header-block .select-day-change .btn-middle{margin-top:30px}
 @media (max-width:767px){.subscription .subscription-management .header-block .select-day-change{height:223px;width:100%;border-radius:0}
 .subscription .subscription-management .header-block .select-day-change .btn-middle{margin-top:10px}
-.subscription .subscription-management .header-block .select-day-change .btn-middle .btn-drop-sub{margin-right:0;margin-top:20px}
 }
 .subscription .subscription-management .header-block .select-day-change .btn-middle .select-header{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:25px;text-align:center;padding:0 90px}
-.subscription .subscription-management .header-block .select-day-change .btn-middle .btn-drop-sub{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;text-align:left}
-.subscription .subscription-management .header-block .select-day-change .btn-middle .btn-drop-sub .sort-icon{float:right}
 .subscription .subscription-management .header-block .select-day-yet{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:720px;height:104px;margin-top:30px}
 .subscription .subscription-management .header-block .select-day-yet .btn-middle{margin-top:30px}
 @media (max-width:767px){.subscription .subscription-management .header-block .select-day-yet{height:223px;width:100%;border-radius:0}
@@ -953,35 +957,34 @@ ul{margin:0;padding:0}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .delete-item-text{font-family:UBUNTU-LIGHT,sans-serif;color:#cdcdcd;font-size:1em;font-weight:300;line-height:20px;text-align:left;margin-top:10px;margin-left:10px}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .icon-reply{float:right;margin-right:10px;margin-left:7px;font-size:14px;margin-top:2px}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .return-text{float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:16px;text-decoration:none;border-bottom:1px dotted #4a4b4c}
-.btn-blue,.btn-orange{border:none;padding:0;color:#fff;outline:0}
-.btn-orange{background-color:#f39c12}
-.btn-orange:hover{background-color:#e48d12;color:#fff;outline:0}
-.btn-orange:active:focus,.btn-orange:focus{outline:0;color:#fff}
-.btn-blue{background-color:#3caad2}
-.history .history-number-block,.history .history-price-block{border-right:1px solid rgba(203,203,203,.5);height:35px;margin-top:10px;display:inline-block;float:left}
-.btn-blue:hover{background-color:#3d9bc3;color:#fff;outline:0}
-.btn-blue:active:focus,.btn-blue:focus{outline:0;color:#fff}
-.history .history-number-block{width:180px;margin-left:20px}
+.history .btn-return{width:370px;height:41px;margin-top:30px;margin-bottom:35px}
+.history .history-number-block,.history .history-order-block,.history .history-price-block{height:35px;margin-top:10px;float:left;display:inline-block}
+.history .history-number-block{width:180px;margin-left:20px;border-right:1px solid rgba(203,203,203,.5)}
 .history .history-number-block .number{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:34px;text-align:left;transform:scaleX(1.0009)}
 .history .history-order-block .order,.history .history-price-block .price{font-size:.938em;line-height:34px;transform:scaleX(1.0009);padding-left:35px;text-align:left}
-.history .history-price-block{width:160px}
+.history .history-price-block{width:160px;border-right:1px solid rgba(203,203,203,.5)}
 .history .history-price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-weight:500}
-.history .history-order-block{display:inline-block;float:left;height:35px;margin-top:10px}
 .history .history-order-block .order{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-weight:300}
-.history .accordion-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:570px;min-height:55px}
+.history .accordion-order{margin-top:55px}
+.history .accordion-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:570px;min-height:55px;margin-top:10px}
 .history .accordion-button{margin:0 20px;box-sizing:border-box;background-color:#fff;height:55px}
-.history .accordion-marker{border-radius:50%;background-color:rgba(60,170,210,.5);width:22px;height:22px;padding:0;outline:0;display:inline-block;margin-top:17px;float:left}
-.history .accordion-marker:hover{background-color:#3caad2}
-.history .accordion-marker i{font-size:16px;padding-left:6px;padding-top:5px}
-.history .accordion-marker .fa-angle-double-down{color:#fff}
-.history .accordion .drop-history{max-height:0;overflow:hidden;transition:max-height 350ms ease-in-out;font-size:.938em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0;background-color:#f5f5f5;border-bottom-right-radius:6px;border-bottom-left-radius:6px}
-.history .accordion .drop-history .drop-text{border-top:1px solid rgba(203,203,203,.5)}
-.history .accordion>div.active .accordion-marker{background-color:rgba(60,170,210,.5)}
-.history .accordion>div.active .accordion-marker:hover{background-color:#3caad2}
-.history .accordion>div.active .question{color:#000}
-.history .accordion>div.active .accordion-marker .fa-angle-up{color:#fff}
+.history .accordion-marker{border-radius:50%;background-color:#3caad2;width:22px;height:22px;padding:0;outline:0;display:inline-block;margin-top:17px;float:left}
+.history .accordion-marker:hover{background-color:#6cc2e1}
+.history .accordion-marker i{font-size:16px}
+.history .accordion-marker .fa-angle-double-down{padding-left:5.7px;padding-top:5px;color:#fff}
+.history .accordion-marker .fa-angle-double-up{padding-left:5.7px;padding-top:2px;color:#fff}
+.history .accordion-order .drop-history{max-height:0;overflow:hidden;transition:max-height 350ms ease-in-out;font-size:.938em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0;background-color:#f5f5f5;border-bottom-right-radius:6px;border-bottom-left-radius:6px}
+.history .accordion-order .drop-history .drop-block{border-top:1px solid rgba(203,203,203,.5)}
+.history .accordion-order .drop-history .drop-block .drop-text-block{width:65%;margin-left:62px;display:inline-block}
+.history .accordion-order .drop-history .drop-block .drop-text-block .drop-title{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:30px;text-align:left;margin-top:10px;margin-bottom:0}
+.history .accordion-order .drop-history .drop-block .drop-text-block .drop-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-bottom:10px}
+.history .accordion-order .drop-history .drop-block .price-block{display:inline-block;margin-right:30px;float:right}
+.history .accordion-order .drop-history .drop-block .price-block .price-text{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:34px;text-align:left;margin-top:15px}
+.history .accordion-order>div.active .accordion-marker{background-color:#3caad2}
+.history .accordion-order>div.active .accordion-marker:hover{background-color:#6cc2e1}
+.history .accordion-order>div.active .accordion-marker .fa-angle-double-up{color:#fff}
 .error-page .error-text,.error-page .header{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300}
-.history .accordion>div.active .drop-history{max-height:200px}
+.history .accordion-order>div.active .drop-history{max-height:1000px}
 .error-page{text-align:center}
 .error-page .header{font-size:14em;text-transform:uppercase;margin-top:10px}
 .error-page .error-text{font-size:3.125em;line-height:60px;text-align:center;margin-top:20px}
