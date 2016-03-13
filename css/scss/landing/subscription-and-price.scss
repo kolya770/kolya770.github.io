@@ -95,6 +95,9 @@
       border-radius: 6px;
       border: none;
       background-color: #3caad2;
+      &:hover {
+        background-color: #3d9bc3;
+      }
       width: 200px;
       height: 50px;
       font-family: $ubuntu-regular-font, "sans-serif";

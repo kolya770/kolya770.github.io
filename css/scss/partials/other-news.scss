@@ -10,7 +10,6 @@
   }
 }
 
-
   .other-news {
     text-align: center;
     h2 {
@@ -112,6 +111,7 @@
     }
   }
   .news-block {
+    text-align: left;
     h3 {
       font-family: $ubuntu-light-font, "sans-serif";
       color: #4a4b4c;
@@ -128,6 +128,24 @@
       line-height: 24px;
       text-align: left;
     }
+    .btn-news {
+      border-radius: 6px;
+      background-color:  #3caad2;
+      width: 96px;
+      height: 30px;
+      font-family: $ubuntu-light-font, "sans-serif";
+      color:  #ffffff;
+      font-size: 0.875em;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: center;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      padding: 2px 0 0 0;
+      outline: none;
+      &:hover {
+        background-color: #3d9bc3;;
+      }
+    }
     .hr-news {
       background-color:  #cbcbcb;
       width: 100%;
@@ -136,6 +154,9 @@
     }
     img {
       width: 100%;
+      &:hover {
+        opacity: .85;
+      }
     }
   }
   .middle-btn {

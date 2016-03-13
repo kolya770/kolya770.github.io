@@ -1,0 +1,31 @@
+.error-page {
+  text-align: center;
+  .header {
+    font-family: $summer-font, "sans-serif";
+    color: #4a4b4c;
+    font-size: 14em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .error-text {
+    font-family: $summer-font, "sans-serif";
+    color: #4a4b4c;
+    font-size: 3.125em;
+    font-weight: 300;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btn {
+    font-family: $ubuntu-bold-font, "sans-serif";
+    font-size: 1em;
+    font-weight: 700;
+    transform: scaleY(1.0004);
+    text-shadow: 0 1px 1px rgba(0,0,0,.15);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+}

@@ -4,7 +4,7 @@
     height: 35px;
     width: 180px;
     margin-left: 20px;
-    border-right: 1px solid rgba(203, 203, 203, 50);
+    border-right: 1px solid rgba(203, 203, 203, .5);
     float: left;
     margin-top: 10px;
     .number {
@@ -21,7 +21,7 @@
     display: inline-block;
     height: 35px;
     width: 160px;
-    border-right: 1px solid rgba(203, 203, 203, 50);
+    border-right: 1px solid rgba(203, 203, 203, .5);
     float: left;
     margin-top: 10px;
     .price {
@@ -59,7 +59,7 @@
   }
   .accordion-item {
     border-radius: 6px;
-    border: 1px solid rgba(203, 203, 203, 50);
+    border: 1px solid rgba(203, 203, 203, .5);
     box-sizing: border-box;
     background-color:  #ffffff;
     width: 570px;
@@ -107,7 +107,7 @@
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
     .drop-text {
-      border-top: 1px solid rgba(203, 203, 203, 50);
+      border-top: 1px solid rgba(203, 203, 203, .5);
     }
   }
   .accordion > div.active .accordion-marker{

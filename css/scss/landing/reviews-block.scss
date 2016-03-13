@@ -1,6 +1,5 @@
 .reviews-block {
   background: url(../img/main-photo2.png) 50% 50%;
-  min-height: 673px;
   .header-reviews {
     text-align: center;
     h2 {
@@ -22,24 +21,6 @@
   }
   .center-btn {
     text-align: center;
-    .btn-reviews {
-      border-radius: 6px;
-      background-color:  #3caad2;
-      width: 160px;
-      height: 50px;
-      font-family: $ubuntu-light-font, "sans-serif";
-      color: #ffffff;
-      font-size: 1em;
-      font-weight: 300;
-      line-height: 24px;
-      text-align: center;
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      outline: none;
-      margin-bottom: 60px;
-      &:hover {
-        background-color: #3d9bc3;;
-      }
-    }
   }
 
   .b-profile {
