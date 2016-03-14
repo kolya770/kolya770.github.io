@@ -639,7 +639,7 @@ body,html{height:100%;font-size:16px}
 .info .hr-info{background-color:#cbcbcb;height:1px;margin-top:30px}
 .news-block h3{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px}
 .news-block p{font-family:UBUNTU-BOLD,sans-serif;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px}
-.middle-btn .btn-download,.news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;font-weight:300;text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;line-height:24px;outline:0}
+.middle-btn .btn-download,.news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;font-weight:300;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;outline:0}
 .news-block .btn-news{background-color:#3caad2;width:96px;height:30px;font-size:.875em;text-align:center;padding:2px 0 0}
 .news-block .btn-news:hover{background-color:#3d9bc3}
 .news-block .hr-news{background-color:#cbcbcb;width:100%;height:1px;margin-bottom:55px}
@@ -650,15 +650,9 @@ body,html{height:100%;font-size:16px}
 .middle-btn .btn-download:hover{background-color:#3d9bc3}
 ul{margin:0;padding:0}
 #container{background:0 0;padding:20px;z-index:1;position:absolute;right:0}
-#container-store{background-color:#3e4041;height:110px;position:relative;width:100%}
-#container-store .menu-btn-store{position:absolute;right:0;margin:35px 20px}
-#container-store .logo-store{position:absolute;top:15px;left:25px}
-#container-store .logo-store img{width:137px;height:80px}
 .menu-btn{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:38px;height:40px;padding:7px 6px;color:#fff}
 .close-block{height:85px}
 .close-btn{margin-top:20px;margin-right:20px;float:right}
-.close-btn-store{margin-top:35px;margin-bottom:35px}
-.close-block-store{height:110px}
 .menu-btn:hover{background:0 0;color:#FFF}
 .nav-text-mobile{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;line-height:30px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 .btn-navbar-mobile{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:184px;height:52px;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:30px}
@@ -671,23 +665,13 @@ ul{margin:0;padding:0}
 .btn-drop-mobile .user-icon{float:left;margin-right:5px;margin-top:4px}
 .btn-drop-mobile .sort-icon{float:right}
 .pushy{position:fixed;width:225px;height:100%;top:0;right:0;z-index:9999;background:#333332;font-size:.9em;font-weight:700;-webkit-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);-moz-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);overflow:auto;-webkit-overflow-scrolling:touch}
-.pushy-store{background-color:#3e4041}
-.pushy-store .btn-for-ios{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;padding:0;margin-left:25px;margin-right:5px;margin-top:25px}
-.pushy-store .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:7px 5px 0 14px;float:left}
-.pushy-store .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:.675em;font-weight:500;line-height:32px;text-align:left;float:left;margin-left:2px}
-.pushy-store .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;margin-top:25px}
-.pushy-store .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;background-size:70px 16px;width:70px;height:16px}
 .pushy a{display:block;color:#fff;padding:0 30px;text-decoration:none;text-align:right}
-.pushy-store a{display:inline-block;padding-left:25px;padding-right:0}
 .drop-menu{position:relative;margin-left:24px;margin-top:-5px;z-index:1;border-radius:0 0 5px 5px;width:202px;background-color:#fff}
 .drop-menu a{text-align:left}
 .drop-menu>li>a{padding:3px 10px}
 .drop-menu .hr-nav{background-color:#e5e5e5;height:1px;margin:0}
 .drop-menu .angle-icon{margin-right:10px}
 .pushy a:hover{color:#FFF}
-.subscription .pushy{width:250px}
-.subscription .pushy-left{-webkit-transform:translate3d(250px,0,0);-moz-transform:translate3d(250px,0,0);-ms-transform:translate3d(250px,0,0);-o-transform:translate3d(250px,0,0);transform:translate3d(250px,0,0)}
-.subscription .container-push,.subscription .push-push{-webkit-transform:translate3d(-250px,0,0);-moz-transform:translate3d(-250px,0,0);-ms-transform:translate3d(-250px,0,0);-o-transform:translate3d(-250px,0,0);transform:translate3d(-250px,0,0)}
 .pushy-left{-webkit-transform:translate3d(225px,0,0);-moz-transform:translate3d(225px,0,0);-ms-transform:translate3d(225px,0,0);-o-transform:translate3d(225px,0,0);transform:translate3d(225px,0,0)}
 .pushy-open{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
 .container-push,.push-push{-webkit-transform:translate3d(-225px,0,0);-moz-transform:translate3d(-225px,0,0);-ms-transform:translate3d(-225px,0,0);-o-transform:translate3d(-225px,0,0);transform:translate3d(-225px,0,0)}
@@ -708,48 +692,6 @@ ul{margin:0;padding:0}
 }
 @media screen and (max-width:768px){.pushy{font-size:1em}
 }
-.navbar-washdrop-store{height:110px;background-color:#3e4041;border:none;border-radius:0}
-.navbar-washdrop-store .my-navbar .navbar-brand img{width:137px}
-.navbar-washdrop-store .my-navbar .navbar-menu{margin-top:29px;border-radius:10px;background-color:rgba(255,255,255,.05);height:50px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-left-store>li>a{line-height:20px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right{margin-right:15px;height:50px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn{display:inline-block}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios{height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;padding:0}
-@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios{width:30px}
-}
-@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios{width:95px}
-}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:7px 5px 0 14px;float:left}
-@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-logo{margin:-2px 0 0 8px}
-}
-@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-logo{margin:6px 5px 0 14px}
-}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:.75em;font-weight:500;line-height:30px;text-align:left;float:left;margin-left:2px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;margin-left:5px}
-@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android{width:30px;padding-left:9px}
-}
-@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android{width:95px;padding-left:12px}
-}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android .google-logo{background:url(../img/google-logo-store.png) no-repeat}
-@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android .google-logo{background-size:70px 16px;width:16px;height:16px}
-}
-@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android .google-logo{background-size:70px 16px;width:70px;height:16px}
-}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket{display:inline-block;width:200px;height:50px;margin-left:15px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .basket{margin:13px 13px 0 0;float:left}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .text-basket{font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:.875em;font-weight:400;line-height:24px;text-align:left;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:12px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .text-basket .pick-items{color:#f39c12;margin-left:5px;border-bottom:2px dotted}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter{display:inline-block;margin-top:10px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-enter{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:104px;height:32px;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:30px;text-align:left;text-shadow:0 1px 1px rgba(0,0,0,.2);padding:0;outline:0}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-enter .sing-in-icon{margin:0 10px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop{border-radius:5px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);max-width:240px;height:30px;padding:0;font-family:UBUNTU-REGULAR,sans-serif;color:#3e4041;font-size:.938em;font-weight:400;line-height:24px;text-align:left;width:260px;z-index:2}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop .user-icon{margin:3px 10px 0;float:left}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop .sort-icon{margin:0 5px;float:right}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc{width:240px;margin-top:-5px;z-index:1;border-radius:0 0 6px 6px;border:1px solid #e5e5e5}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc .angle-icon{margin-right:10px;color:#4a4b4c;font-size:14px;font-weight:400;line-height:20px;text-align:left}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc .nav-pc{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:20px;text-align:left;padding:5px 10px 5px 15px}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc>li>a:hover{text-decoration:underline;color:#3caad2;background-color:transparent}
-.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc .divider{margin:0}
 .footer-store .copyrighting .footer-link,.footer-store .copyrighting .no-link{font-family:UBUNTU-LIGHT,sans-serif;color:#9e9fa0;font-size:.938em;line-height:24px;margin-top:15px;font-weight:300;text-align:center}
 .footer-store{background-color:#f5f5f5;height:53px;width:100%}
 .footer-store .copyrighting{text-align:center}
@@ -794,23 +736,33 @@ ul{margin:0;padding:0}
 .subscription .subscription-management .header-block .select-day{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:720px;height:167px;margin-top:35px}
 .subscription .subscription-management .header-block .select-day .select-header{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:25px;text-align:center;padding:0 90px;margin-bottom:25px}
 @media (max-width:767px){.subscription .subscription-management .header-block .select-day{width:100%;border-radius:0;height:336px}
+.subscription .subscription-management .header-block .select-day .no-margin{margin-right:0;margin-left:0}
 .subscription .subscription-management .header-block .select-day .select-header{padding:0 30px;margin-bottom:10px}
 }
 .subscription .subscription-management .header-block .select-day-change{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:720px;height:104px;margin-top:35px}
 .subscription .subscription-management .header-block .select-day-change .btn-middle{margin-top:30px}
 @media (max-width:767px){.subscription .subscription-management .header-block .select-day-change{height:223px;width:100%;border-radius:0}
+.subscription .subscription-management .header-block .select-day-change .no-margin{margin-right:0;margin-left:0}
 .subscription .subscription-management .header-block .select-day-change .btn-middle{margin-top:10px}
 }
 .subscription .subscription-management .header-block .select-day-change .btn-middle .select-header{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:25px;text-align:center;padding:0 90px}
 .subscription .subscription-management .header-block .select-day-yet{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:720px;height:104px;margin-top:30px}
 .subscription .subscription-management .header-block .select-day-yet .btn-middle{margin-top:30px}
 @media (max-width:767px){.subscription .subscription-management .header-block .select-day-yet{height:223px;width:100%;border-radius:0}
+.subscription .subscription-management .header-block .select-day-yet .no-margin{margin-right:0;margin-left:0}
 .subscription .subscription-management .header-block .select-day-yet .btn-middle{margin-top:10px}
 .subscription .subscription-management .header-block .select-day-yet .btn-middle .btn-drop-sub-no-active{margin-top:20px}
 }
 .subscription .subscription-management .header-block .select-day-yet .btn-middle .btn-drop-sub-no-active{width:200px;height:42px;font-family:UBUNTU-LIGHT,sans-serif;color:rgba(74,75,76,.5);font-size:.938em;font-weight:300;text-align:left;border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#f5f5f5;padding:0 15px 0 20px}
 .store .header-block .header-text,.store .header-block .header-title{font-family:SummerFont,sans-serif;font-weight:300}
 .subscription .subscription-management .header-block .select-day-yet .btn-middle .btn-drop-sub-no-active .sort-icon{float:right}
+.wrap{min-height:100%;height:auto}
+@media (max-width:767px){.wrap{margin:0 auto -432px;padding:0 0 432px}
+}
+@media (min-width:768px){.wrap{margin:0 auto -259px;padding:0 0 259px}
+}
+@media (min-width:992px){.wrap{margin:0 auto -302px;padding:0 0 302px}
+}
 .store .header-block{text-align:center}
 .store .header-block .header-title{color:#4a4b4c;font-size:5em;line-height:100px;text-align:center;text-transform:uppercase}
 .store .header-block .header-text{color:#3caad2;font-size:3.125em;line-height:60px;text-align:center;margin-top:10px}
@@ -860,9 +812,12 @@ ul{margin:0;padding:0}
 }
 .address .form-block .form-input{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:100%;height:42px;outline:0;resize:none;padding:0 0 0 20px}
 .address .form-block .know{height:120px;padding:20px 0 0 20px}
-.total-cost-block .sum{margin-bottom:30px}
-@media (max-width:767px){.total-cost-block .sum{text-align:center}
+@media (max-width:767px){.total-cost-block{height:238px}
+.total-cost-block .sum{text-align:center}
 }
+@media (min-width:768px){.total-cost-block{height:122px}
+}
+.total-cost-block .sum{margin-bottom:30px}
 .total-cost-block .sum .summary,.total-cost-block .sum .total-cost{font-family:SummerFont,sans-serif;line-height:50px;text-align:left;display:inline-block;font-size:3.125em;font-weight:300}
 .total-cost-block .sum .address-hr{background-color:#e5e5e5;height:1px;margin-top:0}
 .total-cost-block .sum .total-cost{color:#3e4041;margin-right:40px;margin-top:10px}
@@ -988,14 +943,72 @@ ul{margin:0;padding:0}
 .history .accordion-order .drop-history .drop-block .drop-text-block .drop-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-bottom:10px}
 .history .accordion-order .drop-history .drop-block .price-block{display:inline-block;margin-right:30px;float:right}
 .history .accordion-order .drop-history .drop-block .price-block .price-text{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:34px;text-align:left;margin-top:15px}
-.error-page .error-text,.error-page .header{font-family:SummerFont,sans-serif;font-weight:300}
 .history .accordion-order>div.active .accordion-marker{background-color:#3caad2}
 .history .accordion-order>div.active .accordion-marker:hover{background-color:#6cc2e1}
 .history .accordion-order>div.active .accordion-marker .fa-angle-double-up{color:#fff}
 .history .accordion-order>div.active .drop-history{max-height:1000px}
+.navbar-washdrop-store{height:110px;background-color:#3e4041;border:none;border-radius:0}
+.navbar-washdrop-store .my-navbar .navbar-brand img{width:137px}
+.navbar-washdrop-store .my-navbar .navbar-menu{margin-top:29px;border-radius:10px;background-color:rgba(255,255,255,.05);height:50px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-left-store>li>a{line-height:20px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right{margin-right:15px;height:50px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn{display:inline-block}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios{height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;padding:0}
+@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios{width:30px}
+}
+@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios{width:95px}
+}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:7px 5px 0 14px;float:left}
+@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-logo{margin:-2px 0 0 8px}
+}
+@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-logo{margin:6px 5px 0 14px}
+}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:.75em;font-weight:500;line-height:30px;text-align:left;float:left;margin-left:2px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;margin-left:5px}
+@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android{width:30px;padding-left:9px}
+}
+@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android{width:95px;padding-left:12px}
+}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android .google-logo{background:url(../img/google-logo-store.png) no-repeat}
+@media (min-width:992px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android .google-logo{background-size:70px 16px;width:16px;height:16px}
+}
+@media (min-width:1200px){.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-market-btn .btn-for-android .google-logo{background-size:70px 16px;width:70px;height:16px}
+}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket{display:inline-block;width:200px;height:50px;margin-left:15px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .basket{margin:13px 13px 0 0;float:left}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .text-basket{font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:.875em;font-weight:400;line-height:24px;text-align:left;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:12px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-basket .text-basket .pick-items{color:#f39c12;margin-left:5px;border-bottom:2px dotted}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter{display:inline-block;margin-top:10px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-enter{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:104px;height:32px;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:30px;text-align:left;text-shadow:0 1px 1px rgba(0,0,0,.2);padding:0;outline:0}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-enter .sing-in-icon{margin:0 10px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop{border-radius:5px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);max-width:240px;height:30px;padding:0;font-family:UBUNTU-REGULAR,sans-serif;color:#3e4041;font-size:.938em;font-weight:400;line-height:24px;text-align:left;width:260px;z-index:2}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop .user-icon{margin:3px 10px 0;float:left}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-drop .sort-icon{margin:0 5px;float:right}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc{width:240px;margin-top:-5px;z-index:1;border-radius:0 0 6px 6px;border:1px solid #e5e5e5}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc .angle-icon{margin-right:10px;color:#4a4b4c;font-size:14px;font-weight:400;line-height:20px;text-align:left}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc .nav-pc{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:20px;text-align:left;padding:5px 10px 5px 15px}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc>li>a:hover{text-decoration:underline;color:#3caad2;background-color:transparent}
+#container-store,.pushy-store{background-color:#3e4041}
+.navbar-washdrop-store .my-navbar .navbar-menu .navbar-right .nav-enter .btn-group .drop-menu-pc .divider{margin:0}
+.subscription .pushy,.wrap .pushy{width:250px}
+.subscription .pushy-left,.wrap .pushy-left{-webkit-transform:translate3d(250px,0,0);-moz-transform:translate3d(250px,0,0);-ms-transform:translate3d(250px,0,0);-o-transform:translate3d(250px,0,0);transform:translate3d(250px,0,0)}
+.subscription .container-push,.subscription .push-push,.wrap .container-push,.wrap .push-push{-webkit-transform:translate3d(-250px,0,0);-moz-transform:translate3d(-250px,0,0);-ms-transform:translate3d(-250px,0,0);-o-transform:translate3d(-250px,0,0);transform:translate3d(-250px,0,0)}
+#container-store{height:110px;position:relative;width:100%}
+#container-store .menu-btn-store{position:absolute;right:0;margin:35px 20px}
+#container-store .logo-store{position:absolute;top:15px;left:25px}
+#container-store .logo-store img{width:137px;height:80px}
+.pushy-store .btn-for-ios{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;padding:0;margin-left:25px;margin-right:5px;margin-top:25px}
+.pushy-store .btn-for-ios .apple-logo{background:url(../img/apple-logo.png) no-repeat;background-size:14px 16px;width:14px;height:16px;margin:7px 5px 0 14px;float:left}
+.pushy-store .btn-for-ios .apple-text-btn{color:#fff;vertical-align:middle;height:100%;display:inline-block;font-family:UBUNTU-MEDIUM,sans-serif;font-size:.675em;font-weight:500;line-height:32px;text-align:left;float:left;margin-left:2px}
+.error-page .error-text,.error-page .header{font-family:SummerFont,sans-serif;font-weight:300;color:#4a4b4c}
+.pushy-store .btn-for-android{width:95px;height:30px;border:none;border-radius:6px;background-color:#3caad2;outline:0;margin-top:25px}
+.pushy-store .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;background-size:70px 16px;width:70px;height:16px}
+.pushy-store a{display:inline-block;padding-left:25px;padding-right:0}
+.close-btn-store{margin-top:35px;margin-bottom:35px}
+.close-block-store{height:110px}
 .error-page{text-align:center}
-.error-page .header{color:#4a4b4c;font-size:14em;text-transform:uppercase;margin-top:10px}
-.error-page .error-text{color:#4a4b4c;font-size:3.125em;line-height:60px;text-align:center;margin-top:20px}
+.error-page .header{font-size:14em;text-transform:uppercase;margin-top:10px}
+.error-page .error-text{font-size:3.125em;line-height:60px;text-align:center;margin-top:20px}
 .error-page .btn{font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);border-radius:6px;margin-top:10px;margin-bottom:50px;padding:15px}
 .timing-text-block{margin-bottom:40px}
 .timing-text-block .take-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:481px;height:375px;z-index:1000;position:relative;margin-top:-50px}

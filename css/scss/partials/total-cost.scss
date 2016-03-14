@@ -1,4 +1,10 @@
 .total-cost-block {
+  @media #{$bootstrap-xs} {
+    height: 238px;
+  }
+  @media #{$bootstrap-sm} {
+    height: 122px;
+  }
   .sum {
     margin-bottom: 30px;
     @media #{$bootstrap-xs} {

@@ -10,50 +10,59 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-washdrop-store">
-    <div class="container">
-        <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
-            <div class="row">
-                <div class="col-sm-2">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo.png">
-                    </a>
-                </div>
-                <div class="col-sm-9 col-md-10 col-lg-9 col-lg-offset-1">
-                    <div class="navbar-menu">
-                        <ul class="nav navbar-nav">
-                            <li><a href="/FAQ.html" class="page-scroll nav-link">FAQ</a></li>
-                            <li><a href="/news.html" class="page-scroll nav-link">НОВОСТИ</a></li>
-                        </ul>
-                        <div class="nav navbar-nav navbar-right">
-                            <div class="right-block">
-                                <div class="nav-btn">
-                                    <div class="btn-container">
-                                        <button class=" btn btn-for-ios">
-                                            <div class="apple-logo"></div>
-                                            <div class="apple-text-btn">App store</div>
-                                        </button>
-                                        <button class="btn btn-for-android">
-                                            <div class="google-logo"></div>
-                                        </button>
+<div class="wrap">
+
+    <nav class="navbar navbar-default navbar-washdrop-store hidden-xs hidden-sm">
+        <div class="container">
+            <div class="collapse navbar-collapse my-navbar" id="bs-example-navbar-collapse-1">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-9 col-md-10 col-lg-9 col-lg-offset-1">
+                        <div class="navbar-menu">
+                            <ul class="nav navbar-nav navbar-left-store">
+                                <li><a href="/FAQ.html" class="page-scroll nav-link">FAQ</a></li>
+                                <li><a href="/news.html" class="page-scroll nav-link">НОВОСТИ</a></li>
+                            </ul>
+                            <div class="nav navbar-nav navbar-right">
+                                <div class="right-block">
+                                    <div class="nav-market-btn">
+                                        <div class="btn-container visible-lg-block">
+                                            <button class=" btn btn-for-ios">
+                                                <div class="apple-logo"></div>
+                                                <div class="apple-text-btn">App store</div>
+                                            </button>
+                                            <button class="btn btn-for-android">
+                                                <div class="google-logo"></div>
+                                            </button>
+                                        </div>
+                                        <div class="btn-container visible-md-block">
+                                            <button class="btn btn-for-ios">
+                                                <div class="apple-logo"></div>
+                                            </button>
+                                            <button class="btn btn-for-android">
+                                                <div class="google-logo"></div>
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="nav-basket">
-                                    <img src="img/basket.png" class="basket"><p class="text-basket">В корзине:<span class="pick-items">2 позиции</span></p>
-                                </div>
-                                <div class="nav-enter">
-                                    <!--<button class="btn btn-enter"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>-->
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fa fa-user user-icon"></i>Алексей Дмитриев<i class="fa fa-sort-desc sort-icon"></i>
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">Separated link</a></li>
-                                        </ul>
+                                    <div class="nav-basket">
+                                        <img src="img/basket.png" class="basket"><p class="text-basket">В корзине:<span class="pick-items">2 позиции</span></p>
+                                    </div>
+                                    <div class="nav-enter">
+                                        <button class="btn btn-enter" style="display: none"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fa fa-user user-icon"></i>Алексей Дмитриев<i class="fa fa-sort-desc sort-icon"></i>
+                                            </button>
+                                            <ul class="dropdown-menu drop-menu-pc">
+                                                <li><a href="#" class="nav-pc"><i class="fa fa-angle-right angle-icon"></i>История заказов</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#" class="nav-pc"><i class="fa fa-angle-right angle-icon"></i>Управление подпиской</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -62,10 +71,49 @@
                 </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<div id="full-page">
+    <nav class="pushy pushy-left pushy-store visible-xs-block visible-sm-block">
+        <ul>
+            <li class="close-block close-block-store"><button class="menu-btn close-btn close-btn-store"><img src="img/close-icon.png"></button></li>
+            <li>
+                <a href="/FAQ.html" class="page-scroll nav-text-mobile nav-text-mobile-store">FAQ</a>
+                <a href="/news.html" class="page-scroll nav-text-mobile nav-text-mobile-store">НОВОСТИ</a>
+            </li>
+            <li>
+                <button class="btn btn-for-ios">
+                    <div class="apple-logo"></div>
+                    <div class="apple-text-btn">App store</div>
+                </button>
+                <button class="btn btn-for-android">
+                    <div class="google-logo"></div>
+                </button>
+            </li>
+        </ul>
+        <button type="submit" class="btn btn-default btn-navbar-basket center-block"><img src="img/basket.png">КОРЗИНА ПУСТА</button>
+        <button type="submit" class="btn btn-default btn-navbar-basket center-block" style="display: none"><img src="img/basket.png">2 ПОЗИЦИИ</button>
+        <button class="btn btn-enter-mobile" style="display: none"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-drop-mobile dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user user-icon"></i>Алексей Дмитриев<i class="fa fa-sort-desc sort-icon"></i>
+            </button>
+            <ul class="dropdown-menu drop-menu">
+                <li><a href="#"><i class="fa fa-angle-right angle-icon"></i>История заказов</a></li>
+                <hr class="hr-nav">
+                <li><a href="#"><i class="fa fa-angle-right angle-icon"></i>Управление подпиской</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="site-overlay visible-xs-block visible-sm-block"></div>
+
+    <div id="container-store" class="visible-xs-block visible-sm-block">
+        <div class="logo-store">
+            <img src="img/logo.png">
+        </div>
+
+        <div class="menu-btn menu-btn-store"><img src="img/menu-icon.png"></div>
+    </div>
 
     <div class="store">
         <div class="container">
@@ -123,103 +171,103 @@
             </div>
         </div>
     </div>
-
-    <div class="total-cost-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="sum">
-                        <hr class="address-hr">
-                        <h2 class="total-cost">Итоговая стоимость:</h2>
-                        <p class="summary">1480 руб.</p>
-                        <button class="btn btn-orange btn-next">ДАЛЕЕ<i class="fa fa-angle-double-right icon-next"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="steps-block hidden-xs hidden-sm">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="block-step">
-                        <h2 class="title-step active">1 шаг</h2>
-                        <p class="text-step active">выбор позиции</p>
-                    </div>
-                    <img src="img/pointer.png" class="pointer">
-                </div>
-                <div class="col-sm-3">
-                    <div class="block-step">
-                        <h2 class="title-step">2 шаг</h2>
-                        <p class="text-step">указание адреса</p>
-                    </div>
-                    <img src="img/pointer.png" class="pointer">
-                </div>
-                <div class="col-sm-3">
-                    <div class="block-step">
-                        <h2 class="title-step">3 шаг</h2>
-                        <p class="text-step">выбор времени</p>
-                    </div>
-                    <img src="img/pointer.png" class="pointer">
-                </div>
-                <div class="col-sm-3">
-                    <div class="block-step">
-                        <h2 class="title-step">4 шаг</h2>
-                        <p class="text-step">контактные данные</p>
-                    </div>
-                    <img src="img/pointer.png" class="pointer">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="steps-block-mobile visible-xs-block visible-sm-block">
-        <div class="container">
-            <div class="row margin-no">
-                <div class="col-xs-c-3">
-                    <h2 class="text-step active">1 шаг</h2>
-                </div>
-                <div class="col-xs-c-1">
-                    <p class="dash-text">-</p>
-                </div>
-                <div class="col-xs-c-3">
-                    <h2 class="text-step">2 шаг</h2>
-                </div>
-                <div class="col-xs-c-1">
-                    <p class="dash-text">-</p>
-                </div>
-                <div class="col-xs-c-3">
-                    <h2 class="text-step">3 шаг</h2>
-                </div>
-                <div class="col-xs-c-1">
-                    <p class="dash-text">-</p>
-                </div>
-                <div class="col-xs-c-3">
-                    <h2 class="text-step">4 шаг</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer class="footer-store">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="copyrighting">
-                        <p class="no-link">© 2016 Washdrop </p>
-                        <a href="#" class="footer-link">Политика конфидециальности</a>
-                        <a href="#" class="footer-link last" data-toggle="modal" data-target="#myModalLegal">Публичная оферта</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
 </div>
+
+<div class="total-cost-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="sum">
+                    <hr class="address-hr">
+                    <h2 class="total-cost">Итоговая стоимость:</h2>
+                    <p class="summary">1480 руб.</p>
+                    <button class="btn btn-orange btn-next">ДАЛЕЕ<i class="fa fa-angle-double-right icon-next"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="steps-block hidden-xs hidden-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="block-step">
+                    <h2 class="title-step active">1 шаг</h2>
+                    <p class="text-step active">выбор позиции</p>
+                </div>
+                <img src="img/pointer.png" class="pointer">
+            </div>
+            <div class="col-sm-3">
+                <div class="block-step">
+                    <h2 class="title-step">2 шаг</h2>
+                    <p class="text-step">указание адреса</p>
+                </div>
+                <img src="img/pointer.png" class="pointer">
+            </div>
+            <div class="col-sm-3">
+                <div class="block-step">
+                    <h2 class="title-step">3 шаг</h2>
+                    <p class="text-step">выбор времени</p>
+                </div>
+                <img src="img/pointer.png" class="pointer">
+            </div>
+            <div class="col-sm-3">
+                <div class="block-step">
+                    <h2 class="title-step">4 шаг</h2>
+                    <p class="text-step">контактные данные</p>
+                </div>
+                <img src="img/pointer.png" class="pointer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="steps-block-mobile visible-xs-block visible-sm-block">
+    <div class="container">
+        <div class="row margin-no">
+            <div class="col-xs-c-3">
+                <h2 class="text-step active">1 шаг</h2>
+            </div>
+            <div class="col-xs-c-1">
+                <p class="dash-text">-</p>
+            </div>
+            <div class="col-xs-c-3">
+                <h2 class="text-step">2 шаг</h2>
+            </div>
+            <div class="col-xs-c-1">
+                <p class="dash-text">-</p>
+            </div>
+            <div class="col-xs-c-3">
+                <h2 class="text-step">3 шаг</h2>
+            </div>
+            <div class="col-xs-c-1">
+                <p class="dash-text">-</p>
+            </div>
+            <div class="col-xs-c-3">
+                <h2 class="text-step">4 шаг</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-store">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="copyrighting">
+                    <p class="no-link">© 2016 Washdrop </p>
+                    <a href="#" class="footer-link">Политика конфидециальности</a>
+                    <a href="#" class="footer-link last" data-toggle="modal" data-target="#myModalLegal">Публичная оферта</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/pushy.min.js"></script>
 
 </body>
 </html>

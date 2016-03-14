@@ -1,3 +1,21 @@
+.wrap {
+  min-height: 100%;
+  height: auto;
+  @media #{$bootstrap-xs} {
+    margin: 0 auto -432px;
+    padding: 0 0 432px;
+  }
+  @media #{$bootstrap-sm} {
+    margin: 0 auto -259px;
+    padding: 0 0 259px;
+  }
+  @media #{$bootstrap-md} {
+    margin: 0 auto -302px;
+    padding: 0 0 302px;
+  }
+
+}
+
 .store {
   .header-block {
     text-align: center;
