@@ -23,13 +23,40 @@
                 <input type="text" class="login" placeholder="Логин">
                 <input type="text" class="password" placeholder="Пароль">
                 <div class="forgot-password">
-                    <a href="#">Забыли пароль?</a>
+                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#LosePassword">Забыли пароль?</a>
                 </div>
                 <button class="btn btn-enter">ВОЙТИ</button>
             </div>
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="LosePassword" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times close-icon"></i></button>
+            </div>
+            <div class="modal-sended-email" style="display: none;">
+                <p class="sended-text">Инструкции по восстановлению пароля отправлены на</p>
+                <p id="your-mail" class="sended-text your-email"></p>
+            </div>
+            <div class="modal-body fade-password">
+                <p>Введите Ваш e-mail</p>
+            </div>
+            <div class="modal-footer fade-password">
+                <!--<form>-->
+                    <input type="email" class="city" id="email" placeholder="test@gmail.com">
+                    <button id="send-email" type="submit" class="btn btn-orange btn-next">ДАЛЕЕ
+                        <i class="fa fa-angle-double-right"></i>
+                    </button>
+                <!--</form>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
 
 <div class="modal fade" id="myModalLegal" role="dialog">
     <div class="modal-dialog">
@@ -489,10 +516,7 @@
 <script src="js/mobile-detect.min.js"></script>
 <script src="js/Fade.js"></script>
 <script src="js/pushy.min.js"></script>
-
-
-<script>
-</script>
+<script src="js/main.js"></script>
 
 </body>
 </html>

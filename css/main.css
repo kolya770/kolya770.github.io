@@ -99,13 +99,14 @@ body,html{height:100%;font-size:16px}
 .how-it-work-block .how-it-work h2{font-size:4.063em;line-height:60px}
 }
 @media (min-width:768px){.application-download-block .block-for-app-btn .btn-for-android{margin-top:60px;margin-left:10px;float:right}
-.how-it-work-block .how-it-work h2{font-size:6.25em;line-height:100px}
 }
 @media (max-width:375px){.application-download-block .block-for-app-btn .btn-for-android{margin-left:0;margin-bottom:0}
 }
 .application-download-block .block-for-app-btn .btn-for-android .google-logo{background:url(../img/logo-google.png) no-repeat;width:117px;height:27px;margin:0 20px}
 .how-it-work-block .how-it-work{text-align:center}
 .how-it-work-block .how-it-work h2{color:#4a4b4c;text-align:center;margin-top:60px}
+@media (min-width:768px){.how-it-work-block .how-it-work h2{font-size:6.25em;line-height:100px}
+}
 .how-it-work-block .how-it-work h3{color:#3caad2;font-size:3.125em;text-align:center}
 @media (max-width:767px){.how-it-work-block .how-it-work h3{line-height:60px}
 }
@@ -151,7 +152,6 @@ body,html{height:100%;font-size:16px}
 .subscription-and-price-block .email .input-email{width:90%}
 }
 @media (min-width:768px){.subscription-and-price-block .subscribe h3{line-height:100px}
-.subscription-and-price-block .email .input-email{width:370px}
 }
 .subscription-and-price-block .subscribe img{margin-top:25px}
 .subscription-and-price-block .email{margin-bottom:60px;margin-top:60px;text-align:center}
@@ -160,16 +160,17 @@ body,html{height:100%;font-size:16px}
 .subscription-and-price-block .email .input-email ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 .subscription-and-price-block .email .input-email :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 .subscription-and-price-block .email .input-email :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+@media (min-width:768px){.subscription-and-price-block .email .input-email{width:370px}
+}
 .subscription-and-price-block .email .input-btn{border-radius:6px;border:none;background-color:#3caad2;width:200px;height:50px;font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;padding:0 0 1px}
 .subscription-and-price-block .email .input-btn:hover{background-color:#3d9bc3}
-@media (max-width:767px){.subscription-and-price-block .email .input-btn{margin-left:0;margin-top:40px}
-.subscription-and-price-block .sub-hr{width:90%}
-}
 .subscription-and-price-block .sub-hr{background-color:#cbcbcb;height:1px}
 .price-block .our-price{text-align:center}
 .price-block .our-price .header-price{text-align:center;margin-bottom:60px}
 .price-block .our-price .header-price h2{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:6.25em;font-weight:300;line-height:100px;text-align:center}
-@media (max-width:767px){.price-block .our-price .header-price h2{font-size:4.063em;line-height:60px}
+@media (max-width:767px){.subscription-and-price-block .email .input-btn{margin-left:0;margin-top:40px}
+.subscription-and-price-block .sub-hr{width:90%}
+.price-block .our-price .header-price h2{font-size:4.063em;line-height:60px}
 }
 @media (min-width:768px){.subscription-and-price-block .email .input-btn{margin-left:-20px}
 .subscription-and-price-block .sub-hr{width:100%}
@@ -268,10 +269,10 @@ body,html{height:100%;font-size:16px}
 }
 .footer-landing .right-block a.last{margin-right:0}
 .footer-landing .right-block p.no-link{text-align:left;margin-right:20px}
+#myModal .modal-dialog{position:absolute;left:50%}
 @media (max-width:767px){.footer-landing .right-block p.no-link{display:block;text-align:center;margin-bottom:10px}
 #myModal .modal-dialog{width:90%;height:453px;margin-left:-45%;top:10vh}
 }
-#myModal .modal-dialog{position:absolute;left:50%}
 @media (min-width:768px){.footer-landing .right-block p.no-link{display:inline-block;margin-top:0}
 #myModal .modal-dialog{top:50%;width:430px;height:453px;margin-top:-226.5px;margin-left:-215px}
 }
@@ -350,18 +351,21 @@ body,html{height:100%;font-size:16px}
 #myModalSingUp .modal-dialog .modal-content .modal-body p{font-size:3em;line-height:40px}
 }
 @media (min-width:768px){#myModalSingUp .modal-dialog .modal-content{width:770px;height:518px}
-#myModalSingUp .modal-dialog .modal-content .modal-body p{line-height:60px;font-size:3.75em}
 }
 #myModalSingUp .modal-dialog .modal-content .modal-header{border:none}
 #myModalSingUp .modal-dialog .modal-content .modal-body{text-align:center;height:125px}
 #myModalSingUp .modal-dialog .modal-content .modal-body p{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center}
 #myModalSingUp .modal-dialog .modal-content .modal-footer{border:none;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background-color:#f4f5f5;text-align:center}
 @media (max-width:767px){#myModalSingUp .modal-dialog .modal-content .modal-footer{width:100%;height:auto}
-#myModalSingUp .modal-dialog .modal-content .modal-footer h2{font-size:4.25em;line-height:60px}
+}
+@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-body p{line-height:60px;font-size:3.75em}
+#myModalSingUp .modal-dialog .modal-content .modal-footer{width:767px;height:355px}
 }
 #myModalSingUp .modal-dialog .modal-content .modal-footer h2{font-family:SummerFont,sans-serif;color:#3caad2;font-weight:300;text-align:center}
-@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-footer{width:767px;height:355px}
-#myModalSingUp .modal-dialog .modal-content .modal-footer h2{line-height:80px;font-size:6.25em}
+@media (max-width:767px){#myModalSingUp .modal-dialog .modal-content .modal-footer h2{font-size:4.25em;line-height:60px}
+#myModalSingUp .modal-dialog .modal-content .modal-footer input{width:100%}
+}
+@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-footer h2{line-height:80px;font-size:6.25em}
 }
 #myModalSingUp .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.125em;font-weight:300;line-height:40px;text-align:center;margin-top:20px}
 #myModalSingUp .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;margin-top:20px;padding:10px 10px 10px 20px;outline:0}
@@ -369,8 +373,6 @@ body,html{height:100%;font-size:16px}
 #myModalSingUp .modal-dialog .modal-content .modal-footer input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #myModalSingUp .modal-dialog .modal-content .modal-footer input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #myModalSingUp .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-@media (max-width:767px){#myModalSingUp .modal-dialog .modal-content .modal-footer input{width:100%}
-}
 @media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-footer input{width:570px}
 }
 #myModalSingUp .modal-dialog .modal-content .modal-footer .btn-sing-up{border-radius:6px;background-color:#3caad2;height:50px;width:200px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:-1px}
@@ -389,18 +391,19 @@ body,html{height:100%;font-size:16px}
 #myModalDistribution .modal-dialog .modal-content .modal-body{font-size:3em;line-height:40px}
 }
 @media (min-width:768px){#myModalDistribution .modal-dialog .modal-content{width:770px;height:462px}
-#myModalDistribution .modal-dialog .modal-content .modal-body{line-height:60px;font-size:3.75em}
 }
 #myModalDistribution .modal-dialog .modal-content .modal-header{border:none}
 #myModalDistribution .modal-dialog .modal-content .modal-body{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center;height:125px}
 #myModalDistribution .modal-dialog .modal-content .modal-footer{border:none;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background-color:#f4f5f5;text-align:center}
 @media (max-width:767px){#myModalDistribution .modal-dialog .modal-content .modal-footer{width:100%;height:auto}
 }
+@media (min-width:768px){#myModalDistribution .modal-dialog .modal-content .modal-body{line-height:60px;font-size:3.75em}
+#myModalDistribution .modal-dialog .modal-content .modal-footer{width:767px;height:299px}
+}
 #myModalDistribution .modal-dialog .modal-content .modal-footer h2{font-family:SummerFont,sans-serif;color:#3caad2;font-size:5.625em;font-weight:300;line-height:65px;text-align:center}
 @media (max-width:767px){#myModalDistribution .modal-dialog .modal-content .modal-footer h2{font-size:4.625em;line-height:55px}
 }
-@media (min-width:768px){#myModalDistribution .modal-dialog .modal-content .modal-footer{width:767px;height:299px}
-#myModalDistribution .modal-dialog .modal-content .modal-footer h2{line-height:65px;font-size:5.625em;margin-top:50px}
+@media (min-width:768px){#myModalDistribution .modal-dialog .modal-content .modal-footer h2{line-height:65px;font-size:5.625em;margin-top:50px}
 }
 #myModalDistribution .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center;margin-top:20px;margin-bottom:20px}
 #myModalDistribution .modal-dialog .modal-content .modal-footer .btn-distribution{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
@@ -492,12 +495,13 @@ body,html{height:100%;font-size:16px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price .price{font-family:SummerFont,sans-serif;color:#3caad2;font-size:3.125em;font-weight:300;display:inline-block;float:right;width:120px;text-align:left;margin-top:0;margin-bottom:0;height:55px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group{text-align:center;margin-top:20px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .btn-agree{border-radius:6px;background-color:#f39c12;width:230px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);display:block}
+#AddToBasket .modal-dialog .modal-content,#LosePassword .modal-dialog .modal-content,#ReadNews .modal-dialog .modal-content{background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .edit{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:34px;text-align:center;text-decoration:underline}
 #AddToBasket .modal-dialog .modal-content .modal-body .header-text,#ReadNews .modal-dialog .modal-content .modal-body .header-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center;text-transform:uppercase}
 #AddToBasket .modal-dialog{width:300px;height:340px;position:absolute;left:50%;margin-left:-150px}
 @media (min-width:768px){#AddToBasket .modal-dialog{top:50%;margin-top:-170px}
 }
-#AddToBasket .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:300px;height:340px}
+#AddToBasket .modal-dialog .modal-content{border-radius:6px;width:300px;height:340px}
 #AddToBasket .modal-dialog .modal-content .modal-header{border:none}
 #AddToBasket .modal-dialog .modal-content .modal-body{text-align:center}
 #AddToBasket .modal-dialog .modal-content .modal-body .header-text{font-size:3.125em;line-height:60px}
@@ -508,7 +512,7 @@ body,html{height:100%;font-size:16px}
 }
 @media (min-width:768px){#ReadNews .modal-dialog{margin-left:-375px;width:750px}
 }
-#ReadNews .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:750px;height:auto}
+#ReadNews .modal-dialog .modal-content{border-radius:6px;width:750px;height:auto}
 #ReadNews .modal-dialog .modal-content .modal-footer,#ReadNews .modal-dialog .modal-content .modal-header{border:none}
 #ReadNews .modal-dialog .modal-content .modal-body{text-align:center}
 #ReadNews .modal-dialog .modal-content .modal-body .header-text{font-size:5em;line-height:100px}
@@ -519,13 +523,59 @@ body,html{height:100%;font-size:16px}
 @media (max-width:767px){#ReadNews .modal-dialog .modal-content .modal-footer .news-block{width:100%}
 }
 #ReadNews .modal-dialog .modal-content .modal-footer .news-block .btn-news{border-radius:6px;width:96px;height:30px;font-family:UBUNTU-LIGHT,sans-serif;font-size:.875em;font-weight:300;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);line-height:30px;float:left;margin-bottom:30px;margin-top:5px}
+#LosePassword .modal-dialog .modal-content .modal-body p,#LosePassword .modal-dialog .modal-content .modal-sended-email .sended-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.75em;line-height:60px;text-align:center;font-weight:300}
 #ReadNews .modal-dialog .modal-content .modal-footer .news-block .hr-news{margin-bottom:20px}
 #ReadNews .modal-dialog .modal-content .modal-footer .news-block:last-child .hr-news{display:none}
+#LosePassword .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#LosePassword .modal-dialog{width:90%;margin-left:-45%;height:274px;top:10vh}
+}
+@media (min-width:768px){#LosePassword .modal-dialog{margin-top:-137px;margin-left:-385px;width:770px;height:274px;top:50%}
+}
+#LosePassword .modal-dialog .modal-content{border-radius:6px;width:770px;height:274px}
+@media (max-width:767px){#LosePassword .modal-dialog .modal-content{width:100%;height:auto}
+}
+@media (min-width:768px){#LosePassword .modal-dialog .modal-content{width:770px;height:274px}
+}
+#LosePassword .modal-dialog .modal-content .modal-header{border:none}
+#LosePassword .modal-dialog .modal-content .modal-body{text-align:center}
+#LosePassword .modal-dialog .modal-content .modal-sended-email{margin-top:40px}
+#LosePassword .modal-dialog .modal-content .modal-sended-email .your-email{color:#3caad2}
+#LosePassword .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
+#LosePassword .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;padding:10px 10px 10px 20px;outline:0}
+#LosePassword .modal-dialog .modal-content .modal-footer input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#LosePassword .modal-dialog .modal-content .modal-footer input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#LosePassword .modal-dialog .modal-content .modal-footer input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#LosePassword .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+@media (max-width:767px){#LosePassword .modal-dialog .modal-content .modal-sended-email{margin-top:10px;margin-bottom:40px}
+#LosePassword .modal-dialog .modal-content .modal-footer input{width:100%}
+}
+@media (min-width:768px){#LosePassword .modal-dialog .modal-content .modal-footer input{width:430px}
+}
+#LosePassword .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-1px;outline:0}
+#LosePassword .modal-dialog .modal-content .modal-footer .btn-next:hover{background-color:#E48D12}
+@media (max-width:767px){#LosePassword .modal-dialog .modal-content .modal-footer .btn-next{margin-top:20px;margin-left:0;margin-bottom:20px}
+}
+@media (min-width:768px){#LosePassword .modal-dialog .modal-content .modal-footer .btn-next{margin-left:-20px}
+}
+#NewPassword .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#NewPassword .modal-dialog{width:90%;height:453px;margin-left:-45%;top:10vh}
+}
+@media (min-width:768px){#NewPassword .modal-dialog{top:50%;width:430px;height:453px;margin-top:-226.5px;margin-left:-215px}
+}
+#NewPassword .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
+@media (max-width:767px){#NewPassword .modal-dialog .modal-content{width:100%;height:453px}
+}
+@media (min-width:768px){#NewPassword .modal-dialog .modal-content{width:430px;height:453px}
+}
+#NewPassword .modal-dialog .modal-content .modal-header{border:none}
+#NewPassword .modal-dialog .modal-content .modal-change-pass{margin-top:120px}
+#NewPassword .modal-dialog .modal-content .modal-change-pass .sended-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:4em;font-weight:300;line-height:60px;text-align:center}
 .close{opacity:.5;outline:0}
 .close .close-icon{color:#f39c12;font-size:20px;font-weight:400;line-height:25px;text-align:left}
 .close:hover{opacity:1}
 .main-screen-faq .first-bg{background:url(../img/photo-faq.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:50vh;width:100%;position:absolute}
-@media (max-width:767px){.main-screen-faq .first-bg{height:100vh}
+@media (max-width:767px){#NewPassword .modal-dialog .modal-content .modal-change-pass{margin-top:10px;margin-bottom:40px}
+.main-screen-faq .first-bg{height:100vh}
 }
 .main-screen-faq .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-faq .content{height:50vh}
@@ -1018,11 +1068,11 @@ ul{margin:0;padding:0}
 }
 @media (min-width:768px){.timing-text-block .take-item{margin-right:auto;margin-left:auto}
 }
+.timing-text-block .second-take{z-index:1}
+.timing-text-block .car-left{height:180px;width:481px;background:url(../img/car-left.png) center no-repeat;margin-top:20px}
 @media (min-width:1200px){.timing-text-block .take-item{margin-right:0;margin-left:0}
 .timing-text-block .car-left{float:right}
 }
-.timing-text-block .second-take{z-index:1}
-.timing-text-block .car-left{height:180px;width:481px;background:url(../img/car-left.png) center no-repeat;margin-top:20px}
 .timing-text-block .car-right{height:180px;width:481px;background:url(../img/cart-right.png) center no-repeat;margin-top:20px;display:block}
 @media (min-width:768px){.timing-text-block .car-left,.timing-text-block .car-right{display:block;margin-right:auto;margin-left:auto}
 }
@@ -1079,3 +1129,14 @@ ul{margin:0;padding:0}
 .timing-text-block .courier-do .second-input-btn{z-index:10}
 .timing-text-block .calendar-mobile .first-mob-btn{z-index:16}
 .timing-text-block .calendar-mobile .first-ul{z-index:10}
+.pure-form{width:400px}
+.pure-form input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;margin-top:20px;padding:10px 10px 10px 20px;outline:0}
+.pure-form input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+.pure-form input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+.pure-form input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+.pure-form input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+@media (max-width:767px){.pure-form input{width:90%}
+}
+@media (min-width:768px){.pure-form input{width:370px}
+}
+.pure-form .btn-enter{width:130px;height:50px;margin-top:20px;font-family:UBUNTU-REGULAR,sans-serif;font-weight:400}
