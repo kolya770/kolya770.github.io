@@ -38,19 +38,9 @@
     }
     .btn-next {
       float: right;
-      border-radius: 6px;
-      background-color: #f39c12;
       width: 170px;
       height: 41px;
       font-family: $ubuntu-bold-font, "sans-serif";
-      color: #ffffff;
-      font-size: 1em;
-      font-weight: 700;
-      line-height: 24px;
-      text-align: center;
-      transform: scaleY(1.0004);
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      outline: none;
       margin-top: 15px;
       @media #{$bootstrap-xs} {
         float: none;

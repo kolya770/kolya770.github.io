@@ -24,7 +24,8 @@
       margin-top: 30px;
       width: 100%;
       border-radius: 0;
-      height: 320px;
+      min-height: 320px;
+      height: auto;
     }
     @media #{$bootstrap-sm} {
       margin-right: auto;
@@ -34,6 +35,9 @@
       margin-right: 0;
       margin-left: 0;
     }
+  }
+  .second-take {
+    z-index: 1;
   }
   .car-left {
     height: 180px;
@@ -190,9 +194,6 @@
       }
     }
   }
-  .time-take {
-
-  }
 
   .drop-block {
     width: 421px;
@@ -201,6 +202,13 @@
     }
     >ul {
       padding-bottom: 0;
+    }
+    >ul li:nth-last-child(odd) {
+      background-color: transparent;
+
+    }
+    >ul li:last-child {
+      border-radius: 6px;
     }
     .btn-drop-time {
       width: 421px;
@@ -235,21 +243,38 @@
         text-align: left;
         float: left;
       }
+      .mob-time-select {
+        padding-left: 20px;
+      }
       .sort-icon {
         float: right;
         line-height: 36px;
         margin-right: 15px;
       }
+      .calendar-icon {
+        float: right;
+        line-height: 36px;
+        margin-right: 13px;
+      }
     }
+
+    .time-take-second-btn {
+      z-index: 5;
+    }
+
     .drop-menu-time {
       width: 421px;
       margin-top: -5px;
       border-radius: 0 0 6px 6px;
-      z-index: 1;
+      z-index: 4;
+      @media #{$bootstrap-xs} {
+        width: 100%;
+      }
       >li>a {
         height: 35px;
         padding: 0;
         margin-left: 20px;
+        background-color: transparent;
         .price {
           font-family: $ubuntu-medium-font, "sans-serif";
           color:  #3caad2;
@@ -288,10 +313,33 @@
 
     }
   }
+  @media #{$bootstrap-xs} {
+    .drop-block-last {
+      margin-bottom: 30px;
+    }
+  }
   .courier-do {
+    .courier-last-btn {
+      z-index: 3;
+    }
     .courier {
       margin-left: 20px;
     }
+    .second-input {
+      z-index: 2;
+    }
+    .second-input-btn {
+      z-index: 10;
+    }
+  }
+  .calendar-mobile {
+    .first-mob-btn {
+      z-index: 16;
+    }
+    .first-ul {
+      z-index: 10;
+    }
+
   }
 }
 

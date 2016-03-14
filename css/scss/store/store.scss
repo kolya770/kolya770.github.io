@@ -115,6 +115,60 @@
       .additionally-block {
         background-color:  rgba(203, 203, 203, 0.2);
         height: 47px;
+        .drop-block {
+          padding: 9px 0;
+          .btn-drop-additionally {
+            border-radius: 6px;
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            background-color:  #ffffff;
+            width: 250px;
+            height: 30px;
+            padding: 0;
+            outline: none;
+            position: relative;
+            z-index: 10;
+            .time-select-additionally {
+              float: left;
+              font-family: $ubuntu-light-font, "sans-serif";
+              color:  #4a4b4c;
+              font-size: 0.938em;
+              font-weight: 300;
+              padding-left: 10px;
+              text-align: left;
+            }
+            .sort-icon {
+              float: right;
+              padding-right: 10px;
+            }
+          }
+          .drop-menu-additionally {
+            width: 250px;
+            margin-left: 9px;
+            margin-top: -15px;
+            z-index: 5;
+            li a {
+              padding: 0 20px;
+            }
+            .time-select {
+              font-family: $ubuntu-light-font, "sans-serif";
+              color:  #4a4b4c;
+              font-size: 0.750em;
+              font-weight: 300;
+              line-height: 14px;
+              text-align: left;
+            }
+            .price {
+              font-family: $ubuntu-medium-font, "sans-serif";
+              color:  #3caad2;
+              font-size: 0.813em;
+              font-weight: 500;
+              line-height: 20px;
+              text-align: right;
+              float: right;
+            }
+          }
+        }
       }
       .total-block {
         text-align: center;
@@ -140,13 +194,9 @@
         }
         .btn-add-to-basket {
           border-radius: 50%;
-          background-color:  #f39c12;
           width: 41px;
           height: 41px;
           margin-top: 50px;
-          outline: none;
-          border: none;
-          padding: 0;
           .plus-icon {
             color: #ffffff;
             font-size: 17.99px;
