@@ -1,10 +1,9 @@
 $(document).ready(function() {
-    alert(window.location.hash);
-    if (window.location.hash == "#passwordUpdated") {
+
+    //alert(window.location.hash);
+    if (window.location.hash.toString() == "#passwordUpdated") {
         //bootstrap show popup JS
         $('#passwordUpdated').modal({});
-        alert(window.location.hash);
-
     }
 
     $('#go-to-step-2').on('click', function(){
@@ -68,47 +67,5 @@ $(document).ready(function() {
 
         }
     });
-
-
-
-
-    //var password = document.getElementById("password")
-    //    , confirm_password = document.getElementById("confirm_password");
-    //
-    //function validatePassword(){
-    //    if(password.value != confirm_password.value) {
-    //        confirm_password.setCustomValidity("Passwords Don't Match");
-    //    } else {
-    //        confirm_password.setCustomValidity('');
-    //    }
-    //}
-    //
-    //password.onchange = validatePassword;
-    //confirm_password.onkeyup = validatePassword;
-
-    //$('#change-pass').on('click', function() {
-
-        //var password =  $('#first-pass').val();
-        //var confirm_password =  $('#second-pass').val();
-        //
-        //
-        //
-        //if (newpass == copypass) {
-        //    $('#show-ok-message').fadeIn("slow");
-        //
-        //
-        //} else {
-        //    $('#error-message').fadeIn("slow");
-        //
-        //}
-
-        //$('.fade-pass').fadeOut("slow", function() {});
-        //
-        //setTimeout(function(){
-        //    $('.modal-change-pass').fadeIn("slow");
-        //
-        //}, 750);
-
-    //});
-
+    
 });

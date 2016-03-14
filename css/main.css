@@ -752,7 +752,6 @@ ul{margin:0;padding:0}
 .footer-store .copyrighting .footer-link{margin-right:10px}
 @media (max-width:767px){.footer-store .copyrighting .footer-link{display:block;margin-right:0;margin-bottom:5px;margin-top:5px}
 }
-.footer-store .copyrighting .last{margin-right:0;margin-bottom:15px}
 .subscription{min-height:100%;height:auto;margin:0 auto -53px;padding:0 0 53px}
 .subscription .dropdown-menu{border:1px solid #e5e5e5;width:200px}
 @media (max-width:767px){.subscription{padding:0 0 110px;margin:0 auto -110px}
@@ -823,12 +822,12 @@ ul{margin:0;padding:0}
 .select-items .button-block{text-align:center;margin-bottom:60px;margin-top:40px}
 .select-items .button-block .btn-select-item{border-radius:6px;border:2px solid #9e9fa0;background-color:#fff;box-sizing:border-box;height:41px;font-family:UBUNTU-LIGHT,sans-serif;color:#9e9fa0;font-size:1em;font-weight:300;line-height:24px;text-align:center;transform:scaleY(1.0004)}
 .select-items .button-block .active{border-radius:6px;background-color:#3caad2;border:2px solid #3caad2;height:41px;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15);box-shadow:none}
-.select-items .clothes-block .card{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;height:481px;width:270px;margin-bottom:30px}
+.select-items .clothes-block .card{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:270px;margin-bottom:30px}
 @media (min-width:1200px){.select-items .clothes-block .card{margin-left:-3.75px}
 }
 .select-items .clothes-block .card .img-block{height:270px}
 .select-items .clothes-block .card .img-block img{width:100%;height:270px;border-bottom:1px solid rgba(203,203,203,.5);border-radius:6px 6px 0 0}
-.select-items .clothes-block .card .name-clothe-block .close-name{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:22px;text-align:left;display:inline-block;margin:15px 0 15px 10px}
+.select-items .clothes-block .card .name-clothe-block .item-name{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:22px;text-align:left;display:inline-block;margin:15px 0 15px 10px;white-space:normal;width:229px}
 .select-items .clothes-block .card .name-clothe-block .question-icon{float:right;font-size:22px;margin-top:16px;margin-right:10px;color:#c8c9c9}
 .select-items .clothes-block .card .name-clothe-block .tooltip-arrow{border-top-color:#ccc}
 .select-items .clothes-block .card .name-clothe-block .tooltip-inner{background-color:#ccc}
@@ -839,10 +838,10 @@ ul{margin:0;padding:0}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .sort-icon{float:right;padding-right:10px}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally{width:250px;margin-left:9px;margin-top:-15px;z-index:5}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally li a{padding:0 20px}
-.select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .time-select{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left}
+.select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .time-select{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;white-space:normal}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.813em;font-weight:500;line-height:20px;text-align:right;float:right}
 .address .form-block .form-title,.select-items .clothes-block .card .total-block .price,.select-items .clothes-block .card .total-block .total-text{font-family:UBUNTU-MEDIUM,sans-serif;line-height:34px}
-.select-items .clothes-block .card .total-block{text-align:center}
+.select-items .clothes-block .card .total-block{text-align:center;margin-bottom:20px}
 .select-items .clothes-block .card .total-block .total-text{color:#4a4b4c;font-size:.938em;font-weight:500;float:left;display:inline-block;margin:15px 0 15px 10px}
 .select-items .clothes-block .card .total-block .price{color:#3caad2;font-size:.938em;font-weight:500;display:inline-block;float:right;margin:15px 10px 15px 0}
 .select-items .clothes-block .card .total-block .btn-add-to-basket{border-radius:50%;width:41px;height:41px;margin-top:50px}
@@ -1056,6 +1055,7 @@ ul{margin:0;padding:0}
 .pushy-store a{display:inline-block;padding-left:25px;padding-right:0}
 .close-btn-store{margin-top:35px;margin-bottom:35px}
 .close-block-store{height:110px}
+.phone-number{margin-top:20px}
 .error-page{text-align:center}
 .error-page .header{font-size:14em;text-transform:uppercase;margin-top:10px}
 .error-page .error-text{font-size:3.125em;line-height:60px;text-align:center;margin-top:20px}

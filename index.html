@@ -46,7 +46,7 @@
             </div>
             <div class="modal-footer fade-password">
                 <!--<form>-->
-                    <input type="email" class="city" id="email" placeholder="test@gmail.com">
+                    <input type="email" class="city" id="email" placeholder="test@gmail.com" required>
                     <button id="send-email" type="submit" class="btn btn-orange btn-next">ДАЛЕЕ
                         <i class="fa fa-angle-double-right"></i>
                     </button>
@@ -164,14 +164,11 @@
                 <li><a href="#">КОНТАКТЫ</a></li>
             </ul>
             <ul class="nav navbar-nav logo">
-                <a class="navbar-brand hidden-xs" href="#">
-                    <img src="img/logo.png">
-                </a>
+                <a class="navbar-brand hidden-xs" href="#"><img src="img/logo.png"></a>
             </ul>
             <ul class="nav navbar-nav navbar-right my-navbar-right">
-                <li>
-                    <button type="submit" class="btn btn-default btn-navbar">СДЕЛАТЬ ЗАКАЗ</button>
-                </li>
+                <li><a>+7 (495) 223-12-23</a></li>
+                <li><button type="submit" class="btn btn-default btn-navbar">СДЕЛАТЬ ЗАКАЗ</button></li>
             </ul>
         </div>
     </div>
@@ -186,6 +183,9 @@
         <li><a href="#" class="nav-text-mobile">КОНТАКТЫ</a></li>
     </ul>
     <button type="submit" class="btn btn-default btn-navbar-mobile center-block">СДЕЛАТЬ ЗАКАЗ</button>
+    <ul class="phone-number">
+        <li><a>+7 (495) 223-12-23</a></li>
+    </ul>
 </nav>
 
 <div class="site-overlay visible-xs-block visible-sm-block"></div>
@@ -490,6 +490,7 @@
                         <a href="#">Как это работает?</a>
                         <a href="#">Наши цены</a>
                         <a href="#">Контакты</a>
+                        <a class="hidden-md" >+7 (495) 223-12-23</a>
                     </div>
                 </div>
                 <div class="col-xs-12 visible-xs-block">
