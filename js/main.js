@@ -71,8 +71,18 @@ $(document).ready(function() {
         }
     });
 
-    //$(".js-example-placeholder-multiple").select2({
-    //    placeholder: "Select a state"
-    //});
+    /* autocomplete of cities */
+    var cities = [
+        { value: 'Москва', data: 'moskow' },
+        { value: 'Киеа', data: 'kiev' },
+        { value: 'Варшава', data: 'warsaw' },
+        { value: 'Лондон', data: 'london' },
+        { value: 'Zimba', data: 'zimba' },
+        { value: 'Париж', data: 'paris' }
+    ];
+
+    $('#city-autocomplete').autocomplete({
+        lookup: cities
+    });
     
 });
