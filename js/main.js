@@ -98,4 +98,12 @@ $(document).ready(function() {
     //    serviceUrl: '/autocomplete/countries',
     //});
 
+    $('#city-autocomplete').on('change tap keyup', function() {
+        var autocomplete_width = $('.autocomplete-suggestions').width();
+
+        autocomplete_width = parseInt(autocomplete_width);
+
+        $('.autocomplete-suggestions').width( autocomplete_width + 2 );
+    });
+
 });
