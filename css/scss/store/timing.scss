@@ -208,7 +208,8 @@
 
     }
     >ul li:last-child {
-      border-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
     }
     .btn-drop-time {
       width: 421px;
@@ -276,9 +277,15 @@
       }
       >li>a {
         height: 35px;
-        padding: 0;
-        margin-left: 20px;
+        padding: 0 0 0 20px;
         background-color: transparent;
+        &:hover {
+          background-color: #fcfcfc;
+          border-radius: 6px;
+        }
+        &.disabled:hover {
+          background-color:  #f5f5f5;
+        }
 
         .price {
           font-family: $ubuntu-medium-font, "sans-serif";
@@ -289,9 +296,6 @@
           text-align: left;
           margin: 0 5px 0 0;
           float: left;
-          &:hover {
-            color: $blue-hover-color;
-          }
         }
         .time-select {
           font-family: $ubuntu-light-font, "sans-serif";
@@ -303,14 +307,15 @@
           float: left;
           &:hover {
             font-weight: 500;
-            color: $blue-hover-color;
-            text-decoration: underline;
           }
         }
       }
+
+
       .divider {
         margin: 0;
       }
+
       .disabled {
         background-color:  #f5f5f5;
         .price {

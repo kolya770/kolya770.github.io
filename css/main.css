@@ -643,13 +643,13 @@ body,html{height:100%;font-size:16px}
 .section-news .news-text img{margin-bottom:25px}
 .section-news .news-block h3{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px;text-align:left}
 .section-news .news-block p{font-family:UBUNTU-BOLD,sans-serif;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:left}
-.section-news .middle-btn .btn-download,.section-news .news-block .btn-news{border-radius:6px;background-color:#3caad2;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
-.section-news .news-block .btn-news{width:96px;height:30px;font-size:.875em;font-weight:300;text-align:center;padding:2px 0 0}
+.section-news .middle-btn .btn-download,.section-news .news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
+.section-news .news-block .btn-news{background-color:#3caad2;width:96px;height:30px;font-size:.875em;font-weight:300;text-align:center;padding:2px 0 0}
 .section-news .news-block .btn-news:hover{background-color:#3d9bc3}
 .section-news .news-block .hr-news{background-color:#cbcbcb;width:100%;height:1px;margin-top:30px;margin-bottom:30px}
 .section-news .news-block img{width:100%}
 .section-news .middle-btn{text-align:center}
-.section-news .middle-btn .btn-download{width:192px;height:50px;font-size:1em;font-weight:300;text-align:center;margin-bottom:50px}
+.section-news .middle-btn .btn-download{background-color:#3caad2;width:192px;height:50px;font-size:1em;font-weight:300;text-align:center;margin-bottom:50px}
 .news-text h2,.other-news h2{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center;text-transform:uppercase}
 .news-text h2,.other-news img.dot{margin-bottom:25px}
 .section-news .middle-btn .btn-download:hover{background-color:#3d9bc3}
@@ -965,7 +965,6 @@ ul{margin:0;padding:0}
 .basket-block-mobile .basket-item-block-mobile .about-clothe .dop-info{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-left:10px}
 .basket-block-mobile .basket-item-block-mobile .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:48px;text-align:left;float:left;margin-bottom:0;margin-left:10px}
 .basket-block-mobile .basket-item-block-mobile .price-block .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;outline:0;padding:0;float:right;border:none;margin-top:12px;margin-right:10px}
-.history .accordion-order .drop-history .drop-block,.history-mobile .accordion-order .accordion-item .history-price-block,.history-mobile .accordion-order .drop-history .drop-block{border-top:1px solid rgba(203,203,203,.5)}
 .basket-block-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;transform:scaleY(1.0004);line-height:20px}
 .basket-block-mobile .delete-item-mobile{height:80px}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .delete-item-text{font-family:UBUNTU-LIGHT,sans-serif;color:#cdcdcd;font-size:1em;font-weight:300;line-height:20px;text-align:left;margin-top:10px;margin-left:10px}
@@ -990,6 +989,7 @@ ul{margin:0;padding:0}
 .history .accordion-marker .fa-angle-double-up{padding-left:5.7px;padding-top:2px;color:#fff}
 .history .accordion-order .drop-history{max-height:0;overflow:hidden;transition:max-height 350ms ease-in-out;font-size:.938em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0;background-color:#f5f5f5;border-bottom-right-radius:6px;border-bottom-left-radius:6px}
 .history .accordion-order>div.active .drop-history,.history-mobile .accordion-order>div.active .drop-history{max-height:1000px}
+.history .accordion-order .drop-history .drop-block{border-top:1px solid rgba(203,203,203,.5)}
 .history .accordion-order .drop-history .drop-block .drop-text-block{width:65%;margin-left:62px;display:inline-block}
 .history .accordion-order .drop-history .drop-block .drop-text-block .drop-title{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:30px;text-align:left;margin-top:10px;margin-bottom:0}
 .history .accordion-order .drop-history .drop-block .drop-text-block .drop-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-bottom:10px}
@@ -1000,6 +1000,7 @@ ul{margin:0;padding:0}
 .history-mobile .accordion-order>div.active .accordion-marker{background-color:#3caad2}
 .history-mobile .accordion-order>div.active .accordion-marker:hover{background-color:#6cc2e1}
 .history-mobile .accordion-order .drop-history{max-height:0;overflow:hidden;transition:max-height 350ms ease-in-out;font-size:.938em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0;background-color:#f5f5f5}
+.history-mobile .accordion-order .drop-history .drop-block{border-top:1px solid rgba(203,203,203,.5)}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block{width:65%;margin-left:62px;display:inline-block}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block .drop-title{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:30px;text-align:left;margin-top:10px;margin-bottom:0}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block .drop-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-bottom:10px}
@@ -1014,6 +1015,7 @@ ul{margin:0;padding:0}
 .history-mobile .accordion-order .accordion-item .accordion-marker .fa-angle-double-up{padding-left:5.7px;padding-top:2px;color:#fff}
 .history-mobile .accordion-order .accordion-item .history-number-block{height:50px}
 .history-mobile .accordion-order .accordion-item .history-number-block .number{float:left;margin-top:12px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;text-align:left;transform:scaleX(1.0009)}
+.history-mobile .accordion-order .accordion-item .history-price-block{border-top:1px solid rgba(203,203,203,.5)}
 .history-mobile .accordion-order .accordion-item .history-price-block .price{display:inline-block;margin-left:62px;margin-top:10px;font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;text-align:left;transform:scaleX(1.0009)}
 .history-mobile .accordion-order .accordion-item .history-price-block .order{display:inline-block;float:right;margin-right:20px;margin-top:10px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;text-align:left;transform:scaleX(1.0009)}
 .navbar-washdrop-store{height:110px;background-color:#3e4041;border:none;border-radius:0}
@@ -1122,7 +1124,7 @@ ul{margin:0;padding:0}
 }
 .timing-text-block .drop-block>ul{padding-bottom:0}
 .timing-text-block .drop-block>ul li:nth-last-child(odd){background-color:transparent}
-.timing-text-block .drop-block>ul li:last-child{border-radius:6px}
+.timing-text-block .drop-block>ul li:last-child{border-bottom-right-radius:6px;border-bottom-left-radius:6px}
 .timing-text-block .drop-block .btn-drop-time{width:421px;height:42px;border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;padding:0;outline:0;z-index:2;position:relative}
 .timing-text-block .drop-block .btn-drop-time:active,.timing-text-block .drop-block .btn-drop-time:focus,.timing-text-block .drop-block .btn-drop-time:hover{background-color:#fff}
 @media (max-width:767px){.timing-text-block .drop-block .btn-drop-time{width:100%}
@@ -1133,13 +1135,13 @@ ul{margin:0;padding:0}
 .timing-text-block .drop-block .btn-drop-time .sort-icon{float:right;line-height:36px;margin-right:15px}
 .timing-text-block .drop-block .time-take-second-btn{z-index:5}
 .timing-text-block .drop-block .drop-menu-time{width:421px;margin-top:-5px;border-radius:0 0 6px 6px;z-index:4}
-.timing-text-block .drop-block .drop-menu-time>li>a{height:35px;padding:0;margin-left:20px;background-color:transparent}
+.timing-text-block .drop-block .drop-menu-time>li>a{height:35px;padding:0 0 0 20px;background-color:transparent}
+.timing-text-block .drop-block .drop-menu-time>li>a:hover{background-color:#fcfcfc;border-radius:6px}
+.timing-text-block .drop-block .drop-menu-time .disabled,.timing-text-block .drop-block .drop-menu-time>li>a.disabled:hover{background-color:#f5f5f5}
 .timing-text-block .drop-block .drop-menu-time>li>a .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:35px;text-align:left;margin:0 5px 0 0;float:left}
-.timing-text-block .drop-block .drop-menu-time>li>a .price:hover{color:#3d9bc3}
 .timing-text-block .drop-block .drop-menu-time>li>a .time-select{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:35px;text-align:left;float:left}
-.timing-text-block .drop-block .drop-menu-time>li>a .time-select:hover{font-weight:500;color:#3d9bc3;text-decoration:underline}
+.timing-text-block .drop-block .drop-menu-time>li>a .time-select:hover{font-weight:500}
 .timing-text-block .drop-block .drop-menu-time .divider{margin:0}
-.timing-text-block .drop-block .drop-menu-time .disabled{background-color:#f5f5f5}
 .timing-text-block .drop-block .drop-menu-time .disabled .price,.timing-text-block .drop-block .drop-menu-time .disabled .time-select{color:#c8c8c8}
 @media (max-width:767px){.timing-text-block .drop-block .drop-menu-time{width:100%}
 .timing-text-block .drop-block-last{margin-bottom:30px}
