@@ -1,23 +1,22 @@
 .subscription {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -53px;
-    padding: 0 0 53px;
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -53px;
+  padding: 0 0 53px;
+  @media #{$bootstrap-xs} {
+    padding: 0 0 131px;
+    margin: 0 auto -131px;
+  }
 
-    .dropdown-menu {
-      border: 1px solid #e5e5e5;
-      width: 200px;
-      li a {
-        &:hover {
-          cursor: pointer;
-        }
+  .dropdown-menu {
+    border: 1px solid #e5e5e5;
+    width: 200px;
+    li a {
+      &:hover {
+        cursor: pointer;
       }
     }
-
-    @media #{$bootstrap-xs} {
-      padding: 0 0 110px;
-      margin: 0 auto -110px;
-    }
+  }
 
   .subscription-management {
     margin-bottom: 60px;

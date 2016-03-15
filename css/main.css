@@ -715,7 +715,7 @@ ul{margin:0;padding:0}
 .btn-drop-mobile .sort-icon{float:right}
 .pushy{position:fixed;width:225px;height:100%;top:0;right:0;z-index:9999;background:#333332;font-size:.9em;font-weight:700;-webkit-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);-moz-box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);box-shadow:inset -10px 0 6px -9px rgba(0,0,0,.7);overflow:auto;-webkit-overflow-scrolling:touch}
 .pushy a{display:block;color:#fff;padding:0 30px;text-decoration:none;text-align:right}
-.drop-menu{position:relative;margin-left:24px;margin-top:-5px;z-index:1;border-radius:0 0 5px 5px;width:202px;background-color:#fff}
+.drop-menu{position:relative;margin-left:25px;margin-top:-5px;z-index:1;border-radius:0 0 5px 5px;width:202px;background-color:#fff}
 .drop-menu a{text-align:left}
 .drop-menu>li>a{padding:3px 10px}
 .drop-menu .hr-nav{background-color:#e5e5e5;height:1px;margin:0}
@@ -745,17 +745,18 @@ ul{margin:0;padding:0}
 .footer-store{background-color:#f5f5f5;height:53px;width:100%}
 .footer-store .copyrighting{text-align:center}
 .footer-store .copyrighting .no-link{display:inline-block;margin-right:10px}
-@media (max-width:767px){.footer-store{height:110px}
+@media (max-width:767px){.footer-store{height:131px}
 .footer-store .copyrighting .no-link{display:block;margin-right:0;margin-bottom:5px}
 }
 .footer-store .copyrighting .footer-link{margin-right:10px}
 @media (max-width:767px){.footer-store .copyrighting .footer-link{display:block;margin-right:0;margin-bottom:5px;margin-top:5px}
 }
+.footer-store .copyrighting .last{margin-right:0;margin-top:5px}
 .subscription{min-height:100%;height:auto;margin:0 auto -53px;padding:0 0 53px}
-.subscription .dropdown-menu{border:1px solid #e5e5e5;width:200px}
-@media (max-width:767px){.subscription{padding:0 0 110px;margin:0 auto -110px}
+@media (max-width:767px){.subscription{padding:0 0 131px;margin:0 auto -131px}
 .subscription .subscription-management .no-padding{padding:0}
 }
+.subscription .dropdown-menu{border:1px solid #e5e5e5;width:200px}
 .subscription .subscription-management{margin-bottom:60px;margin-top:30px}
 @media (min-width:768px){.subscription .subscription-management .no-margin{margin-right:0;margin-left:0}
 .subscription .subscription-management .padding-no{padding-left:0;padding-right:0}
@@ -805,7 +806,7 @@ ul{margin:0;padding:0}
 .store .header-block .header-text,.store .header-block .header-title{font-family:SummerFont,sans-serif;font-weight:300}
 .subscription .subscription-management .header-block .select-day-yet .btn-middle .btn-drop-sub-no-active .sort-icon{float:right}
 .wrap{min-height:100%;height:auto}
-@media (max-width:767px){.wrap{margin:0 auto -432px;padding:0 0 432px}
+@media (max-width:767px){.wrap{margin:0 auto -453px;padding:0 0 453px}
 }
 @media (min-width:768px){.wrap{margin:0 auto -259px;padding:0 0 259px}
 }

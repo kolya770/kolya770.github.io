@@ -2,8 +2,8 @@
   min-height: 100%;
   height: auto;
   @media #{$bootstrap-xs} {
-    margin: 0 auto -432px;
-    padding: 0 0 432px;
+    margin: 0 auto -453px;
+    padding: 0 0 453px;
   }
   @media #{$bootstrap-sm} {
     margin: 0 auto -259px;
@@ -13,7 +13,6 @@
     margin: 0 auto -302px;
     padding: 0 0 302px;
   }
-
 }
 
 .store {
