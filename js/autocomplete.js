@@ -2,7 +2,7 @@ $(document).ready(function() {
     /* autocomplete for cities, example */
     var cities = [
         {value: 'Moskow', data: 'moskow'},
-        {value: 'Kiev', data: 'kiev'},
+        {value: 'Киев', data: 'kiev'},
         {value: 'Warsaw', data: 'warsaw'},
         {value: 'London', data: 'london'},
         {value: 'St. Petersburg', data: 'spb'},
