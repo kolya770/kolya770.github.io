@@ -59,11 +59,13 @@ $(document).ready(function() {
 
             password.css('border-color', 'red');
             confirm_password.css('border-color', 'red');
+            $('.error-message').fadeIn('slow');
 
         } else {
 
             password.css('border-color', '#cbcbcb');
             confirm_password.css('border-color', '#cbcbcb');
+            $('.error-message').fadeOut('slow');
 
         }
     });

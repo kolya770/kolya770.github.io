@@ -557,25 +557,24 @@ body,html{height:100%;font-size:16px}
 }
 @media (min-width:768px){#LosePassword .modal-dialog .modal-content .modal-footer .btn-next{margin-left:-20px}
 }
-#NewPassword .modal-dialog{position:absolute;left:50%}
-@media (max-width:767px){#NewPassword .modal-dialog{width:90%;height:453px;margin-left:-45%;top:10vh}
+#passwordUpdated .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#passwordUpdated .modal-dialog{width:90%;height:200px;margin-left:-45%;top:10vh}
 }
-@media (min-width:768px){#NewPassword .modal-dialog{top:50%;width:430px;height:453px;margin-top:-226.5px;margin-left:-215px}
+@media (min-width:768px){#passwordUpdated .modal-dialog{top:50%;width:430px;height:200px;margin-top:-100px;margin-left:-215px}
 }
-#NewPassword .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
-@media (max-width:767px){#NewPassword .modal-dialog .modal-content{width:100%;height:453px}
+#passwordUpdated .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
+@media (max-width:767px){#passwordUpdated .modal-dialog .modal-content{width:100%;height:200px}
+#passwordUpdated .modal-dialog .modal-content .modal-change-pass{margin-top:40px;margin-bottom:40px}
 }
-@media (min-width:768px){#NewPassword .modal-dialog .modal-content{width:430px;height:453px}
+@media (min-width:768px){#passwordUpdated .modal-dialog .modal-content{width:430px;height:200px}
 }
-#NewPassword .modal-dialog .modal-content .modal-header{border:none}
-#NewPassword .modal-dialog .modal-content .modal-change-pass{margin-top:120px}
-#NewPassword .modal-dialog .modal-content .modal-change-pass .sended-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:4em;font-weight:300;line-height:60px;text-align:center}
+#passwordUpdated .modal-dialog .modal-content .modal-header{border:none}
+#passwordUpdated .modal-dialog .modal-content .modal-change-pass .sended-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:4em;font-weight:300;line-height:60px;text-align:center}
 .close{opacity:.5;outline:0}
 .close .close-icon{color:#f39c12;font-size:20px;font-weight:400;line-height:25px;text-align:left}
 .close:hover{opacity:1}
 .main-screen-faq .first-bg{background:url(../img/photo-faq.png) 50% 50% fixed rgba(210,214,220,.8);background-size:cover;height:50vh;width:100%;position:absolute}
-@media (max-width:767px){#NewPassword .modal-dialog .modal-content .modal-change-pass{margin-top:10px;margin-bottom:40px}
-.main-screen-faq .first-bg{height:100vh}
+@media (max-width:767px){.main-screen-faq .first-bg{height:100vh}
 }
 .main-screen-faq .first-bg .logo-mobile{position:absolute;left:50%;margin-left:-85px;margin-top:10px}
 .main-screen-faq .content{height:50vh}
@@ -1130,6 +1129,7 @@ ul{margin:0;padding:0}
 .timing-text-block .calendar-mobile .first-mob-btn{z-index:16}
 .timing-text-block .calendar-mobile .first-ul{z-index:10}
 .pure-form{width:400px}
+.pure-form .error-message{color:red;margin-top:15px;margin-bottom:0;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;font-weight:300;line-height:34px}
 .pure-form input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;margin-top:20px;padding:10px 10px 10px 20px;outline:0}
 .pure-form input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 .pure-form input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
