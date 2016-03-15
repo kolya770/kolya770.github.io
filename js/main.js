@@ -1,30 +1,31 @@
 $(document).ready(function() {
 
-    //alert(window.location.hash);
+    //Open modal in store page when password is updated
     if (window.location.hash.toString() == "#passwordUpdated") {
-        //bootstrap show popup JS
         $('#passwordUpdated').modal({});
     }
 
-    $('#go-to-step-2').on('click', function(){
+    //Click steps
+    $('#go-to-step-2').on('click', function() {
         location.href = 'address.html';
     });
 
-    $('#go-to-sub-4').on('click', function(){
+    $('#go-to-sub-4').on('click', function() {
         location.href = 'subscription-management-4.html';
     });
 
-    $(function(){
-        // subscription management dropdowns
-        $("#days-drop .dropdown-menu li a").click(function(){
+    // subscription management dropdowns
+    $(function() {
+
+        $("#days-drop .dropdown-menu li a").click(function() {
             $('#days-drop button')[0].childNodes[0].nodeValue=($(this).text());
         });
 
-        $("#month-drop .dropdown-menu li a").click(function(){
+        $("#month-drop .dropdown-menu li a").click(function() {
             $('#month-drop button')[0].childNodes[0].nodeValue=($(this).text());
         });
 
-        $("#time-drop .dropdown-menu li a").click(function(){
+        $("#time-drop .dropdown-menu li a").click(function() {
             $('#time-drop button')[0].childNodes[0].nodeValue=($(this).text());
         });
 
@@ -34,7 +35,8 @@ $(document).ready(function() {
 
     });
 
-    $('#send-email').on('click', function(){
+    //send email modal window
+    $('#send-email').on('click', function() {
 
         var send_text =  $('#email').val();
 
@@ -42,14 +44,13 @@ $(document).ready(function() {
 
         $('.fade-password').fadeOut("slow", function() {});
 
-        setTimeout(function(){
+        setTimeout(function() {
             $('.modal-sended-email').fadeIn("slow");
-
         }, 750);
-
 
     });
 
+    //change your password page
     $('.new-password').bind('keyup change tap', function() {
 
         var password =  $('#password');
@@ -69,5 +70,9 @@ $(document).ready(function() {
 
         }
     });
+
+    //$(".js-example-placeholder-multiple").select2({
+    //    placeholder: "Select a state"
+    //});
     
 });
