@@ -1164,7 +1164,7 @@ ul{margin:0;padding:0}
 @media (min-width:768px){.pure-form input{width:370px}
 }
 .pure-form .btn-enter{width:130px;height:50px;margin-top:20px;font-family:UBUNTU-REGULAR,sans-serif;font-weight:400}
-.autocomplete-suggestions{border:1px solid #999;background:#FFF;overflow:auto}
+.autocomplete-suggestions{border:1px solid #e5e5e5;background:#FFF;overflow:auto;border-bottom-right-radius:6px;border-bottom-left-radius:6px;margin-top:-5px;width:100%;z-index:1}
 .autocomplete-suggestion{padding:2px 5px;white-space:nowrap;overflow:hidden}
 .autocomplete-selected{background:#F0F0F0}
 .autocomplete-suggestions strong{font-weight:400;color:#39F}

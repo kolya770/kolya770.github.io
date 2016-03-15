@@ -50,7 +50,7 @@ $(document).ready(function() {
 
     });
 
-    //change your password page
+    //compare passwords
     $('.new-password').bind('keyup change tap', function() {
 
         var password =  $('#password');
@@ -67,22 +67,35 @@ $(document).ready(function() {
             password.css('border-color', '#cbcbcb');
             confirm_password.css('border-color', '#cbcbcb');
             $('.error-message').fadeOut('slow');
-
         }
     });
 
-    /* autocomplete of cities */
+    /* autocomplete for cities, example */
     var cities = [
-        { value: 'Москва', data: 'moskow' },
-        { value: 'Киеа', data: 'kiev' },
-        { value: 'Варшава', data: 'warsaw' },
-        { value: 'Лондон', data: 'london' },
-        { value: 'Zimba', data: 'zimba' },
-        { value: 'Париж', data: 'paris' }
+        { value: 'Moskow', data: 'moskow' },
+        { value: 'Kiev', data: 'kiev' },
+        { value: 'Warsaw', data: 'warsaw' },
+        { value: 'London', data: 'london' },
+        { value: 'St. Petersburg', data: 'spb' },
+        { value: 'Milan', data: 'milan' },
+        { value: 'Grodno', data: 'grodno' }
+
     ];
 
     $('#city-autocomplete').autocomplete({
         lookup: cities
     });
-    
+
+    /* !! use code below to send ajax requests */
+    //$('#city-autocomplete').autocomplete({
+    //    serviceUrl: '/autocomplete/countries',
+    //    onSelect: function (suggestion) {
+    //        console.log('You selected: ' + suggestion.value + ', ' + suggestion.data);
+    //    }
+    //});
+
+    //$('#street-autocomplete').autocomplete({
+    //    serviceUrl: '/autocomplete/countries',
+    //});
+
 });
