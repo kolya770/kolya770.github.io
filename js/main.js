@@ -29,9 +29,6 @@ $(document).ready(function() {
             $('#time-drop button')[0].childNodes[0].nodeValue=($(this).text());
         });
 
-        $('.question-icon').tooltip({
-            delay: { "show": 50, "hide": 200 }
-        });
 
     });
 
@@ -70,40 +67,39 @@ $(document).ready(function() {
         }
     });
 
-    /* autocomplete for cities, example */
-    var cities = [
-        { value: 'Moskow', data: 'moskow' },
-        { value: 'Kiev', data: 'kiev' },
-        { value: 'Warsaw', data: 'warsaw' },
-        { value: 'London', data: 'london' },
-        { value: 'St. Petersburg', data: 'spb' },
-        { value: 'Milan', data: 'milan' },
-        { value: 'Grodno', data: 'grodno' }
+    //calendar take date
+    $('#take-item > .btn-date-number').click(function(){
+        if ($(this).hasClass('active')) {
 
-    ];
-
-    $('#city-autocomplete').autocomplete({
-        lookup: cities
+            $(this).removeClass('active');
+            return true;
+        }
+        $('#take-item >  .btn-date-number').removeClass('active');
+        $(this).addClass('active');
     });
 
-    /* !! use code below to send ajax requests */
-    //$('#city-autocomplete').autocomplete({
-    //    serviceUrl: '/autocomplete/countries',
-    //    onSelect: function (suggestion) {
-    //        console.log('You selected: ' + suggestion.value + ', ' + suggestion.data);
-    //    }
-    //});
+    $('#delivery > .btn-date-number').click(function(){
+        if ($(this).hasClass('active')) {
 
-    //$('#street-autocomplete').autocomplete({
-    //    serviceUrl: '/autocomplete/countries',
-    //});
-
-    $('#city-autocomplete').on('change tap keyup', function() {
-        var autocomplete_width = $('.autocomplete-suggestions').width();
-
-        autocomplete_width = parseInt(autocomplete_width);
-
-        $('.autocomplete-suggestions').width( autocomplete_width + 2 );
+            $(this).removeClass('active');
+            return true;
+        }
+        $('#delivery >  .btn-date-number').removeClass('active');
+        $(this).addClass('active');
     });
+
+    $('.question-icon').tooltip({
+        delay: { "show": 50, "hide": 200 },
+        title: "<p>мех I-ой категории: нутрия, собака, козел, кролик, цигейка, мутон, медведь, крот</p>" +
+        "<p>мех II-ой категории: орелаг, норка, чернобурка, каракульча, каракуль, бобер, песец, белка, ондатра, енот, колонок, ласка, волк</p>", html: true, placement: "top"
+    });
+
+    //$(function() {
+    //
+    //    $("#drop-time-pick .dropdown-menu li a").click(function() {
+    //        $('#drop-time-pick button')[0].childNodes[0].nodeValue=($(this).text());
+    //    });
+    //
+    //});
 
 });
