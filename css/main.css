@@ -688,7 +688,7 @@ body,html{height:100%;font-size:16px}
 .info .hr-info{background-color:#cbcbcb;height:1px;margin-top:30px}
 .news-block h3{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px}
 .news-block p{font-family:UBUNTU-BOLD,sans-serif;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px}
-.middle-btn .btn-download,.news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;font-weight:300;text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;line-height:24px;outline:0}
+.middle-btn .btn-download,.news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;font-weight:300;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;outline:0}
 .news-block .btn-news{background-color:#3caad2;width:96px;height:30px;font-size:.875em;text-align:center;padding:2px 0 0}
 .news-block .btn-news:hover{background-color:#3d9bc3}
 .news-block .hr-news{background-color:#cbcbcb;width:100%;height:1px;margin-bottom:55px}
@@ -705,7 +705,7 @@ ul{margin:0;padding:0}
 .menu-btn:hover{background:0 0;color:#FFF}
 .nav-text-mobile{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;line-height:30px;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 .btn-navbar-mobile{border-radius:5px;border:2px solid #fff;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);width:184px;height:52px;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.2);margin-top:30px}
-.btn-enter-mobile,.btn-navbar-basket{border-radius:5px;background-color:rgba(60,170,210,0);font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-weight:500;text-shadow:0 1px 1px rgba(0,0,0,.2);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2)}
+.btn-enter-mobile,.btn-navbar-basket{border-radius:5px;background-color:rgba(60,170,210,0);box-shadow:1px 3px 1px 0 rgba(0,0,0,.2);font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-weight:500;text-shadow:0 1px 1px rgba(0,0,0,.2)}
 .btn-navbar-basket{border:2px solid #fff;width:200px;height:32px;font-size:15px;line-height:24px;text-align:left;padding:0 12px;margin-top:25px}
 .btn-navbar-basket img{width:18px;height:16px;margin-right:10px;margin-top:-4px}
 .btn-enter-mobile{border:2px solid #fff;width:104px;height:32px;font-size:.938em;line-height:30px;text-align:left;padding:0;outline:0;margin-left:25px;margin-top:25px}
@@ -974,7 +974,7 @@ ul{margin:0;padding:0}
 .history .history-number-block,.history .history-order-block,.history .history-price-block{height:35px;margin-top:10px;display:inline-block;float:left}
 .history .history-number-block{width:180px;margin-left:20px;border-right:1px solid rgba(203,203,203,.5)}
 .history .history-number-block .number{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:34px;text-align:left;transform:scaleX(1.0009)}
-.history .history-order-block .order,.history .history-price-block .price{font-size:.938em;line-height:34px;text-align:left;transform:scaleX(1.0009);padding-left:35px}
+.history .history-order-block .order,.history .history-price-block .price{font-size:.938em;line-height:34px;padding-left:35px;transform:scaleX(1.0009);text-align:left}
 .history .history-price-block{width:160px;border-right:1px solid rgba(203,203,203,.5)}
 .history .history-price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-weight:500}
 .history .history-order-block .order{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-weight:300}
@@ -982,13 +982,12 @@ ul{margin:0;padding:0}
 .history .accordion-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:570px;min-height:55px;margin-top:10px}
 .history .accordion-button{margin:0 20px;box-sizing:border-box;background-color:#fff;height:55px}
 .history .accordion-marker{border-radius:50%;background-color:#3caad2;width:22px;height:22px;padding:0;outline:0;display:inline-block;margin-top:17px;float:left}
-.history .accordion-order .drop-history,.history-mobile .accordion-order .drop-history{overflow:hidden;transition:max-height 350ms ease-in-out;border-bottom-right-radius:6px;border-bottom-left-radius:6px;text-align:left}
 .history .accordion-order .drop-history .drop-block .price-block,.history-mobile .accordion-order .drop-history .drop-block .price-block{margin-right:30px;float:right;display:inline-block}
 .history .accordion-marker:hover{background-color:#6cc2e1}
 .history .accordion-marker i{font-size:16px}
 .history .accordion-marker .fa-angle-double-down{padding-left:5.7px;padding-top:5px;color:#fff}
 .history .accordion-marker .fa-angle-double-up{padding-left:5.7px;padding-top:2px;color:#fff}
-.history .accordion-order .drop-history{max-height:0;font-size:.938em;font-weight:300;line-height:20px;margin-bottom:0;background-color:#f5f5f5}
+.history .accordion-order .drop-history{max-height:0;overflow:hidden;transition:max-height 350ms ease-in-out;font-size:.938em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0;background-color:#f5f5f5;border-bottom-right-radius:6px;border-bottom-left-radius:6px}
 .history .accordion-order>div.active .drop-history,.history-mobile .accordion-order>div.active .drop-history{max-height:1000px}
 .history .accordion-order .drop-history .drop-block{border-top:1px solid rgba(203,203,203,.5)}
 .history .accordion-order .drop-history .drop-block .drop-text-block{width:65%;margin-left:62px;display:inline-block}
@@ -1000,13 +999,25 @@ ul{margin:0;padding:0}
 .history .accordion-order>div.active .accordion-marker:hover{background-color:#6cc2e1}
 .history-mobile .accordion-order>div.active .accordion-marker{background-color:#3caad2}
 .history-mobile .accordion-order>div.active .accordion-marker:hover{background-color:#6cc2e1}
-.history-mobile .accordion-order .drop-history{max-height:0;font-size:.938em;font-weight:300;line-height:20px;margin-bottom:0;background-color:#f5f5f5}
+.history-mobile .accordion-order .drop-history{max-height:0;overflow:hidden;transition:max-height 350ms ease-in-out;font-size:.938em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0;background-color:#f5f5f5}
 .history-mobile .accordion-order .drop-history .drop-block{border-top:1px solid rgba(203,203,203,.5)}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block{width:65%;margin-left:62px;display:inline-block}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block .drop-title{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:30px;text-align:left;margin-top:10px;margin-bottom:0}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block .drop-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-bottom:10px}
 .history-mobile .accordion-order .drop-history .drop-block .price-block .price-text{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:34px;text-align:left;margin-top:15px}
-.history-mobile .accordion-order .accordion-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:90%;height:105px}
+.history-mobile .accordion-order{margin-top:15px}
+.history-mobile .accordion-order .btn-return{width:270px;height:41px;margin-top:30px;margin-bottom:30px}
+.history-mobile .accordion-order .accordion-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:90%;margin-top:10px}
+.history-mobile .accordion-order .accordion-item .accordion-marker{border-radius:50%;background-color:#3caad2;width:22px;height:22px;padding:0;outline:0;display:inline-block;margin-top:15px;margin-left:20px;margin-right:20px;float:left}
+.history-mobile .accordion-order .accordion-item .accordion-marker:hover{background-color:#6cc2e1}
+.history-mobile .accordion-order .accordion-item .accordion-marker i{font-size:16px}
+.history-mobile .accordion-order .accordion-item .accordion-marker .fa-angle-double-down{padding-left:5.7px;padding-top:5px;color:#fff}
+.history-mobile .accordion-order .accordion-item .accordion-marker .fa-angle-double-up{padding-left:5.7px;padding-top:2px;color:#fff}
+.history-mobile .accordion-order .accordion-item .history-number-block{height:50px}
+.history-mobile .accordion-order .accordion-item .history-number-block .number{float:left;margin-top:12px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;text-align:left;transform:scaleX(1.0009)}
+.history-mobile .accordion-order .accordion-item .history-price-block{border-top:1px solid rgba(203,203,203,.5)}
+.history-mobile .accordion-order .accordion-item .history-price-block .price{display:inline-block;margin-left:62px;margin-top:10px;font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;text-align:left;transform:scaleX(1.0009)}
+.history-mobile .accordion-order .accordion-item .history-price-block .order{display:inline-block;float:right;margin-right:20px;margin-top:10px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;text-align:left;transform:scaleX(1.0009)}
 .navbar-washdrop-store{height:110px;background-color:#3e4041;border:none;border-radius:0}
 .navbar-washdrop-store .my-navbar .navbar-brand img{width:137px}
 .navbar-washdrop-store .my-navbar .navbar-menu{margin-top:29px;border-radius:10px;background-color:rgba(255,255,255,.05);height:50px}

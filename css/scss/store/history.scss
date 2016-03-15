@@ -178,6 +178,7 @@
 }
 
 .history-mobile {
+
   .accordion-order > div.active .accordion-marker{
     background-color: #3caad2;
     &:hover {
@@ -200,8 +201,6 @@
     text-align: left;
     margin-bottom: 0;
     background-color:  #f5f5f5;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
     .drop-block {
       border-top: 1px solid rgba(203, 203, 203, .5);
       .drop-text-block {
@@ -246,14 +245,89 @@
     }
   }
   .accordion-order {
-
+    margin-top: 15px;
+    .btn-return {
+      width: 270px;
+      height: 41px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
     .accordion-item {
       border-radius: 6px;
       border: 1px solid rgba(203, 203, 203, 0.5);
       box-sizing: border-box;
       background-color:  #ffffff;
       width: 90%;
-      height: 105px;
+      margin-top: 10px;
+      .accordion-marker {
+        border-radius: 50%;
+        background-color: #3caad2;
+        width: 22px;
+        height: 22px;
+        padding: 0;
+        outline: none;
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: left;
+        &:hover {
+          background-color: #6cc2e1;
+        }
+        i {
+          font-size: 16px;
+        }
+        .fa-angle-double-down {
+          padding-left: 5.7px;
+          padding-top: 5px;
+          color:#ffffff;
+        }
+
+        .fa-angle-double-up {
+          padding-left: 5.7px;
+          padding-top: 2px;
+          color:#ffffff;
+        }
+      }
+      .history-number-block {
+        height: 50px;
+        .number {
+          float: left;
+          margin-top: 12px;
+          font-family: $ubuntu-light-font, "sans-serif";
+          color: #4a4b4c;
+          font-size: 1.188em;
+          font-weight: 300;
+          text-align: left;
+          transform: scaleX(1.0009);
+        }
+      }
+      .history-price-block {
+        border-top: 1px solid rgba(203, 203, 203, 0.5);
+        .price {
+          display: inline-block;
+          margin-left: 62px;
+          margin-top: 10px;
+          font-family: $ubuntu-medium-font,"sans-serif";
+          color: #3caad2;
+          font-size: 0.938em;
+          font-weight: 500;
+          text-align: left;
+          transform: scaleX(1.0009);
+        }
+        .order {
+          display: inline-block;
+          float: right;
+          margin-right: 20px;
+          margin-top: 10px;
+          font-family: $ubuntu-light-font, "sans-serif";
+          color: #4a4b4c;
+          font-size: 0.938em;
+          font-weight: 300;
+          text-align: left;
+          transform: scaleX(1.0009);
+        }
+      }
     }
   }
 }
