@@ -4,13 +4,21 @@
       padding: 0;
     }
   }
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-family: $ubuntu-light-font, "sans-serif";
+    font-size: 1em;
+    text-align: left;
+    display: none;
+    margin-bottom: -7px;
+  }
   .form-block {
     border-radius: 6px;
     border: 1px solid rgba(203, 203, 203, .5);
     box-sizing: border-box;
     background-color: #f5f5f5;
     width: 670px;
-    height: 521px;
     margin-top: 40px;
     margin-bottom: 40px;
     .new-padding {
@@ -33,7 +41,7 @@
       font-weight: 500;
       line-height: 34px;
       text-align: left;
-      margin-top: 25px;
+      margin-top: 20px;
       @media #{$bootstrap-sm} {
         font-size: 0.938em;
       }
@@ -55,6 +63,7 @@
     .know {
       height: 120px;
       padding: 20px 0 0 20px;
+      margin-bottom: 20px;
       @media #{$bootstrap-xs} {
         margin-bottom: 30px;
       }

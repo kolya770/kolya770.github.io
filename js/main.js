@@ -1,3 +1,8 @@
+function isEmail(email) {
+    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+}
+
 $(document).ready(function() {
 
     //Open modal in store page when password is updated
@@ -37,13 +42,17 @@ $(document).ready(function() {
 
         var send_text =  $('#email').val();
 
-        $('#your-mail').html(send_text);
+        if( isEmail(send_text) ){
+            $('#your-mail').html(send_text);
 
-        $('.fade-password').fadeOut("slow", function() {});
+            $('.fade-password').fadeOut("slow", function() {});
 
-        setTimeout(function() {
-            $('.modal-sended-email').fadeIn("slow");
-        }, 750);
+            setTimeout(function() {
+                $('.modal-sended-email').fadeIn("slow");
+            }, 750);
+        } else {
+            $('p.error-message').fadeIn('slow');
+        }
 
     });
 
@@ -135,8 +144,6 @@ $(document).ready(function() {
         }, 400);
     });
 
-
-
     $('.modal').on('show.bs.modal', function () {
         if ($(document).height() > $(window).height()) {
             // no-scroll
@@ -145,9 +152,47 @@ $(document).ready(function() {
         else {
             $('body').removeClass("modal-open-noscroll");
         }
-    })
+    });
     $('.modal').on('hide.bs.modal', function () {
         $('body').removeClass("modal-open-noscroll");
-    })
+    });
+
+    //address input validation
+    $('#send-address').on('click', function(){
+
+        if ( ! $('#city-autocomplete').val()){
+            $('.error-message.city').fadeIn('slow');
+        } else {
+            $('.error-message.city').fadeOut('slow');
+        }
+
+        if ( ! $('#street-autocomplete').val()){
+            $('.error-message.street').fadeIn('slow');
+        } else {
+            $('.error-message.street').fadeOut('slow');
+        }
+
+        if ( ! $('#flat-number').val()){
+            $('.error-message.code').fadeIn('slow');
+        } else {
+            $('.error-message.code').fadeOut('slow');
+        }
+    });
+
+    //contacts input validation
+    $('input').on('change', function(){
+        $(this).removeClass('error');
+    });
+
+    $('#order-completed').on('click', function(){
+
+        if ( ! $('#input-name').val()){
+            $('#input-name').addClass('error');
+
+        } else {
+            $('#input-name').removeClass('error');
+        }
+
+    });
 
 });

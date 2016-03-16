@@ -157,30 +157,31 @@
             <div class="row">
                 <div class="col-xs-12 no-padding">
                     <div class="first-form center-block">
-                        <article class="row margin-no">
+                        <section class="row margin-no">
                             <div class="col-xs-12 col-sm-6 add-padding">
                                 <label class="label-text">Имя:<span class="necessarily">*</span></label>
-                                <input class="input-first-form" placeholder="Ваше имя">
+                                <input id="input-name" class="input-first-form" placeholder="Ваше имя">
                             </div>
                             <div class="col-xs-12 col-sm-6 add-padding">
                                 <label class="label-text">Фамилия:<span class="necessarily">*</span></label>
-                                <input class="input-first-form" placeholder="Ваша фамилия">
+                                <input id="input-surname" class="input-first-form" placeholder="Ваша фамилия">
                             </div>
                             <div class="col-xs-12 col-sm-6 add-padding">
                                 <label class="label-text">E-mail:<span class="necessarily">*</span></label>
-                                <input class="input-first-form" placeholder="client@gmail.com">
+                                <input id="input-email" class="input-first-form" placeholder="client@gmail.com">
                             </div>
                             <div class="col-xs-12 col-sm-6 add-padding">
                                 <label class="label-text">Телефон:<span class="necessarily">*</span></label>
-                                <input class="input-first-form" placeholder="Ваше имя">
+                                <input id="input-phone" class="input-first-form" placeholder="+7 (495) 223-12-23">
                             </div>
                             <div class="col-xs-12 col-sm-6 add-padding">
                                 <label class="label-text">Придумайте пароль:<span class="necessarily">*</span></label>
-                                <input class="input-first-form" placeholder="Ваше имя">
+                                <input id="input-password" class="input-first-form" placeholder="Ваш пароль">
                             </div>
                             <div class="col-xs-12 col-sm-6 add-padding">
                                 <label class="label-text">Промокод<span class="necessarily">*</span></label>
-                                <input class="input-first-form" placeholder="Введите промокод">
+                                <input id="input-promocode" class="input-first-form" placeholder="Введите промокод">
+                                <p class="success-message promocode">Ваша скидка 100 руб.</p>
                             </div>
                             <div class="col-xs-12 add-padding">
                                 <article class="check-btn">
@@ -189,7 +190,7 @@
                                     <p class="agree">Я хочу получать новости и специальные предложения</p>
                                 </article>
                             </div>
-                        </article>
+                        </section>
                     </div>
                     <div class="second-form center-block">
                         <div class="payment-method-block">
@@ -205,11 +206,11 @@
                                     <input id="question2" name="question" type="radio" class="with-font" value="sel"/>
                                     <label for="question2" class="label-text">Банковской картой при получении</label>
                                 </div>
-                                <div>
-                                    <input id="question3" name="question" type="radio" class="with-font" value="sel"/>
-                                    <label for="question3" class="label-text last-label"></label>
-                                    <p class="last-label-text">Привязать банковскую карту (деньги спишутся автоматически после получения Вами одежды)</p>
-                                </div>
+                                <!--<div>-->
+                                    <!--<input id="question3" name="question" type="radio" class="with-font" value="sel"/>-->
+                                    <!--<label for="question3" class="label-text last-label"></label>-->
+                                    <!--<p class="last-label-text">Привязать банковскую карту (деньги спишутся автоматически после получения Вами одежды)</p>-->
+                                <!--</div>-->
                             </div>
                             <div class="check-btn">
                                 <div>
@@ -234,7 +235,7 @@
                     <hr class="address-hr">
                     <h2 class="total-cost">Итоговая стоимость:</h2>
                     <p class="summary">1480 руб.</p>
-                    <button class="btn btn-orange btn-next" data-toggle="modal" data-target="#myModalThanksOrder">ДАЛЕЕ<i class="fa fa-angle-double-right icon-next"></i></button>
+                    <button id="order-completed" class="btn btn-orange btn-next">ДАЛЕЕ<i class="fa fa-angle-double-right icon-next"></i></button>
                 </div>
             </div>
         </div>
@@ -330,6 +331,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="js/pushy.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>

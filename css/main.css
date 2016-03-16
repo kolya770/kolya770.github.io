@@ -541,16 +541,17 @@ body.modal-open-noscroll{overflow:hidden}
 #LosePassword .modal-dialog .modal-content .modal-header{border:none}
 #LosePassword .modal-dialog .modal-content .modal-body{text-align:center}
 #LosePassword .modal-dialog .modal-content .modal-sended-email{margin-top:40px}
+@media (max-width:767px){#LosePassword .modal-dialog .modal-content .modal-sended-email{margin-top:10px;margin-bottom:40px}
+#LosePassword .modal-dialog .modal-content .modal-footer input{width:100%}
+}
 #LosePassword .modal-dialog .modal-content .modal-sended-email .your-email{color:#3caad2}
 #LosePassword .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
+#LosePassword .modal-dialog .modal-content .modal-footer .error-message{color:red;margin-top:15px;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;display:none}
 #LosePassword .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;padding:10px 10px 10px 20px;outline:0}
 #LosePassword .modal-dialog .modal-content .modal-footer input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #LosePassword .modal-dialog .modal-content .modal-footer input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #LosePassword .modal-dialog .modal-content .modal-footer input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 #LosePassword .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-@media (max-width:767px){#LosePassword .modal-dialog .modal-content .modal-sended-email{margin-top:10px;margin-bottom:40px}
-#LosePassword .modal-dialog .modal-content .modal-footer input{width:100%}
-}
 @media (min-width:768px){#LosePassword .modal-dialog .modal-content .modal-footer input{width:430px}
 }
 #LosePassword .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-1px;outline:0}
@@ -845,28 +846,29 @@ ul{margin:0;padding:0}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally li a{padding:0 20px}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .time-select{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;white-space:normal}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.813em;font-weight:500;line-height:20px;text-align:right;float:right}
-.address .form-block .form-title,.select-items .clothes-block .card .total-block .price,.select-items .clothes-block .card .total-block .total-text{font-family:UBUNTU-MEDIUM,sans-serif;line-height:34px}
+.select-items .clothes-block .card .total-block .price,.select-items .clothes-block .card .total-block .total-text{font-family:UBUNTU-MEDIUM,sans-serif;font-size:.938em;font-weight:500;display:inline-block}
 .select-items .clothes-block .card .total-block{text-align:center;margin-bottom:20px}
-.select-items .clothes-block .card .total-block .total-text{color:#4a4b4c;font-size:.938em;font-weight:500;float:left;display:inline-block;margin:15px 0 15px 10px}
-.select-items .clothes-block .card .total-block .price{color:#3caad2;font-size:.938em;font-weight:500;display:inline-block;float:right;margin:15px 10px 15px 0}
+.select-items .clothes-block .card .total-block .total-text{color:#4a4b4c;line-height:34px;float:left;margin:15px 0 15px 10px}
+.select-items .clothes-block .card .total-block .price{color:#3caad2;line-height:34px;float:right;margin:15px 10px 15px 0}
 .select-items .clothes-block .card .total-block .btn-add-to-basket{border-radius:50%;width:41px;height:41px;margin-top:50px}
 .select-items .clothes-block .card .total-block .btn-add-to-basket .plus-icon{color:#fff;font-size:17.99px;font-weight:400;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);padding-top:3px}
 @media (max-width:767px){.address .no-padding{padding:0}
 }
-.address .form-block{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:670px;height:521px;margin-top:40px;margin-bottom:40px}
+.address .error-message{color:red;margin-top:10px;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;text-align:left;display:none;margin-bottom:-7px}
+.address .form-block{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:670px;margin-top:40px;margin-bottom:40px}
 .address .form-block .new-padding{padding-left:30px;padding-right:30px}
 .address .form-block .margin-no{margin-left:0;margin-right:0}
 @media (max-width:767px){.address .form-block{width:100%;border-radius:0;height:auto}
-.address .form-block .know{margin-bottom:30px}
 }
-.address .form-block .form-title{display:block;color:#4a4b4c;font-weight:500;text-align:left;margin-top:25px}
+.address .form-block .form-title{display:block;font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-weight:500;line-height:34px;text-align:left;margin-top:20px}
 @media (min-width:768px){.address .form-block .form-title{font-size:.938em}
 }
 @media (max-width:350px){.address .form-block .form-title{font-size:.84em}
 }
 .address .form-block .form-input{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:100%;height:42px;outline:0;resize:none;padding:0 0 0 20px}
-.address .form-block .know{height:120px;padding:20px 0 0 20px}
-@media (max-width:767px){.total-cost-block{height:238px}
+.address .form-block .know{height:120px;padding:20px 0 0 20px;margin-bottom:20px}
+@media (max-width:767px){.address .form-block .know{margin-bottom:30px}
+.total-cost-block{height:238px}
 .total-cost-block .sum{text-align:center}
 }
 @media (min-width:768px){.total-cost-block{height:122px}
@@ -900,7 +902,8 @@ ul{margin:0;padding:0}
 .steps-block-mobile .text-step{margin:21px 0 0;border-bottom:1px solid #9e9fa0}
 .steps-block-mobile .dash-text{line-height:84px;margin:0}
 .steps-block-mobile .active{color:#fff;border:none}
-.contacts-block .first-form{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:630px;height:390px;margin-top:60px}
+.contacts-block .first-form{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:630px;margin-top:60px}
+.contacts-block .first-form .success-message{color:#00c000;margin-top:10px;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;text-align:left;display:none;margin-bottom:-7px}
 .contacts-block .first-form .margin-no{margin-left:0;margin-right:0}
 @media (max-width:767px){.contacts-block .first-form{width:100%;border-radius:0;height:auto}
 .contacts-block .first-form .add-padding{padding-left:30px;padding-right:30px}
@@ -911,6 +914,8 @@ ul{margin:0;padding:0}
 .contacts-block .first-form .label-text{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;display:block;margin-top:25px}
 .contacts-block .first-form .label-text .necessarily{margin-left:3px;color:#f39c12}
 .contacts-block .first-form .input-first-form{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;height:42px;width:100%;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:14px;text-align:left;margin-top:5px;padding:0 20px}
+.contacts-block .first-form .error{border:1px solid red}
+.contacts-block .first-form .error::-webkit-input-placeholder{color:red}
 .contacts-block .first-form .check-btn{margin-top:40px}
 .contacts-block .first-form .check-btn .check-text{float:left;font-family:UBUNTU-REGULAR,sans-serif;color:#4a4b4c;font-size:15px;font-weight:400;line-height:34px}
 .contacts-block .first-form .check-btn input[type=checkbox].with-font{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
@@ -918,7 +923,7 @@ ul{margin:0;padding:0}
 .contacts-block .first-form .check-btn input[type=checkbox].with-font:checked~label:before{content:"\f046";color:#3caad2}
 .contacts-block .first-form .check-btn input[type=checkbox].with-font:focus~label,.contacts-block .first-form .check-btn input[type=checkbox].with-font:focus~label:before{color:#3caad2}
 .contacts-block .first-form .check-btn .agree{font-family:UBUNTU-REGULAR,sans-serif;color:#4a4b4c;font-size:15px;font-weight:400;line-height:34px}
-.contacts-block .second-form{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:630px;height:503px;margin-top:30px;margin-bottom:60px}
+.contacts-block .second-form{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:630px;margin-top:30px;margin-bottom:60px}
 .contacts-block .second-form .payment-method-block{padding:0 30px}
 .contacts-block .second-form .payment-method-block .payment{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;display:inline-block;margin-top:25px}
 .contacts-block .second-form .payment-method-block .payment .necessarily{margin-left:3px;color:#f39c12}
@@ -936,9 +941,6 @@ ul{margin:0;padding:0}
 .contacts-block .second-form .payment-method-block .radio-btn input[type=radio].with-font~label:before{font-family:FontAwesome,sans-serif;display:inline-block;content:"\f1db";letter-spacing:10px;font-size:1em;color:#4a4b4c;width:1.4em}
 .contacts-block .second-form .payment-method-block .radio-btn input[type=radio].with-font:checked~label:before{content:"\f192";font-size:1em;color:#4a4b4c;letter-spacing:5px}
 .contacts-block .second-form .payment-method-block .radio-btn input[type=radio].with-font:focus~label,.contacts-block .second-form .payment-method-block .radio-btn input[type=radio].with-font:focus~label:before{color:#4a4b4c}
-.contacts-block .second-form .payment-method-block .check-btn{margin-top:250px}
-@media (max-width:767px){.contacts-block .second-form .payment-method-block .check-btn{margin-top:150px}
-}
 .contacts-block .second-form .payment-method-block .check-btn .check-text{float:left;font-family:UBUNTU-REGULAR,sans-serif;color:#4a4b4c;font-size:15px;font-weight:400;line-height:34px}
 .contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
 .contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font~label:before{font-family:FontAwesome,sans-serif;display:inline-block;letter-spacing:10px;font-size:1.2em;color:#4a4b4c;width:1.4em;content:"\f096"}

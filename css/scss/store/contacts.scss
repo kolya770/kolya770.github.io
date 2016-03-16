@@ -11,8 +11,18 @@
     box-sizing: border-box;
     background-color: #f5f5f5;
     width: 630px;
-    height: 390px;
     margin-top: 60px;
+
+    .success-message {
+      color: #00c000;
+      margin-top: 10px;
+      font-family: $ubuntu-light-font, "sans-serif";
+      font-size: 1em;
+      text-align: left;
+      display: none;
+      margin-bottom: -7px;
+    }
+
     .margin-no {
       margin-left: 0;
       margin-right: 0;
@@ -26,12 +36,17 @@
         padding-right: 30px;
       }
     }
+
     @media #{$bootstrap-sm} {
       & div:nth-child(odd){
         padding-left: 30px;
       }
       & div:nth-child(even){
         padding-right: 30px;
+      }
+      .add-padding {
+       //height: 135px;
+       // margin-top: -20px;
       }
     }
     .label-text {
@@ -63,6 +78,13 @@
       text-align: left;
       margin-top: 5px;
       padding:0 20px;
+    }
+
+    .error {
+      border: 1px solid red;
+      &::-webkit-input-placeholder {
+        color: red
+      }
     }
     .check-btn {
       margin-top: 40px;
@@ -119,7 +141,6 @@
     box-sizing: border-box;
     background-color:  #f5f5f5;
     width: 630px;
-    height: 503px;
     margin-top: 30px;
     margin-bottom: 60px;
     @media #{$bootstrap-xs} {
@@ -221,10 +242,6 @@
         }
       }
       .check-btn {
-        margin-top: 250px;
-        @media #{$bootstrap-xs} {
-          margin-top: 150px;
-        }
         .check-text {
           float: left;
           font-family: $ubuntu-regular-font, "sans-serif";

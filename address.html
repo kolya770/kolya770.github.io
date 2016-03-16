@@ -140,11 +140,13 @@
                         <div class="row margin-no">
                             <div class="col-xs-12 new-padding">
                                 <label class="form-title">Город:<p class="necessarily">*</p></label>
-                                <input id="city-autocomplete" class="form-input" placeholder="Введите название города">
+                                <input id="city-autocomplete" class="form-input" placeholder="Введите название города" required>
+                                <p class="error-message city">Введите пожалуйста город</p>
                             </div>
                             <div class="col-xs-12 new-padding">
                                 <label class="form-title">Улица:<p class="necessarily">*</p></label>
-                                <input id="street-autocomplete" class="form-input" placeholder="Введите название улицы">
+                                <input id="street-autocomplete" class="form-input" placeholder="Введите название улицы" required>
+                                <p class="error-message street">Введите пожалуйста улицу</p>
                             </div>
                             <div class="col-xs-12">
                                 <div class="col-xs-6 col-sm-3">
@@ -157,11 +159,14 @@
                                 </div>
                                 <div class="col-xs-6 col-sm-3">
                                     <label class="form-title mini-lable">Квартира/офис:<p class="necessarily">*</p></label>
-                                    <input class="form-input mini-input">
+                                    <input id="flat-number" class="form-input mini-input">
                                 </div>
                                 <div class="col-xs-6 col-sm-3">
                                     <label class="form-title mini-lable">Код домофона:</label>
                                     <input class="form-input mini-input">
+                                </div>
+                                <div class="col-xs-12">
+                                    <p class="error-message code">Введите пожалуйста номер квартиры или офиса</p>
                                 </div>
                             </div>
                             <div class="col-xs-12 new-padding">
@@ -185,7 +190,7 @@
                     <hr class="address-hr">
                     <h2 class="total-cost">Итоговая стоимость:</h2>
                     <p class="summary">1480 руб.</p>
-                    <button class="btn btn-orange btn-next">ДАЛЕЕ<i class="fa fa-angle-double-right icon-next"></i></button>
+                    <button id="send-address" class="btn btn-orange btn-next">ДАЛЕЕ<i class="fa fa-angle-double-right icon-next"></i></button>
                 </div>
             </div>
         </div>
