@@ -195,13 +195,20 @@ $(document).ready(function() {
             $('#input-promocode')
         ];
 
+        var isErrors = false;
         selectors.forEach(function(selector, i, selectors) {
+
             if ( ! selector.val() ){
                 selector.addClass('error');
+                isErrors = true;
             } else {
                 selector.removeClass('error');
             }
         });
+
+        if ( ! isErrors) {
+            //show popup
+        }
 
     });
 
