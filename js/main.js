@@ -5,6 +5,27 @@ function isEmail(email) {
 
 $(document).ready(function() {
 
+    //Store navigation
+    $('.btn-select-item').on('click tap', function() {
+
+        $('.btn-select-item').removeClass('active');
+
+        if ( ! $(this).hasClass('active')) {
+            $(this).addClass('active');
+        }
+
+
+        $('.clothes-block').removeClass('active');
+        $('.clothes-block').fadeOut(0);
+
+        var target = $(this).data('target');
+
+
+        $('#' + target).fadeIn('slow');
+        $('#' + target).addClass('active');
+    });
+
+
     //Open modal in store page when password is updated
     if (window.location.hash.toString() == "#passwordUpdated") {
         $('#passwordUpdated').modal({});
