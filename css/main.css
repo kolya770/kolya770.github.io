@@ -1,3 +1,4 @@
+.modal-open .navbar-default,.modal-open-noscroll .navbar-default,body.modal-open-noscroll{margin-right:0!important}
 .history .accordion-order>div,.menu-btn,.question-faq-block .accordion>div,.subscription .dropdown-menu li a:hover{cursor:pointer}
 body,html{height:100%;font-size:16px}
 .btn-blue,.btn-orange{border:none;padding:0;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;outline:0}
@@ -9,6 +10,7 @@ body,html{height:100%;font-size:16px}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.eot);src:url(../fonts/UBUNTU-BOLD.eot#iefix) format("embedded-opentype"),url(../fonts/UBUNTU-BOLD.woff) format("woff"),url(../fonts/UBUNTU-BOLD.otf) format("opentype"),url(../fonts/UBUNTU-BOLD.ttf) format("truetype"),url(../fonts/UBUNTU-BOLD.svg#UBUNTU-BOLD) format("svg");font-weight:400;font-style:normal}
 @media (min-width:1200px){.container{width:1200px}
 }
+body.modal-open-noscroll{overflow:hidden}
 .btn-orange{background-color:#f39c12;border-radius:6px}
 .btn-orange:hover{background-color:#e48d12;color:#fff;outline:0}
 .btn-orange:active:focus,.btn-orange:focus{outline:0;color:#fff}
@@ -312,74 +314,74 @@ body,html{height:100%;font-size:16px}
 #myModalLegal .modal-dialog .modal-content .modal-body{text-align:center}
 #myModalLegal .modal-dialog .modal-content .modal-body p{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:center}
 #myModalLegal .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:20px;text-align:left;padding:0 50px 50px}
-#WhereYou .modal-dialog{position:absolute;left:50%}
-@media (max-width:767px){#WhereYou .modal-dialog{width:90%;margin-left:-45%;height:274px;top:10vh}
+#modal-pick-city .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#modal-pick-city .modal-dialog{width:90%;margin-left:-45%;height:274px;top:10vh}
 }
-@media (min-width:768px){#WhereYou .modal-dialog{margin-top:-137px;margin-left:-385px;width:770px;height:274px;top:50%}
+@media (min-width:768px){#modal-pick-city .modal-dialog{margin-top:-137px;margin-left:-385px;width:770px;height:274px;top:50%}
 }
-#WhereYou .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:770px;height:274px}
-@media (max-width:767px){#WhereYou .modal-dialog .modal-content{width:100%;height:auto}
+#modal-pick-city .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:770px;height:274px}
+@media (max-width:767px){#modal-pick-city .modal-dialog .modal-content{width:100%;height:auto}
 }
-@media (min-width:768px){#WhereYou .modal-dialog .modal-content{width:770px;height:274px}
+@media (min-width:768px){#modal-pick-city .modal-dialog .modal-content{width:770px;height:274px}
 }
-#WhereYou .modal-dialog .modal-content .modal-header{border:none}
-#WhereYou .modal-dialog .modal-content .modal-body{text-align:center}
-#WhereYou .modal-dialog .modal-content .modal-body p{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:center}
-#WhereYou .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
-#WhereYou .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;padding:10px 10px 10px 20px;outline:0}
-#WhereYou .modal-dialog .modal-content .modal-footer input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#WhereYou .modal-dialog .modal-content .modal-footer input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#WhereYou .modal-dialog .modal-content .modal-footer input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#WhereYou .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-@media (max-width:767px){#WhereYou .modal-dialog .modal-content .modal-footer input{width:100%}
+#modal-pick-city .modal-dialog .modal-content .modal-header{border:none}
+#modal-pick-city .modal-dialog .modal-content .modal-body{text-align:center}
+#modal-pick-city .modal-dialog .modal-content .modal-body p{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:center}
+#modal-pick-city .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
+#modal-pick-city .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;padding:10px 10px 10px 20px;outline:0}
+#modal-pick-city .modal-dialog .modal-content .modal-footer input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#modal-pick-city .modal-dialog .modal-content .modal-footer input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#modal-pick-city .modal-dialog .modal-content .modal-footer input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#modal-pick-city .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+@media (max-width:767px){#modal-pick-city .modal-dialog .modal-content .modal-footer input{width:100%}
 }
-@media (min-width:768px){#WhereYou .modal-dialog .modal-content .modal-footer input{width:430px}
+@media (min-width:768px){#modal-pick-city .modal-dialog .modal-content .modal-footer input{width:430px}
 }
-#WhereYou .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-1px;outline:0}
-#WhereYou .modal-dialog .modal-content .modal-footer .btn-next:hover{background-color:#E48D12}
-@media (max-width:767px){#WhereYou .modal-dialog .modal-content .modal-footer .btn-next{margin-top:20px;margin-left:0;margin-bottom:20px}
+#modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-1px;outline:0}
+#modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next:hover{background-color:#E48D12}
+@media (max-width:767px){#modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next{margin-top:20px;margin-left:0;margin-bottom:20px}
 }
-@media (min-width:768px){#WhereYou .modal-dialog .modal-content .modal-footer .btn-next{margin-left:-20px}
+@media (min-width:768px){#modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next{margin-left:-20px}
 }
-#myModalSingUp .modal-dialog{position:absolute;left:50%}
-@media (max-width:767px){#myModalSingUp .modal-dialog{width:90%;margin-left:-45%;height:518px;top:10vh}
+#modal-no-city .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#modal-no-city .modal-dialog{width:90%;margin-left:-45%;height:518px;top:10vh}
 }
-@media (min-width:768px){#myModalSingUp .modal-dialog{width:770px;height:518px;margin-left:-385px;margin-top:-259px;top:50%}
+@media (min-width:768px){#modal-no-city .modal-dialog{width:770px;height:518px;margin-left:-385px;margin-top:-259px;top:50%}
 }
-#myModalSingUp .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
-@media (max-width:767px){#myModalSingUp .modal-dialog .modal-content{width:100%;height:auto}
-#myModalSingUp .modal-dialog .modal-content .modal-body p{font-size:3em;line-height:40px}
+#modal-no-city .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
+@media (max-width:767px){#modal-no-city .modal-dialog .modal-content{width:100%;height:auto}
+#modal-no-city .modal-dialog .modal-content .modal-body p{font-size:3em;line-height:40px}
 }
-@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content{width:770px;height:518px}
+@media (min-width:768px){#modal-no-city .modal-dialog .modal-content{width:770px;height:518px}
 }
-#myModalSingUp .modal-dialog .modal-content .modal-header{border:none}
-#myModalSingUp .modal-dialog .modal-content .modal-body{text-align:center;height:125px}
-#myModalSingUp .modal-dialog .modal-content .modal-body p{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center}
-#myModalSingUp .modal-dialog .modal-content .modal-footer{border:none;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background-color:#f4f5f5;text-align:center}
-@media (max-width:767px){#myModalSingUp .modal-dialog .modal-content .modal-footer{width:100%;height:auto}
+#modal-no-city .modal-dialog .modal-content .modal-header{border:none}
+#modal-no-city .modal-dialog .modal-content .modal-body{text-align:center;height:125px}
+#modal-no-city .modal-dialog .modal-content .modal-body p{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center}
+#modal-no-city .modal-dialog .modal-content .modal-footer{border:none;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background-color:#f4f5f5;text-align:center}
+@media (max-width:767px){#modal-no-city .modal-dialog .modal-content .modal-footer{width:100%;height:auto}
 }
-@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-body p{line-height:60px;font-size:3.75em}
-#myModalSingUp .modal-dialog .modal-content .modal-footer{width:767px;height:355px}
+@media (min-width:768px){#modal-no-city .modal-dialog .modal-content .modal-body p{line-height:60px;font-size:3.75em}
+#modal-no-city .modal-dialog .modal-content .modal-footer{width:767px;height:355px}
 }
-#myModalSingUp .modal-dialog .modal-content .modal-footer h2{font-family:SummerFont,sans-serif;color:#3caad2;font-weight:300;text-align:center}
-@media (max-width:767px){#myModalSingUp .modal-dialog .modal-content .modal-footer h2{font-size:4.25em;line-height:60px}
-#myModalSingUp .modal-dialog .modal-content .modal-footer input{width:100%}
+#modal-no-city .modal-dialog .modal-content .modal-footer h2{font-family:SummerFont,sans-serif;color:#3caad2;font-weight:300;text-align:center}
+@media (max-width:767px){#modal-no-city .modal-dialog .modal-content .modal-footer h2{font-size:4.25em;line-height:60px}
+#modal-no-city .modal-dialog .modal-content .modal-footer input{width:100%}
 }
-@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-footer h2{line-height:80px;font-size:6.25em}
+@media (min-width:768px){#modal-no-city .modal-dialog .modal-content .modal-footer h2{line-height:80px;font-size:6.25em}
 }
-#myModalSingUp .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.125em;font-weight:300;line-height:40px;text-align:center;margin-top:20px}
-#myModalSingUp .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;margin-top:20px;padding:10px 10px 10px 20px;outline:0}
-#myModalSingUp .modal-dialog .modal-content .modal-footer input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#myModalSingUp .modal-dialog .modal-content .modal-footer input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#myModalSingUp .modal-dialog .modal-content .modal-footer input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-#myModalSingUp .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
-@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-footer input{width:570px}
+#modal-no-city .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.125em;font-weight:300;line-height:40px;text-align:center;margin-top:20px}
+#modal-no-city .modal-dialog .modal-content .modal-footer input{border-radius:6px;border:1px solid #cbcbcb;box-sizing:border-box;background-color:#f9f9f9;height:50px;margin-top:20px;padding:10px 10px 10px 20px;outline:0}
+#modal-no-city .modal-dialog .modal-content .modal-footer input ::-webkit-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#modal-no-city .modal-dialog .modal-content .modal-footer input ::-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#modal-no-city .modal-dialog .modal-content .modal-footer input :-moz-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+#modal-no-city .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
+@media (min-width:768px){#modal-no-city .modal-dialog .modal-content .modal-footer input{width:570px}
 }
-#myModalSingUp .modal-dialog .modal-content .modal-footer .btn-sing-up{border-radius:6px;background-color:#3caad2;height:50px;width:200px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:-1px}
-#myModalSingUp .modal-dialog .modal-content .modal-footer .btn-sing-up:hover{background-color:#3d9bc3}
-@media (max-width:767px){#myModalSingUp .modal-dialog .modal-content .modal-footer .btn-sing-up{margin-left:0;margin-top:20px}
+#modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up{border-radius:6px;background-color:#3caad2;height:50px;width:200px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:-1px}
+#modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up:hover{background-color:#3d9bc3}
+@media (max-width:767px){#modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up{margin-left:0;margin-top:20px}
 }
-@media (min-width:768px){#myModalSingUp .modal-dialog .modal-content .modal-footer .btn-sing-up{margin-left:-200px}
+@media (min-width:768px){#modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up{margin-left:-200px}
 }
 #myModalDistribution .modal-dialog{position:absolute;left:50%}
 @media (max-width:767px){#myModalDistribution .modal-dialog{width:90%;margin-left:-45%;height:462px;top:10vh}
@@ -829,7 +831,11 @@ ul{margin:0;padding:0}
 .select-items .clothes-block .card .img-block img{width:100%;height:270px;border-bottom:1px solid rgba(203,203,203,.5);border-radius:6px 6px 0 0}
 .select-items .clothes-block .card .name-clothe-block .item-name{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:22px;text-align:left;display:inline-block;margin:15px 0 15px 10px;white-space:normal;width:229px}
 .select-items .clothes-block .card .name-clothe-block .question-icon{float:right;font-size:22px;margin-top:16px;margin-right:10px;color:#c8c9c9}
-.select-items .clothes-block .card .name-clothe-block .tooltip-inner{background-color:#f5f5f5;border:1px solid #e5e5e5;color:#4a4b4c;font-family:UBUNTU-LIGHT;font-size:.938em;font-weight:300;font-style:italic;text-align:left;width:300px}
+.select-items .clothes-block .card .name-clothe-block .tooltip-arrow{border-top-color:#e5e5e5;border-width:10px 10px 0}
+.select-items .clothes-block .card .name-clothe-block .popover{width:300px;background-color:#f5f5f5;border:1px solid #e5e5e5}
+.select-items .clothes-block .card .name-clothe-block .popover .popover-content{color:#4a4b4c;font-family:UBUNTU-LIGHT;font-size:.938em;font-weight:300;font-style:italic;text-align:left}
+.select-items .clothes-block .card .name-clothe-block .popover .arrow{border-top-color:#e5e5e5}
+.select-items .clothes-block .card .name-clothe-block .popover .arrow:after{border-top-color:#f5f5f5}
 .select-items .clothes-block .card .additionally-block{background-color:rgba(203,203,203,.2);height:47px}
 .select-items .clothes-block .card .additionally-block .drop-block{padding:9px 0}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:250px;height:30px;padding:0;outline:0;position:relative;z-index:10}
@@ -845,20 +851,6 @@ ul{margin:0;padding:0}
 .select-items .clothes-block .card .total-block .price{color:#3caad2;font-size:.938em;font-weight:500;display:inline-block;float:right;margin:15px 10px 15px 0}
 .select-items .clothes-block .card .total-block .btn-add-to-basket{border-radius:50%;width:41px;height:41px;margin-top:50px}
 .select-items .clothes-block .card .total-block .btn-add-to-basket .plus-icon{color:#fff;font-size:17.99px;font-weight:400;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);padding-top:3px}
-.tooltip.top{padding:3px 0}
-.tooltip.right{padding:0 3px}
-.tooltip.bottom{padding:3px 0}
-.tooltip.left{padding:0 3px}
-.tooltip-inner{border:1px solid #ccc}
-.tooltip-arrow:after{content:'';position:absolute;width:0;height:0;border-color:transparent;border-style:solid;z-index:-1}
-.tooltip.top .tooltip-arrow{bottom:2px}
-.tooltip.top .tooltip-arrow:after{bottom:-2px;left:50%;margin-left:-3px;border-width:3px 3px 0;border-top-color:#ccc}
-.tooltip.bottom .tooltip-arrow{top:2px}
-.tooltip.bottom .tooltip-arrow:after{top:-2px;left:50%;margin-left:-3px;border-width:0 3px 3px;border-bottom-color:#ccc}
-.tooltip.left .tooltip-arrow{right:2px}
-.tooltip.left .tooltip-arrow:after{right:-2px;top:50%;margin-top:-3px;border-width:3px 0 3px 3px;border-left-color:#ccc}
-.tooltip.right .tooltip-arrow{left:2px}
-.tooltip.right .tooltip-arrow:after{left:-2px;top:50%;margin-top:-3px;border-width:3px 3px 3px 0;border-right-color:#ccc}
 @media (max-width:767px){.address .no-padding{padding:0}
 }
 .address .form-block{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#f5f5f5;width:670px;height:521px;margin-top:40px;margin-bottom:40px}

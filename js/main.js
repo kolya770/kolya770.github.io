@@ -88,18 +88,58 @@ $(document).ready(function() {
         $(this).addClass('active');
     });
 
-    $('.question-icon').tooltip({
+    $('.question-icon').popover({
+        trigger: "hover",
         delay: { "show": 50, "hide": 200 },
-        title: "<p>мех I-ой категории: нутрия, собака, козел, кролик, цигейка, мутон, медведь, крот</p>" +
+        content: "<p>мех I-ой категории: нутрия, собака, козел, кролик, цигейка, мутон, медведь, крот</p>" +
         "<p>мех II-ой категории: орелаг, норка, чернобурка, каракульча, каракуль, бобер, песец, белка, ондатра, енот, колонок, ласка, волк</p>", html: true, placement: "top"
     });
 
-    //$(function() {
-    //
-    //    $("#drop-time-pick .dropdown-menu li a").click(function() {
-    //        $('#drop-time-pick button')[0].childNodes[0].nodeValue=($(this).text());
-    //    });
-    //
-    //});
+    $(function() {
+
+        // date-time pick
+        $("#get-items-pick-date .dropdown-menu li a").click(function() {
+            $('#get-items-pick-date button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
+        });
+        $("#get-items-pick-time .dropdown-menu li a").click(function() {
+            $('#get-items-pick-time button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
+        });
+        $("#get-items-todo .dropdown-menu li a").click(function() {
+            $('#get-items-todo button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
+        });
+
+        $("#return-items-pick-date .dropdown-menu li a").click(function() {
+            $('#return-items-pick-date button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
+        });
+        $("#return-items-pick-time  .dropdown-menu li a").click(function() {
+            $('#return-items-pick-time  button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
+        });
+        $("#return-items-todo .dropdown-menu li a").click(function() {
+            $('#return-items-todo button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
+        });
+    });
+
+    $('#open-modal-city').on('click', function(){
+        alert(1);
+        $('#modal-pick-city').modal('hide');
+        $('#modal-no-city').modal('show');
+        setTimeout(function(){
+            $('body').addClass('modal-open');
+        }, 400);
+
+    });
+
+    //$('.modal').on('show.bs.modal', function () {
+    //    if ($(document).height() > $(window).height()) {
+    //        // no-scroll
+    //        $('body').addClass("modal-open-noscroll");
+    //    }
+    //    else {
+    //        $('body').removeClass("modal-open-noscroll");
+    //    }
+    //})
+    //$('.modal').on('hide.bs.modal', function () {
+    //    $('body').removeClass("modal-open-noscroll");
+    //})
 
 });

@@ -95,7 +95,7 @@
     </div>
 </div>
 
-<div class="modal fade" id="WhereYou" role="dialog">
+<div class="modal fade" id="modal-pick-city" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -106,7 +106,7 @@
             </div>
             <div class="modal-footer">
                 <input id="city-autocomplete" type="text" class="city" placeholder="Ваш город*">
-                <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModalSingUp" class="btn btn-next">
+                <a id="abc" class="btn btn-next">
                     ДАЛЕЕ <i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -115,7 +115,7 @@
     </div>
 </div>
 
-<div class="modal fade" id="myModalSingUp" role="dialog">
+<div class="modal fade" id="modal-no-city" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -128,7 +128,7 @@
                 <h2>Подпишитесь</h2>
                 <p>Чтобы быть в курсе новостей и специальных предложений</p>
                 <input type="text" class="email" placeholder="Ваш email">
-                <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModalDistribution">
+                <a href="#"  data-toggle="modal" data-target="#myModalDistribution">
                     <button class="btn btn-sing-up">ПОДПИСАТЬСЯ</button>
                 </a>
             </div>
@@ -206,7 +206,7 @@
             <div class="row">
                 <div class="col-sm-12 first-screen-animation">
                     <h1 class="header">Ваша персональная прачечная и химчистка</h1>
-                    <button class="make-order-btn center-block" data-toggle="modal" data-target="#WhereYou">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
+                    <button class="make-order-btn center-block" data-toggle="modal" data-target="#modal-pick-city">СДЕЛАТЬ ПЕРВЫЙ ЗАКАЗ</button>
                     <p class="center-block order-before">Уже заказывали раньше?
                         <a href="#" data-toggle="modal" data-target="#myModal">ВОЙТИ</a><i class="fa fa-angle-right arrow"></i>
                     </p>
