@@ -95,7 +95,7 @@
     </div>
 </div>
 
-<div class="modal fade" id="modal-pick-city" role="dialog">
+<div id="modal-pick-city" class="modal fade" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -106,7 +106,7 @@
             </div>
             <div class="modal-footer">
                 <input id="city-autocomplete" type="text" class="city" placeholder="Ваш город*">
-                <a id="abc" class="btn btn-next">
+                <a id="modal-open-city" class="btn btn-next">
                     ДАЛЕЕ <i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -128,16 +128,16 @@
                 <h2>Подпишитесь</h2>
                 <p>Чтобы быть в курсе новостей и специальных предложений</p>
                 <input type="text" class="email" placeholder="Ваш email">
-                <a href="#"  data-toggle="modal" data-target="#myModalDistribution">
-                    <button class="btn btn-sing-up">ПОДПИСАТЬСЯ</button>
-                </a>
+
+                    <button id="modal-open-sub-success" class="btn btn-sing-up">ПОДПИСАТЬСЯ</button>
+
             </div>
         </div>
 
     </div>
 </div>
 
-<div class="modal fade" id="myModalDistribution" role="dialog">
+<div class="modal fade" id="modal-subscription-success" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
