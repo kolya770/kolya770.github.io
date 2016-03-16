@@ -19,24 +19,6 @@ $(document).ready(function() {
         location.href = 'subscription-management-4.html';
     });
 
-    // subscription management dropdowns
-    $(function() {
-
-        $("#days-drop .dropdown-menu li a").click(function() {
-            $('#days-drop button')[0].childNodes[0].nodeValue=($(this).text());
-        });
-
-        $("#month-drop .dropdown-menu li a").click(function() {
-            $('#month-drop button')[0].childNodes[0].nodeValue=($(this).text());
-        });
-
-        $("#time-drop .dropdown-menu li a").click(function() {
-            $('#time-drop button')[0].childNodes[0].nodeValue=($(this).text());
-        });
-
-
-    });
-
     //send email modal window
     $('#send-email').on('click', function() {
 
@@ -106,6 +88,19 @@ $(document).ready(function() {
 
     $(function() {
 
+        // subscription management dropdowns
+        $("#days-drop .dropdown-menu li a").click(function() {
+            $('#days-drop button')[0].childNodes[0].nodeValue=($(this).text());
+        });
+
+        $("#month-drop .dropdown-menu li a").click(function() {
+            $('#month-drop button')[0].childNodes[0].nodeValue=($(this).text());
+        });
+
+        $("#time-drop .dropdown-menu li a").click(function() {
+            $('#time-drop button')[0].childNodes[0].nodeValue=($(this).text());
+        });
+
         // date-time pick
         $("#get-items-pick-date .dropdown-menu li a").click(function() {
             $('#get-items-pick-date button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
@@ -125,6 +120,11 @@ $(document).ready(function() {
         });
         $("#return-items-todo .dropdown-menu li a").click(function() {
             $('#return-items-todo button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
+        });
+
+        //store drop
+        $("#item-1 .dropdown-menu li a").click(function() {
+            $('#item-1 button').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
         });
     });
 

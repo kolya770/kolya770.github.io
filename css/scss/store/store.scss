@@ -164,6 +164,25 @@
             outline: none;
             position: relative;
             z-index: 10;
+            .time-select {
+              display: inline-block;
+              width: 140px;
+              overflow: hidden;
+              float: left;
+              padding-left: 10px;
+              color:  #4a4b4c;
+              font-size: .938em;
+              line-height: 28px;
+              font-family: $ubuntu-light-font, "sans-serif";
+            }
+            .price {
+              font-family: $ubuntu-medium-font, "sans-serif";
+              display: inline-block;
+              margin-right: -20px;
+              color:  #3caad2;
+              font-size: 0.813em;
+              line-height: 28px;
+            }
             .time-select-additionally {
               float: left;
               font-family: $ubuntu-light-font, "sans-serif";
@@ -174,6 +193,11 @@
               text-align: left;
             }
             .sort-icon {
+              float: right;
+              padding-right: 10px;
+            }
+            .item-arrow {
+              margin-top: 5px;
               float: right;
               padding-right: 10px;
             }

@@ -841,8 +841,11 @@ ul{margin:0;padding:0}
 .select-items .clothes-block .card .additionally-block{background-color:rgba(203,203,203,.2);height:47px}
 .select-items .clothes-block .card .additionally-block .drop-block{padding:9px 0}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;width:250px;height:30px;padding:0;outline:0;position:relative;z-index:10}
+.select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .time-select{display:inline-block;width:140px;overflow:hidden;float:left;padding-left:10px;color:#4a4b4c;font-size:.938em;line-height:28px;font-family:UBUNTU-LIGHT,sans-serif}
+.select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .price{font-family:UBUNTU-MEDIUM,sans-serif;display:inline-block;margin-right:-20px;color:#3caad2;font-size:.813em;line-height:28px}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .time-select-additionally{float:left;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;padding-left:10px;text-align:left}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .sort-icon{float:right;padding-right:10px}
+.select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .item-arrow{margin-top:5px;float:right;padding-right:10px}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally{width:250px;margin-left:9px;margin-top:-15px;z-index:5}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally li a{padding:0 20px}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .time-select{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;white-space:normal}
