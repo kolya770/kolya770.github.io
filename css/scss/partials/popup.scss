@@ -688,9 +688,8 @@
   }
 }
 
-#myModalThanksOrder {
+#modal-thanks {
   .modal-dialog {
-    height: 762px;
     position: absolute;
     left: 50%;
     @media #{$bootstrap-xs} {
@@ -699,9 +698,8 @@
       margin-left: -45%;
     }
     @media #{$bootstrap-sm} {
-      width: 760px;
-      top: 50%;
-      margin-top: -381px;
+      width: 750px;
+      top: 5vh;
       margin-left: -380px;
     }
     .modal-content {
@@ -713,8 +711,7 @@
         height: auto;
       }
       @media #{$bootstrap-sm} {
-        width: 760px;
-        height: 762px;
+        width: 750px;
       }
     }
     .modal-header {
@@ -747,6 +744,7 @@
       width: 630px;
       padding: 0;
       text-align: center;
+      margin-bottom: 30px;
       @media #{$bootstrap-xs} {
         width: 85%;
       }

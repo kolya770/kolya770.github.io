@@ -207,7 +207,7 @@ $(document).ready(function() {
         });
 
         if ( ! isErrors) {
-            //show popup
+            $('#modal-thanks').modal('show');
         }
 
     });

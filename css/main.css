@@ -409,6 +409,7 @@ body.modal-open-noscroll{overflow:hidden}
 }
 #modal-subscription-success .modal-dialog .modal-content .modal-footer p{font-family:UBUNTU-LIGHT,sans-serif;color:#1e1f20;font-size:1.125em;font-weight:300;line-height:39px;text-align:center;margin-top:20px;margin-bottom:20px}
 #modal-subscription-success .modal-dialog .modal-content .modal-footer .btn-distribution{border-radius:6px;background-color:#f39c12;width:260px;height:50px;font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}
+#Subscription .modal-dialog .modal-content .modal-body,#modal-thanks .modal-dialog .modal-body .header-title{font-family:SummerFont,sans-serif;font-weight:300;text-align:center}
 #modal-subscription-success .modal-dialog .modal-content .modal-footer .btn-distribution:hover{background-color:#E48D12}
 #Subscription .modal-dialog{position:absolute;left:50%;height:238px}
 @media (max-width:767px){#modal-subscription-success .modal-dialog .modal-content .modal-footer .btn-distribution{margin-left:0;margin-top:20px;margin-bottom:20px}
@@ -421,37 +422,37 @@ body.modal-open-noscroll{overflow:hidden}
 #Subscription .modal-dialog .modal-content .modal-footer{margin-bottom:10px}
 }
 #Subscription .modal-dialog .modal-content .modal-header{border:none}
-#Subscription .modal-dialog .modal-content .modal-body{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.125em;font-weight:300;line-height:60px;text-align:center}
+#Subscription .modal-dialog .modal-content .modal-body{color:#4a4b4c;font-size:3.125em;line-height:60px}
 #Subscription .modal-dialog .modal-content .modal-footer .btn-no,#Subscription .modal-dialog .modal-content .modal-footer .btn-yes{width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;line-height:24px;transform:scaleY(1.0004)}
 #Subscription .modal-dialog .modal-content .modal-footer{border:none;text-align:center}
 #Subscription .modal-dialog .modal-content .modal-footer .btn-yes{border-radius:6px;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-right:20px}
 #Subscription .modal-dialog .modal-content .modal-footer .btn-no{border-radius:6px;background-color:#e5e5e5;color:#9f9fa0;text-align:center;outline:0}
 #Subscription .modal-dialog .modal-content .modal-footer .btn-no:hover{color:#fff;background-color:#878788}
-#myModalThanksOrder .modal-dialog{height:762px;position:absolute;left:50%}
-@media (max-width:767px){#myModalThanksOrder .modal-dialog{width:90%;top:10vh;margin-left:-45%}
+#modal-thanks .modal-dialog{position:absolute;left:50%}
+@media (max-width:767px){#modal-thanks .modal-dialog{width:90%;top:10vh;margin-left:-45%}
 }
-@media (min-width:768px){#myModalThanksOrder .modal-dialog{width:760px;top:50%;margin-top:-381px;margin-left:-380px}
+@media (min-width:768px){#modal-thanks .modal-dialog{width:750px;top:5vh;margin-left:-380px}
 }
-#myModalThanksOrder .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
-@media (max-width:767px){#myModalThanksOrder .modal-dialog .modal-content{width:100%;height:auto}
+#modal-thanks .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
+@media (max-width:767px){#modal-thanks .modal-dialog .modal-content{width:100%;height:auto}
 }
-@media (min-width:768px){#myModalThanksOrder .modal-dialog .modal-content{width:760px;height:762px}
+@media (min-width:768px){#modal-thanks .modal-dialog .modal-content{width:750px}
 }
-#myModalThanksOrder .modal-dialog .modal-header{border:none}
-#myModalThanksOrder .modal-dialog .modal-body{text-align:center}
-#myModalThanksOrder .modal-dialog .modal-body .header-title{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:5em;font-weight:300;line-height:100px;text-align:center;text-transform:uppercase}
-#myModalThanksOrder .modal-dialog .modal-body .header-text,#myModalThanksOrder .modal-dialog .modal-footer .footer-title{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;line-height:60px;margin-bottom:20px}
-#myModalThanksOrder .modal-dialog .modal-body .header-text{color:#3caad2}
-#myModalThanksOrder .modal-dialog .modal-body .car{width:100%}
-#myModalThanksOrder .modal-dialog .modal-footer{width:630px;padding:0;text-align:center}
-@media (max-width:767px){#myModalThanksOrder .modal-dialog .modal-footer{width:85%}
+#modal-thanks .modal-dialog .modal-header{border:none}
+#modal-thanks .modal-dialog .modal-body{text-align:center}
+#modal-thanks .modal-dialog .modal-body .header-title{color:#4a4b4c;font-size:5em;line-height:100px;text-transform:uppercase}
+#modal-thanks .modal-dialog .modal-body .header-text,#modal-thanks .modal-dialog .modal-footer .footer-title{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;line-height:60px}
+#modal-thanks .modal-dialog .modal-body .header-text{color:#3caad2;margin-bottom:20px}
+#modal-thanks .modal-dialog .modal-body .car{width:100%}
+#modal-thanks .modal-dialog .modal-footer{width:630px;padding:0;text-align:center;margin-bottom:30px}
+@media (max-width:767px){#modal-thanks .modal-dialog .modal-footer{width:85%}
 #AddToBasket .modal-dialog{top:10vh}
 }
-#myModalThanksOrder .modal-dialog .modal-footer .footer-title{color:#4a4b4c;text-align:center}
-#myModalThanksOrder .modal-dialog .modal-footer .btn-no,#myModalThanksOrder .modal-dialog .modal-footer .btn-yes{width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;line-height:24px;border-radius:6px;text-align:center;transform:scaleY(1.0004);outline:0}
-#myModalThanksOrder .modal-dialog .modal-footer .btn-yes{background-color:#f39c12;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15)}
-#myModalThanksOrder .modal-dialog .modal-footer .btn-no{background-color:#e5e5e5;color:#a2a2a3}
-#myModalThanksOrder .modal-dialog .modal-footer .btn-no:hover{background-color:#878788}
+#modal-thanks .modal-dialog .modal-footer .footer-title{color:#4a4b4c;text-align:center;margin-bottom:20px}
+#modal-thanks .modal-dialog .modal-footer .btn-no,#modal-thanks .modal-dialog .modal-footer .btn-yes{width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;line-height:24px;border-radius:6px;text-align:center;transform:scaleY(1.0004);outline:0}
+#modal-thanks .modal-dialog .modal-footer .btn-yes{background-color:#f39c12;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15)}
+#modal-thanks .modal-dialog .modal-footer .btn-no{background-color:#e5e5e5;color:#a2a2a3}
+#modal-thanks .modal-dialog .modal-footer .btn-no:hover{background-color:#878788}
 #YourOrder .modal-dialog{width:770px;height:1428px}
 #YourOrder .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:770px;height:1428px}
 #YourOrder .modal-dialog .modal-content .modal-header{border:none}
@@ -913,7 +914,7 @@ ul{margin:0;padding:0}
 }
 .contacts-block .first-form .label-text{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;display:block;margin-top:25px}
 .contacts-block .first-form .label-text .necessarily{margin-left:3px;color:#f39c12}
-.contacts-block .first-form .input-first-form{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;height:42px;width:100%;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:14px;text-align:left;margin-top:5px;padding:0 20px}
+.contacts-block .first-form .input-first-form{border-radius:6px;border:1px solid #e5e5e5;box-sizing:border-box;background-color:#fff;height:42px;width:100%;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;line-height:14px;text-align:left;margin-top:5px;padding:0 20px;outline:0}
 .contacts-block .first-form .error{border:1px solid red}
 .contacts-block .first-form .error::-webkit-input-placeholder{color:red}
 .contacts-block .first-form .check-btn{margin-top:40px}
