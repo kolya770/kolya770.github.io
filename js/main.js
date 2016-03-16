@@ -186,13 +186,31 @@ $(document).ready(function() {
 
     $('#order-completed').on('click', function(){
 
-        if ( ! $('#input-name').val()){
-            $('#input-name').addClass('error');
+        var selectors = [
+            $('#input-name'),
+            $('#input-surname'),
+            $('#input-email'),
+            $('#input-phone'),
+            $('#input-password'),
+            $('#input-promocode')
+        ];
 
-        } else {
-            $('#input-name').removeClass('error');
-        }
+        selectors.forEach(function(selector, i, selectors) {
+            if ( ! selector.val() ){
+                selector.addClass('error');
+            } else {
+                selector.removeClass('error');
+            }
+        });
 
     });
 
+    $('#input-promocode').on('change tap keyup', function() {
+        console.log($(this).val());
+        if ($(this).val() == '111') {
+            $('.success-message').fadeIn('slow');
+        } else {
+            $('.success-message').fadeOut('slow');
+        }
+    });
 });
