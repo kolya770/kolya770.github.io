@@ -121,9 +121,6 @@
           }
         }
 
-        .nav-basket-md {
-
-        }
         .nav-enter {
           display: inline-block;
           margin-top: 10px;
@@ -160,17 +157,19 @@
             color:  #3e4041;
             font-size: 0.938em;
             font-weight: 400;
-            line-height: 24px;
+            line-height: 30px;
             text-align: left;
             width: 260px;
             z-index: 2;
             .user-icon {
-              margin: 3px 10px 0 10px;
+              margin: 0 10px 0 10px;
               float: left;
+              line-height: 30px;
             }
             .sort-icon {
-              margin: 0 5px;
+              margin: 0 5px 0 5px;
               float: right;
+              line-height: 24px;
             }
           }
           .btn-group {
@@ -272,7 +271,7 @@
       background-size: 14px 16px;
       width: 14px;
       height: 16px;
-      margin: 7px 5px 0 14px;
+      margin: 6px 5px 0 14px;
       float: left;
     }
     .apple-text-btn {
@@ -281,9 +280,9 @@
       height: 100%;
       display: inline-block;
       font-family: $ubuntu-medium-font, "sans-serif";
-      font-size: 0.675em;
+      font-size: 0.750em;
       font-weight: 500;
-      line-height: 32px;
+      line-height: 30px;
       text-align: left;
       float: left;
       margin-left: 2px;

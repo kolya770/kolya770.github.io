@@ -65,13 +65,15 @@
                                             </button>
                                         </div>
                                     </div>
-                                    <div class="nav-basket">
-                                        <img src="img/basket.png" class="basket"><p class="text-basket">В корзине:<span class="pick-items">2 позиции</span></p>
-                                    </div>
+                                    <a href="basket.html">
+                                        <div class="nav-basket">
+                                            <img src="img/basket.png" class="basket"><p class="text-basket">В корзине:<span class="pick-items">2 позиции</span></p>
+                                        </div>
+                                    </a>
                                     <div class="nav-enter">
                                         <button class="btn btn-enter" style="display: none"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>
                                         <div class="btn-group">
-                                            <button type="button" class="btn btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <button type="button" class="btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="fa fa-user user-icon"></i>Алексей Дмитриев<i class="fa fa-sort-desc sort-icon"></i>
                                             </button>
                                             <ul class="dropdown-menu drop-menu-pc">
@@ -107,11 +109,10 @@
                 </button>
             </li>
         </ul>
-        <button type="submit" class="btn btn-default btn-navbar-basket center-block"><img src="img/basket.png">КОРЗИНА ПУСТА</button>
-        <button type="submit" class="btn btn-default btn-navbar-basket center-block" style="display: none"><img src="img/basket.png">2 ПОЗИЦИИ</button>
+        <button type="submit" class="btn btn-navbar-basket center-block" onclick="location.href = 'basket.html'"><img src="img/basket.png">КОРЗИНА ПУСТА</button>
         <button class="btn btn-enter-mobile" style="display: none"><i class="fa fa-sign-in sing-in-icon"></i>ВОЙТИ</button>
         <div class="btn-group">
-            <button type="button" class="btn btn-drop-mobile dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="btn-drop-mobile dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fa fa-user user-icon"></i>Алексей Дмитриев<i class="fa fa-sort-desc sort-icon"></i>
             </button>
             <ul class="dropdown-menu drop-menu">
