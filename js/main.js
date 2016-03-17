@@ -210,12 +210,12 @@ $(document).ready(function() {
         var target = $(this).data('target');
 
         if (target) {
-            $(this).parents('.basket-item-block').fadeOut('slow');
-            $('#delete-' + target).fadeIn('slow');
+            $(this).parents('.basket-item-block').css('display', 'none');
+            $('#delete-' + target).css('display', 'block');
 
             //mobile
-            $(this).parents('.basket-item-block-mobile').fadeOut('slow');
-            $('#delete-m-' + target).fadeIn('slow');
+            $(this).parents('.basket-item-block-mobile').css('display', 'none');
+            $('#delete-m-' + target).css('display', 'block');
         }
     });
 
@@ -224,12 +224,12 @@ $(document).ready(function() {
         var target = $(this).data('target');
 
         if (target) {
-            $(this).closest('.basket-item-block').fadeOut('slow');
-            $('#item-' + target).fadeIn();
+            $(this).closest('.basket-item-block').css('display', 'none');
+            $('#item-' + target).css('display', 'block');
 
             // mobile
-            $(this).closest('.basket-item-block-mobile').fadeOut('slow');
-            $('#item-m-' + target).fadeIn();
+            $(this).closest('.basket-item-block-mobile').css('display', 'none');
+            $('#item-m-' + target).css('display', 'block');
         }
     });
 
