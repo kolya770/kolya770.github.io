@@ -951,7 +951,7 @@
         }
         .delete-item {
           height: 45px;
-          margin-bottom: 100px;
+          display: none;
         }
       }
       .modal-position-mobile {
@@ -1030,6 +1030,7 @@
         }
         .delete-item-mobile {
           height: 80px;
+          display: none;
           .basket-item-delete-mobile {
             .delete-item-text {
               font-family: $ubuntu-light-font, "sans-serif";

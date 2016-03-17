@@ -205,4 +205,32 @@ $(document).ready(function() {
         $('.error-message').fadeIn('slow');
     });
 
+    /* Basket delete item */
+    $('.btn-delete-item').on('click tap', function() {
+        var target = $(this).data('target');
+
+        if (target) {
+            $(this).parents('.basket-item-block').fadeOut('slow');
+            $('#delete-' + target).fadeIn('slow');
+
+            //mobile
+            $(this).parents('.basket-item-block-mobile').fadeOut('slow');
+            $('#delete-m-' + target).fadeIn('slow');
+        }
+    });
+
+    /* Return item to basket */
+    $('.return-btn').on('click tap', function() {
+        var target = $(this).data('target');
+
+        if (target) {
+            $(this).closest('.basket-item-block').fadeOut('slow');
+            $('#item-' + target).fadeIn();
+
+            // mobile
+            $(this).closest('.basket-item-block-mobile').fadeOut('slow');
+            $('#item-m-' + target).fadeIn();
+        }
+    });
+
 });

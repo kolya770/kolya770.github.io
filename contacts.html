@@ -42,13 +42,20 @@
             </div>
             <div class="modal-position hidden-xs">
                 <h2 class="position-header">Выбраные позиции:</h2>
-                <div class="basket-item-block center-block">
+                <div id="delete-1" class="basket-item-block delete-item center-block">
+                    <div class="basket-item-delete">
+                        <h3 class="delete-item-text">«Куртка» - удалено</h3>
+                        <i class="fa fa-reply icon-reply"></i>
+                        <a data-target="1" class="return-btn return-text">Вернуть в корзину</a>
+                    </div>
+                </div>
+                <div id="item-1" class="basket-item-block center-block">
                     <div class="basket-item">
                         <div class="img-mini-block">
                             <img src="img/basket-mini.png">
                         </div>
                         <div class="info-about-clothe">
-                            <h2 class="name-clothe">Пиждак</h2>
+                            <h2 class="name-clothe">Куртка</h2>
                             <p class="dop-info">Доп. элементы (пайетки, бисер, вышивка)</p>
                         </div>
                         <div class="price-block">
@@ -56,7 +63,7 @@
                         </div>
                     </div>
                     <div class="btn-block-item">
-                        <button class="btn btn-blue btn-delete-item"><i class="fa fa-times icon-close"></i></button>
+                        <button class="btn btn-blue btn-delete-item" data-target="1"><i class="fa fa-times icon-close"></i></button>
                     </div>
                 </div>
                 <div class="basket-item-block center-block">
@@ -96,14 +103,21 @@
             </div>
             <div class="modal-position-mobile visible-xs">
                 <h2 class="position-header">Выбраные позиции:</h2>
-                <div class="basket-item-block-mobile center-block">
+                <div id="delete-m-1" class="basket-item-block-mobile delete-item-mobile center-block">
+                    <div class="basket-item-delete-mobile">
+                        <h3 class="delete-item-text">«Куртка» - удалено</h3>
+                        <i class="fa fa-reply icon-reply"></i>
+                        <a class="return-btn return-text" data-target="1">Вернуть в корзину</a>
+                    </div>
+                </div>
+                <div id="item-m-1" class="basket-item-block-mobile center-block">
                     <div class="about-clothe">
-                        <h2 class="name-clothe">Пиджак</h2>
+                        <h2 class="name-clothe">Куртка</h2>
                         <p class="dop-info">Доп. элементы (пайетки, бисер, вышивка)</p>
                     </div>
                     <div class="price-block">
                         <p class="price">840 руб.</p>
-                        <button class="btn btn-delete-item"><i class="fa fa-times icon-close"></i></button>
+                        <button class="btn btn-delete-item" data-target="1"><i class="fa fa-times icon-close"></i></button>
                     </div>
                 </div>
                 <div class="basket-item-block-mobile center-block">

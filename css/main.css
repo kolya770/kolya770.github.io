@@ -477,7 +477,7 @@ body.modal-open-noscroll{overflow:hidden}
 #modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item{float:left;margin-left:10px;margin-top:35px}
 #modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item .btn-delete-item{border-radius:50%;width:22px;height:22px}
 #modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:20px;text-align:center;position:absolute;top:2px;left:6.5px}
-#modal-basket .modal-dialog .modal-content .modal-position .delete-item{height:45px;margin-bottom:100px}
+#modal-basket .modal-dialog .modal-content .modal-position .delete-item{height:45px;display:none}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .position-header{font-family:UBUNTU-MEDIUM;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:34px;text-align:center;text-transform:uppercase}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:90%;height:140px;margin-top:10px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe{height:70px;border-bottom:1px solid rgba(203,203,203,.5)}
@@ -486,7 +486,7 @@ body.modal-open-noscroll{overflow:hidden}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:48px;text-align:left;float:left;margin-bottom:0;margin-left:10px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;outline:0;padding:0;float:right;border:none;margin-top:12px;margin-right:10px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;transform:scaleY(1.0004);line-height:20px}
-#modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile{height:80px}
+#modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile{height:80px;display:none}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .delete-item-text{font-family:UBUNTU-LIGHT,sans-serif;color:#cdcdcd;font-size:1em;font-weight:300;line-height:20px;text-align:left;margin-top:10px;margin-left:10px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .icon-reply{float:right;margin-right:10px;margin-left:7px;font-size:14px;margin-top:2px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .return-text{float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:16px;text-decoration:none;border-bottom:1px dotted #4a4b4c}
@@ -991,7 +991,7 @@ ul{margin:0;padding:0}
 .contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font:checked~label:before{content:"\f046";color:#3caad2}
 .contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font:focus~label,.contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font:focus~label:before{color:#3caad2}
 .contacts-block .second-form .payment-method-block .check-btn .agree{font-family:UBUNTU-REGULAR,sans-serif;color:#4a4b4c;font-size:15px;font-weight:400;line-height:34px}
-.basket-block{margin-top:55px}
+.basket-block{margin-top:55px;margin-bottom:100px}
 .basket-block .basket-item-block{width:635px;height:92px;margin-bottom:10px}
 .basket-block .basket-item-block .basket-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:92px;float:left}
 .basket-block .basket-item-block .basket-item .img-mini-block{width:70px;height:70px;margin-top:10px;margin-left:10px;border:1px solid rgba(203,203,203,.5);display:inline-block;float:left}
@@ -1008,7 +1008,7 @@ ul{margin:0;padding:0}
 .basket-block .basket-item-block .btn-block-item{float:left;margin-left:10px;margin-top:35px}
 .basket-block .basket-item-block .btn-block-item .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;border:none;outline:0;padding:0}
 .basket-block .basket-item-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:22px;text-align:center;margin-left:-.5px}
-.basket-block .delete-item{height:45px;margin-bottom:100px}
+.basket-block .delete-item{height:45px;display:none}
 .basket-block-mobile{margin-top:15px;margin-bottom:25px}
 .basket-block-mobile .basket-item-block-mobile{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:270px;height:140px;margin-top:10px}
 .basket-block-mobile .basket-item-block-mobile .about-clothe{height:70px;border-bottom:1px solid rgba(203,203,203,.5)}
@@ -1017,7 +1017,7 @@ ul{margin:0;padding:0}
 .basket-block-mobile .basket-item-block-mobile .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:48px;text-align:left;float:left;margin-bottom:0;margin-left:10px}
 .basket-block-mobile .basket-item-block-mobile .price-block .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;outline:0;padding:0;float:right;border:none;margin-top:12px;margin-right:10px}
 .basket-block-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;line-height:22px;margin-left:.5px}
-.basket-block-mobile .delete-item-mobile{height:80px}
+.basket-block-mobile .delete-item-mobile{height:80px;display:none}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .delete-item-text{font-family:UBUNTU-LIGHT,sans-serif;color:#cdcdcd;font-size:1em;font-weight:300;line-height:20px;text-align:left;margin-top:10px;margin-left:10px}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .icon-reply{float:right;margin-right:10px;margin-left:7px;font-size:14px;margin-top:2px}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .return-text{float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:16px;text-decoration:none;border-bottom:1px dotted #4a4b4c}
