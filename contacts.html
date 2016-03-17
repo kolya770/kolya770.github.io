@@ -24,8 +24,197 @@
             </div>
             <div class="modal-footer center-block">
                 <h2 class="footer-title">Планируете регулярно пользоваться нашими услугами?</h2>
-                <button class="btn btn-yes">ДА</button>
-                <button class="btn btn-no">НЕТ</button>
+                <a href="subscription-management.html" class="btn btn-yes">ДА</a>
+                <button id="modal-news-open" class="btn btn-no">НЕТ</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-basket" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times close-icon"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Ваш заказ</p>
+            </div>
+            <div class="modal-position hidden-xs">
+                <h2 class="position-header">Выбраные позиции:</h2>
+                <div class="basket-item-block center-block">
+                    <div class="basket-item">
+                        <div class="img-mini-block">
+                            <img src="img/basket-mini.png">
+                        </div>
+                        <div class="info-about-clothe">
+                            <h2 class="name-clothe">Пиждак</h2>
+                            <p class="dop-info">Доп. элементы (пайетки, бисер, вышивка)</p>
+                        </div>
+                        <div class="price-block">
+                            <p class="price">840 руб.</p>
+                        </div>
+                    </div>
+                    <div class="btn-block-item">
+                        <button class="btn btn-blue btn-delete-item"><i class="fa fa-times icon-close"></i></button>
+                    </div>
+                </div>
+                <div class="basket-item-block center-block">
+                    <div class="basket-item">
+                        <div class="img-mini-block">
+                            <img src="img/basket-mini.png">
+                        </div>
+                        <div class="info-about-clothe">
+                            <h2 class="name-clothe">Пиждак</h2>
+                            <p class="dop-info">Доп. элементы (пайетки, бисер, вышивка)</p>
+                        </div>
+                        <div class="price-block">
+                            <p class="price">840 руб.</p>
+                        </div>
+                    </div>
+                    <div class="btn-block-item">
+                        <button class="btn btn-blue btn-delete-item"><i class="fa fa-times icon-close"></i></button>
+                    </div>
+                </div>
+                <div class="basket-item-block center-block">
+                    <div class="basket-item">
+                        <div class="img-mini-block">
+                            <img src="img/basket-mini.png">
+                        </div>
+                        <div class="info-about-clothe">
+                            <h2 class="name-clothe">Пиждак</h2>
+                            <p class="dop-info">Доп. элементы (пайетки, бисер, вышивка)</p>
+                        </div>
+                        <div class="price-block">
+                            <p class="price">840 руб.</p>
+                        </div>
+                    </div>
+                    <div class="btn-block-item">
+                        <button class="btn btn-blue btn-delete-item"><i class="fa fa-times icon-close"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-position-mobile visible-xs">
+                <h2 class="position-header">Выбраные позиции:</h2>
+                <div class="basket-item-block-mobile center-block">
+                    <div class="about-clothe">
+                        <h2 class="name-clothe">Пиджак</h2>
+                        <p class="dop-info">Доп. элементы (пайетки, бисер, вышивка)</p>
+                    </div>
+                    <div class="price-block">
+                        <p class="price">840 руб.</p>
+                        <button class="btn btn-delete-item"><i class="fa fa-times icon-close"></i></button>
+                    </div>
+                </div>
+                <div class="basket-item-block-mobile center-block">
+                    <div class="about-clothe">
+                        <h2 class="name-clothe">Пиджак</h2>
+                        <p class="dop-info">Доп. элементы (пайетки, бисер, вышивка)</p>
+                    </div>
+                    <div class="price-block">
+                        <p class="price">840 руб.</p>
+                        <button class="btn btn-delete-item"><i class="fa fa-times icon-close"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-address">
+                <div class="address center-block">
+                    <div class="info-block">
+                        <h2 class="address-title">Адрес:</h2>
+                        <p class="address-text">г. Москва, улица Центральна 25, корпус 3, квартира 2</p>
+                    </div>
+                    <div class="info-block">
+                        <h2 class="address-title">Код домофона:</h2>
+                        <p class="address-text">2455</p>
+                    </div>
+                    <div class="info-block">
+                        <h2 class="address-title">Дополнительная информация:</h2>
+                        <p class="address-text">Во дворе злая собака</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-date">
+                <div class="date-block center-block">
+                    <div class="date-info">
+                        <h2 class="date-title">Дата времени и забора:</h2>
+                        <p class="date-text">11.11.16 15:00-16:00</p>
+                    </div>
+                    <div class="date-info">
+                        <h2 class="date-title">Дата времени и доставки:</h2>
+                        <p class="date-text">12.11.16 15:00-16:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-contacts">
+                <div class="contacts-block center-block">
+                    <div class="contacts-info">
+                        <h2 class="contacts-title">Контактные данные:</h2>
+                        <p class="contacts-text">Алексей Дмитриев</p>
+                        <p class="contacts-text">dmitriev@gmail.com</p>
+                        <p class="contacts-text">+7 (123) 464547</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-payment">
+                <div class="payment-block center-block">
+                    <div class="payment-info">
+                        <h2 class="payment-title">Способ оплаты:</h2>
+                        <p class="payment-text">Банковской картой при получении</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="delivery-block center-block">
+                    <div class="delivery">
+                        <h2 class="delivery-title">Стоимость доставки</h2>
+                        <p class="delivery-text">590 руб.</p>
+                    </div>
+                    <div class="last-price">
+                        <h2 class="price-title">Итоговая стоимость</h2>
+                        <p class="price">3210 руб.</p>
+                    </div>
+                    <div class="btn-block-group">
+                        <button id="submit-order" class="btn btn-orange btn-agree center-block">ПОДТВЕРДИТЬ</button>
+                        <i class="fa fa-pencil icon-pencil"></i><a href="#" class="edit">Редактировать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-news" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times close-icon"></i></button>
+            </div>
+            <div class="modal-body">
+                <p class="header-text">Новости</p>
+                <img src="img/dot-blue.png" class="dot">
+            </div>
+            <div class="modal-footer">
+                <div class="news-block center-block">
+                    <img src="img/Basker.png">
+                    <h3>Экологичная и абсолютно безопасная технология чистки</h3>
+                    <p>10.01.16</p>
+                    <a href="#" class="btn btn-blue btn-news">ЧИТАТЬ</a>
+                    <hr class="hr-news">
+                </div>
+                <div class="news-block center-block">
+                    <img src="img/Basker.png">
+                    <h3>Экологичная и абсолютно безопасная технология чистки</h3>
+                    <p>10.01.16</p>
+                    <a href="#" class="btn btn-blue btn-news">ЧИТАТЬ</a>
+                    <hr class="hr-news">
+                </div>
+                <div class="news-block center-block">
+                    <img src="img/Basker.png">
+                    <h3>Экологичная и абсолютно безопасная технология чистки</h3>
+                    <p>10.01.16</p>
+                    <a href="#" class="btn btn-blue btn-news">ЧИТАТЬ</a>
+                    <hr class="hr-news">
+                </div>
             </div>
         </div>
     </div>
@@ -176,10 +365,10 @@
                             </div>
                             <div class="col-xs-12 col-sm-6 add-padding">
                                 <label class="label-text">Придумайте пароль:<span class="necessarily">*</span></label>
-                                <input id="input-password" class="input-first-form" placeholder="Ваш пароль">
+                                <input id="input-password" class="input-first-form" type="password" placeholder="Ваш пароль">
                             </div>
                             <div class="col-xs-12 col-sm-6 add-padding">
-                                <label class="label-text">Промокод<span class="necessarily">*</span></label>
+                                <label class="label-text">Промокод</label>
                                 <input id="input-promocode" class="input-first-form" placeholder="Введите промокод">
                                 <p class="success-message promocode">Ваша скидка 100 руб.</p>
                             </div>
@@ -188,6 +377,11 @@
                                     <input id="box2" type="checkbox" class="with-font" />
                                     <label for="box2" class="check-text"></label>
                                     <p class="agree">Я хочу получать новости и специальные предложения</p>
+                                </article>
+                                <article class="check-btn">
+                                    <input id="box3" type="checkbox" class="with-font" />
+                                    <label for="box3" class="check-text"></label>
+                                    <p class="agree">Согласен с условиями использования сайта</p>
                                 </article>
                             </div>
                         </section>
@@ -205,18 +399,6 @@
                                 <div>
                                     <input id="question2" name="question" type="radio" class="with-font" value="sel"/>
                                     <label for="question2" class="label-text">Банковской картой при получении</label>
-                                </div>
-                                <!--<div>-->
-                                    <!--<input id="question3" name="question" type="radio" class="with-font" value="sel"/>-->
-                                    <!--<label for="question3" class="label-text last-label"></label>-->
-                                    <!--<p class="last-label-text">Привязать банковскую карту (деньги спишутся автоматически после получения Вами одежды)</p>-->
-                                <!--</div>-->
-                            </div>
-                            <div class="check-btn">
-                                <div>
-                                    <input id="box1" type="checkbox" class="with-font" />
-                                    <label for="box1" class="check-text"></label>
-                                    <p class="agree">Согласен с условиями использования сайта</p>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +512,9 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/pushy.min.js"></script>
+<script src="js/contacts.js"></script>
 <script src="js/main.js"></script>
 
 </body>

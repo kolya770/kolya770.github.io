@@ -3,6 +3,20 @@ function isEmail(email) {
     return regex.test(email);
 }
 
+/*
+ *  Bootstrap showing popup after popup fix
+ */
+function show_popup (button, modal_close, modal_show) {
+
+    button.on('click', function(){
+        modal_close.modal('hide');
+        modal_show.modal('show');
+        setTimeout(function(){
+            $('body').addClass('modal-open');
+        }, 400);
+    });
+}
+
 $(document).ready(function() {
 
     //Store navigation
@@ -148,22 +162,9 @@ $(document).ready(function() {
             $('#item-1 button').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
         });
     });
-
-    $('#modal-open-city').on('click', function(){
-        $('#modal-pick-city').modal('hide');
-        $('#modal-no-city').modal('show');
-        setTimeout(function(){
-            $('body').addClass('modal-open');
-        }, 400);
-    });
-
-    $('#modal-open-sub-success').on('click', function(){
-        $('#modal-no-city').modal('hide');
-        $('#modal-subscription-success').modal('show');
-        setTimeout(function(){
-            $('body').addClass('modal-open');
-        }, 400);
-    });
+    
+    show_popup($('#modal-open-city'), $('#modal-pick-city'), $('#modal-no-city'));
+    show_popup($('#modal-open-sub-success'), $('#modal-no-city'), $('#modal-subscription-success'));
 
     $('.modal').on('show.bs.modal', function () {
         if ($(document).height() > $(window).height()) {
@@ -200,45 +201,4 @@ $(document).ready(function() {
         }
     });
 
-    //contacts input validation
-    $('input').on('change', function(){
-        $(this).removeClass('error');
-    });
-
-    $('#order-completed').on('click', function(){
-
-        var selectors = [
-            $('#input-name'),
-            $('#input-surname'),
-            $('#input-email'),
-            $('#input-phone'),
-            $('#input-password'),
-            $('#input-promocode')
-        ];
-
-        var isErrors = false;
-        selectors.forEach(function(selector, i, selectors) {
-
-            if ( ! selector.val() ){
-                selector.addClass('error');
-                isErrors = true;
-            } else {
-                selector.removeClass('error');
-            }
-        });
-
-        if ( ! isErrors) {
-            $('#modal-thanks').modal('show');
-        }
-
-    });
-
-    $('#input-promocode').on('change tap keyup', function() {
-        console.log($(this).val());
-        if ($(this).val() == '111') {
-            $('.success-message').fadeIn('slow');
-        } else {
-            $('.success-message').fadeOut('slow');
-        }
-    });
 });

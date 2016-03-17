@@ -83,12 +83,17 @@
 
     .error {
       border: 1px solid red;
+      color: red;
       &::-webkit-input-placeholder {
         color: red
       }
     }
     .check-btn {
-      margin-top: 40px;
+      margin-top: -4px;
+      &:first-child {
+        margin-top: 30px;
+      }
+
       .check-text {
         float: left;
         font-family: $ubuntu-regular-font, "sans-serif";

@@ -782,13 +782,14 @@
         outline: none;
         &:hover {
           background-color: #878788;
+          color: #ffffff;
         }
       }
     }
   }
 }
 
-#YourOrder {
+#modal-basket {
   .modal-dialog {
     position: absolute;
     width: 750px;
@@ -1364,7 +1365,7 @@
   }
 }
 
-#ReadNews {
+#modal-news {
   .modal-dialog {
     height: auto;
     position: absolute;
