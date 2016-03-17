@@ -1,6 +1,6 @@
 .main-screen-news {
   .first-bg {
-    background: rgba(210, 214, 220, 0.8) url(../img/news-photo.png) 50% 50% fixed;
+    background: rgba(210, 214, 220, 0.8) url(../img/news-photo.jpg) 50% 50% fixed;
     background-size: cover;
     height: 50vh;
     width: 100%;
@@ -42,15 +42,6 @@
         @media #{$bootstrap-lg} {
           width: 1170px;
         }
-        p {
-          font-family: $ubuntu-bold-font, "sans-serif";
-          color:  #ffffff;
-          font-size: 15px;
-          font-weight: 700;
-          line-height: 24px;
-          text-align: left;
-          text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
-        }
         @media #{$bootstrap-xs} {
           .mobile-content {
             position: absolute!important;
@@ -72,8 +63,9 @@
           color: #fefefe;
           font-weight: 300;
           line-height: 60px;
-          text-align: left;
+          text-align: center;
           text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+          margin-bottom: 30px;
           @media #{$bootstrap-xs} {
             font-size: 3.125em;
           }

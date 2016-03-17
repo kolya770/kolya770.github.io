@@ -158,11 +158,11 @@ $(document).ready(function() {
         });
 
         //store drop
-        $("#item-1 .dropdown-menu li a").click(function() {
+        $("#item-1 .dropdown-menu li a").on('click tap', function() {
             $('#item-1 button').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
         });
     });
-    
+
     show_popup($('#modal-open-city'), $('#modal-pick-city'), $('#modal-no-city'));
     show_popup($('#modal-open-sub-success'), $('#modal-no-city'), $('#modal-subscription-success'));
 

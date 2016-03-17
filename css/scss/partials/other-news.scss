@@ -1,5 +1,5 @@
 .main-screen-news-other {
-  background: rgba(210, 214, 220, 0.8) url(../img/main-photo.png) 50% 50% fixed;
+  background: rgba(210, 214, 220, 0.8) url(../img/main-photo.jpg) 50% 50% fixed;
   background-size: cover;
   height: 149px;
   .logo-mobile {
@@ -43,7 +43,7 @@
       margin-top: 55px;
       margin-bottom: 25px;
       @media #{$bootstrap-xs} {
-        font-size: 4.063em;
+        font-size: 3em;
         line-height: 60px;
       }
       @media #{$bootstrap-sm} {
