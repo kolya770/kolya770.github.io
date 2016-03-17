@@ -15,6 +15,20 @@
   }
 }
 
+.wrap-basket {
+  min-height: 100%;
+  height: auto;
+  @media #{$bootstrap-xs} {
+    margin: 0 auto -369px;
+    padding: 0 0 369px;
+  }
+  @media #{$bootstrap-sm} {
+    margin: 0 auto -175px;
+    padding: 0 0 175px;
+  }
+
+}
+
 .store {
   .header-block {
     text-align: center;
