@@ -138,29 +138,24 @@
     @media #{$bootstrap-xs} {
       width: 90%;
       margin-left: -45%;
-      height: 90%;
       top: 10vh;
     }
     @media #{$bootstrap-sm} {
-      width: 770px;
-      height: 713px;
-      margin-top: -356.5px;
-      margin-left: -385px;
-      top: 50%;
+      width: 750px;
+      margin-left: -375px;
+      top: 5vh;
     }
     .modal-content {
       border-radius: 6px;
       background-color:  #fff;
       box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.6);
-      overflow-y: scroll;
       @media #{$bootstrap-xs} {
         width: 100%;
         height: auto;
         margin-bottom: 40px;
       }
       @media #{$bootstrap-sm} {
-        width: 770px;
-        height: 713px;
+        width: 750px;
       }
       .modal-header {
         border: none;

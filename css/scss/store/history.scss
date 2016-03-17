@@ -227,6 +227,14 @@
           text-align: left;
           margin-bottom: 10px;
         }
+        .price-text {
+          font-family: $ubuntu-medium-font, "sans-serif";
+          color:  #3caad2;
+          font-size: 0.938em;
+          font-weight: 500;
+          line-height: 20px;
+          text-align: left;
+        }
       }
       .price-block {
         display: inline-block;

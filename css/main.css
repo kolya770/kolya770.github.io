@@ -301,15 +301,15 @@ body.modal-open-noscroll{overflow:hidden}
 #myModal .modal-dialog .modal-content .modal-footer .btn-enter{border-radius:6px;background-color:#f39c12;width:130px;height:50px;margin-top:20px;font-family:UBUNTU-REGULAR,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15)}
 #myModal .modal-dialog .modal-content .modal-footer .btn-enter:hover{background-color:#E48D12}
 #myModalLegal .modal-dialog{position:absolute;left:50%}
-@media (max-width:767px){#myModalLegal .modal-dialog{width:90%;margin-left:-45%;height:90%;top:10vh}
+@media (max-width:767px){#myModalLegal .modal-dialog{width:90%;margin-left:-45%;top:10vh}
 }
-@media (min-width:768px){#myModalLegal .modal-dialog{width:770px;height:713px;margin-top:-356.5px;margin-left:-385px;top:50%}
+@media (min-width:768px){#myModalLegal .modal-dialog{width:750px;margin-left:-375px;top:5vh}
 }
-#myModalLegal .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);overflow-y:scroll}
+#myModalLegal .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
 #myModalLegal .modal-dialog .modal-content .modal-footer,#myModalLegal .modal-dialog .modal-content .modal-header{border:none}
 @media (max-width:767px){#myModalLegal .modal-dialog .modal-content{width:100%;height:auto;margin-bottom:40px}
 }
-@media (min-width:768px){#myModalLegal .modal-dialog .modal-content{width:770px;height:713px}
+@media (min-width:768px){#myModalLegal .modal-dialog .modal-content{width:750px}
 }
 #myModalLegal .modal-dialog .modal-content .modal-body{text-align:center}
 #myModalLegal .modal-dialog .modal-content .modal-body p{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:center}
@@ -1005,7 +1005,7 @@ ul{margin:0;padding:0}
 .basket-block .basket-item-block .basket-item-delete .icon-reply{float:right;margin:17px 15px 15px 5px}
 .basket-block .basket-item-block .btn-block-item{float:left;margin-left:10px;margin-top:35px}
 .basket-block .basket-item-block .btn-block-item .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;border:none;outline:0;padding:0}
-.basket-block .basket-item-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:20px;text-align:center;transform:scaleY(1.0004)}
+.basket-block .basket-item-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:22px;text-align:center;margin-left:-.5px}
 .basket-block .delete-item{height:45px;margin-bottom:100px}
 .basket-block-mobile{margin-top:15px;margin-bottom:25px}
 .basket-block-mobile .basket-item-block-mobile{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:270px;height:140px;margin-top:10px}
@@ -1014,7 +1014,7 @@ ul{margin:0;padding:0}
 .basket-block-mobile .basket-item-block-mobile .about-clothe .dop-info{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-left:10px}
 .basket-block-mobile .basket-item-block-mobile .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:48px;text-align:left;float:left;margin-bottom:0;margin-left:10px}
 .basket-block-mobile .basket-item-block-mobile .price-block .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;outline:0;padding:0;float:right;border:none;margin-top:12px;margin-right:10px}
-.basket-block-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;transform:scaleY(1.0004);line-height:20px}
+.basket-block-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;line-height:22px;margin-left:.5px}
 .basket-block-mobile .delete-item-mobile{height:80px}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .delete-item-text{font-family:UBUNTU-LIGHT,sans-serif;color:#cdcdcd;font-size:1em;font-weight:300;line-height:20px;text-align:left;margin-top:10px;margin-left:10px}
 .basket-block-mobile .delete-item-mobile .basket-item-delete-mobile .icon-reply{float:right;margin-right:10px;margin-left:7px;font-size:14px;margin-top:2px}
@@ -1053,6 +1053,7 @@ ul{margin:0;padding:0}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block{width:65%;margin-left:62px;display:inline-block}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block .drop-title{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:30px;text-align:left;margin-top:10px;margin-bottom:0}
 .history-mobile .accordion-order .drop-history .drop-block .drop-text-block .drop-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-bottom:10px}
+.history-mobile .accordion-order .drop-history .drop-block .drop-text-block .price-text{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:20px;text-align:left}
 .history-mobile .accordion-order .drop-history .drop-block .price-block .price-text{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:34px;text-align:left;margin-top:15px}
 .history-mobile .accordion-order{margin-top:15px}
 .history-mobile .accordion-order .btn-return{width:270px;height:41px;margin-top:30px;margin-bottom:30px}
