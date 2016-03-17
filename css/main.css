@@ -446,15 +446,18 @@ body.modal-open-noscroll{overflow:hidden}
 #modal-thanks .modal-dialog .modal-body .car{width:100%}
 #modal-thanks .modal-dialog .modal-footer{width:630px;padding:0;text-align:center;margin-bottom:30px}
 @media (max-width:767px){#modal-thanks .modal-dialog .modal-footer{width:85%}
-#AddToBasket .modal-dialog{top:10vh}
 }
 #modal-thanks .modal-dialog .modal-footer .footer-title{color:#4a4b4c;text-align:center;margin-bottom:20px}
 #modal-thanks .modal-dialog .modal-footer .btn-no,#modal-thanks .modal-dialog .modal-footer .btn-yes{width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;line-height:24px;border-radius:6px;text-align:center;transform:scaleY(1.0004);outline:0}
 #modal-thanks .modal-dialog .modal-footer .btn-yes{background-color:#f39c12;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15)}
 #modal-thanks .modal-dialog .modal-footer .btn-no{background-color:#e5e5e5;color:#a2a2a3}
 #modal-thanks .modal-dialog .modal-footer .btn-no:hover{background-color:#878788}
-#YourOrder .modal-dialog{width:770px;height:1428px}
-#YourOrder .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:770px;height:1428px}
+#YourOrder .modal-dialog{position:absolute;width:750px;top:5vh;left:50%;margin-left:-375px}
+@media (max-width:767px){#YourOrder .modal-dialog{top:10vh;width:90%;margin-left:-45%}
+}
+#YourOrder .modal-dialog .modal-content{border-radius:6px;background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6);width:750px}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content{width:100%}
+}
 #YourOrder .modal-dialog .modal-content .modal-header{border:none}
 #YourOrder .modal-dialog .modal-content .modal-body{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:center}
 #YourOrder .modal-dialog .modal-content .modal-position .position-header{font-family:UBUNTU-MEDIUM;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:34px;text-align:center;text-transform:uppercase}
@@ -471,34 +474,67 @@ body.modal-open-noscroll{overflow:hidden}
 #YourOrder .modal-dialog .modal-content .modal-position .basket-item-block .basket-item-delete .delete-item-text{color:#9e9fa0;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;font-weight:300;line-height:45px;text-align:left;margin:0;padding-left:10px;display:inline-block}
 #YourOrder .modal-dialog .modal-content .modal-position .basket-item-block .basket-item-delete .return-text{display:inline-block;float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:17px;border-bottom:1px dotted #4a4b4c;margin-top:15px}
 #YourOrder .modal-dialog .modal-content .modal-position .basket-item-block .basket-item-delete .icon-reply{float:right;margin:17px 15px 15px 5px}
-#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .icon-pencil,.info .btn-inform{margin-right:10px}
 #YourOrder .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item{float:left;margin-left:10px;margin-top:35px}
 #YourOrder .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item .btn-delete-item{border-radius:50%;width:22px;height:22px}
 #YourOrder .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:20px;text-align:center;transform:scaleY(1.0004)}
 #YourOrder .modal-dialog .modal-content .modal-position .delete-item{height:45px;margin-bottom:100px}
-#YourOrder .modal-dialog .modal-content .modal-address .address{border-radius:6px;background-color:#f5f5f5;width:630px;height:147px;margin-top:40px;padding-top:5px}
-#YourOrder .modal-dialog .modal-content .modal-address .address .address-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;display:inline-block;margin-left:30px;margin-bottom:0}
-#YourOrder .modal-dialog .modal-content .modal-address .address .address-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;display:inline-block;margin-bottom:0}
-#YourOrder .modal-dialog .modal-content .modal-date .date-block{width:630px;border-bottom:1px solid #e5e5e5;margin-top:15px;height:115px}
-#YourOrder .modal-dialog .modal-content .modal-date .date-block .date-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;display:inline-block;margin-left:30px;margin-bottom:0;width:200px}
-#YourOrder .modal-dialog .modal-content .modal-date .date-block .date-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;display:inline-block;margin-bottom:0}
-#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block{width:630px;border-bottom:1px solid #e5e5e5;margin-top:35px;height:170px}
-#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block .contacts-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;margin-left:30px;margin-bottom:25px;text-transform:uppercase}
-#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block .contacts-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-bottom:15px;margin-left:30px}
-#YourOrder .modal-dialog .modal-content .modal-payment .payment-block{width:630px;border-bottom:1px solid #e5e5e5;height:95px}
-#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery,#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price{height:70px}
-#YourOrder .modal-dialog .modal-content .modal-payment .payment-block .payment-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;margin-left:30px;margin-bottom:20px;text-transform:uppercase;margin-top:35px}
-#YourOrder .modal-dialog .modal-content .modal-payment .payment-block .payment-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0;margin-left:30px}
-#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-text,#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-title,#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price .price-title{color:#3e4041;font-family:SummerFont,sans-serif;font-weight:300;display:inline-block;text-align:left;margin-bottom:0}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .position-header{font-family:UBUNTU-MEDIUM;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:34px;text-align:center;text-transform:uppercase}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:90%;height:140px;margin-top:10px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe{height:70px;border-bottom:1px solid rgba(203,203,203,.5)}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe .name-clothe{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-left:10px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe .dop-info{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-left:10px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:48px;text-align:left;float:left;margin-bottom:0;margin-left:10px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;outline:0;padding:0;float:right;border:none;margin-top:12px;margin-right:10px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;transform:scaleY(1.0004);line-height:20px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile{height:80px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .delete-item-text{font-family:UBUNTU-LIGHT,sans-serif;color:#cdcdcd;font-size:1em;font-weight:300;line-height:20px;text-align:left;margin-top:10px;margin-left:10px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .icon-reply{float:right;margin-right:10px;margin-left:7px;font-size:14px;margin-top:2px}
+#YourOrder .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .return-text{float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:16px;text-decoration:none;border-bottom:1px dotted #4a4b4c}
+#YourOrder .modal-dialog .modal-content .modal-address .address{border-radius:6px;background-color:#f5f5f5;width:630px;margin-top:40px;padding:20px 30px 0}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-address .address{width:90%}
+}
+#YourOrder .modal-dialog .modal-content .modal-address .address .address-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;display:inline-block;margin-bottom:15px;margin-top:0}
+#YourOrder .modal-dialog .modal-content .modal-address .address .address-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;display:inline-block;margin-bottom:15px}
+#YourOrder .modal-dialog .modal-content .modal-date .date-block{width:630px;border-bottom:1px solid #e5e5e5;margin-top:15px;padding:20px 30px}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-date .date-block{width:90%}
+}
+#YourOrder .modal-dialog .modal-content .modal-date .date-block .date-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;display:inline-block;margin-bottom:10px;margin-top:0;width:200px}
+#YourOrder .modal-dialog .modal-content .modal-date .date-block .date-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;display:inline-block;margin-bottom:10px}
+#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block{width:630px;border-bottom:1px solid #e5e5e5;margin-top:30px}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block{width:90%}
+}
+#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block .contacts-info{padding:0 30px 20px}
+#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block .contacts-info .contacts-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;margin-bottom:25px;text-transform:uppercase}
+#YourOrder .modal-dialog .modal-content .modal-contacts .contacts-block .contacts-info .contacts-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-bottom:15px}
+#YourOrder .modal-dialog .modal-content .modal-payment .payment-block{width:630px;border-bottom:1px solid #e5e5e5}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-payment .payment-block{width:90%}
+}
+#YourOrder .modal-dialog .modal-content .modal-payment .payment-block .payment-info{padding:20px 30px}
+#YourOrder .modal-dialog .modal-content .modal-payment .payment-block .payment-info .payment-title{font-family:UBUNTU-MEDIUM,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:20px;text-align:left;margin-bottom:20px;text-transform:uppercase;margin-top:0}
+#YourOrder .modal-dialog .modal-content .modal-payment .payment-block .payment-info .payment-text{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-bottom:0}
 #YourOrder .modal-dialog .modal-content .modal-footer{border:none}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block{width:630px}
-#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-title{font-size:2.5em;float:left}
-#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-text{font-size:2.5em;float:right;margin-top:10px;width:120px}
-#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price .price-title{font-size:3.125em;float:left;margin-top:10px}
+#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-title{font-family:SummerFont,sans-serif;color:#3e4041;font-size:2.5em;font-weight:300;text-align:left;display:inline-block;float:left;margin-bottom:0}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block{width:90%}
+#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-title{display:block;float:none;text-align:center}
+}
+#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-text{font-family:SummerFont,sans-serif;color:#3e4041;font-size:2.5em;font-weight:300;text-align:left;display:inline-block;float:right;margin-top:10px;width:120px;margin-bottom:0}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery .delivery-text{display:block;float:none;text-align:center;width:100%}
+}
+@media (min-width:768px){#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .delivery,#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price{height:70px}
+}
+#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price .price-title{font-family:SummerFont,sans-serif;color:#3e4041;font-size:3.125em;font-weight:300;display:inline-block;text-align:left;float:left;margin-top:10px;margin-bottom:0}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price .price-title{display:block;float:none;text-align:center}
+}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price .price{font-family:SummerFont,sans-serif;color:#3caad2;font-size:3.125em;font-weight:300;display:inline-block;float:right;width:120px;text-align:left;margin-top:0;margin-bottom:0;height:55px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group{text-align:center;margin-top:20px}
+@media (max-width:767px){#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .last-price .price{display:block;float:none;text-align:center;width:100%}
+#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group{margin-top:30px;margin-bottom:20px}
+#AddToBasket .modal-dialog{top:10vh}
+}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .btn-agree{border-radius:6px;background-color:#f39c12;width:230px;height:41px;font-family:UBUNTU-BOLD,sans-serif;color:#fff;font-size:1em;font-weight:700;text-align:center;transform:scaleY(1.0004);text-shadow:0 1px 1px rgba(0,0,0,.15);display:block}
 #AddToBasket .modal-dialog .modal-content,#LosePassword .modal-dialog .modal-content,#ReadNews .modal-dialog .modal-content{background-color:#fff;box-shadow:1px 2px 4px 0 rgba(0,0,0,.6)}
+#YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .icon-pencil{margin-right:10px}
 #YourOrder .modal-dialog .modal-content .modal-footer .delivery-block .btn-block-group .edit{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:34px;text-align:center;text-decoration:underline}
 #AddToBasket .modal-dialog .modal-content .modal-body .header-text,#ReadNews .modal-dialog .modal-content .modal-body .header-text{font-family:SummerFont,sans-serif;color:#4a4b4c;font-weight:300;text-align:center;text-transform:uppercase}
 #AddToBasket .modal-dialog{width:300px;height:340px;position:absolute;left:50%;margin-left:-150px}
@@ -683,7 +719,7 @@ body.modal-open-noscroll{overflow:hidden}
 .info .btn-inform{margin-top:10px}
 }
 .info img{margin-bottom:25px;width:100%}
-.info .btn-inform{border-radius:3px;background-color:rgba(74,75,76,.5);height:30px;padding:0 12px;outline:0;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:24px;text-align:center}
+.info .btn-inform{border-radius:3px;background-color:rgba(74,75,76,.5);height:30px;padding:0 12px;margin-right:10px;outline:0;font-family:UBUNTU-MEDIUM,sans-serif;color:#fff;font-size:.938em;font-weight:500;line-height:24px;text-align:center}
 .news-block,.news-block h3,.news-block p{text-align:left}
 @media (min-width:768px){.info p.info-text{margin-bottom:25px}
 .info .btn-inform{margin-top:0}
