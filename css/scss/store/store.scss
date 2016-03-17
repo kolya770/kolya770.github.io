@@ -87,6 +87,7 @@
       text-align: center;
       transform: scaleY(1.0004);
       width: 200px;
+      outline: none;
       @media #{$bootstrap-xs} {
         margin-top: 10px;
       }
