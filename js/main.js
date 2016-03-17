@@ -201,4 +201,8 @@ $(document).ready(function() {
         }
     });
 
+    $('#login').on('click', function(){
+        $('.error-message').fadeIn('slow');
+    });
+
 });

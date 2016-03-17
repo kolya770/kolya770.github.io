@@ -73,7 +73,12 @@
       text-align: center;
       transform: scaleY(1.0004);
       width: 200px;
-      margin: 10px 11px -1px -5px;
+      @media #{$bootstrap-xs} {
+        margin-top: 10px;
+      }
+      @media #{$bootstrap-sm} {
+        margin: 10px 11px -1px -5px;
+      }
     }
     .active {
       border-radius: 6px;
