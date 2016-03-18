@@ -158,7 +158,7 @@ $(document).ready(function() {
         });
 
         //store drop
-        $("#item-1 .dropdown-menu li a").on('tap', function(e) {
+        $("#item-1 .dropdown-menu li").on('tap', function(e) {
             e.preventDefault();
             alert(1);
 
