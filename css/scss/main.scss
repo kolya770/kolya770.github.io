@@ -101,6 +101,10 @@ $blue-hover-color: #3d9bc3;
   }
 }
 
+.dropdown-backdrop {
+  position: static;
+}
+
 body.modal-open-noscroll
 {
   margin-right: 0!important;

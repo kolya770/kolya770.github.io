@@ -10,6 +10,7 @@ body,html{height:100%;font-size:16px}
 @font-face{font-family:UBUNTU-BOLD;src:url(../fonts/UBUNTU-BOLD.eot);src:url(../fonts/UBUNTU-BOLD.eot#iefix) format("embedded-opentype"),url(../fonts/UBUNTU-BOLD.woff) format("woff"),url(../fonts/UBUNTU-BOLD.otf) format("opentype"),url(../fonts/UBUNTU-BOLD.ttf) format("truetype"),url(../fonts/UBUNTU-BOLD.svg#UBUNTU-BOLD) format("svg");font-weight:400;font-style:normal}
 @media (min-width:1200px){.container{width:1200px}
 }
+.dropdown-backdrop{position:static}
 body.modal-open-noscroll{overflow:hidden}
 .btn-orange{background-color:#f39c12;border-radius:6px}
 .btn-orange:hover{background-color:#e48d12;color:#fff;outline:0}
@@ -884,7 +885,7 @@ ul{margin:0;padding:0}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .time-select-additionally{float:left;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.938em;font-weight:300;padding-left:10px;text-align:left}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .sort-icon{float:right;padding-right:10px}
 .select-items .clothes-block .card .additionally-block .drop-block .btn-drop-additionally .item-arrow{margin-top:5px;float:right;padding-right:10px}
-.select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally{width:250px;margin-left:9px;margin-top:-15px;z-index:5;position:static}
+.select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally{width:250px;margin-left:9px;margin-top:-15px;z-index:5}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally li a{padding:0 20px}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .time-select{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;white-space:normal}
 .select-items .clothes-block .card .additionally-block .drop-block .drop-menu-additionally .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.813em;font-weight:500;line-height:20px;text-align:right;float:right}
