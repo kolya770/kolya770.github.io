@@ -160,6 +160,7 @@ $(document).ready(function() {
         //store drop
         $("#item-1 .dropdown-menu li a").on('tap', function(e) {
             e.preventDefault();
+            e.stopPropagation();
             alert(1);
 
             $('#item-1 button').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
