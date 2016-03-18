@@ -158,7 +158,7 @@ $(document).ready(function() {
         });
 
         //store drop
-        $("body").on('tap', function() {
+        $("#item-1 .dropdown-menu li").on('tap', function() {
             alert(1);
             $('#item-1 button').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
         });
