@@ -80,6 +80,7 @@
             }
             .google-logo {
               background: url(../img/google-logo-store.png) no-repeat;
+              float: left;
 
               @media #{$bootstrap-md} {
                 background-size: 70px 16px;
@@ -297,6 +298,7 @@
     outline: none;
     margin-top: 25px;
     .google-logo {
+      float: left;
       background: url(../img/logo-google.png) no-repeat;
       background-size: 70px 16px;
       width: 70px;

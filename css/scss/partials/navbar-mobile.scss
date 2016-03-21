@@ -137,7 +137,6 @@ ul{
   }
 }
 
-
 .pushy {
   position: fixed;
   width: 225px;
@@ -152,9 +151,8 @@ ul{
   -moz-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
   box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
   overflow: auto;
-  -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
+  -webkit-overflow-scrolling: touch;
 }
-
 
 .pushy a {
   display: block;
@@ -164,11 +162,9 @@ ul{
   text-align: right;
 }
 
-
-
 .drop-menu {
   position: relative;
-  margin-left: 24px;
+  margin-left: 25px;
   margin-top: -5px;
   z-index: 1;
   border-radius: 0 0 5px 5px;

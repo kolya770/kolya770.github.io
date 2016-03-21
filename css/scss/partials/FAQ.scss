@@ -95,7 +95,7 @@
   .accordion-button{
 
   }
-  .accordion-button h3 .question {
+  .accordion-button .accordion-block .question {
     position:relative;
     font-family: $ubuntu-light-font, "sans-serif";
     color:  #4a4b4c;
@@ -108,7 +108,7 @@
     margin-top: 12px;
     max-width: 85%;
   }
-  .accordion h3{
+  .accordion .accordion-block{
     font-size:16px;
     background-color:#fff;
     border-top:1px solid #cbcbcb;

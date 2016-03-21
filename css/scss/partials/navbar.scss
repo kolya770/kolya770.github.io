@@ -31,7 +31,7 @@
   }
   .my-navbar {
     padding: 0;
-    .logo {
+    .logo-landing {
       @media #{$bootstrap-md} {
         margin-left: 0;
       }
@@ -73,6 +73,9 @@
   }
   .navbar-nav li:first-child a{
     padding-left: 0;
+  }
+  .navbar-nav.logo-landing li a {
+    padding-left: 15px;
   }
 }
 

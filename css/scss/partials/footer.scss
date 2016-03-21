@@ -67,15 +67,14 @@
         float: right;
       }
       @media #{$bootstrap-md} {
-        //float: none;
         margin-top: 30px;
-
       }
       .google-logo {
         background: url(../img/logo-google.png) no-repeat ,117px 27px;
         width: 117px;
         height: 27px;
         margin: 0 20px;
+        float: left;
       }
     }
   }
