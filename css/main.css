@@ -341,7 +341,7 @@ body.modal-open-noscroll{overflow:hidden}
 }
 @media (min-width:768px){#modal-pick-city .modal-dialog .modal-content .modal-footer input{width:430px}
 }
-#modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-1px;outline:0}
+#modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-2px;outline:0}
 #modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next:hover{background-color:#E48D12}
 @media (max-width:767px){#modal-pick-city .modal-dialog .modal-content .modal-footer .btn-next{margin-top:20px;margin-left:0;margin-bottom:20px}
 }
@@ -381,7 +381,7 @@ body.modal-open-noscroll{overflow:hidden}
 #modal-no-city .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 @media (min-width:768px){#modal-no-city .modal-dialog .modal-content .modal-footer input{width:570px}
 }
-#modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up{border-radius:6px;background-color:#3caad2;height:50px;width:200px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:-1px}
+#modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up{border-radius:6px;background-color:#3caad2;height:50px;width:200px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:24px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0;margin-top:-2px}
 #modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up:hover{background-color:#3d9bc3}
 @media (max-width:767px){#modal-no-city .modal-dialog .modal-content .modal-footer .btn-sing-up{margin-left:0;margin-top:20px}
 }
@@ -594,7 +594,7 @@ body.modal-open-noscroll{overflow:hidden}
 #LosePassword .modal-dialog .modal-content .modal-footer input :-ms-input-placeholder{padding-left:20px;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1em;font-weight:300;line-height:24px;text-align:left}
 @media (min-width:768px){#LosePassword .modal-dialog .modal-content .modal-footer input{width:430px}
 }
-#LosePassword .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-1px;outline:0}
+#LosePassword .modal-dialog .modal-content .modal-footer .btn-next{border-radius:6px;background-color:#f39c12;width:150px;height:50px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;font-size:1em;font-weight:400;line-height:35px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.15);margin-top:-2px;outline:0}
 #LosePassword .modal-dialog .modal-content .modal-footer .btn-next:hover{background-color:#E48D12}
 @media (max-width:767px){#LosePassword .modal-dialog .modal-content .modal-footer .btn-next{margin-top:20px;margin-left:0;margin-bottom:20px}
 }
@@ -995,23 +995,24 @@ ul{margin:0;padding:0}
 .contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font:checked~label:before{content:"\f046";color:#3caad2}
 .contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font:focus~label,.contacts-block .second-form .payment-method-block .check-btn input[type=checkbox].with-font:focus~label:before{color:#3caad2}
 .contacts-block .second-form .payment-method-block .check-btn .agree{font-family:UBUNTU-REGULAR,sans-serif;color:#4a4b4c;font-size:15px;font-weight:400;line-height:34px}
+.basket-block .basket-item .info-about-clothe .dop-info,.basket-block .basket-item .info-about-clothe .name-clothe{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-weight:300;text-align:left}
 .basket-block{margin-top:55px;margin-bottom:100px}
-.basket-block .basket-item-block{width:635px;height:92px;margin-bottom:10px}
-.basket-block .basket-item-block .basket-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:92px;float:left}
-.basket-block .basket-item-block .basket-item .img-mini-block{width:70px;height:70px;margin-top:10px;margin-left:10px;border:1px solid rgba(203,203,203,.5);display:inline-block;float:left}
-.basket-block .basket-item-block .basket-item .img-mini-block img{width:100%}
-.basket-block .basket-item-block .basket-item .info-about-clothe{display:inline-block;float:left;margin-left:10px}
-.basket-block .basket-item-block .basket-item .info-about-clothe .name-clothe{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-top:25px}
-.basket-block .basket-item-block .basket-item .info-about-clothe .dop-info{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left}
-.basket-block .basket-item-block .basket-item .price-block{float:right;display:inline-block;width:110px;height:55px;margin-top:18px;border-left:1px solid rgba(203,203,203,.5)}
-.basket-block .basket-item-block .basket-item .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:34px;text-align:center;margin-top:10px}
-.basket-block .basket-item-block .basket-item-delete{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:45px}
-.basket-block .basket-item-block .basket-item-delete .delete-item-text{color:#9e9fa0;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;font-weight:300;line-height:45px;text-align:left;margin:0;padding-left:10px;display:inline-block}
-.basket-block .basket-item-block .basket-item-delete .return-text{display:inline-block;float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:17px;border-bottom:1px dotted #4a4b4c;margin-top:15px}
-.basket-block .basket-item-block .basket-item-delete .icon-reply{float:right;margin:17px 15px 15px 5px}
-.basket-block .basket-item-block .btn-block-item{float:left;margin-left:10px;margin-top:35px}
-.basket-block .basket-item-block .btn-block-item .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;border:none;outline:0;padding:0}
-.basket-block .basket-item-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:22px;text-align:center;margin-left:-.5px}
+.basket-block .basket-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;min-height:92px;float:left}
+.basket-block .basket-item .img-mini-block{width:70px;height:70px;margin-top:-35px;margin-left:10px;position:absolute;top:50%;border:1px solid rgba(203,203,203,.5);display:inline-block;float:left}
+.basket-block .basket-item .img-mini-block img{width:100%}
+.basket-block .basket-item .info-about-clothe{display:inline-block;float:left;margin-left:90px;max-width:60%}
+.basket-block .basket-item .info-about-clothe .name-clothe{font-size:1.188em;line-height:20px;margin-top:25px}
+.basket-block .basket-item .info-about-clothe .dop-info{font-size:.75em;line-height:14px}
+.basket-block .basket-item .price-block{float:right;display:inline-block;width:110px;height:55px;margin-top:18px;border-left:1px solid rgba(203,203,203,.5)}
+.basket-block .basket-item .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:34px;text-align:center;margin-top:10px}
+.basket-block .basket-item-delete .delete-item-text,.basket-block .basket-item-delete .return-text{display:inline-block;font-weight:300;font-family:UBUNTU-LIGHT,sans-serif}
+.basket-block .basket-item-delete{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:45px}
+.basket-block .basket-item-delete .delete-item-text{color:#9e9fa0;font-size:1em;line-height:45px;text-align:left;margin:0;padding-left:10px}
+.basket-block .basket-item-delete .return-text{float:right;color:#4a4b4c;font-size:.875em;line-height:17px;border-bottom:1px dotted #4a4b4c;margin-top:15px}
+.basket-block .basket-item-delete .icon-reply{float:right;margin:17px 15px 15px 5px}
+.basket-block .btn-block-item{float:left;margin-left:10px;margin-top:35px}
+.basket-block .btn-block-item .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;border:none;outline:0;padding:0}
+.basket-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:22px;text-align:center;margin-left:-.5px}
 .basket-block .delete-item{height:45px;display:none}
 .basket-block-mobile{margin-top:15px;margin-bottom:25px}
 .basket-block-mobile .basket-item-block-mobile{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:270px;height:140px;margin-top:10px}
