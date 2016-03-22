@@ -158,7 +158,13 @@ $(document).ready(function() {
         });
 
         //store drop
-        $("#item-1 .dropdown-menu li a").on('tap click', function(e) {
+        $("#item-1 .dropdown-menu li a").on('tap click', function() {
+            var price = $(this).data('price');
+            var base_price = $('#base_price').data('base-price');
+            var sum = base_price + price;
+
+            $('#base_price').html(sum + ' ' + 'руб.');
+
             $('#item-1 button').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
         });
     });
@@ -210,7 +216,7 @@ $(document).ready(function() {
         var target = $(this).data('target');
 
         if (target) {
-            $(this).parents('.basket-item-block').css('display', 'none');
+            $(this).parents('.item-block-with-x').css('display', 'none');
             $('#delete-' + target).css('display', 'block');
 
             //mobile
@@ -224,7 +230,7 @@ $(document).ready(function() {
         var target = $(this).data('target');
 
         if (target) {
-            $(this).closest('.basket-item-block').css('display', 'none');
+            $(this).closest('.item-block-with-x').css('display', 'none');
             $('#item-' + target).css('display', 'block');
 
             // mobile

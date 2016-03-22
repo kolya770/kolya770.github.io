@@ -89,7 +89,7 @@
     .check-btn {
       margin-top: -4px;
       &:first-child {
-        margin-top: 30px;
+        margin-top: 10px;
       }
 
       .check-text {
@@ -125,18 +125,12 @@
         content: "\f046";
         color: #3caad2;
       }
-      input[type=checkbox].with-font:focus ~ label:before,
-      input[type=checkbox].with-font:focus ~ label
-      {
+      input[type=checkbox].with-font:focus:active ~ label:before {
         color: #3caad2;
       }
-      .agree {
-        font-family: $ubuntu-regular-font, "sans-serif";
-        color:  #4a4b4c;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 34px;
-        margin-top: 0;
+
+      input[type=checkbox].with-font:focus ~ label {
+        color: #4a4b4c;
       }
     }
   }
@@ -244,53 +238,6 @@
         input[type=radio].with-font:focus ~ label:before,
         input[type=radio].with-font:focus ~ label {
           color: #4a4b4c;
-        }
-      }
-      .check-btn {
-        .check-text {
-          float: left;
-          font-family: $ubuntu-regular-font, "sans-serif";
-          color:  #4a4b4c;
-          font-size: 15px;
-          font-weight: 400;
-          line-height: 34px;
-        }
-        input[type=checkbox].with-font {
-          border: 0;
-          clip: rect(0 0 0 0);
-          height: 1px;
-          margin: -1px;
-          overflow: hidden;
-          padding: 0;
-          position: absolute;
-          width: 1px;
-        }
-        input[type=checkbox].with-font ~ label:before {
-          font-family: $fontawesome, "sans-serif";
-          display: inline-block;
-          letter-spacing: 10px;
-          font-size: 1.2em;
-          color: #4a4b4c;
-          width: 1.4em;
-        }
-        input[type=checkbox].with-font ~ label:before {
-          content: "\f096";
-        }
-        input[type=checkbox].with-font:checked ~ label:before {
-          content: "\f046";
-          color: #3caad2;
-        }
-        input[type=checkbox].with-font:focus ~ label:before,
-        input[type=checkbox].with-font:focus ~ label
-        {
-          color: #3caad2;
-        }
-        .agree {
-          font-family: $ubuntu-regular-font, "sans-serif";
-          color:  #4a4b4c;
-          font-size: 15px;
-          font-weight: 400;
-          line-height: 34px;
         }
       }
     }
