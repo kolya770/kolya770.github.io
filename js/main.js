@@ -158,14 +158,15 @@ $(document).ready(function() {
         });
 
         //store drop
-        $("#item-1 .dropdown-menu li a").on('tap click', function() {
-            var price = $(this).data('price');
-            var base_price = $('#base_price').data('base-price');
+        $(".dropdown-menu li a").on('tap click', function() {
+            var id         = $(this).closest('.card').attr('id');
+            var price      = $(this).data('price');
+            var base_price = $('#' + id + ' .total-block' + ' .price').data('base-price');
             var sum = base_price + price;
 
-            $('#base_price').html(sum + ' ' + 'руб.');
+            $('#' + id + ' .total-block' + ' .price').html(sum + ' ' + 'руб.');
 
-            $('#item-1 button').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
+            $('#' + id + ' .btn-drop-additionally').html(($(this).html() + '<i class="fa fa-sort-desc item-arrow"></i>'));
         });
     });
 
@@ -239,4 +240,29 @@ $(document).ready(function() {
         }
     });
 
+    // Store card height change
+    var card_max_height = Math.max.apply(null, $("div.card").map(function ()
+    {
+        return $(this).height();
+    }).get());
+
+    var card_header_height = 52;
+    var card_normal_height = 482;
+
+    $('.name-clothe-block').css('height', card_header_height + (card_max_height - card_normal_height));
+
+    //News card height change
+    var news_card_max_height = Math.max.apply(null, $("div.news-block").map(function ()
+    {
+        return $(this).height();
+    }).get());
+
+    var test = $('#test').height();
+    console.log(test);
+    console.log(news_card_max_height);
+
+    var news_card_header_height = 46;
+    var news_card_normal_height = 367;
+
+    //$('.news-block h3').css('height', news_card_header_height + (news_card_max_height - news_card_normal_height));
 });

@@ -4,8 +4,6 @@ $(document).ready(function() {
 
     if ( ! md.mobile() ) {
 
-        console.log('1');
-
         $('.fade-bottom').fadeThis({
             speed: 1000
         });
