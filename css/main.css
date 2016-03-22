@@ -445,13 +445,13 @@ body.modal-open-noscroll{overflow:hidden}
 #modal-thanks .modal-dialog .modal-header{border:none}
 #modal-thanks .modal-dialog .modal-body{text-align:center}
 #modal-thanks .modal-dialog .modal-body .header-title{color:#4a4b4c;font-size:5em;line-height:100px;text-transform:uppercase}
-#modal-thanks .modal-dialog .modal-body .header-text,#modal-thanks .modal-dialog .modal-footer .footer-title{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;line-height:60px}
-#modal-thanks .modal-dialog .modal-body .header-text{color:#3caad2;margin-bottom:20px}
+#modal-thanks .modal-dialog .modal-body .header-text,#modal-thanks .modal-dialog .modal-footer .footer-title{font-family:SummerFont,sans-serif;font-size:3.125em;font-weight:300;line-height:60px;margin-bottom:20px}
+#modal-thanks .modal-dialog .modal-body .header-text{color:#3caad2}
 #modal-thanks .modal-dialog .modal-body .car{width:100%}
 #modal-thanks .modal-dialog .modal-footer{width:630px;padding:0;text-align:center;margin-bottom:30px}
 @media (max-width:767px){#modal-thanks .modal-dialog .modal-footer{width:85%}
 }
-#modal-thanks .modal-dialog .modal-footer .footer-title{color:#4a4b4c;text-align:center;margin-bottom:20px}
+#modal-thanks .modal-dialog .modal-footer .footer-title{color:#4a4b4c;text-align:center}
 #modal-thanks .modal-dialog .modal-footer .btn-no,#modal-thanks .modal-dialog .modal-footer .btn-yes{width:80px;height:41px;font-family:UBUNTU-BOLD,sans-serif;font-size:1em;font-weight:700;line-height:24px;border-radius:6px;text-align:center;transform:scaleY(1.0004);outline:0}
 #modal-thanks .modal-dialog .modal-footer .btn-yes{background-color:#f39c12;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15)}
 #modal-thanks .modal-dialog .modal-footer .btn-no{background-color:#e5e5e5;color:#a2a2a3}
@@ -465,32 +465,33 @@ body.modal-open-noscroll{overflow:hidden}
 #modal-basket .modal-dialog .modal-content .modal-header{border:none}
 #modal-basket .modal-dialog .modal-content .modal-body{font-family:SummerFont,sans-serif;color:#4a4b4c;font-size:3.75em;font-weight:300;line-height:60px;text-align:center}
 #modal-basket .modal-dialog .modal-content .modal-position .position-header{font-family:UBUNTU-MEDIUM;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:34px;text-align:center;text-transform:uppercase}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block{width:635px;height:92px;margin-bottom:10px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:92px;float:left}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item .img-mini-block{width:70px;height:70px;margin-top:10px;margin-left:10px;border:1px solid rgba(203,203,203,.5);display:inline-block;float:left}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item .img-mini-block img{width:100%}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item .info-about-clothe{display:inline-block;float:left;margin-left:10px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item .info-about-clothe .name-clothe{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-top:25px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item .info-about-clothe .dop-info{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item .price-block{float:right;display:inline-block;width:110px;height:55px;margin-top:18px;border-left:1px solid rgba(203,203,203,.5)}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:34px;text-align:center;margin-top:10px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item-delete{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:45px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item-delete .delete-item-text{color:#9e9fa0;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;font-weight:300;line-height:45px;text-align:left;margin:0;padding-left:10px;display:inline-block}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item-delete .return-text{display:inline-block;float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:17px;border-bottom:1px dotted #4a4b4c;margin-top:15px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .basket-item-delete .icon-reply{float:right;margin:17px 15px 15px 5px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item{float:left;margin-left:10px;margin-top:35px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item .btn-delete-item{border-radius:50%;width:22px;height:22px}
-#modal-basket .modal-dialog .modal-content .modal-position .basket-item-block .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:20px;text-align:center;position:absolute;top:2px;left:6.5px}
-#modal-basket .modal-dialog .modal-content .modal-position .delete-item{height:45px;display:none}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x{width:630px;height:95px}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:95px;float:left;margin-bottom:20px}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item .img-mini-block{width:70px;height:70px;margin-left:10px;margin-top:12px;border:1px solid rgba(203,203,203,.5);display:inline-block;float:left}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item .img-mini-block img{width:100%}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item .info-about-clothe{display:inline-block;float:left;margin-left:10px;max-width:60%}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item .info-about-clothe .name-clothe{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item .info-about-clothe .dop-info{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item .price-block{float:right;display:inline-block;width:110px;height:60px;margin-top:18px;border-left:1px solid rgba(203,203,203,.5)}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:60px;text-align:center;margin-top:0;margin-bottom:0}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item-delete{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:600px;height:45px}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item-delete .delete-item-text{color:#9e9fa0;font-family:UBUNTU-LIGHT,sans-serif;font-size:1em;font-weight:300;line-height:45px;text-align:left;margin:0;padding-left:10px;display:inline-block}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item-delete .return-text{display:inline-block;float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:17px;border-bottom:1px dotted #4a4b4c;margin-top:15px}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .basket-item-delete .icon-reply{float:right;margin:17px 15px 15px 5px}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .btn-block-item{float:left;margin-left:7px;margin-top:36px}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .btn-block-item .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;border:none;outline:0;padding:0}
+#modal-basket .modal-dialog .modal-content .modal-position .item-block-with-x .btn-block-item .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;line-height:22px;text-align:center;margin-left:-.5px}
+#modal-basket .modal-dialog .modal-content .modal-position .delete-item{height:45px;display:none;margin-bottom:20px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .position-header{font-family:UBUNTU-MEDIUM;color:#4a4b4c;font-size:.938em;font-weight:500;line-height:34px;text-align:center;text-transform:uppercase}
-#modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:90%;height:140px;margin-top:10px}
-#modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe{height:70px;border-bottom:1px solid rgba(203,203,203,.5)}
+#modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile{border-radius:6px;border:1px solid rgba(203,203,203,.5);box-sizing:border-box;background-color:#fff;width:90%;min-width:270px;min-height:70px;margin-top:10px}
+#modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe{min-height:70px;border-bottom:1px solid rgba(203,203,203,.5)}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe .name-clothe{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:20px;text-align:left;margin-left:10px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .about-clothe .dop-info{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.75em;font-weight:300;line-height:14px;text-align:left;margin-left:10px}
+#modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block{min-height:45px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .price{font-family:UBUNTU-MEDIUM,sans-serif;color:#3caad2;font-size:.938em;font-weight:500;line-height:48px;text-align:left;float:left;margin-bottom:0;margin-left:10px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .btn-delete-item{border-radius:50%;background-color:#3caad2;width:22px;height:22px;outline:0;padding:0;float:right;border:none;margin-top:12px;margin-right:10px}
-#modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;transform:scaleY(1.0004);line-height:20px}
-#modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile{height:80px;display:none}
+#modal-basket .modal-dialog .modal-content .modal-position-mobile .basket-item-block-mobile .price-block .btn-delete-item .icon-close{color:#fff;font-size:11px;font-weight:400;text-align:center;line-height:22px;margin-left:.5px}
+#modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile{display:none}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .delete-item-text{font-family:UBUNTU-LIGHT,sans-serif;color:#cdcdcd;font-size:1em;font-weight:300;line-height:20px;text-align:left;margin-top:10px;margin-left:10px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .icon-reply{float:right;margin-right:10px;margin-left:7px;font-size:14px;margin-top:2px}
 #modal-basket .modal-dialog .modal-content .modal-position-mobile .delete-item-mobile .basket-item-delete-mobile .return-text{float:right;font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:.875em;font-weight:300;line-height:16px;text-decoration:none;border-bottom:1px dotted #4a4b4c}
@@ -683,7 +684,7 @@ body.modal-open-noscroll{overflow:hidden}
 .section-news .news-text{text-align:center}
 .section-news .news-text h2{color:#4a4b4c;font-size:5em;line-height:100px;text-align:center;text-transform:uppercase;margin-top:60px}
 .section-news .news-text img{margin-bottom:25px}
-.section-news .news-block{min-height:372px}
+.section-news .news-block{min-height:377px}
 .section-news .news-block h3{font-family:UBUNTU-LIGHT,sans-serif;color:#4a4b4c;font-size:1.188em;font-weight:300;line-height:23px;text-align:left;min-height:46px}
 .section-news .news-block p{font-family:UBUNTU-BOLD,sans-serif;color:#3caad2;font-size:.938em;font-weight:700;line-height:24px;text-align:left}
 .section-news .middle-btn .btn-download,.section-news .news-block .btn-news{border-radius:6px;font-family:UBUNTU-LIGHT,sans-serif;color:#fff;line-height:24px;text-shadow:0 1px 1px rgba(0,0,0,.15);outline:0}

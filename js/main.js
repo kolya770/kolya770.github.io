@@ -124,44 +124,45 @@ $(document).ready(function() {
     $(function() {
 
         // subscription management dropdowns
-        $("#days-drop .dropdown-menu li a").click(function() {
+        $('#days-drop .dropdown-menu li a').click(function() {
             $('#days-drop button')[0].childNodes[0].nodeValue=($(this).text());
         });
 
-        $("#month-drop .dropdown-menu li a").click(function() {
+        $('#month-drop .dropdown-menu li a').click(function() {
             $('#month-drop button')[0].childNodes[0].nodeValue=($(this).text());
         });
 
-        $("#time-drop .dropdown-menu li a").click(function() {
+        $('#time-drop .dropdown-menu li a').click(function() {
             $('#time-drop button')[0].childNodes[0].nodeValue=($(this).text());
         });
 
         // date-time pick
-        $("#get-items-pick-date .dropdown-menu li a").click(function() {
+        $('#get-items-pick-date .dropdown-menu li a').click(function() {
             $('#get-items-pick-date button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
         });
-        $("#get-items-pick-time .dropdown-menu li a").click(function() {
+        $('#get-items-pick-time .dropdown-menu li a').click(function() {
             $('#get-items-pick-time button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
         });
-        $("#get-items-todo .dropdown-menu li a").click(function() {
+        $('#get-items-todo .dropdown-menu li a').click(function() {
             $('#get-items-todo button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
         });
 
-        $("#return-items-pick-date .dropdown-menu li a").click(function() {
+        $('#return-items-pick-date .dropdown-menu li a').click(function() {
             $('#return-items-pick-date button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
         });
-        $("#return-items-pick-time  .dropdown-menu li a").click(function() {
+        $('#return-items-pick-time  .dropdown-menu li a').click(function() {
             $('#return-items-pick-time  button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
         });
-        $("#return-items-todo .dropdown-menu li a").click(function() {
+        $('#return-items-todo .dropdown-menu li a').click(function() {
             $('#return-items-todo button').html(($(this).html() + '<i class="fa fa-sort-desc sort-icon"></i>'));
         });
 
-        //store drop
-        $(".dropdown-menu li a").on('tap click', function() {
+        //store drop and total sum
+        $('.dropdown-menu li a').on('tap click', function() {
             var id         = $(this).closest('.card').attr('id');
             var price      = $(this).data('price');
             var base_price = $('#' + id + ' .total-block' + ' .price').data('base-price');
+
             var sum = base_price + price;
 
             $('#' + id + ' .total-block' + ' .price').html(sum + ' ' + 'руб.');
@@ -241,8 +242,7 @@ $(document).ready(function() {
     });
 
     // Store card height change
-    var card_max_height = Math.max.apply(null, $("div.card").map(function ()
-    {
+    var card_max_height = Math.max.apply(null, $("div.card").map(function () {
         return $(this).height();
     }).get());
 
@@ -252,17 +252,15 @@ $(document).ready(function() {
     $('.name-clothe-block').css('height', card_header_height + (card_max_height - card_normal_height));
 
     //News card height change
-    var news_card_max_height = Math.max.apply(null, $("div.news-block").map(function ()
-    {
-        return $(this).height();
-    }).get());
+    $(window).load(function() {
+        var news_card_max_height = Math.max.apply(null, $("div.news-block").map(function () {
+            return $(this).height();
+        }).get());
 
-    var test = $('#test').height();
-    console.log(test);
-    console.log(news_card_max_height);
+        var news_card_header_height = 46;
+        var news_card_normal_height = 377;
 
-    var news_card_header_height = 46;
-    var news_card_normal_height = 367;
+        $('.news-block h3').css('height', news_card_header_height + (news_card_max_height - news_card_normal_height));
+    });
 
-    //$('.news-block h3').css('height', news_card_header_height + (news_card_max_height - news_card_normal_height));
 });
